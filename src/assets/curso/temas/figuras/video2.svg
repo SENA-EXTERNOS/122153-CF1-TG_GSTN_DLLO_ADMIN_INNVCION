@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1259" height="698.631" viewBox="0 0 1259 698.631">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#f1f7fa"/>
+    </linearGradient>
+    <filter id="Rectángulo_389" x="0" y="0" width="1259" height="698.631" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_80143" data-name="Grupo 80143" transform="translate(-170.5 -789.864)">
+    <g id="Grupo_80072" data-name="Grupo 80072" transform="translate(39.5 -503.02)">
+      <g id="Grupo_978" data-name="Grupo 978" transform="translate(140 1298.884)">
+        <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Rectángulo_389)">
+          <rect id="Rectángulo_389-2" data-name="Rectángulo 389" width="1241" height="680.631" transform="translate(9 6)" fill="url(#linear-gradient)"/>
+        </g>
+        <rect id="Rectángulo_565" data-name="Rectángulo 565" width="1241" height="66.528" transform="translate(0 614.103)" fill="#fff"/>
+        <text id="VIDEO" transform="translate(85.719 638.411)" fill="#00223d" font-size="18" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="17">VIDEO</tspan></text>
+        <rect id="Rectángulo_390" data-name="Rectángulo 390" width="1241" height="6.397" transform="translate(0 614.103)" fill="#12263f"/>
+        <g id="Grupo_977" data-name="Grupo 977" transform="translate(525.826 240.524)">
+          <circle id="Elipse_497" data-name="Elipse 497" cx="63.969" cy="63.969" r="63.969" transform="translate(0 0)" fill="#2b4e6a" opacity="0.38"/>
+          <path id="Trazado_1178" data-name="Trazado 1178" d="M40.406,0A40.406,40.406,0,1,1,0,40.406,40.406,40.406,0,0,1,40.406,0Z" transform="translate(23.222 23.371)" fill="#002b45"/>
+          <path id="Polígono_2" data-name="Polígono 2" d="M19.174,0,38.349,32.871H0Z" transform="translate(84.628 42.777) rotate(90)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
