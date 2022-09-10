@@ -10,7 +10,7 @@
     .tarjeta.p-3.mb-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-2
-          img(src="@/assets/curso/temas/texto_destacado/img5.png")
+          img(data-aos="fade-up" src="@/assets/curso/temas/texto_destacado/img5.png")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
@@ -22,7 +22,7 @@
         .titulo-sexto.color-acento-contenido.p <strong>Figura 2:</strong>Etapas del proceso administrativo
         br
         figure
-            img(src='@/assets/curso/temas/figuras/esquemaB.svg')
+            img(data-aos="flip-left" src='@/assets/curso/temas/figuras/esquemaB.svg')
       br
       br
       .titulo-segundo.color-acento-contenido   
@@ -30,7 +30,7 @@
       .tarjeta.p-4.p-md-2.mb-5
         .row.justify-content-around.align-items-center
           .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
-            img(src="@/assets/curso/temas/texto_destacado/img6.png")
+            img(data-aos="fade-down" src="@/assets/curso/temas/texto_destacado/img6.png")
 
           .col-md.col-lg-7
             p.mb-4 La planeación puede tener varias perspectivas, pero, en síntesis, obedece al rumbo hacia el que se dirige algo, bien sea a nivel empresarial o incluso, en la vida personal; es el horizonte proyectado y, para ilustrar un poco mejor el concepto, podría pensarse en los siguientes cuestionamientos: ¿qué se quiere? ¿Quiénes somos? ¿Para dónde vamos? La planeación impulsa para optimizar recursos, prever situaciones, reducir costos e incrementar la productividad, a partir de la concentración y canalización de esfuerzos por un mismo fin, además de ser un escenario base para una posterior evaluación y retroalimentación del proceso y de los logros obtenidos.
@@ -39,7 +39,7 @@
       .row.justify-content-center.mb-4
         .col-lg-4
           figure
-              img(src='@/assets/curso/temas/figuras/esquemaC.svg')
+              img(data-aos="fade-down" src='@/assets/curso/temas/figuras/esquemaC.svg')
         .col-lg-6
           AcordionA(tipo="a" clase-tarjeta="tarjeta color-secundario")
             .row(titulo="Estratégica")
@@ -61,7 +61,7 @@
         ImagenInfograficaB.color-primario
           template(v-slot:imagen)
             figure
-                img(src='@/assets/curso/temas/texto_destacado/img7.png', alt='rompecabezas')
+                img(data-aos="fade-left" src='@/assets/curso/temas/texto_destacado/img7.png', alt='rompecabezas')
               
           div(x="11%" y="6%" tooltip=" Ver más|")
             h5 Misión
@@ -95,7 +95,7 @@
           .crd_hover_txt(data-aos="flip-left")
             .crd_hover_txt--img
               figure
-                img(src="@/assets/curso/temas/tarjetas/tarjeta1.png", alt="alt")
+                img(data-aos="fade-up-right" src="@/assets/curso/temas/tarjetas/tarjeta1.png", alt="alt")
             .crd_hover_txt--body
               h4.mb-3 Reporte de ventas diarias 
               p.mb-0 Con este tipo de reportes, los gerentes podrán supervisar específicamente, la labor de cada vendedor y de esta manera, saber en qué les va bien y en cuáles actos hay que mejorar. Aquí también, va a encontrar si su fuerza de ventas está entendiendo sus estrategias y le sea más fácil incentivarlos a aumentar su productividad.
@@ -127,7 +127,7 @@
       .tarjeta.p-4.p-md-2.mb-5
       .row.justify-content-around.align-items-center
         .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
-          img(src="@/assets/curso/temas/texto_destacado/img8.png")
+          img(data-aos="flip-right" src="@/assets/curso/temas/texto_destacado/img8.png")
 
         .col-md.col-lg-7
           p.mb-4 La organización permite optimizar tiempo y recursos, así como también el aumento de productividad, simplificando el trabajo y evitando los reprocesos y la duplicidad en responsabilidades o actividades. Las dos etapas fundamentales de la organización son:
@@ -147,42 +147,42 @@
           .tarjeta.color-acento-contenido.p-4
             .row.justify-content-center.mb-3
               .col-7
-                img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+                img(data-aos="flip-up" src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
             h2.text-center Objetivo
             p.text-center Es la posibilidad de garantizar que todas las actividades que se pretendan desarrollar, se encuentren alineadas con las apuestas organizacionales.
 
           .tarjeta.color-acento-contenido.p-4
             .row.justify-content-center.mb-6
               .col-7
-                img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+                img(data-aos="zoom-in-up" src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
             h2.text-center Especialización
             p.text-center El trabajo de cada persona debe estar delimitado hasta donde sea posible, asignando actividades y funciones específicas para su concentración y su destreza.
 
           .tarjeta.color-acento-contenido.p-4
             .row.justify-content-center.mb-6
               .col-5
-                img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+                img(data-aos="zoom-out-up" src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
             h2.text-center Jerarquía
             p.text-center Resulta necesario, como parte fundamental de la organización, definir centros de autoridad que canalicen la información y garanticen la alineación de los equipos de trabajo hacia la institucionalidad.
 
           .tarjeta.color-acento-contenido.p-4
             .row.justify-content-center.mb-3
               .col-10
-                img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+                img(data-aos="zoom-out-up" src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
             h2.text-center Unidad de mando
             p.text-center Al definir centros de autoridad, es preciso asignar un solo jefe a cada trabajador.
 
           .tarjeta.color-acento-contenido.p-4
             .row.justify-content-center.mb-3
               .col-9
-                img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+                img(data-aos="zoom-out-up" src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
             h2.text-center Difusión
             p.text-center Se debe difundir, de manera abierta y clara, la información que surja desde los centros de autoridad
 
           .tarjeta.color-acento-contenido.p-4
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+                img(data-aos="zoom-out-down" src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
             h2.text-center Equilibrio
             p.text-center Debe existir un equilibrio entre la aplicación de las técnicas y los principios, para asegurar la correcta marcha global de la organización. 
         p
@@ -193,7 +193,7 @@
         .tarjeta.p-4.p-md-2.mb-5
         .row.justify-content-around.align-items-center
           .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
-            img(src="@/assets/curso/temas/texto_destacado/img9.png")
+            img(data-aos="zoom-out-left" src="@/assets/curso/temas/texto_destacado/img9.png")
 
           .col-md.col-lg-7
             <ul>
@@ -222,7 +222,7 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/texto_destacado/img10.png', alt='Texto que describa la imagen')
+              img(data-aos="fade-up" src='@/assets/curso/temas/texto_destacado/img10.png', alt='Texto que describa la imagen')
       .py-3.py-md-4(titulo="Organización lineal")
         .row
           .col-md-6.mb-4.mb-md-0
@@ -245,7 +245,7 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/texto_destacado/img11.png', alt='Texto que describa la imagen')
+              img(data-aos="fade-up" src='@/assets/curso/temas/texto_destacado/img11.png', alt='Texto que describa la imagen')
       .py-3.py-md-4(titulo="Organización funcional")
         .row
           .col-md-6.mb-4.mb-md-0
@@ -271,7 +271,7 @@
             </ul>
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/texto_destacado/img12.png', alt='Texto que describa la imagen')
+              img(data-aos="fade-left" src='@/assets/curso/temas/texto_destacado/img12.png', alt='Texto que describa la imagen')
       .py-3.py-md-4(titulo="Staff")
         .row
           .col-md-6.mb-4.mb-md-0
@@ -293,7 +293,7 @@
             </ul>
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/texto_destacado/img12.png', alt='Texto que describa la imagen')
+              img(data-aos="fade-left" src='@/assets/curso/temas/texto_destacado/img12.png', alt='Texto que describa la imagen')
     separador
     br
     p Una vez definida la estructura organizacional, y teniendo en cuenta que la fase de organización no es más que la continuación de la fase de planeación en relación con los procesos administrativos, es importante reconocer esos tipos de descriptores o facilitadores en la división y asignación del trabajo. Es entonces que surge como herramienta la gestión administrativa, definida como el conjunto de acciones o tareas que buscan maximizar los resultados de la empresa con la búsqueda permanente del uso eficiente de los recursos humanos, financieros y materiales. 
@@ -306,7 +306,7 @@
     .tarjeta.p-3.mb-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-2
-          img(src="@/assets/curso/temas/texto_destacado/img14.png")
+          img(data-aos="fade-down-right" src="@/assets/curso/temas/texto_destacado/img14.png")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
@@ -318,7 +318,7 @@
       .row.justify-content-center.mb-4
         .col-lg-4
           figure
-              img(src='@/assets/curso/temas/figuras/esquemaD.svg')
+              img(data-aos="fade-down-right" src='@/assets/curso/temas/figuras/esquemaD.svg')
         .col-lg-6
           AcordionA(tipo="a" clase-tarjeta="tarjeta color-secundario")
             .row(titulo="Propósito o finalidad del cargo ")
@@ -470,7 +470,7 @@
         .tarjeta.p-4.p-md-2.mb-5
         .row.justify-content-around.align-items-center
           .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
-            img(src="@/assets/curso/temas/texto_destacado/img15.png")
+            img(data-aos="flip-right" src="@/assets/curso/temas/texto_destacado/img15.png")
           
           .col-md.col-lg-7
             p Algunas de las ventajas de contar con un manual de procesos y procedimientos son:
@@ -531,7 +531,7 @@
         .titulo-sexto.color-acento-contenido.p <strong>Figura 3:</strong> Ejemplo mapa de procesos
         br
         figure
-            img(src='@/assets/curso/temas/figuras/esquemaE.svg')
+            img(data-aos="flip-right" src='@/assets/curso/temas/figuras/esquemaE.svg')
       br
       br
       .tarjeta.p-4.p-md-2.mb-5
@@ -545,7 +545,7 @@
             br
             p Una vez que se cuenta con el mapa de procesos, es importante asignar a un responsable o a un líder del desarrollo, quien será el encargado de velar por el cumplimiento, conjuntamente con el equipo que entrenará y guiará para el logro del objetivo.
           .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
-            img(src="@/assets/curso/temas/texto_destacado/img16.png")
+            img(data-aos="flip-up" src="@/assets/curso/temas/texto_destacado/img16.png")
       br
       TabsA.color-acento-contenido
         .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="PASO 1")
@@ -553,7 +553,7 @@
           .row
             .col-xl-3.mb-4
               figure
-                img(src='@/assets/curso/temas/figuras/esquemaF.svg', alt='Texto que describa la imagen')
+                img(data-aos="flip-up" src='@/assets/curso/temas/figuras/esquemaF.svg', alt='Texto que describa la imagen')
             .col-xl-6
               h4 PASO 1: Ficha del proceso 
               p Es la que describe las generalidades de cada proceso. El objetivo, entradas, salidas, cómo se medirá, entre otros.
@@ -562,7 +562,7 @@
           .row
             .col-xl-3.mb-4
               figure
-                img(src='@/assets/curso/temas/figuras/esquemaG.svg', alt='Texto que describa la imagen')
+                img(data-aos="zoom-in-up" src='@/assets/curso/temas/figuras/esquemaG.svg', alt='Texto que describa la imagen')
             .col-xl-6
               h4 PASO 2: Flujograma
               p Ilustra, gráficamente, el recorrido que conlleva el proceso desde sus entradas y hasta sus salidas.
@@ -571,7 +571,7 @@
           .row
             .col-xl-3.mb-4
               figure
-                img(src='@/assets/curso/temas/figuras/esquemaH.svg', alt='Texto que describa la imagen')
+                img(data-aos="zoom-in-up" src='@/assets/curso/temas/figuras/esquemaH.svg', alt='Texto que describa la imagen')
             .col-xl-6
               h4 PASO 3: Procedimiento
               p Se refiere al conjunto de actividades que constituyen el proceso, incluyendo un paso a paso de manera descriptiva.
@@ -580,7 +580,7 @@
           .row
             .col-xl-3.mb-4
               figure
-                img(src='@/assets/curso/temas/figuras/esquemaI.svg', alt='Texto que describa la imagen')
+                img(data-aos="zoom-in-up" src='@/assets/curso/temas/figuras/esquemaI.svg', alt='Texto que describa la imagen')
             .col-xl-6
               h4 PASO 4: Actividades
               p Acciones que, en su desarrollo, aportan y generan valor a la organización.
@@ -591,7 +591,7 @@
       br
       .mx-auto.col-md-8
         figure
-            img(src='@/assets/curso/temas/figuras/diagramaA.svg')
+            img(data-aos="zoom-out-up" src='@/assets/curso/temas/figuras/diagramaA.svg')
 
       br
       br
@@ -603,7 +603,7 @@
         .titulo-sexto.color-acento-contenido.p <strong>Figura 4:</strong> Flujograma ejemplo pastelerías
         br
         figure
-            img(src='@/assets/curso/temas/figuras/diagramaB.svg')
+            img(data-aos="zoom-out-up" src='@/assets/curso/temas/figuras/diagramaB.svg')
       br
       br
       .row
@@ -619,7 +619,7 @@
       br
       .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-6
         .bloque-texto-g__img(
-          :style="{'background-image': `url(${require('@/assets/curso/temas/texto_destacado/img17.png')})`}"
+          :data-aos="zoom-out-up" style="{'background-image': `url(${require('@/assets/curso/temas/texto_destacado/img17.png')})`}"
         )
         .bloque-texto-g__texto.p-4
           p.mb-0 Cuando se habla de dirección, se hace referencia a unos elementos asociados al liderazgo, a la motivación, a los equipos de trabajo y a la comunicación en torno a la ejecución de los planes, de acuerdo con la estructura organizacional.
@@ -636,7 +636,7 @@
           
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/texto_destacado/img18.png', alt='Texto que describa la imagen')
+                img(data-aos="zoom-out-up" src='@/assets/curso/temas/texto_destacado/img18.png', alt='Texto que describa la imagen')
        
         .py-3.py-md-4(titulo="Motivación")
           .row
@@ -646,7 +646,7 @@
 
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/texto_destacado/img19.png', alt='Texto que describa la imagen')
+                img(data-aos="zoom-out-right" src='@/assets/curso/temas/texto_destacado/img19.png', alt='Texto que describa la imagen')
 
         .py-3.py-md-4(titulo="Comunicación")
           .row
@@ -656,7 +656,7 @@
              
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/texto_destacado/img20.png', alt='Texto que describa la imagen')
+                img(data-aos="zoom-out-right" src='@/assets/curso/temas/texto_destacado/img20.png', alt='Texto que describa la imagen')
 
         .py-3.py-md-4(titulo="Ejecución y supervisión de resultados")
           .row
@@ -667,7 +667,7 @@
               
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/texto_destacado/img21.png', alt='Texto que describa la imagen')
+                img(data-aos="zoom-out-left" src='@/assets/curso/temas/texto_destacado/img21.png', alt='Texto que describa la imagen')
 
         .py-3.py-md-4(titulo="Toma de decisiones")
           .row
@@ -677,7 +677,7 @@
               
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/texto_destacado/img22.png', alt='Texto que describa la imagen')
+                img(data-aos="zoom-out-left" src='@/assets/curso/temas/texto_destacado/img22.png', alt='Texto que describa la imagen')
       separador
     br
     .titulo-principal.color-acento-contenido
@@ -696,7 +696,7 @@
               p El estilo de liderazgo coercitivo no tiene en cuenta la flexibilidad, la disciplina prevalece como su valor regente, debido a que impone ritmos de trabajo acelerados sin tener en cuenta elementos humanos de fatiga y bienestar; no hay negociación, no tiene en cuenta las iniciativas de los demás. Normalmente, un líder coercitivo es muy efectivo en momentos de crisis para implementar cambios en situaciones de emergencia, como por ejemplo un temblor o un incendio.
             .col-xl-5.mb-6
               figure
-                img(src='@/assets/curso/temas/figuras/esquemaJ.svg', alt='Texto que describa la imagen')
+                img(data-aos="fade-up" src='@/assets/curso/temas/figuras/esquemaJ.svg', alt='Texto que describa la imagen')
         .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="Autocrático")
           .row
             .col-xl-12
@@ -724,33 +724,40 @@
     separador
     .titulo-segundo.color-acento-contenido   
       h2 2.4 Control
-    .tarjeta.p-4.p-md-2.mb-5
+    .tarjeta.p-4.p-md-4.mb-2
       .row.justify-content-around.align-items-center
         .col-md.col-lg-7
           p.mb-4 El control consiste en evidenciar y evaluar que lo planeado, organizado y dirigido, se encuentre marchando de acuerdo con los objetivos organizacionales y señalando, a partir de este ejercicio de evaluación, las debilidades, los errores, e inclusive las potencialidades y, a partir de las acciones tomadas, el perfeccionamiento del proceso traducido en mayor eficiencia y efectividad. El proceso de control permite tomar decisiones en torno a cuáles son los objetivos por alcanzar, como sistema o como área; cómo va el desempeño de los equipos de trabajo con base en sus responsabilidades y las apuestas generales, identificación de riesgos y oportunidades, incluyendo el cambio de planteamiento del objetivo. Existen diferentes tipos de controles:
         .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
-          img(src="@/assets/curso/temas/texto_destacado/img23.png")
-
+          img( data-aos="fade-up" src="@/assets/curso/temas/texto_destacado/img23.png")
+    
+        .col-sm-8.mb-8.mb-sm-0
+          
+          ol.lista-ol--cuadro
+            li 
+              .lista-ol--cuadro__vineta.color-fondo2
+                span 1
+              p <strong>Preliminar y colectivo:</strong> se enfoca en la prevención de las desviaciones en la calidad y en la cantidad de recursos utilizados en la organización.
+            li 
+              .lista-ol--cuadro__vineta.color-fondo2
+                span 2
+              p <strong>Concurrente o permanente:</strong> consiste en vigilar las operaciones en funcionamiento; cuando el control se aplica de manera permanente, la directiva puede corregir los problemas oportunamente, antes que se vuelvan irremediables y costosos.
+            li 
+              .lista-ol--cuadro__vineta.color-fondo2
+                span 3
+              p <strong>Correctivo o de retroalimentación:</strong> este control se realiza una vez que la actividad ha llegado a su fin. La desventaja de este tipo de control es que cuando se recibe la información, el daño ya está hecho. Los informes financieros son un claro ejemplo de este tipo de control.
+           
     br
-    .titulo-principal.color-acento-botones
-      .titulo-principal__numero
-        span 1
-      p <strong>Preliminar y colectivo: </strong>Preliminar y colectivo: se enfoca en la prevención de las desviaciones en la calidad y en la cantidad de recursos utilizados en la organización.
-    .titulo-principal.color-acento-botones
-      .titulo-principal__numero
-        span 2
-      p <strong>Concurrente o permanente: </strong>consiste en vigilar las operaciones en funcionamiento; cuando el control se aplica de manera permanente, la directiva puede corregir los problemas oportunamente, antes que se vuelvan irremediables y costosos.
-    .titulo-principal.color-acento-botones
-      .titulo-principal__numero
-        span 3
-      p <strong>Correctivo o de retroalimentación: </strong>este control se realiza una vez que la actividad ha llegado a su fin. La desventaja de este tipo de control es que cuando se recibe la información, el daño ya está hecho. Los informes financieros son un claro ejemplo de este tipo de control.
+    p Por otro lado, el control también abarca unas etapas, que pueden ilustrarse de la siguiente manera:
     br
-    .mx-auto.col-md-8
-        .titulo-sexto.color-acento-contenido.p <strong>Figura 5:</strong> Etapas del control
-        br
-        figure
-            img(src='@/assets/curso/temas/figuras/diagramaC.svg')
+    .mx-auto.col-md-10
+      .titulo-sexto.color-acento-contenido.p <strong>Figura 5:</strong> Etapas del control
+      br
+      figure
+          img(data-aos="flip-up" src='@/assets/curso/temas/figuras/diagramaC.svg')
+    
     br
+    
     .titulo-segundo.color-acento-contenido   
       h2 2.4 Control
     .tarjeta.p-4.p-md-2.mb-5
@@ -762,7 +769,7 @@
             p El escenario práctico para la aplicación de la teoría que se ha presentado en este espacio, es precisamente la empresa que, sin haber profundizado en su origen y llegada a la historia, se ha convertido en el escenario propicio para los experimentos de autores, científicos y para el ejercicio de excelentes administradores y gerentes. Por esta razón, en este apartado, se presenta el concepto de “empresa”.     
             br
         .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
-          img(src="@/assets/curso/temas/texto_destacado/img24.png")
+          img(data-aos="flip-up" src="@/assets/curso/temas/texto_destacado/img24.png")
 
 
 

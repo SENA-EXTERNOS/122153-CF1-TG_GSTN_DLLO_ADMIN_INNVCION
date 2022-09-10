@@ -18,9 +18,12 @@
           br
           <span style="color:blue">|¡Muchos éxitos en este proceso de aprendizaje!</span>
       
-      br
+    br
+    br
     figure
-         img(src='@/assets/curso/temas/figuras/video2.svg')
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/jASywqOHrQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)      
+
 
 </template>
 

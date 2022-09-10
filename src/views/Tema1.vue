@@ -202,9 +202,11 @@
         br
         p Para conocer qué es la estrategia de diagnóstico y análisis empresarial, 
         h5 se recomienda ver el siguiente video.
-      br
+    br
     figure
-         img(src='@/assets/curso/temas/figuras/video2.svg')
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/jASywqOHrQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)      
+
     br
     .row
       .col-lg-12
