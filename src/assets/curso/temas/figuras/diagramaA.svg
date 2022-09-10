@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="821" height="381" viewBox="0 0 821 381">
+  <g id="Grupo_107587" data-name="Grupo 107587" transform="translate(-389.5 -10596.5)">
+    <rect id="Rectángulo_37054" data-name="Rectángulo 37054" width="820" height="76" transform="translate(390 10597)" fill="#f6f6f6"/>
+    <rect id="Rectángulo_37060" data-name="Rectángulo 37060" width="820" height="76" transform="translate(390 10749)" fill="#f6f6f6"/>
+    <rect id="Rectángulo_37061" data-name="Rectángulo 37061" width="820" height="76" transform="translate(390 10901)" fill="#f6f6f6"/>
+    <line id="Línea_178" data-name="Línea 178" x1="820" transform="translate(390 10597)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+    <line id="Línea_181" data-name="Línea 181" x1="820" transform="translate(390 10749)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+    <line id="Línea_183" data-name="Línea 183" x1="820" transform="translate(390 10901)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+    <line id="Línea_184" data-name="Línea 184" x1="380" transform="translate(696 10597) rotate(90)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+    <line id="Línea_186" data-name="Línea 186" x1="380" transform="translate(1210 10597) rotate(90)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+    <line id="Línea_185" data-name="Línea 185" x1="380" transform="translate(390 10597) rotate(90)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+    <line id="Línea_179" data-name="Línea 179" x1="820" transform="translate(390 10673)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+    <line id="Línea_180" data-name="Línea 180" x1="820" transform="translate(390 10825)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+    <line id="Línea_182" data-name="Línea 182" x1="820" transform="translate(390 10977)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+    <text id="Actividad_o_tarea." data-name="Actividad o tarea." transform="translate(727 10704)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Actividad o tarea.</tspan></text>
+    <text id="Representa_la_toma_de_una_decisión." data-name="Representa la toma de una decisión." transform="translate(727 10777)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Representa la toma de una decisión.</tspan></text>
+    <text id="Indica_la_dirección_secuencial_de_las_actividades." data-name="Indica la dirección secuencial de las actividades." transform="translate(727 10853)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Indica la dirección secuencial de las actividades.</tspan></text>
+    <text id="Indica_entrada_y_salida_de_datos." data-name="Indica entrada y salida de datos." transform="translate(727 10930)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Indica entrada y salida de datos.</tspan></text>
+    <text id="Representa_el_inicio_y_el_fin_del_proceso." data-name="Representa el inicio y el fin del proceso." transform="translate(727 10626)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Representa el inicio y el fin del proceso.</tspan></text>
+    <g id="Elipse_5069" data-name="Elipse 5069" transform="translate(463 10609)" fill="none" stroke="#f85316" stroke-width="3">
+      <ellipse cx="75" cy="26.5" rx="75" ry="26.5" stroke="none"/>
+      <ellipse cx="75" cy="26.5" rx="73.5" ry="25" fill="none"/>
+    </g>
+    <g id="Rectángulo_37064" data-name="Rectángulo 37064" transform="translate(462 10691)" fill="none" stroke="#f85316" stroke-width="3">
+      <rect width="151" height="44" stroke="none"/>
+      <rect x="1.5" y="1.5" width="148" height="41" fill="none"/>
+    </g>
+    <g id="Trazado_157155" data-name="Trazado 157155" transform="translate(447 10917)" fill="none">
+      <path d="M30,0H181L151,44H0Z" stroke="none"/>
+      <path d="M 31.58549499511719 3 L 5.676406860351563 41 L 149.4145050048828 41 L 175.3235931396484 3 L 31.58549499511719 3 M 30 0 L 181 0 L 151 44 L 0 44 L 30 0 Z" stroke="none" fill="#f85316"/>
+    </g>
+    <g id="Polígono_13" data-name="Polígono 13" transform="translate(462 10756)" fill="#fff">
+      <path d="M 75.5 59.38223266601563 L 4.004640102386475 30.5 L 75.5 1.617768526077271 L 146.995361328125 30.5 L 75.5 59.38223266601563 Z" stroke="none"/>
+      <path d="M 75.5 3.235553741455078 L 8.009323120117188 30.5 L 75.5 57.76444625854492 L 142.9906768798828 30.5 L 75.5 3.235553741455078 M 75.5 0 L 151 30.5 L 75.5 61 L 0 30.5 L 75.5 0 Z" stroke="none" fill="#f85316"/>
+    </g>
+    <line id="Línea_187" data-name="Línea 187" x1="150" transform="translate(462.5 10863.5)" fill="none" stroke="#f85316" stroke-width="3"/>
+    <path id="Polígono_14" data-name="Polígono 14" d="M6.5,0,13,18H0Z" transform="translate(622 10857) rotate(90)" fill="#f85316"/>
+  </g>
+</svg>

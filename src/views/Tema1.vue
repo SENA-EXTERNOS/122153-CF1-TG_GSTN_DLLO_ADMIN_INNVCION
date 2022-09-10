@@ -159,15 +159,13 @@
       .col-md-12.mb-4.mb-md-0
        p Así mismo, las teorías que fueron surgiendo paulatinamente, tenían diferentes enfoques y puntos de vista que presentaban modelos y esquemas de administración, basados en diversos criterios, como se evidencia en el gráfico que se observa a continuación:
       br
-     
-      .titulo-sexto.color-acento-contenido   
-       h5 Figura 1
-       span Esquemas de administración
+      br
+      .mx-auto.col-md-8
+        .titulo-sexto.color-acento-contenido.p <strong>Figura 1:</strong>  Esquemas de administración
 
-      br
-      figure
-          img(src='@/assets/curso/temas/figuras/esquemaA.svg')
-      br
+        br
+        figure
+            img(src='@/assets/curso/temas/figuras/esquemaA.svg')
       br
     .tarjeta.clr-paleYellow.p-3.mb-5
      .row.justify-content-around.align-items-center
