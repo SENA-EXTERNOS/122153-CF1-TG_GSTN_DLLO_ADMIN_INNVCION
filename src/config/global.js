@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Introducción a la administración',
     descripcionCurso:
       'La historia ha demostrado que, en la práctica, pueden aplicarse diversas teorías para resolver o apoyar la solución de problemáticas naturales del devenir empresarial u organizacional. En este componente formativo, se estudiarán las diferentes teorías y conceptos que le han dado origen a la administración como ciencia aplicable',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -17,10 +17,6 @@ export default {
       {
         clases: ['banner-principal-decorativo-3'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-4'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
       },
     ],
   },
@@ -142,32 +138,83 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Control',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA. (2022). Proceso Administrativo: fase de control (video). ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=aB34nClq0o0',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'La empresa como escenario activo de administración',
+      referencia:
+        'Bancoldex. (s.f.). Clasificación de empresas en Colombia. Bancoldex.',
+      tipo: 'Página web',
+      descarga:
+        'https://www.bancoldex.com/clasificacion-de-empresas-en-colombia-200',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Administración:',
+      significado:
+        'conjunto de acciones que se realizan para administrar una empresa.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Bienes:',
+      significado:
+        'bienes producidos por la industria y que el consumidor puede comprar.',
+    },
+    {
+      termino: 'Burocracia:',
+      significado:
+        'conjunto de actividades y trámites que se deben seguir para resolver un asunto de carácter administrativo.',
+    },
+    {
+      termino: 'Conductista:',
+      significado: 'hace referencia al estudio de la conducta de las personas.',
+    },
+    {
+      termino: 'Empresa:',
+      significado:
+        'entidad en la que intervienen el capital y el trabajo como factores de producción de actividades industriales o mercantiles, o para la prestación de servicios.',
+    },
+    {
+      termino: 'Estratégica:',
+      significado:
+        'una decisión o panorama inteligente frente a la situación o contexto de una empresa.',
+    },
+    {
+      termino: 'Organización:',
+      significado:
+        'grupo de personas y medios organizados con un fin determinado.',
+    },
+    {
+      termino: 'Sector productivo:',
+      significado:
+        'es una agrupación de las actividades productivas según sus características, de tal forma que permita hacer una clasificación más ordenada de la producción y facilitar su análisis.',
+    },
+    {
+      termino: 'Servicios:',
+      significado:
+        'actividad que se presta, a nivel empresarial, con relación a productos intangibles',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Alama Salazar, E. & Martín de Castro, G. (2019). <em>Fundamentos de administración: teoría y práctica en el Perú y Latinoamérica.</em> Pearson',
+    },
+    {
+      referencia:
+        'Chiavenato, I. (2019). <em>Introducción a la teoría general de la administración.</em> McGraw-Hill.',
+    },
+    {
+      referencia:
+        'Hernández y Rodríguez, S., Palafox de Anda, G. & Aguado Cortés, C. (2020). <em>Administración: pensamiento, procesos estratégicos y administrativos para la era de la inteligencia artificial.</em> McGraw-Hill.',
+    },
+    {
+      referencia:
+        'Münch Galindo, L. (2018). <em>Administración: gestión organizacional, enfoques y procesos administrativos.</em> Pearson Educación.',
     },
   ],
   creditos: {
@@ -194,25 +241,25 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Inovatec',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Inovatec ',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Inovatec',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Inovatec',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

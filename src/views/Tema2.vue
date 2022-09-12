@@ -10,7 +10,7 @@
     .tarjeta.p-3.mb-5
       .row.justify-content-around.align-items-center
         .col-sm-10.col-md-3.col-lg-2
-          img(data-aos="fade-up" src="@/assets/curso/temas/texto_destacado/img5.png")
+          img(data-aos="fade-up" src="@/assets/curso/temas/texto_destacado/img5.svg")
         .col-sm-12.col-md-8.col-lg-10
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
@@ -58,7 +58,7 @@
       ImagenInfograficaB.color-primario
         template(v-slot:imagen)
           figure
-              img(data-aos="fade-left" src='@/assets/curso/temas/texto_destacado/img7.png', alt='rompecabezas')
+              img(data-aos="fade-left" src='@/assets/curso/temas/texto_destacado/img7.svg', alt='rompecabezas')
             
         div(x="11%" y="6%" tooltip=" Ver más|")
           h5 Misión
@@ -87,28 +87,28 @@
         .crd_hover_txt(data-aos="fade-right")
           .crd_hover_txt--img
             figure
-              img(data-aos="fade-up-right" src="@/assets/curso/temas/tarjetas/tarjeta1.png", alt="alt")
+              img(data-aos="fade-up-right" src="@/assets/curso/temas/tarjetas/tarjeta1.svg", alt="alt")
           .crd_hover_txt--body
-            h4.mb-3 Reporte de ventas diarias 
-            p.mb-0 Con este tipo de reportes, los gerentes podrán supervisar específicamente, la labor de cada vendedor y de esta manera, saber en qué les va bien y en cuáles actos hay que mejorar. Aquí también, va a encontrar si su fuerza de ventas está entendiendo sus estrategias y le sea más fácil incentivarlos a aumentar su productividad.
+            h4.mb-3 Estrategias organizacionales 
+            p.mb-0 Se relaciona con los planteamientos del cómo se pueden llegar a cumplir los objetivos. Pueden darse tantas estrategias como objetivos se planteen y son los vehículos para llevar las acciones al cumplimiento de los objetivos.
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tarjetas/tarjeta1.png", alt="alt")
+              img(src="@/assets/curso/temas/tarjetas/tarjeta2.svg", alt="alt")
           .crd_hover_txt--body
-            h4.mb-3 Reporte de ventas semanal
-            p.mb-0 Con estos reportes semanales, podrá encontrar las dificultades que pueda tener algún o algunos vendedores y evitar que se pierdan los clientes fijos. Reportar semanalmente, le permite tener un equipo de ventas fortalecido y bien direccionado, con las correcciones necesarias para lograr las metas de ventas propuestas.
+            h4.mb-3 Programas o proyectos
+            p.mb-0 Se refiere a la secuencia de actividades desplegadas para el desarrollo y materialización de la estrategia; aquí se plasman los tiempos requeridos y los responsables de estos proyectos.
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tarjetas/tarjeta1.png", alt="alt")
+              img(src="@/assets/curso/temas/tarjetas/tarjeta3.svg", alt="alt")
           .crd_hover_txt--body
-            h4.mb-3 Reporte de ventas mensuales
-            p.mb-0 Con este tipo de reportes usted va a hacer un seguimiento específico a su equipo de ventas respecto a sus objetivos empresariales a largo plazo.    
+            h4.mb-3 Presupuestos
+            p.mb-0 Son aquellas herramientas que permiten plasmar, de manera anticipada, los recursos requeridos (financieros y no financieros) para el cumplimiento de las actividades; por consiguiente, de las estrategias y de los objetivos.    
 
     br
     p Una vez se cumpla el paso de la planeación con sus respectivas variables y técnicas, se adquiere una claridad de hacia dónde va la empresa, cuáles son sus propósitos y finalidades, y se llega entonces al segundo paso del ciclo denominado <strong>“organización”.</strong>
@@ -139,42 +139,42 @@
         .tarjeta.color-acento-contenido.p-4(style='height:425px')
           .row.justify-content-center.mb-3
             .col-7.mb-3
-              img(data-aos="flip-up" src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+              img(data-aos="flip-up" src='@/assets/componentes/avatar1.svg' alt='AvatarTop')
           h2.text-center Objetivo
           p.text-center Es la posibilidad de garantizar que todas las actividades que se pretendan desarrollar, se encuentren alineadas con las apuestas organizacionales.
 
         .tarjeta.color-acento-contenido.p-4(style='height:425px')
           .row.justify-content-center.mb-6
             .col-7.mb-3
-              img(data-aos="zoom-in-up" src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+              img(data-aos="zoom-in-up" src='@/assets/componentes/avatar2.svg' alt='AvatarTop')
           h2.text-center Especialización
           p.text-center El trabajo de cada persona debe estar delimitado hasta donde sea posible, asignando actividades y funciones específicas para su concentración y su destreza.
 
         .tarjeta.color-acento-contenido.p-4(style='height:425px')
           .row.justify-content-center.mb-6
             .col-7.mb-3
-              img(data-aos="zoom-out-up" src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+              img(data-aos="zoom-out-up" src='@/assets/componentes/avatar3.svg' alt='AvatarTop')
           h2.text-center Jerarquía
           p.text-center Resulta necesario, como parte fundamental de la organización, definir centros de autoridad que canalicen la información y garanticen la alineación de los equipos de trabajo hacia la institucionalidad.
 
         .tarjeta.color-acento-contenido.p-4(style='height:425px')
           .row.justify-content-center.mb-3
             .col-7.mb-3
-              img(data-aos="zoom-out-up" src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+              img(data-aos="zoom-out-up" src='@/assets/componentes/avatar4.svg' alt='AvatarTop')
           h2.text-center Unidad de mando
           p.text-center Al definir centros de autoridad, es preciso asignar un solo jefe a cada trabajador.
 
         .tarjeta.color-acento-contenido.p-4(style='height:425px')
           .row.justify-content-center.mb-3
             .col-7.mb-3
-              img(data-aos="zoom-out-up" src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+              img(data-aos="zoom-out-up" src='@/assets/componentes/avatar5.svg' alt='AvatarTop')
           h2.text-center Difusión
           p.text-center Se debe difundir, de manera abierta y clara, la información que surja desde los centros de autoridad
 
         .tarjeta.color-acento-contenido.p-4(style='height:425px')
           .row.justify-content-center.mb-3
             .col-7.mb-3
-              img(data-aos="zoom-out-down" src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+              img(data-aos="zoom-out-down" src='@/assets/componentes/avatar6.svg' alt='AvatarTop')
           h2.text-center Equilibrio
           p.text-center Debe existir un equilibrio entre la aplicación de las técnicas y los principios, para asegurar la correcta marcha global de la organización. 
       p
@@ -291,18 +291,19 @@
     p Una vez definida la estructura organizacional, y teniendo en cuenta que la fase de organización no es más que la continuación de la fase de planeación en relación con los procesos administrativos, es importante reconocer esos tipos de descriptores o facilitadores en la división y asignación del trabajo. Es entonces que surge como herramienta la gestión administrativa, definida como el conjunto de acciones o tareas que buscan maximizar los resultados de la empresa con la búsqueda permanente del uso eficiente de los recursos humanos, financieros y materiales. 
     br
     br
-    .titulo-principal.color-acento-contenido
-      .titulo-principal__numero
-      h3 Manual de funciones.
+    h3 
+      i.fas.fa-square.me-3.cuadrado
+      | Manual de funciones.
+    br
     br
     .tarjeta.p-3.mb-5
       .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-2
-          img(data-aos="fade-down-right" src="@/assets/curso/temas/texto_destacado/img14.png")
-        .col
+        .col-sm-10.col-md-3.col-lg-2
+          img(data-aos="fade-up" src="@/assets/curso/temas/texto_destacado/img14.svg")
+        .col-sm-12.col-md-8.col-lg-10
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-               p El manual de funciones representa la organización y la delimitación de funciones y responsabilidades de los cargos creados en la estructura organizacional; su propósito fundamental es el de definir, de manera clara y concisa, los alcances de los cargos para evitar reprocesos, además de documentar los diferentes puestos de trabajo; controlar y mejorar los sistemas de gestión, posibilitar la valoración de los cargos, integrar las competencias profesionales para la ubicación del correcto perfil profesional o técnico en cada nivel, elaborar planes de formación para los cargos y prevenir los riesgos asociados a los mismos.      
+               p El manual de funciones representa la organización y la delimitación de funciones y responsabilidades de los cargos creados en la estructura organizacional; su propósito fundamental es el de definir, de manera clara y concisa, los alcances de los cargos para evitar reprocesos, además de documentar los diferentes puestos de trabajo; controlar y mejorar los sistemas de gestión, posibilitar la valoración de los cargos, integrar las competencias profesionales para la ubicación del correcto perfil profesional o técnico en cada nivel, elaborar planes de formación para los cargos y prevenir los riesgos asociados a los mismos.       
     br
     .col-md-5
       h6 En términos de contenidos, el documento (ficha) de manual de funciones, debe estar conformado de manera básica por:
@@ -338,343 +339,344 @@
             row(titulo="Requerimientos del puesto")
               .col-md-12.mb-4.mb-md-0
               p Estos requerimientos hacen alusión al nivel de formación que requiere el cargo: nivel académico, grado de conocimientos técnicos y tecnológicos específicos, grado de experiencia o dominio operativo de la actividad a desarrollar, y conjunto de capacidades intelectuales, aptitudes, habilidades y características de personalidad.  
-      br
-      p Para mayor ilustración, a continuación se presenta un ejemplo de un manual de funciones
-      br
-      .mx-auto.col-md-10
-        .titulo-sexto.color-acento-contenido.p <strong>Tabla 1:</strong> Ejemplo manual de funciones
-        .tabla-b.color-acento-botones
-          .tabla-b__header
-            h4.mb-0 MANUAL DE FUNCIONES
-          table
-            caption(style="text-align:center") IDENTIFICACIÓN DEL CARGO
-            
-          tr
-            th(colspan='1' style="text-align:center") Denominación del cargo.
-              p Coordinador operativo de comunicaciones
-            th(colspan='2' style="text-align:center;") Categoría laboral
-              p Coordinador operativo
-         
-          tr
-            th(style="width: 375px; text-align:center") Departamento
-              p Operativo
-            th(style="width: 375px; text-align:center") No. Titulares
-              p 1
-            th(style="width: 375px; text-align:center") Jornada laboral
-              p Mañana y tarde
-          tr
-            th(colspan='3' style="text-align:center;") FINALIDAD
-          tr
-            td(colspan='3') 
-              p(style="text-align:center;") incluye personas cualificadas para ejercer labores de community manager, diseño gráfico y fotografía. Tiene la responsabilidad de asegurar el plan de comunicaciones, a través de campañas, para transmitir los mensajes que la empresa requiera difundir. Debe plantear la propuesta de presupuesto de inversión y, al mismo tiempo, debe hacer seguimiento y dar cumplimiento al presupuesto de operación para su área.  
-              br
-              p(style="text-align:center;") También tiene como funciones importantes: la comunicación interna asertiva y eficiente, crear campañas comunicativas para divulgar información de interés institucional y la coordinación del área de comunicaciones, así como la gestión de relaciones externas.
-
-          tr
-            th(colspan='3' style="text-align:center") ÁREAS DE RESULTADOS
-          tr
-            td(colspan='3') 
-              <ul style="text-align:center"> 
-                <li>
-                <i style ="color: #f85316" class="fas fa-check "></i> Campañas de comunicación internas. 
-                </li>
-                br
-                <li>
-                <i style ="color: #f85316" class="fas fa-check"></i> Presupuestos para inversión en las campañas.
-                </li>
-                br
-                <li>
-                <i style ="color: #f85316" class="fas fa-check"></i> Gestión y administración de las relaciones externas de la empresa.
-                </li>
-                br
-                <li>
-                <i style ="color: #f85316" class="fas fa-check"></i> Control de presupuestos de operación.
-                </li>
-              </ul>
-          tr
-            th(colspan='3' style="text-align:center") ACCIONES
-          tr
-           td(colspan='3') 
-              <ul style="text-align:center"> 
-                <li>
-                <i style ="color: #f85316" class="fas fa-check "></i> Planificar y proponer la política de comunicaciones para la empresa.
-                </li>
-                br
-                <li>
-                <i style ="color: #f85316" class="fas fa-check"></i> Asegurar el correcto desarrollo de campañas de comunicación interna y externa.
-                </li>
-                br
-                <li>
-                <i style ="color: #f85316" class="fas fa-check"></i> Planificar y proponer las inversiones financieras en materia de comunicaciones.
-                </li>
-                br
-                <li>
-                <i style ="color: #f85316" class="fas fa-check"></i> Junto con el responsable de mercadeo, planear la forma de comunicar y publicitar los servicios de la empresa.
-                </li>
-              </ul>
-          tr
-            th(colspan='3' style="text-align:center") EQUIPOS O VALORES A SU CARGO
-          tr
-           td(colspan='3') 
-              <ul style="text-align:center"> 
-                <li>
-                <i style ="color: #f85316" class="fas fa-check "></i> Información confidencial de la empresa.
-                </li>
-                br
-                <li>
-                <i style ="color: #f85316" class="fas fa-check"></i> Equipo de oficina.
-                </li>
-              </ul>
-          tr
-            th(colspan='3' style="text-align:center") PERFIL
-          tr
-            th(style="text-align:center") Competencias
-            th(colspan='2' style="text-align:center") Requisitos específicos
-            tbody
-          tr
-            td(style="text-align:center") Educación
-            td(colspan='2' style="text-align:center")
-              <ul style="text-align:center"> 
-                <li>
-                <i style ="color: #f85316" class="fas fa-check "></i> Profesional en Comunicación Social - Periodismo
-                </li>
-                br
-                <li>
-                <i style ="color: #f85316" class="fas fa-check"></i> Especialista en comunicación corporativa.
-                </li>
-              </ul>
-          tr
-            td(style="text-align:center") Experiencia relacionada
-            td(colspan='2' style="text-align:center") Mínimo 3 años en cargos similares.
-      separador
-      br
-      .row
-        .col-lg-12
-          .cajon.color-acento-botones.p-4
-            p.mb-0 Luego del planteamiento del manual de funciones, se hace necesario ahondar un poco más en las responsabilidades y en el paso a paso, para cumplir con las responsabilidades del cargo; es por esta razón, que se plantean aspectos relevantes de los procesos, procedimientos y sus consecuencias, como complemento para la correcta organización de la empresa.    
-      br
-      br
-      h3 
-        i.fas.fa-square.color-acento-contenido.me-3
-        | Manual de procesos y procedimientos.
-      br
-      p El manual de procesos y procedimientos de una empresa u organización, es un documento que contiene información sobre cómo se deben llevar a cabo los procesos; esto permite y facilita el flujo adecuado del trabajo, a partir de la estandarización de los mismos. Es un documento que contiene pautas y reglas sobre cómo deben ser desarrollados ciertos procedimientos y posibilita a las empresas para dirigir sus operaciones, estrategias y flujos de trabajo hacia resultados óptimos.
-        .tarjeta.p-4.p-md-2.mb-5
-        .row.justify-content-around.align-items-center
-          .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
-            img(data-aos="flip-right" src="@/assets/curso/temas/texto_destacado/img15.png")
-          
-          .col-md.col-lg-7
-            p Algunas de las ventajas de contar con un manual de procesos y procedimientos son:
-            <ul>
-              <li>
-              <i style ="color: #f85316" class="fas fa-check "></i> Ahorro de tiempo.
-              </li>
-              <li>
-              <i style ="color: #f85316" class="fas fa-check"></i> Posibilita la aplicación de acciones de control interno y mejora continua
-              </li>
-              <li>
-              <i style ="color: #f85316" class="fas fa-check"></i> Optimiza los procesos.
-              </li>
-              <li>
-              <i style ="color: #f85316" class="fas fa-check"></i> Mejora la comunicación. 
-              </li>
-              <li>
-              <i style ="color: #f85316" class="fas fa-check"></i> Delimita las responsabilidades de los cargos. 
-              </li>
-              <li>
-              <i style ="color: #f85316" class="fas fa-check"></i> Mejora la imagen. 
-              </li>
-              <li>
-              <i style ="color: #f85316" class="fas fa-check"></i> Permite establecer expectativas. 
-              </li>
-              <li>
-              <i style ="color: #f85316" class="fas fa-check"></i> Puede ser una herramienta para capacitación. 
-              </li>
-            </ul>
-        br
-        p Antes de presentar la estructura del manual de procesos y procedimientos, es importante profundizar un poco sobre los conceptos que se encuentran involucrados en este documento
-        br
-        .row
-        .col-lg-12
-          .cajon.color-primario
-          .color-fondo.p-3
-            p <strong>Proceso:</strong> se refiere a una serie de entradas que se combina con algunas actividades, para generar unas salidas o un producto. Un ejemplo de esto es el siguiente: para realizar un pastel, se cuenta con los ingredientes, las herramientas y el mecanismo de elaboración, para obtener como resultado el pastel; a esto se le denomina proceso.     
-            br
-            .col-md.col-lg-7
-            p Existen 3 tipos de procesos:
-            <ul>
-              <li>
-              <i style ="color: #f85316" class="fas fa-check "></i><strong> Estratégicos:</strong> son aquellos que están relacionados con la planificación estratégica de la organización. 
-              </li>
-              br
-              <li>
-              <i style ="color: #f85316" class="fas fa-check"></i><strong> Operativos:</strong> son los que están relacionados con la operación de la empresa.
-              </li>
-              br
-              <li>
-              <i style ="color: #f85316" class="fas fa-check"></i><strong> De apoyo:</strong> son los que dan soporte a la organización
-              </li>
-            </ul>
-      br
-      p Para continuar con el ejemplo de la pastelería, se ilustrará el ejercicio, para conocer el mapa de procesos de la misma empresa.
-      br
-      .mx-auto.col-md-10
-        .titulo-sexto.color-acento-contenido.p <strong>Figura 3:</strong> Ejemplo mapa de procesos
-        br
-        figure
-            img(data-aos="flip-right" src='@/assets/curso/temas/figuras/esquemaE.svg')
-      br
-      br
-      .tarjeta.p-4.p-md-2.mb-5
-        .row.justify-content-around.align-items-center          
-          .col-md.col-lg-7
-            p En los procesos estratégicos se incluyen la planeación y las finanzas, porque a partir de estas se despliegan los proveedores, productos, y el presupuesto que se requiere para desarrollar el plan. 
-            br
-            p En los operativos se definen compras, por la adquisición de materia prima, máquinas y productos asociados con la elaboración de los pasteles; producción para la fabricación misma de los pasteles, y ventas para la comercialización de los productos.
-            br
-            p En los procesos de apoyo se definen administración, mercadeo y contabilidad porque, si bien son muy importantes en el desarrollo del producto en su generalidad, para este caso se presentan como apoyo en el proceso.
-            br
-            p Una vez que se cuenta con el mapa de procesos, es importante asignar a un responsable o a un líder del desarrollo, quien será el encargado de velar por el cumplimiento, conjuntamente con el equipo que entrenará y guiará para el logro del objetivo.
-          .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
-            img(data-aos="flip-up" src="@/assets/curso/temas/texto_destacado/img16.png")
-      br
-      TabsA.color-acento-contenido
-        .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="PASO 1")
-          
-          .row
-            .col-xl-3.mb-4
-              figure
-                img(data-aos="flip-up" src='@/assets/curso/temas/figuras/esquemaF.svg', alt='Texto que describa la imagen')
-            .col-xl-6
-              h4 PASO 1: Ficha del proceso 
-              p Es la que describe las generalidades de cada proceso. El objetivo, entradas, salidas, cómo se medirá, entre otros.
-
-        .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="PASO 2")
-          .row
-            .col-xl-3.mb-4
-              figure
-                img(data-aos="zoom-in-up" src='@/assets/curso/temas/figuras/esquemaG.svg', alt='Texto que describa la imagen')
-            .col-xl-6
-              h4 PASO 2: Flujograma
-              p Ilustra, gráficamente, el recorrido que conlleva el proceso desde sus entradas y hasta sus salidas.
-
-        .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="PASO 3")
-          .row
-            .col-xl-3.mb-4
-              figure
-                img(data-aos="zoom-in-up" src='@/assets/curso/temas/figuras/esquemaH.svg', alt='Texto que describa la imagen')
-            .col-xl-6
-              h4 PASO 3: Procedimiento
-              p Se refiere al conjunto de actividades que constituyen el proceso, incluyendo un paso a paso de manera descriptiva.
-
-        .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="PASO 4")
-          .row
-            .col-xl-3.mb-4
-              figure
-                img(data-aos="zoom-in-up" src='@/assets/curso/temas/figuras/esquemaI.svg', alt='Texto que describa la imagen')
-            .col-xl-6
-              h4 PASO 4: Actividades
-              p Acciones que, en su desarrollo, aportan y generan valor a la organización.
-      br
-      br
-      p Para la construcción de un flujograma, se debe tener en cuenta la representación simbólica que se presenta a continuación: 
-      br
-      br
-      .mx-auto.col-md-8
-        figure
-            img(data-aos="zoom-out-up" src='@/assets/curso/temas/figuras/diagramaA.svg')
-
-      br
-      br
-      p El flujograma comprende el paso a paso de los procesos, estimando momentos de decisión, de desarrollo de actividades, e indicando el principio y el fin de los procesos.
-      br
-      p Para el ejemplo de la pastelería, quedaría así:
-      br
-      .mx-auto.col-md-10
-        .titulo-sexto.color-acento-contenido.p <strong>Figura 4:</strong> Flujograma ejemplo pastelerías
-        br
-        figure
-            img(data-aos="zoom-out-up" src='@/assets/curso/temas/figuras/diagramaB.svg')
-      br
-      br
-      .row
-        .col-lg-12
-          .cajon.color-acento-botones.p-3
-            p Se puede concluir que, en esta etapa del proceso administrativo, se realiza una identificación, clasificación, agrupación y asignación del trabajo, de los recursos y las responsabilidades, de tal forma que, cada integrante sepa qué se espera de su labor y cómo está aportando al logro del objetivo colectivo.
-            br
-            p Una vez culminada la etapa de organización, se procede con la etapa de dirección.
-      br
-      separador
-      .titulo-segundo.color-acento-contenido   
-        h2 2.3 Dirección
-      br
-      .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-6
-        .bloque-texto-g__img(
-          :data-aos="zoom-out-up" style="{'background-image': `url(${require('@/assets/curso/temas/texto_destacado/img17.png')})`}"
-        )
-        .bloque-texto-g__texto.p-4
-          p.mb-0 Cuando se habla de dirección, se hace referencia a unos elementos asociados al liderazgo, a la motivación, a los equipos de trabajo y a la comunicación en torno a la ejecución de los planes, de acuerdo con la estructura organizacional.
-      br
-      br
-      p Ahondar en el significado de cada uno de los elementos:
-      br
-      TabsC.color-acento-contenido
-        .py-3.py-md-4(titulo="Liderazgo")
-          .row
-            .col-md-6.mb-4.mb-md-0
-              h4 Liderazgo
-              p Implica ayudar, desde el rol directivo o líder, a los equipos de trabajo que componen la organización para trabajar con entusiasmo y, conjuntamente, alcanzar el éxito. El líder debe propiciar ambientes de trabajo favorables para que sus equipos aporten lo mejor de sí mismos y se sientan parte fundamental de la empresa.
-          
-            .col-md-6
-              figure
-                img(data-aos="zoom-out-up" src='@/assets/curso/temas/texto_destacado/img18.png', alt='Texto que describa la imagen')
-       
-        .py-3.py-md-4(titulo="Motivación")
-          .row
-            .col-md-6.mb-4.mb-md-0
-              h4 Motivación
-              p La buena actitud de los trabajadores o empleados es fundamental para que realicen su trabajo con entusiasmo; por eso es importante que el líder genere ese estímulo permanente de confianza, desde lo individual, para impactar también colectivamente.
-
-            .col-md-6
-              figure
-                img(data-aos="zoom-out-right" src='@/assets/curso/temas/texto_destacado/img19.png', alt='Texto que describa la imagen')
-
-        .py-3.py-md-4(titulo="Comunicación")
-          .row
-            .col-md-6.mb-4.mb-md-0
-              h4 Comunicación
-              p La comunicación es el canal que permite, a la organización, definir un entendimiento y unos mensajes claros; por eso es significativo que exista una comunicación efectiva que invite a los trabajadores a contribuir con el cumplimiento de los objetivos. Claves para esa comunicación asertiva: la empatía, el respeto y la confianza.
-             
-            .col-md-6
-              figure
-                img(data-aos="zoom-out-right" src='@/assets/curso/temas/texto_destacado/img20.png', alt='Texto que describa la imagen')
-
-        .py-3.py-md-4(titulo="Ejecución y supervisión de resultados")
-          .row
-            .col-md-6.mb-4.mb-md-0
-              h4 Ejecución y supervisión de resultados
-              p El seguimiento y la supervisión, permiten orientar acciones preventivas (antes de que suceda) y correctivas (una vez ya sucedido) a la hora del desarrollo de una actividad, para retomar el rumbo y la orientación hacia el cumplimiento de los objetivos propuestos.
-              
-              
-            .col-md-6
-              figure
-                img(data-aos="zoom-out-left" src='@/assets/curso/temas/texto_destacado/img21.png', alt='Texto que describa la imagen')
-
-        .py-3.py-md-4(titulo="Toma de decisiones")
-          .row
-            .col-md-6.mb-4.mb-md-0
-              h4 Toma de decisiones
-              p Elegir el mejor recorrido para la organización, resulta ser una de las funciones más importantes que realiza el administrador, al analizar varias alternativas, con la finalidad de lograr los propósitos establecidos.
-              
-            .col-md-6
-              figure
-                img(data-aos="zoom-out-left" src='@/assets/curso/temas/texto_destacado/img22.png', alt='Texto que describa la imagen')
-      separador
     br
-    .titulo-principal.color-acento-contenido
-      .titulo-principal__numero
-      h3 Tipos de dirección
+    p Para mayor ilustración, a continuación se presenta un ejemplo de un manual de funciones
+    br
+    .mx-auto.col-md-10
+      .titulo-sexto.color-acento-contenido.p <strong>Tabla 1:</strong> Ejemplo manual de funciones
+      .tabla-b.color-acento-botones
+        .tabla-b__header
+          h4.mb-0 MANUAL DE FUNCIONES
+        table
+          caption(style="text-align:center") IDENTIFICACIÓN DEL CARGO
+          
+        tr
+          th(colspan='1' style="text-align:center") Denominación del cargo.
+            p Coordinador operativo de comunicaciones
+          th(colspan='2' style="text-align:center;") Categoría laboral
+            p Coordinador operativo
+        
+        tr
+          th(style="width: 375px; text-align:center") Departamento
+            p Operativo
+          th(style="width: 375px; text-align:center") No. Titulares
+            p 1
+          th(style="width: 375px; text-align:center") Jornada laboral
+            p Mañana y tarde
+        tr
+          th(colspan='3' style="text-align:center;") FINALIDAD
+        tr
+          td(colspan='3') 
+            p(style="text-align:center;") incluye personas cualificadas para ejercer labores de community manager, diseño gráfico y fotografía. Tiene la responsabilidad de asegurar el plan de comunicaciones, a través de campañas, para transmitir los mensajes que la empresa requiera difundir. Debe plantear la propuesta de presupuesto de inversión y, al mismo tiempo, debe hacer seguimiento y dar cumplimiento al presupuesto de operación para su área.  
+            br
+            p(style="text-align:center;") También tiene como funciones importantes: la comunicación interna asertiva y eficiente, crear campañas comunicativas para divulgar información de interés institucional y la coordinación del área de comunicaciones, así como la gestión de relaciones externas.
+
+        tr
+          th(colspan='3' style="text-align:center") ÁREAS DE RESULTADOS
+        tr
+          td(colspan='3') 
+            <ul style="text-align:center"> 
+              <li>
+              <i style ="color: #f85316" class="fas fa-check "></i> Campañas de comunicación internas. 
+              </li>
+              br
+              <li>
+              <i style ="color: #f85316" class="fas fa-check"></i> Presupuestos para inversión en las campañas.
+              </li>
+              br
+              <li>
+              <i style ="color: #f85316" class="fas fa-check"></i> Gestión y administración de las relaciones externas de la empresa.
+              </li>
+              br
+              <li>
+              <i style ="color: #f85316" class="fas fa-check"></i> Control de presupuestos de operación.
+              </li>
+            </ul>
+        tr
+          th(colspan='3' style="text-align:center") ACCIONES
+        tr
+          td(colspan='3') 
+            <ul style="text-align:center"> 
+              <li>
+              <i style ="color: #f85316" class="fas fa-check "></i> Planificar y proponer la política de comunicaciones para la empresa.
+              </li>
+              br
+              <li>
+              <i style ="color: #f85316" class="fas fa-check"></i> Asegurar el correcto desarrollo de campañas de comunicación interna y externa.
+              </li>
+              br
+              <li>
+              <i style ="color: #f85316" class="fas fa-check"></i> Planificar y proponer las inversiones financieras en materia de comunicaciones.
+              </li>
+              br
+              <li>
+              <i style ="color: #f85316" class="fas fa-check"></i> Junto con el responsable de mercadeo, planear la forma de comunicar y publicitar los servicios de la empresa.
+              </li>
+            </ul>
+        tr
+          th(colspan='3' style="text-align:center") EQUIPOS O VALORES A SU CARGO
+        tr
+          td(colspan='3') 
+            <ul style="text-align:center"> 
+              <li>
+              <i style ="color: #f85316" class="fas fa-check "></i> Información confidencial de la empresa.
+              </li>
+              br
+              <li>
+              <i style ="color: #f85316" class="fas fa-check"></i> Equipo de oficina.
+              </li>
+            </ul>
+        tr
+          th(colspan='3' style="text-align:center") PERFIL
+        tr
+          th(style="text-align:center") Competencias
+          th(colspan='2' style="text-align:center") Requisitos específicos
+          tbody
+        tr
+          td(style="text-align:center") Educación
+          td(colspan='2' style="text-align:center")
+            <ul style="text-align:center"> 
+              <li>
+              <i style ="color: #f85316" class="fas fa-check "></i> Profesional en Comunicación Social - Periodismo
+              </li>
+              br
+              <li>
+              <i style ="color: #f85316" class="fas fa-check"></i> Especialista en comunicación corporativa.
+              </li>
+            </ul>
+        tr
+          td(style="text-align:center") Experiencia relacionada
+          td(colspan='2' style="text-align:center") Mínimo 3 años en cargos similares.
+    separador
+    br
+    .row
+      .col-lg-12
+        .cajon.color-acento-botones.p-4
+          p.mb-0 Luego del planteamiento del manual de funciones, se hace necesario ahondar un poco más en las responsabilidades y en el paso a paso, para cumplir con las responsabilidades del cargo; es por esta razón, que se plantean aspectos relevantes de los procesos, procedimientos y sus consecuencias, como complemento para la correcta organización de la empresa.    
+    br
+    br
+    h3 
+      i.fas.fa-square.me-3.cuadrado
+      | Manual de procesos y procedimientos.
+    br
+    p El manual de procesos y procedimientos de una empresa u organización, es un documento que contiene información sobre cómo se deben llevar a cabo los procesos; esto permite y facilita el flujo adecuado del trabajo, a partir de la estandarización de los mismos. Es un documento que contiene pautas y reglas sobre cómo deben ser desarrollados ciertos procedimientos y posibilita a las empresas para dirigir sus operaciones, estrategias y flujos de trabajo hacia resultados óptimos.
+      .tarjeta.p-4.p-md-2.mb-5
+      .row.justify-content-around.align-items-center
+        .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
+          img(data-aos="flip-right" src="@/assets/curso/temas/texto_destacado/img15.png")
+        
+        .col-md.col-lg-7
+          p Algunas de las ventajas de contar con un manual de procesos y procedimientos son:
+          <ul>
+            <li>
+            <i style ="color: #f85316" class="fas fa-check "></i> Ahorro de tiempo.
+            </li>
+            <li>
+            <i style ="color: #f85316" class="fas fa-check"></i> Posibilita la aplicación de acciones de control interno y mejora continua
+            </li>
+            <li>
+            <i style ="color: #f85316" class="fas fa-check"></i> Optimiza los procesos.
+            </li>
+            <li>
+            <i style ="color: #f85316" class="fas fa-check"></i> Mejora la comunicación. 
+            </li>
+            <li>
+            <i style ="color: #f85316" class="fas fa-check"></i> Delimita las responsabilidades de los cargos. 
+            </li>
+            <li>
+            <i style ="color: #f85316" class="fas fa-check"></i> Mejora la imagen. 
+            </li>
+            <li>
+            <i style ="color: #f85316" class="fas fa-check"></i> Permite establecer expectativas. 
+            </li>
+            <li>
+            <i style ="color: #f85316" class="fas fa-check"></i> Puede ser una herramienta para capacitación. 
+            </li>
+          </ul>
+      br
+      p Antes de presentar la estructura del manual de procesos y procedimientos, es importante profundizar un poco sobre los conceptos que se encuentran involucrados en este documento
+      br
+      .row
+      .col-lg-12
+        .cajon.color-primario
+        .color-fondo.p-3
+          p <strong>Proceso:</strong> se refiere a una serie de entradas que se combina con algunas actividades, para generar unas salidas o un producto. Un ejemplo de esto es el siguiente: para realizar un pastel, se cuenta con los ingredientes, las herramientas y el mecanismo de elaboración, para obtener como resultado el pastel; a esto se le denomina proceso.     
+          br
+          .col-md.col-lg-7
+          p Existen 3 tipos de procesos:
+          <ul>
+            <li>
+            <i style ="color: #f85316" class="fas fa-check "></i><strong> Estratégicos:</strong> son aquellos que están relacionados con la planificación estratégica de la organización. 
+            </li>
+            br
+            <li>
+            <i style ="color: #f85316" class="fas fa-check"></i><strong> Operativos:</strong> son los que están relacionados con la operación de la empresa.
+            </li>
+            br
+            <li>
+            <i style ="color: #f85316" class="fas fa-check"></i><strong> De apoyo:</strong> son los que dan soporte a la organización
+            </li>
+          </ul>
+    br
+    p Para continuar con el ejemplo de la pastelería, se ilustrará el ejercicio, para conocer el mapa de procesos de la misma empresa.
+    br
+    .mx-auto.col-md-10
+      .titulo-sexto.color-acento-contenido.p <strong>Figura 3:</strong> Ejemplo mapa de procesos
+      br
+      figure
+          img(data-aos="flip-right" src='@/assets/curso/temas/figuras/esquemaE.svg')
+    br
+    br
+    .tarjeta.p-4.p-md-2.mb-5
+      .row.justify-content-around.align-items-center          
+        .col-md.col-lg-7
+          p En los procesos estratégicos se incluyen la planeación y las finanzas, porque a partir de estas se despliegan los proveedores, productos, y el presupuesto que se requiere para desarrollar el plan. 
+          br
+          p En los operativos se definen compras, por la adquisición de materia prima, máquinas y productos asociados con la elaboración de los pasteles; producción para la fabricación misma de los pasteles, y ventas para la comercialización de los productos.
+          br
+          p En los procesos de apoyo se definen administración, mercadeo y contabilidad porque, si bien son muy importantes en el desarrollo del producto en su generalidad, para este caso se presentan como apoyo en el proceso.
+          br
+          p Una vez que se cuenta con el mapa de procesos, es importante asignar a un responsable o a un líder del desarrollo, quien será el encargado de velar por el cumplimiento, conjuntamente con el equipo que entrenará y guiará para el logro del objetivo.
+        .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
+          img(data-aos="flip-up" src="@/assets/curso/temas/texto_destacado/img16.png")
+    br
+    TabsA.color-acento-contenido
+      .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="PASO 1")
+        
+        .row
+          .col-xl-3.mb-4
+            figure
+              img(data-aos="flip-up" src='@/assets/curso/temas/figuras/esquemaF.svg', alt='Texto que describa la imagen')
+          .col-xl-6
+            h4 PASO 1: Ficha del proceso 
+            p Es la que describe las generalidades de cada proceso. El objetivo, entradas, salidas, cómo se medirá, entre otros.
+
+      .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="PASO 2")
+        .row
+          .col-xl-3.mb-4
+            figure
+              img(data-aos="zoom-in-up" src='@/assets/curso/temas/figuras/esquemaG.svg', alt='Texto que describa la imagen')
+          .col-xl-6
+            h4 PASO 2: Flujograma
+            p Ilustra, gráficamente, el recorrido que conlleva el proceso desde sus entradas y hasta sus salidas.
+
+      .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="PASO 3")
+        .row
+          .col-xl-3.mb-4
+            figure
+              img(data-aos="zoom-in-up" src='@/assets/curso/temas/figuras/esquemaH.svg', alt='Texto que describa la imagen')
+          .col-xl-6
+            h4 PASO 3: Procedimiento
+            p Se refiere al conjunto de actividades que constituyen el proceso, incluyendo un paso a paso de manera descriptiva.
+
+      .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="PASO 4")
+        .row
+          .col-xl-3.mb-4
+            figure
+              img(data-aos="zoom-in-up" src='@/assets/curso/temas/figuras/esquemaI.svg', alt='Texto que describa la imagen')
+          .col-xl-6
+            h4 PASO 4: Actividades
+            p Acciones que, en su desarrollo, aportan y generan valor a la organización.
+    br
+    br
+    p Para la construcción de un flujograma, se debe tener en cuenta la representación simbólica que se presenta a continuación: 
+    br
+    br
+    .mx-auto.col-md-8
+      figure
+          img(data-aos="zoom-out-up" src='@/assets/curso/temas/figuras/diagramaA.svg')
+
+    br
+    br
+    p El flujograma comprende el paso a paso de los procesos, estimando momentos de decisión, de desarrollo de actividades, e indicando el principio y el fin de los procesos.
+    br
+    p Para el ejemplo de la pastelería, quedaría así:
+    br
+    .mx-auto.col-md-10
+      .titulo-sexto.color-acento-contenido.p <strong>Figura 4:</strong> Flujograma ejemplo pastelerías
+      br
+      figure
+          img(data-aos="zoom-out-up" src='@/assets/curso/temas/figuras/diagramaB.svg')
+    br
+    br
+    .row
+      .col-lg-12
+        .cajon.color-acento-botones.p-3
+          p Se puede concluir que, en esta etapa del proceso administrativo, se realiza una identificación, clasificación, agrupación y asignación del trabajo, de los recursos y las responsabilidades, de tal forma que, cada integrante sepa qué se espera de su labor y cómo está aportando al logro del objetivo colectivo.
+          br
+          p Una vez culminada la etapa de organización, se procede con la etapa de dirección.
+    br
+    separador
+    .titulo-segundo.color-acento-contenido   
+      h2 2.3 Dirección
+    br
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-6
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/texto_destacado/img17.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Cuando se habla de dirección, se hace referencia a unos elementos asociados al liderazgo, a la motivación, a los equipos de trabajo y a la comunicación en torno a la ejecución de los planes, de acuerdo con la estructura organizacional.
+    br
+    br
+    p Ahondar en el significado de cada uno de los elementos:
+    br
+    TabsC.color-acento-contenido
+      .py-3.py-md-4(titulo="Liderazgo")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Liderazgo
+            p Implica ayudar, desde el rol directivo o líder, a los equipos de trabajo que componen la organización para trabajar con entusiasmo y, conjuntamente, alcanzar el éxito. El líder debe propiciar ambientes de trabajo favorables para que sus equipos aporten lo mejor de sí mismos y se sientan parte fundamental de la empresa.
+        
+          .col-md-6
+            figure
+              img(data-aos="zoom-out-up" src='@/assets/curso/temas/texto_destacado/img18.png', alt='Texto que describa la imagen')
+      
+      .py-3.py-md-4(titulo="Motivación")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Motivación
+            p La buena actitud de los trabajadores o empleados es fundamental para que realicen su trabajo con entusiasmo; por eso es importante que el líder genere ese estímulo permanente de confianza, desde lo individual, para impactar también colectivamente.
+
+          .col-md-6
+            figure
+              img(data-aos="zoom-out-right" src='@/assets/curso/temas/texto_destacado/img19.png', alt='Texto que describa la imagen')
+
+      .py-3.py-md-4(titulo="Comunicación")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Comunicación
+            p La comunicación es el canal que permite, a la organización, definir un entendimiento y unos mensajes claros; por eso es significativo que exista una comunicación efectiva que invite a los trabajadores a contribuir con el cumplimiento de los objetivos. Claves para esa comunicación asertiva: la empatía, el respeto y la confianza.
+            
+          .col-md-6
+            figure
+              img(data-aos="zoom-out-right" src='@/assets/curso/temas/texto_destacado/img20.png', alt='Texto que describa la imagen')
+
+      .py-3.py-md-4(titulo="Ejecución y supervisión de resultados")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Ejecución y supervisión de resultados
+            p El seguimiento y la supervisión, permiten orientar acciones preventivas (antes de que suceda) y correctivas (una vez ya sucedido) a la hora del desarrollo de una actividad, para retomar el rumbo y la orientación hacia el cumplimiento de los objetivos propuestos.
+            
+            
+          .col-md-6
+            figure
+              img(data-aos="zoom-out-left" src='@/assets/curso/temas/texto_destacado/img21.png', alt='Texto que describa la imagen')
+
+      .py-3.py-md-4(titulo="Toma de decisiones")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Toma de decisiones
+            p Elegir el mejor recorrido para la organización, resulta ser una de las funciones más importantes que realiza el administrador, al analizar varias alternativas, con la finalidad de lograr los propósitos establecidos.
+            
+          .col-md-6
+            figure
+              img(data-aos="zoom-out-left" src='@/assets/curso/temas/texto_destacado/img22.png', alt='Texto que describa la imagen')
+    separador
+    br
+    h3 
+      i.fas.fa-square.me-3.cuadrado
+      | Tipos de direccion.
+    br
     br
     p Las formas de administrar o dirigir, pueden variar de acuerdo con los tipos, formas o estilos de liderazgo; esto varía según la conformación y metodologías para realizar los procedimientos.
     br
@@ -749,9 +751,7 @@
           img(data-aos="flip-up" src='@/assets/curso/temas/figuras/diagramaC.svg')
     
     br
-    
-    .titulo-segundo.color-acento-contenido   
-      h2 2.4 Control
+      
     .tarjeta.p-4.p-md-2.mb-5
       .row.justify-content-around.align-items-center
         .col-md.col-lg-7

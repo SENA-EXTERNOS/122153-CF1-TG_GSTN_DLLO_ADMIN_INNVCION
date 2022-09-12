@@ -27,7 +27,7 @@
         ImagenInfograficaB.color-primario
           template(v-slot:imagen)
             figure
-                img(data-aos="zoom-in" src='@/assets/curso/temas/texto_destacado/img26.png', alt='diagrama')
+                img(data-aos="zoom-in" src='@/assets/curso/temas/texto_destacado/img26.svg', alt='diagrama')
               
           div(x="12%" y="18%" tooltip=" Ver más|")
             h5.mb-2 Por su tamaño
@@ -127,9 +127,9 @@
            p Estas clasificaciones permiten orientaciones en aras de su funcionamiento, debido a que algunas de esas características son netamente explícitas; sin embargo, existen unas particularidades implícitas, que están asociadas con la cultura organizacional y con las reglas de juego para cada una. Por esto, las características superficiales de una organización no lo son todo y se tiene que reconocer la composición de ellas a partir de la participación de un grupo de personas que ejercen diferentes funciones para dirigir el desarrollo de la empresa hacia un futuro prometedor.
     br
     br
-    .titulo-principal.color-acento-contenido
-      .titulo-principal__numero
-      h3 La empresa como escenario activo de administración
+    h3 
+      i.fas.fa-square.me-3.cuadrado
+      | La empresa como escenario activo de administración.
     br
     .row.justify-content-around.align-items-center  
       .bloque-texto-g.color-primario.col-sm-12.mb-8.p-md-4
