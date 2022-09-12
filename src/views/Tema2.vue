@@ -2,214 +2,206 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido.mb-4
       .titulo-principal__numero
         span 2
       h1 Principios del proceso administrativo
-    br
+
     .tarjeta.p-3.mb-5
       .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-2
+        .col-sm-10.col-md-3.col-lg-2
           img(data-aos="fade-up" src="@/assets/curso/temas/texto_destacado/img5.png")
-        .col
+        .col-sm-12.col-md-8.col-lg-10
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h5 El proceso administrativo se compone de una serie de fases o etapas que permiten llevar a cabo una actividad,
                p con la existencia de diversos criterios acerca de la cantidad de pasos que lo integran, aunque para los autores, los elementos o funciones sean las mismas. Para el caso de este componente formativo, se tomarán como referentes las siguientes etapas:       
+    .mx-auto.col-md-8
+      .titulo-sexto.color-acento-contenido.p <strong>Figura 2:</strong>Etapas del proceso administrativo
+      br
+      figure
+          img(data-aos="flip-left" src='@/assets/curso/temas/figuras/esquemaB.svg')
       br
       br
-      .mx-auto.col-md-8
-        .titulo-sexto.color-acento-contenido.p <strong>Figura 2:</strong>Etapas del proceso administrativo
-        br
+    .titulo-segundo.color-acento-contenido   
+      h2 2.1 Planeación
+    .tarjeta.p-4.p-md-2.mb-4
+      .row.justify-content-around.align-items-center
+        .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
+          img(data-aos="fade-down" src="@/assets/curso/temas/texto_destacado/img6.png")
+
+        .col-md.col-lg-7
+          p.mb-4 La planeación puede tener varias perspectivas, pero, en síntesis, obedece al rumbo hacia el que se dirige algo, bien sea a nivel empresarial o incluso, en la vida personal; es el horizonte proyectado y, para ilustrar un poco mejor el concepto, podría pensarse en los siguientes cuestionamientos: ¿qué se quiere? ¿Quiénes somos? ¿Para dónde vamos? La planeación impulsa para optimizar recursos, prever situaciones, reducir costos e incrementar la productividad, a partir de la concentración y canalización de esfuerzos por un mismo fin, además de ser un escenario base para una posterior evaluación y retroalimentación del proceso y de los logros obtenidos.
+    h6 Basados en la estructura organizacional, existen 3 tipos de planeación:
+    .row.justify-content-center.mb-4
+      .col-lg-4
         figure
-            img(data-aos="flip-left" src='@/assets/curso/temas/figuras/esquemaB.svg')
-      br
-      br
-      .titulo-segundo.color-acento-contenido   
-        h2 2.1 Planeación
-      .tarjeta.p-4.p-md-2.mb-5
-        .row.justify-content-around.align-items-center
-          .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
-            img(data-aos="fade-down" src="@/assets/curso/temas/texto_destacado/img6.png")
-
-          .col-md.col-lg-7
-            p.mb-4 La planeación puede tener varias perspectivas, pero, en síntesis, obedece al rumbo hacia el que se dirige algo, bien sea a nivel empresarial o incluso, en la vida personal; es el horizonte proyectado y, para ilustrar un poco mejor el concepto, podría pensarse en los siguientes cuestionamientos: ¿qué se quiere? ¿Quiénes somos? ¿Para dónde vamos? La planeación impulsa para optimizar recursos, prever situaciones, reducir costos e incrementar la productividad, a partir de la concentración y canalización de esfuerzos por un mismo fin, además de ser un escenario base para una posterior evaluación y retroalimentación del proceso y de los logros obtenidos.
-      br
-      h6 Basados en la estructura organizacional, existen 3 tipos de planeación:
-      .row.justify-content-center.mb-4
-        .col-lg-4
+            img(data-aos="fade-down" src='@/assets/curso/temas/figuras/esquemaC.svg')
+      .col-lg-6
+        AcordionA(tipo="a" clase-tarjeta="tarjeta color-secundario")
+          .row(titulo="Estratégica")
+            .col-md-12.mb-4.mb-md-0
+              p Hace referencia a la planeación general, desarrollada por los estamentos directivos de la organización. Usualmente es una planeación a mediano o largo plazo y de ahí se desprenden los diferentes planes de la empresa
+          .row(titulo="Táctica")
+            .col-md-12.mb-4.mb-md-0
+              p Se refiere a los planes desarrollados en cumplimiento de la planeación estratégica y obedecen más al hacer, con un componente bajo de operatividad.
+          .row(titulo="Operativa")
+            .col-md-12.mb-4.mb-md-0
+              p Se diseña con base en los planes tácticos y desarrollada por los estamentos operativos de la organización
+    br
+    p La planeación organizacional se enmarca, regularmente, en un documento denominado “plan estratégico”, donde confluye la información de base y la que se plantea en un horizonte de tiempo determinado, los propósitos y alcances pretendidos.
+    br
+    p <strong>El plan estratégico es como un rompecabezas,</strong> compuesto por diferentes piezas las cuales se presentan a continuación:  
+    br
+    br
+    .mx-auto.col-md-10.mb-4
+      ImagenInfograficaB.color-primario
+        template(v-slot:imagen)
           figure
-              img(data-aos="fade-down" src='@/assets/curso/temas/figuras/esquemaC.svg')
-        .col-lg-6
-          AcordionA(tipo="a" clase-tarjeta="tarjeta color-secundario")
-            .row(titulo="Estratégica")
-              .col-md-12.mb-4.mb-md-0
-                p Hace referencia a la planeación general, desarrollada por los estamentos directivos de la organización. Usualmente es una planeación a mediano o largo plazo y de ahí se desprenden los diferentes planes de la empresa
-            .row(titulo="Táctica")
-              .col-md-12.mb-4.mb-md-0
-                p Se refiere a los planes desarrollados en cumplimiento de la planeación estratégica y obedecen más al hacer, con un componente bajo de operatividad.
-            .row(titulo="Operativa")
-              .col-md-12.mb-4.mb-md-0
-                p Se diseña con base en los planes tácticos y desarrollada por los estamentos operativos de la organización
-      br
-      p La planeación organizacional se enmarca, regularmente, en un documento denominado “plan estratégico”, donde confluye la información de base y la que se plantea en un horizonte de tiempo determinado, los propósitos y alcances pretendidos.
-      br
-      p <strong>El plan estratégico es como un rompecabezas,</strong> compuesto por diferentes piezas las cuales se presentan a continuación:  
-      br
-      br
-      .mx-auto.col-md-10
-        ImagenInfograficaB.color-primario
-          template(v-slot:imagen)
+              img(data-aos="fade-left" src='@/assets/curso/temas/texto_destacado/img7.png', alt='rompecabezas')
+            
+        div(x="11%" y="6%" tooltip=" Ver más|")
+          h5 Misión
+          p Misión Es un escrito que sintetiza el propósito de una empresa y responde a preguntas como: ¿quién es la empresa? ¿A qué se dedica? ¿Para qué existe?
+        div(x="42%" y="6%" tooltip=" Ver más|")
+          .h5.mb-2 Filosofía
+          p Compuesta por
+          p <strong>Valores: </strong> : son concebidos como declaraciones que realizan las empresas como sustento a su forma de ser y de hacer las cosas. Por ejemplo, la calidad, el respeto, el compromiso. 
+          p <strong>Principios corporativos: </strong>se refiere al conjunto de creencias y postulados que funcionan como guías orientadoras e inspiradoras en el quehacer de una organización.
+        div(x="71%" y="6%" tooltip=" Ver más|")
+          .h5.mb-2 Normas 
+          p El concepto más apropiado para definir el término, podría ser el que citan Hernández y Rodríguez, S., Palafox de Anda, G. & Aguado Cortés, C. (2020): “son las reglas administrativas de observancia obligatoria para la realización de una operación, procedimiento, programa o presupuesto” (p.256).
+        div(x="26%" y="95%" tooltip=" Ver más|")
+          .h5.mb-2 Visión
+          p Se refiere al enunciado del estado del futuro deseado, a través de un texto: ¿dónde se visualiza la empresa en un horizonte de tiempo determinado? ¿Cómo producirá los resultados? ¿Cómo se enfrentará al cambio? ¿Cómo conseguirá ser competitiva?
+        div(x="81%" y="95%" tooltip=" Ver más|")
+          .h5.mb-2 Objetivos estratégicos
+          p Representan los resultados que la empresa desea alcanzar y lograr; se deben establecer para un tiempo específico y ser definidos cuantitativamente. Ayudan a materializar la estrategia, establecen metas y ayudan a su cumplimiento y, además, unifican el lenguaje y alinean la organización. Para la construcción de los objetivos estratégicos es necesario tener presente la misión, la visión y los principios de la organización, de tal manera que se garantice la alineación y la coherencia.
+    .row.mb-4.justify-content-center
+      .col-lg-12
+        .cajon.color-acento-botones.p-4
+          p.mb-0 Estos temas corresponden a la denominada cultura organizacional, la cual es como el ADN de la empresa: la forma de ser y de hacer empresa, las creencias y todas aquellas variables que hacen que los empleados se identifiquen y busquen, desde su quehacer, aportar a un mismo fin.    
+    p En compensación y proporcionando una continuidad con la construcción de la planeación estratégica, encontramos los siguientes elementos:
+    .row.justify-content-center.mb-5
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="fade-right")
+          .crd_hover_txt--img
             figure
-                img(data-aos="fade-left" src='@/assets/curso/temas/texto_destacado/img7.png', alt='rompecabezas')
-              
-          div(x="11%" y="6%" tooltip=" Ver más|")
-            h5 Misión
-            p Misión Es un escrito que sintetiza el propósito de una empresa y responde a preguntas como: ¿quién es la empresa? ¿A qué se dedica? ¿Para qué existe?
-          div(x="42%" y="6%" tooltip=" Ver más|")
-            .h5.mb-2 Filosofía
-            p Compuesta por
-            p <strong>Valores: </strong> : son concebidos como declaraciones que realizan las empresas como sustento a su forma de ser y de hacer las cosas. Por ejemplo, la calidad, el respeto, el compromiso. 
-            p <strong>Principios corporativos: </strong>se refiere al conjunto de creencias y postulados que funcionan como guías orientadoras e inspiradoras en el quehacer de una organización.
-          div(x="71%" y="6%" tooltip=" Ver más|")
-            .h5.mb-2 Normas 
-            p El concepto más apropiado para definir el término, podría ser el que citan Hernández y Rodríguez, S., Palafox de Anda, G. & Aguado Cortés, C. (2020): “son las reglas administrativas de observancia obligatoria para la realización de una operación, procedimiento, programa o presupuesto” (p.256).
-          div(x="26%" y="95%" tooltip=" Ver más|")
-            .h5.mb-2 Visión
-            p Se refiere al enunciado del estado del futuro deseado, a través de un texto: ¿dónde se visualiza la empresa en un horizonte de tiempo determinado? ¿Cómo producirá los resultados? ¿Cómo se enfrentará al cambio? ¿Cómo conseguirá ser competitiva?
-          div(x="81%" y="95%" tooltip=" Ver más|")
-            .h5.mb-2 Objetivos estratégicos
-            p Representan los resultados que la empresa desea alcanzar y lograr; se deben establecer para un tiempo específico y ser definidos cuantitativamente. Ayudan a materializar la estrategia, establecen metas y ayudan a su cumplimiento y, además, unifican el lenguaje y alinean la organización. Para la construcción de los objetivos estratégicos es necesario tener presente la misión, la visión y los principios de la organización, de tal manera que se garantice la alineación y la coherencia.
-        br
-        br
-        .row
-        .col-lg-12
-          .cajon.color-acento-botones.p-3
-            p Estos temas corresponden a la denominada cultura organizacional, la cual es como el ADN de la empresa: la forma de ser y de hacer empresa, las creencias y todas aquellas variables que hacen que los empleados se identifiquen y busquen, desde su quehacer, aportar a un mismo fin.    
-      br
-      p En compensación y proporcionando una continuidad con la construcción de la planeación estratégica, encontramos los siguientes elementos:
-      br
-      br
-      .row.justify-content-center.mb-5
-        .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-          .crd_hover_txt(data-aos="flip-left")
-            .crd_hover_txt--img
-              figure
-                img(data-aos="fade-up-right" src="@/assets/curso/temas/tarjetas/tarjeta1.png", alt="alt")
-            .crd_hover_txt--body
-              h4.mb-3 Reporte de ventas diarias 
-              p.mb-0 Con este tipo de reportes, los gerentes podrán supervisar específicamente, la labor de cada vendedor y de esta manera, saber en qué les va bien y en cuáles actos hay que mejorar. Aquí también, va a encontrar si su fuerza de ventas está entendiendo sus estrategias y le sea más fácil incentivarlos a aumentar su productividad.
+              img(data-aos="fade-up-right" src="@/assets/curso/temas/tarjetas/tarjeta1.png", alt="alt")
+          .crd_hover_txt--body
+            h4.mb-3 Reporte de ventas diarias 
+            p.mb-0 Con este tipo de reportes, los gerentes podrán supervisar específicamente, la labor de cada vendedor y de esta manera, saber en qué les va bien y en cuáles actos hay que mejorar. Aquí también, va a encontrar si su fuerza de ventas está entendiendo sus estrategias y le sea más fácil incentivarlos a aumentar su productividad.
 
-        .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-          .crd_hover_txt(data-aos="flip-left")
-            .crd_hover_txt--img
-              figure
-                img(src="@/assets/curso/temas/tarjetas/tarjeta1.png", alt="alt")
-            .crd_hover_txt--body
-              h4.mb-3 Reporte de ventas semanal
-              p.mb-0 Con estos reportes semanales, podrá encontrar las dificultades que pueda tener algún o algunos vendedores y evitar que se pierdan los clientes fijos. Reportar semanalmente, le permite tener un equipo de ventas fortalecido y bien direccionado, con las correcciones necesarias para lograr las metas de ventas propuestas.
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tarjetas/tarjeta1.png", alt="alt")
+          .crd_hover_txt--body
+            h4.mb-3 Reporte de ventas semanal
+            p.mb-0 Con estos reportes semanales, podrá encontrar las dificultades que pueda tener algún o algunos vendedores y evitar que se pierdan los clientes fijos. Reportar semanalmente, le permite tener un equipo de ventas fortalecido y bien direccionado, con las correcciones necesarias para lograr las metas de ventas propuestas.
 
-        .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-          .crd_hover_txt(data-aos="flip-left")
-            .crd_hover_txt--img
-              figure
-                img(src="@/assets/curso/temas/tarjetas/tarjeta1.png", alt="alt")
-            .crd_hover_txt--body
-              h4.mb-3 Reporte de ventas mensuales
-              p.mb-0 Con este tipo de reportes usted va a hacer un seguimiento específico a su equipo de ventas respecto a sus objetivos empresariales a largo plazo.    
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tarjetas/tarjeta1.png", alt="alt")
+          .crd_hover_txt--body
+            h4.mb-3 Reporte de ventas mensuales
+            p.mb-0 Con este tipo de reportes usted va a hacer un seguimiento específico a su equipo de ventas respecto a sus objetivos empresariales a largo plazo.    
 
+    br
+    p Una vez se cumpla el paso de la planeación con sus respectivas variables y técnicas, se adquiere una claridad de hacia dónde va la empresa, cuáles son sus propósitos y finalidades, y se llega entonces al segundo paso del ciclo denominado <strong>“organización”.</strong>
+    br
+    .titulo-segundo.color-acento-contenido   
+      h2 2.2 Organización
+    p Una de las definiciones de organización es la de los autores Hernández y Rodríguez, S., Palafox de Anda, G. & Aguado Cortés, C. (2020), quienes indican que: es la <span style="color:blue">“fase del proceso administrativo en la cual se aplican las técnicas administrativas para estructurar una empresa u organización social; se definen las funciones por áreas sustantivas, departamentos y puestos; se establece la autoridad en materia de toma decisiones y la responsabilidad de los miembros que ocupan dichas unidades, y se definen las líneas de comunicación formal que faciliten la comunicación y la cooperación de los equipos de trabajo, a fin de alcanzar los objetivos y la estrategia” (p.271).</span>
+    .tarjeta.p-4.p-md-2.mb-5
+    .row.justify-content-around.align-items-center
+      .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
+        img(data-aos="flip-right" src="@/assets/curso/temas/texto_destacado/img8.png")
+
+      .col-md.col-lg-7
+        p.mb-4 La organización permite optimizar tiempo y recursos, así como también el aumento de productividad, simplificando el trabajo y evitando los reprocesos y la duplicidad en responsabilidades o actividades. Las dos etapas fundamentales de la organización son:
+        <ul>
+          <li>
+          <i style ="color: #f85316" class="fas fa-check "></i> La división o asignación de trabajo, de tal manera que se clarifiquen responsabilidades y se delimiten actividades para acercarse, cada vez más, a la máxima eficiencia y eficacia, simplificando trabajos
+          </li>
+          <li>
+          <i style ="color: #f85316" class="fas fa-check"></i> La coordinación de las actividades, con el propósito de verificar su correcta ejecución.
+          </li>
+        </ul>
       br
-      p Una vez se cumpla el paso de la planeación con sus respectivas variables y técnicas, se adquiere una claridad de hacia dónde va la empresa, cuáles son sus propósitos y finalidades, y se llega entonces al segundo paso del ciclo denominado <strong>“organización”.</strong>
+    
+      p Por otro lado, también se estructura a partir de unos principios que son los que aportan, a la “organización”, el hilo conductor como proceso administrativo. Dentro de estos principios se exponen los siguientes:
       br
-      .titulo-segundo.color-acento-contenido   
-        h2 2.2 Organización
-      p Una de las definiciones de organización es la de los autores Hernández y Rodríguez, S., Palafox de Anda, G. & Aguado Cortés, C. (2020), quienes indican que: es la <span style="color:blue">“fase del proceso administrativo en la cual se aplican las técnicas administrativas para estructurar una empresa u organización social; se definen las funciones por áreas sustantivas, departamentos y puestos; se establece la autoridad en materia de toma decisiones y la responsabilidad de los miembros que ocupan dichas unidades, y se definen las líneas de comunicación formal que faciliten la comunicación y la cooperación de los equipos de trabajo, a fin de alcanzar los objetivos y la estrategia” (p.271).</span>
+      SlyderF(columnas="col-lg-12 col-xl-4")
+        .tarjeta.color-acento-contenido.p-4(style='height:425px')
+          .row.justify-content-center.mb-3
+            .col-7.mb-3
+              img(data-aos="flip-up" src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+          h2.text-center Objetivo
+          p.text-center Es la posibilidad de garantizar que todas las actividades que se pretendan desarrollar, se encuentren alineadas con las apuestas organizacionales.
+
+        .tarjeta.color-acento-contenido.p-4(style='height:425px')
+          .row.justify-content-center.mb-6
+            .col-7.mb-3
+              img(data-aos="zoom-in-up" src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+          h2.text-center Especialización
+          p.text-center El trabajo de cada persona debe estar delimitado hasta donde sea posible, asignando actividades y funciones específicas para su concentración y su destreza.
+
+        .tarjeta.color-acento-contenido.p-4(style='height:425px')
+          .row.justify-content-center.mb-6
+            .col-7.mb-3
+              img(data-aos="zoom-out-up" src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+          h2.text-center Jerarquía
+          p.text-center Resulta necesario, como parte fundamental de la organización, definir centros de autoridad que canalicen la información y garanticen la alineación de los equipos de trabajo hacia la institucionalidad.
+
+        .tarjeta.color-acento-contenido.p-4(style='height:425px')
+          .row.justify-content-center.mb-3
+            .col-7.mb-3
+              img(data-aos="zoom-out-up" src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+          h2.text-center Unidad de mando
+          p.text-center Al definir centros de autoridad, es preciso asignar un solo jefe a cada trabajador.
+
+        .tarjeta.color-acento-contenido.p-4(style='height:425px')
+          .row.justify-content-center.mb-3
+            .col-7.mb-3
+              img(data-aos="zoom-out-up" src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+          h2.text-center Difusión
+          p.text-center Se debe difundir, de manera abierta y clara, la información que surja desde los centros de autoridad
+
+        .tarjeta.color-acento-contenido.p-4(style='height:425px')
+          .row.justify-content-center.mb-3
+            .col-7.mb-3
+              img(data-aos="zoom-out-down" src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
+          h2.text-center Equilibrio
+          p.text-center Debe existir un equilibrio entre la aplicación de las técnicas y los principios, para asegurar la correcta marcha global de la organización. 
+      p
+      br
+      br
+  
+      p En el ejercicio de la organización como proceso administrativo, también se encuentra la definición de la estructura organizacional, siendo esta la manera de establecer una arquitectura al interior de la empresa, indicando los cargos, las líneas de comunicación y de mando, las dependencias y la relación entre las mismas; esta herramienta debe ser construida y diseñada a la luz de la razón de ser de la empresa, su propósito superior y su actividad económica; por eso es importante realizar un análisis previo a variables, como el que se explica a continuación:
       .tarjeta.p-4.p-md-2.mb-5
       .row.justify-content-around.align-items-center
         .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
-          img(data-aos="flip-right" src="@/assets/curso/temas/texto_destacado/img8.png")
+          img(data-aos="zoom-out-left" src="@/assets/curso/temas/texto_destacado/img9.png")
 
         .col-md.col-lg-7
-          p.mb-4 La organización permite optimizar tiempo y recursos, así como también el aumento de productividad, simplificando el trabajo y evitando los reprocesos y la duplicidad en responsabilidades o actividades. Las dos etapas fundamentales de la organización son:
-          <ul>
-            <li>
-            <i style ="color: #f85316" class="fas fa-check "></i> La división o asignación de trabajo, de tal manera que se clarifiquen responsabilidades y se delimiten actividades para acercarse, cada vez más, a la máxima eficiencia y eficacia, simplificando trabajos
-            </li>
-            <li>
-            <i style ="color: #f85316" class="fas fa-check"></i> La coordinación de las actividades, con el propósito de verificar su correcta ejecución.
-            </li>
-          </ul>
-        br
-      
-        p Por otro lado, también se estructura a partir de unos principios que son los que aportan, a la “organización”, el hilo conductor como proceso administrativo. Dentro de estos principios se exponen los siguientes:
-        br
-        SlyderF(columnas="col-lg-12 col-xl-4")
-          .tarjeta.color-acento-contenido.p-4
-            .row.justify-content-center.mb-3
-              .col-7
-                img(data-aos="flip-up" src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-            h2.text-center Objetivo
-            p.text-center Es la posibilidad de garantizar que todas las actividades que se pretendan desarrollar, se encuentren alineadas con las apuestas organizacionales.
+          ul
+            li
+              i.fas.fa-check(style='color: #f85316')
+              |  La estrategia organizacional: analiza la coherencia entre el mercado, sus cambios y los objetivos organizacionales.
+            li
+              i.fas.fa-check(style='color: #f85316')
+              |  El modelo de estructura organizacional: cada vez es m&aacute;s com&uacute;n ver empresas que le apuestan a un modelo de estructura organizacional m&aacute;s flexible y poco tradicional.
+            li
+              i.fas.fa-check(style='color: #f85316')
+              |  Los perfiles de puesto: validan que los perfiles de cargo correspondan con las necesidades de la estructura organizacional y que la definici&oacute;n de las funciones y las responsabilidades, se encuentren definidas de manera coherente con el cumplimiento de la estrategia organizacional
+            li
+              i.fas.fa-check(style='color: #f85316')
+              |  o&#x9;El recurso humano: se deben tener en cuenta variables como la reubicaci&oacute;n y rotaci&oacute;n de personal, ante una posible adaptaci&oacute;n, debido a una nueva estructura organizacional
 
-          .tarjeta.color-acento-contenido.p-4
-            .row.justify-content-center.mb-6
-              .col-7
-                img(data-aos="zoom-in-up" src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-            h2.text-center Especialización
-            p.text-center El trabajo de cada persona debe estar delimitado hasta donde sea posible, asignando actividades y funciones específicas para su concentración y su destreza.
-
-          .tarjeta.color-acento-contenido.p-4
-            .row.justify-content-center.mb-6
-              .col-5
-                img(data-aos="zoom-out-up" src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-            h2.text-center Jerarquía
-            p.text-center Resulta necesario, como parte fundamental de la organización, definir centros de autoridad que canalicen la información y garanticen la alineación de los equipos de trabajo hacia la institucionalidad.
-
-          .tarjeta.color-acento-contenido.p-4
-            .row.justify-content-center.mb-3
-              .col-10
-                img(data-aos="zoom-out-up" src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-            h2.text-center Unidad de mando
-            p.text-center Al definir centros de autoridad, es preciso asignar un solo jefe a cada trabajador.
-
-          .tarjeta.color-acento-contenido.p-4
-            .row.justify-content-center.mb-3
-              .col-9
-                img(data-aos="zoom-out-up" src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-            h2.text-center Difusión
-            p.text-center Se debe difundir, de manera abierta y clara, la información que surja desde los centros de autoridad
-
-          .tarjeta.color-acento-contenido.p-4
-            .row.justify-content-center.mb-3
-              .col-8
-                img(data-aos="zoom-out-down" src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-            h2.text-center Equilibrio
-            p.text-center Debe existir un equilibrio entre la aplicación de las técnicas y los principios, para asegurar la correcta marcha global de la organización. 
-        p
-        br
-        br
-    
-        p En el ejercicio de la organización como proceso administrativo, también se encuentra la definición de la estructura organizacional, siendo esta la manera de establecer una arquitectura al interior de la empresa, indicando los cargos, las líneas de comunicación y de mando, las dependencias y la relación entre las mismas; esta herramienta debe ser construida y diseñada a la luz de la razón de ser de la empresa, su propósito superior y su actividad económica; por eso es importante realizar un análisis previo a variables, como el que se explica a continuación:
-        .tarjeta.p-4.p-md-2.mb-5
-        .row.justify-content-around.align-items-center
-          .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
-            img(data-aos="zoom-out-left" src="@/assets/curso/temas/texto_destacado/img9.png")
-
-          .col-md.col-lg-7
-            <ul>
-              <li>
-              <i style ="color: #f85316" class="fas fa-check "></i> La estrategia organizacional: analiza la coherencia entre el mercado, sus cambios y los objetivos organizacionales. 
-              </li>
-              <li>
-              <i style ="color: #f85316" class="fas fa-check"></i> El modelo de estructura organizacional: cada vez es más común ver empresas que le apuestan a un modelo de estructura organizacional más flexible y poco tradicional.
-              </li>
-              <li>
-              <i style ="color: #f85316" class="fas fa-check"></i> Los perfiles de puesto: validan que los perfiles de cargo correspondan con las necesidades de la estructura organizacional y que la definición de las funciones y las responsabilidades, se encuentren definidas de manera coherente con el cumplimiento de la estrategia organizacional
-              </li>
-              <li>
-              <i style ="color: #f85316" class="fas fa-check"></i> o	El recurso humano: se deben tener en cuenta variables como la reubicación y rotación de personal, ante una posible adaptación, debido a una nueva estructura organizacional
-              </li>
-            </ul>
     br
     p Es fundamental aclarar que no todas las estructuras organizacionales son iguales y que todo depende de la actividad económica, de su estilo de dirección y de organización; <strong>a continuación se presentan algunos modelos y tipos de estructuras:</strong>
     br
@@ -458,13 +450,13 @@
       br
       .row
         .col-lg-12
-          .cajon.color-acento-botones.p-3
-            p Luego del planteamiento del manual de funciones, se hace necesario ahondar un poco más en las responsabilidades y en el paso a paso, para cumplir con las responsabilidades del cargo; es por esta razón, que se plantean aspectos relevantes de los procesos, procedimientos y sus consecuencias, como complemento para la correcta organización de la empresa.    
+          .cajon.color-acento-botones.p-4
+            p.mb-0 Luego del planteamiento del manual de funciones, se hace necesario ahondar un poco más en las responsabilidades y en el paso a paso, para cumplir con las responsabilidades del cargo; es por esta razón, que se plantean aspectos relevantes de los procesos, procedimientos y sus consecuencias, como complemento para la correcta organización de la empresa.    
       br
       br
-      .titulo-principal.color-acento-contenido
-        .titulo-principal__numero
-        h3 Manual de procesos y procedimientos.
+      h3 
+        i.fas.fa-square.color-acento-contenido.me-3
+        | Manual de procesos y procedimientos.
       br
       p El manual de procesos y procedimientos de una empresa u organización, es un documento que contiene información sobre cómo se deben llevar a cabo los procesos; esto permite y facilita el flujo adecuado del trabajo, a partir de la estandarización de los mismos. Es un documento que contiene pautas y reglas sobre cómo deben ser desarrollados ciertos procedimientos y posibilita a las empresas para dirigir sus operaciones, estrategias y flujos de trabajo hacia resultados óptimos.
         .tarjeta.p-4.p-md-2.mb-5
