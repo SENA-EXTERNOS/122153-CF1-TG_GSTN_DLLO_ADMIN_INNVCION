@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Introducción a la administración',
     descripcionCurso:
       'La historia ha demostrado que, en la práctica, pueden aplicarse diversas teorías para resolver o apoyar la solución de problemáticas naturales del devenir empresarial u organizacional. En este componente formativo, se estudiarán las diferentes teorías y conceptos que le han dado origen a la administración como ciencia aplicable',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-img.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -155,46 +155,46 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Administración:',
+      termino: 'Administración',
       significado:
         'conjunto de acciones que se realizan para administrar una empresa.',
     },
     {
-      termino: 'Bienes:',
+      termino: 'Bienes',
       significado:
         'bienes producidos por la industria y que el consumidor puede comprar.',
     },
     {
-      termino: 'Burocracia:',
+      termino: 'Burocracia',
       significado:
         'conjunto de actividades y trámites que se deben seguir para resolver un asunto de carácter administrativo.',
     },
     {
-      termino: 'Conductista:',
+      termino: 'Conductista',
       significado: 'hace referencia al estudio de la conducta de las personas.',
     },
     {
-      termino: 'Empresa:',
+      termino: 'Empresa',
       significado:
         'entidad en la que intervienen el capital y el trabajo como factores de producción de actividades industriales o mercantiles, o para la prestación de servicios.',
     },
     {
-      termino: 'Estratégica:',
+      termino: 'Estratégica',
       significado:
         'una decisión o panorama inteligente frente a la situación o contexto de una empresa.',
     },
     {
-      termino: 'Organización:',
+      termino: 'Organización',
       significado:
         'grupo de personas y medios organizados con un fin determinado.',
     },
     {
-      termino: 'Sector productivo:',
+      termino: 'Sector productivo',
       significado:
         'es una agrupación de las actividades productivas según sus características, de tal forma que permita hacer una clasificación más ordenada de la producción y facilitar su análisis.',
     },
     {
-      termino: 'Servicios:',
+      termino: 'Servicios',
       significado:
         'actividad que se presta, a nivel empresarial, con relación a productos intangibles',
     },
@@ -220,14 +220,15 @@ export default {
   creditos: {
     liderEquipo: [
       {
-        nombre: 'Maria Camila Garcia Santamaria',
+        nombre: 'Innovative Education',
         cargo: 'Líder del equipo',
-        centro: 'Dirección General',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     contenidoInstruccional: [
       {
-        nombre: 'Rafael Neftalí Lizcano Reyes',
+        nombre: 'Innovative Education',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -235,31 +236,31 @@ export default {
     ],
     desarrolloProducto: [
       {
-        nombre: 'Francisco José Lizcano Reyes',
+        nombre: 'Innovative Education',
         cargo: 'Responsable del equipo',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Inovatec',
+        nombre: 'Innovative Education',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Inovatec ',
+        nombre: 'Innovative Education ',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Inovatec',
+        nombre: 'Innovative Education',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Inovatec',
+        nombre: 'Innovative Education',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -267,17 +268,17 @@ export default {
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
+        nombre: 'Innovative Education',
         cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: 'Daniel Felipe Varón Molina',
+        nombre: 'Innovative Education',
         cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: 'Milady Tatiana Villamil Castellanos',
+        nombre: 'Innovative Education',
         cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },

@@ -5,18 +5,21 @@
     top: 20%
     right: 80%
     z-index: 1
+    width: 50px
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: relative
     top: 35%
-    right: -1%
+    right: 10%
     z-index: 1
+    width: 50px
   &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: relative
     top: 65%
     right: 80%
     z-index: 1
+    width: 50px
   &-4
     animation: spin 4.5s linear infinite 
     position: relative
@@ -25,9 +28,7 @@
     width: 450px
     height: 450px
     z-index: 0
-.banner-principal-animacion
-  &-1
-   z-index: 
+    width: 35px
 
 @keyframes float1
   0%
@@ -40,14 +41,23 @@
    
     100% 
         transform: rotate(360deg) 
+
+///colores
         
 .color-fondo
-    background-color: #c8f09e
-
+  background-color: $color-primario
 .color-fondo2
-    background-color: #f85316
+  background-color: $color-secundario
+.color-acentoc-fondo
+  background-color: $color-acento-contenido
+.color-acentob-fondo
+  background-color: $color-acento-botones
+
+.fcab15
+  background-color: rgba(252,253,234,.15)
 
 //tarjetas hover txt
+
 .crd_hover_txt
   position: relative
   padding: 0!important
@@ -81,3 +91,9 @@
 
 .cuadrado
   color: #3D46C2
+
+// pantallas pequeñas
+@media screen and ( max-width: 576px )
+  .mw-sm-350px
+    max-width: 350px
+    margin: 0 auto 1rem
