@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="429" height="267" viewBox="0 0 429 267">
+  <defs>
+    <filter id="Rectángulo_36783" x="0" y="0" width="428" height="267" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_108212" data-name="Grupo 108212" transform="translate(-906 -4992)">
+    <path id="Trazado_113543" data-name="Trazado 113543" d="M314,0H0V99H314Z" transform="translate(1021 5158)" fill="#75b62f"/>
+    <g transform="matrix(1, 0, 0, 1, 906, 4992)" filter="url(#Rectángulo_36783)">
+      <path id="Rectángulo_36783-2" data-name="Rectángulo 36783" d="M114,0H410a0,0,0,0,1,0,0V249a0,0,0,0,1,0,0H114A114,114,0,0,1,0,135V114A114,114,0,0,1,114,0Z" transform="translate(9 6)" fill="#f6f6f6"/>
+    </g>
+    <g id="Grupo_108220" data-name="Grupo 108220" transform="translate(3648.832 11334.361)">
+      <rect id="Rectángulo_40069" data-name="Rectángulo 40069" width="44" height="28" rx="6" transform="translate(-2541.832 -6299.362)" fill="#d1d5fc" stroke="#4752e3" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Trazado_157981" data-name="Trazado 157981" d="M-2509.5-6269.362v97.35" transform="translate(-10.332 -1.925)" fill="none" stroke="#12263f" stroke-width="2"/>
+      <path id="Trazado_157984" data-name="Trazado 157984" d="M-2509.5-6269.36v74.02" transform="translate(-115.924 21.404)" fill="none" stroke="#12263f" stroke-width="2"/>
+      <path id="Trazado_157989" data-name="Trazado 157989" d="M-2509.5-6269.36v26.24" transform="translate(-141.191 94.528)" fill="none" stroke="#12263f" stroke-width="2"/>
+      <path id="Trazado_157992" data-name="Trazado 157992" d="M-2509.5-6269.36v26.24" transform="translate(-35.443 94.528)" fill="none" stroke="#12263f" stroke-width="2"/>
+      <path id="Trazado_157993" data-name="Trazado 157993" d="M-2509.5-6269.36v26.24" transform="translate(68.277 94.528)" fill="none" stroke="#12263f" stroke-width="2"/>
+      <path id="Trazado_157990" data-name="Trazado 157990" d="M-2509.5-6269.36v26.24" transform="translate(-90.813 94.528)" fill="none" stroke="#12263f" stroke-width="2"/>
+      <path id="Trazado_157991" data-name="Trazado 157991" d="M-2509.5-6269.36v26.24" transform="translate(14.778 94.528)" fill="none" stroke="#12263f" stroke-width="2"/>
+      <path id="Trazado_157994" data-name="Trazado 157994" d="M-2509.5-6269.36v26.24" transform="translate(118.498 94.528)" fill="none" stroke="#12263f" stroke-width="2"/>
+      <path id="Trazado_157985" data-name="Trazado 157985" d="M-2509.5-6269.36v74.02" transform="translate(93.544 21.404)" fill="none" stroke="#12263f" stroke-width="2"/>
+      <path id="Trazado_157982" data-name="Trazado 157982" d="M0,0V209.468" transform="translate(-2415.956 -6247.956) rotate(90)" fill="none" stroke="#12263f" stroke-width="2"/>
+      <path id="Trazado_157986" data-name="Trazado 157986" d="M0,0V50.222" transform="translate(-2600.313 -6174.833) rotate(90)" fill="none" stroke="#12263f" stroke-width="2"/>
+      <path id="Trazado_157987" data-name="Trazado 157987" d="M0,0V50.222" transform="translate(-2494.721 -6174.833) rotate(90)" fill="none" stroke="#12263f" stroke-width="2"/>
+      <path id="Trazado_157988" data-name="Trazado 157988" d="M0,0V50.222" transform="translate(-2390.845 -6174.833) rotate(90)" fill="none" stroke="#12263f" stroke-width="2"/>
+      <rect id="Rectángulo_40070" data-name="Rectángulo 40070" width="44" height="28" rx="6" transform="translate(-2541.832 -6225.362)" fill="#d1d5fc" stroke="#4752e3" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectángulo_40071" data-name="Rectángulo 40071" width="43" height="28" rx="6" transform="translate(-2644.832 -6225.362)" fill="#d1d5fc" stroke="#4752e3" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectángulo_40072" data-name="Rectángulo 40072" width="43" height="28" rx="6" transform="translate(-2437.832 -6225.362)" fill="#d1d5fc" stroke="#4752e3" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectángulo_40073" data-name="Rectángulo 40073" width="43" height="28" rx="6" transform="translate(-2670.832 -6152.362)" fill="#d1d5fc" stroke="#4752e3" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectángulo_40078" data-name="Rectángulo 40078" width="43" height="28" rx="6" transform="translate(-2462.832 -6152.362)" fill="#d1d5fc" stroke="#4752e3" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectángulo_40074" data-name="Rectángulo 40074" width="43" height="28" rx="6" transform="translate(-2619.832 -6152.362)" fill="#d1d5fc" stroke="#4752e3" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectángulo_40077" data-name="Rectángulo 40077" width="43" height="28" rx="6" transform="translate(-2411.832 -6152.362)" fill="#d1d5fc" stroke="#4752e3" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectángulo_40076" data-name="Rectángulo 40076" width="43" height="28" rx="6" transform="translate(-2566.832 -6152.362)" fill="#d1d5fc" stroke="#4752e3" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectángulo_40075" data-name="Rectángulo 40075" width="43" height="28" rx="6" transform="translate(-2515.832 -6152.362)" fill="#d1d5fc" stroke="#4752e3" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

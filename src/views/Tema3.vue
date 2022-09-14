@@ -159,19 +159,19 @@
                 br
                 ol.lista-ol--cuadro
                   li 
-                    .lista-ol--cuadro__vineta.color-fondo2
+                    .lista-ol--cuadro__vineta.color-acentob-fondo
                       span 1
                     p Realización de diagnósticos precisos.
                   li 
-                    .lista-ol--cuadro__vineta.color-fondo2
+                    .lista-ol--cuadro__vineta.color-acentob-fondo
                       span 2
                     p Identificación del problema, la dificultad o la necesidad.
                   li 
-                    .lista-ol--cuadro__vineta.color-fondo2
+                    .lista-ol--cuadro__vineta.color-acentob-fondo
                       span 3
                     p Establecimiento de los criterios o alternativas de decisión.
                   li 
-                    .lista-ol--cuadro__vineta.color-fondo2
+                    .lista-ol--cuadro__vineta.color-acentob-fondo
                       span 3
                     p Definición de momentos de evaluación y cumplimiento de metas.
           br

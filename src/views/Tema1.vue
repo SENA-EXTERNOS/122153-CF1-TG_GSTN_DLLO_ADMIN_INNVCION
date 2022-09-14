@@ -21,140 +21,90 @@
     .col-md-12.mb-4
        p La administración como la conocemos en la actualidad, es el resultado de los hechos históricos de pioneros que aportaron, desde su enfoque, al desarrollo y madurez del concepto, como por ejemplo, filósofos, físicos, economistas, estadistas, entre otros, que fueron grandes empresarios. La historia ha demostrado que las prácticas o iniciativas que tomaron estructuras militares, sociales, políticas y religiosas, siempre tuvieron configuración piramidal y, aunque no fue una forma muy regular, siempre actuaba como estructura jerárquica que focalizaba las decisiones y el poder en su vértice piramidal. Así podría citarse el aporte que, entre muchos otros, hicieron los egipcios, los hebreos, Platón, Maquiavelo y Adam Smith, con sus diferentes maneras de crear y organizar sus operaciones. 
 
-    .tarjeta.fcab15.p-4.mb-4(style='box-shadow:5px 13px 15px rgba(0,0,0,0.1)')
-      LineaTiempoC.color-acento-botones(text-small)
-        .row(titulo="1903")
-          .col-md-5.mb-4.mb-md-0
-            h5 Posteriormente, empezaron a surgir las diferentes teorías que dan paso a la realidad de la administración contemporánea, donde algunas de las más relevantes son:
+    .row.justify-content-center(style='box-shadow:5px 13px 15px rgba(0,0,0,0.1)')
+      .col-lg-4
+        figure(data-aos="zoom-in")
+          img(src='@/assets/curso/temas/administradores/PortadaA.svg', alt="alt").img400.m-auto
+      .col-lg-8
+        p Posteriormente, empezaron a surgir las diferentes teorías que dan paso a la realidad de la administración contemporánea, donde algunas de las más relevantes son:
 
-          .col-md-3
-            figure
-              img(src='@/assets/curso/temas/administradores/A1903.png', alt='Texto que describa la imag')
-              figcaption Frederick Winslow Taylor
-          .col-md-3
-            h4 1903.
-            br
-            p Administración científica
+        SlyderF.custom.mb-5(columnas="col-lg-6 col-xl-4")
+          .tarjeta.tarjeta--slyder.p-4(style='height:210px')
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/temas/administradores/A1903.png', alt="alt").img100.m-auto
+            p.text-center.mb-0 1903.
+            p.text-center.mb-0 Administración científica.
 
-        .row(titulo="1909")
-          .col-md-5.mb-4.mb-md-0
-            h5 Posteriormente, empezaron a surgir las diferentes teorías que dan paso a la realidad de la administración contemporánea, donde algunas de las más relevantes son:
+          .tarjeta.tarjeta--slyder.p-4(style='height:210px')
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/temas/administradores/A1909.png', alt="alt").img100.m-auto
+            p.text-center.mb-0 1909.
+            p.text-center.mb-0 Teoría burocrática.
 
-          .col-md-3
-            figure
-              img(src='@/assets/curso/temas/administradores/A1909.png', alt='Texto que describa la imag')
-              figcaption Max Weber
-          .col-md-3
-            h4 1909.
-            br
-            p Teoría burocrática
+          .tarjeta.tarjeta--slyder.p-4(style='height:210px')
+            .row.justify-content-center.mb-3.tp-4
+              .col-8
+                img(src='@/assets/curso/temas/administradores/A1916.png', alt="alt").img100.m-auto
+            p.text-center.mb-0 1916.
+            p.text-center.mb-0 Teoría clásica.
 
-        .row(titulo="1916")
-          .col-md-5.mb-4.mb-md-0
-            h5 Posteriormente, empezaron a surgir las diferentes teorías que dan paso a la realidad de la administración contemporánea, donde algunas de las más relevantes son:
+          .tarjeta.tarjeta--slyder.p-4(style='height:210px')
+            .row.justify-content-center.mb-3
+              .col-8
+                img(src='@/assets/curso/temas/administradores/A1932.png', alt="alt").img100.m-auto
+            p.text-center.mb-0 1932.
+            p.text-center.mb-0 Teoría de las relaciones humanas.
 
-          .col-md-3
-            figure
-              img(src='@/assets/curso/temas/administradores/A1916.png', alt='Texto que describa la imag')
-              figcaption Fonds Henri Fayol
-          .col-md-3
-            h4 1916.
-            br
-            p Teoría clásica
+          .tarjeta.tarjeta--slyder.p-4(style='height:210px')
+            .row.justify-content-center.mb-3
+              .col-8
+               img(src='@/assets/curso/temas/administradores/A1947.png', alt="alt").img100.m-auto
+            p.text-center.mb-0 1947.
+            p.text-center.mb-0 Teoría estructuralista.
 
-        .row(titulo="1932")
-          .col-md-5.mb-4.mb-md-0
-            h5 Posteriormente, empezaron a surgir las diferentes teorías que dan paso a la realidad de la administración contemporánea, donde algunas de las más relevantes son:
+          .tarjeta.tarjeta--slyder.p-4(style='height:210px')
+            .row.justify-content-center.mb-3
+              .col-8
+               img(src='@/assets/curso/temas/administradores/A1954.png', alt="alt").img100.m-auto
+            p.text-center.mb-0 1954.
+            p.text-center.mb-0 Teoría neoclásica.
 
-          .col-md-3
-            figure
-              img(src='@/assets/curso/temas/administradores/A1932.png', alt='Texto que describa la imag')
-              figcaption Elton Mayo
-          .col-md-3
-            h4 1932.
-            br
-            p Teoría de las relaciones humanas
+          .tarjeta.tarjeta--slyder.p-4(style='height:210px')
+            .row.justify-content-center.mb-3
+              .col-8
+               img(src='@/assets/curso/temas/administradores/A1957.png', alt="alt").img100.m-auto
+            p.text-center.mb-0 1957.
+            p.text-center.mb-0 Teoría del comportamiento.
 
-        .row(titulo="1947")
-          .col-md-5.mb-4.mb-md-0
-            h5 Posteriormente, empezaron a surgir las diferentes teorías que dan paso a la realidad de la administración contemporánea, donde algunas de las más relevantes son:
+          .tarjeta.tarjeta--slyder.p-4(style='height:210px')
+            .row.justify-content-center.mb-3
+              .col-8
+               img(src='@/assets/curso/temas/administradores/A1962.png', alt="alt").img100.m-auto
+            p.text-center.mb-0 1962.
+            p.text-center.mb-0 Teoría del desarrollo organizacional. 
 
-          .col-md-3
-            figure
-              img(src='@/assets/curso/temas/administradores/A1947.png', alt='Texto que describa la imag')
-          .col-md-3
-            h4 1947.
-            br
-            p Teoría estructuralista
+          .tarjeta.tarjeta--slyder.p-4(style='height:210px')
+            .row.justify-content-center.mb-3
+              .col-8
+               img(src='@/assets/curso/temas/administradores/A1972.png', alt="alt").img100.m-auto
+            p.text-center.mb-0 1972.
+            p.text-center.mb-0 Teoría contingencial.
 
-        .row(titulo="1954")
-          .col-md-5.mb-4.mb-md-0
-            h5 Posteriormente, empezaron a surgir las diferentes teorías que dan paso a la realidad de la administración contemporánea, donde algunas de las más relevantes son:
+          .tarjeta.tarjeta--slyder.p-4(style='height:210px')
+            .row.justify-content-center.mb-3
+              .col-8
+               img(src='@/assets/curso/temas/administradores/A1990.png', alt="alt").img100.m-auto
+            p.text-center.mb-0 1990.
+            p.text-center.mb-0 Nuevos enfoques. 
 
-          .col-md-3
-            figure
-              img(src='@/assets/curso/temas/administradores/A1954.png', alt='Texto que describa la imag')
-              figcaption Drucker
-          .col-md-3
-            h4 1954.
-            br
-            p Teoría neoclásica
-
-        .row(titulo="1957")
-          .col-md-5.mb-4.mb-md-0
-            h5 Posteriormente, empezaron a surgir las diferentes teorías que dan paso a la realidad de la administración contemporánea, donde algunas de las más relevantes son:
-          .col-md-3
-            figure
-              img(src='@/assets/curso/temas/administradores/A1957.png', alt='Texto que describa la imag')
-          .col-md-3
-            h4 1957.
-            br
-            p Teoría del comportamiento
-
-        .row(titulo="1962")
-          .col-md-5.mb-4.mb-md-0
-            h5 Posteriormente, empezaron a surgir las diferentes teorías que dan paso a la realidad de la administración contemporánea, donde algunas de las más relevantes son:
-
-          .col-md-3
-            figure
-              img(src='@/assets/curso/temas/administradores/A1962.png', alt='Texto que describa la imag')
-          .col-md-3
-            h4 1962.
-            br
-            p Teoría del desarrollo organizacional
-
-        .row(titulo="1972")
-          .col-md-5.mb-4.mb-md-0
-            h5 Posteriormente, empezaron a surgir las diferentes teorías que dan paso a la realidad de la administración contemporánea, donde algunas de las más relevantes son:
-          .col-md-3
-            figure
-              img(src='@/assets/curso/temas/administradores/A1972.png', alt='Texto que describa la imag')
-          .col-md-3
-            h4 1972.
-            br
-            p Teoría contingencial
-
-        .row(titulo="1990")
-          .col-md-5.mb-4.mb-md-0
-            h5 Posteriormente, empezaron a surgir las diferentes teorías que dan paso a la realidad de la administración contemporánea, donde algunas de las más relevantes son:
-          .col-md-3
-            figure
-              img(src='@/assets/curso/temas/administradores/A1990.png', alt='Texto que describa la imag')
-          .col-md-3
-            h4 1990.
-            br
-            p Nuevos enfoques
-
-        .row(titulo="2000")
-          .col-md-5.mb-4.mb-md-0
-            h5 Posteriormente, empezaron a surgir las diferentes teorías que dan paso a la realidad de la administración contemporánea, donde algunas de las más relevantes son:
-          .col-md-3
-            figure
-              img(src='@/assets/curso/temas/administradores/A2000.png', alt='Texto que describa la imag')
-          .col-md-3
-            h4 2000.
-            br
-            p Caos y complejidad
+          .tarjeta.tarjeta--slyder.p-4(style='height:210px')
+            .row.justify-content-center.mb-3
+              .col-8
+               img(src='@/assets/curso/temas/administradores/A2000.png', alt="alt").img100.m-auto
+            p.text-center.mb-0 2000.
+            p.text-center.mb-0 Caos y complejidad.    
 
     p Así mismo, las teorías que fueron surgiendo paulatinamente, tenían diferentes enfoques y puntos de vista que presentaban modelos y esquemas de administración, basados en diversos criterios, como se evidencia en el gráfico que se observa a continuación:
 
@@ -183,14 +133,14 @@
             h5 Anexo 
             p Enfoques y teorías administrativas asociadas
         br
-     .bloque-texto-g.color-adicional-1.p-3.p-sm-4.p-md-1
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/texto_destacado/img3.jpg')})`}"
-      )
-      .bloque-texto-g__texto.p-4
+     .row.justify-content-center.mb-4
+      .col-md-5
+        figure.mw-sm-350px
+          img(src='@/assets/curso/temas/texto_destacado/img3.jpg')
+      .col-md-7
         p.mb-0 Luego de realizar el recorrido por los orígenes y enfoques de la administración, resulta importante reconocer, en el concepto, algunos elementos de carácter estratégico que han ido perfilando la administración y que han trazado la estructura basada en procesos. La estrategia no es más que la capacidad de actuar bajo la presión del entorno y sus variables, ser capaces de ir más allá y de orientar las decisiones de manera adaptativa a los cambios que surgen. Esta manera de “hacer” administración, determina una ruta o un ciclo que posibilita no solo idear propuestas sino ejecutarlas y, posteriormente, evaluarlas; para lograrlo es necesario esbozar un poco de qué se trata, a partir de la siguiente línea temática.
         br
-    .titulo-segundo.color-acento-contenido   
+     #t_1_2.titulo-segundo.color-acento-contenido   
       h2 1.2 Administración estratégica
       br
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5

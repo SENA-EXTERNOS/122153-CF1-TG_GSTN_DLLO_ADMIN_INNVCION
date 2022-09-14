@@ -17,13 +17,14 @@
               h5 El proceso administrativo se compone de una serie de fases o etapas que permiten llevar a cabo una actividad,
                p con la existencia de diversos criterios acerca de la cantidad de pasos que lo integran, aunque para los autores, los elementos o funciones sean las mismas. Para el caso de este componente formativo, se tomarán como referentes las siguientes etapas:       
     .mx-auto.col-md-8
-      .titulo-sexto.color-acento-contenido.p <strong>Figura 2:</strong>Etapas del proceso administrativo
+      .titulo-sexto.color-acento-contenido <strong>Figura 2:</strong>
+        p <i>Etapas del proceso administrativo</i> 
       br
       figure
           img(data-aos="flip-left" src='@/assets/curso/temas/figuras/esquemaB.svg')
       br
       br
-    .titulo-segundo.color-acento-contenido   
+    #t_2_1.titulo-segundo.color-acento-contenido   
       h2 2.1 Planeación
     .tarjeta.p-4.p-md-2.mb-4
       .row.justify-content-around.align-items-center
@@ -55,28 +56,38 @@
     br
     br
     .mx-auto.col-md-10.mb-4
-      ImagenInfograficaB.color-primario
-        template(v-slot:imagen)
-          figure
-              img(data-aos="fade-left" src='@/assets/curso/temas/texto_destacado/img7.svg', alt='rompecabezas')
-            
-        div(x="11%" y="6%" tooltip=" Ver más|")
-          h5 Misión
-          p Misión Es un escrito que sintetiza el propósito de una empresa y responde a preguntas como: ¿quién es la empresa? ¿A qué se dedica? ¿Para qué existe?
-        div(x="42%" y="6%" tooltip=" Ver más|")
-          .h5.mb-2 Filosofía
-          p Compuesta por
-          p <strong>Valores: </strong> : son concebidos como declaraciones que realizan las empresas como sustento a su forma de ser y de hacer las cosas. Por ejemplo, la calidad, el respeto, el compromiso. 
-          p <strong>Principios corporativos: </strong>se refiere al conjunto de creencias y postulados que funcionan como guías orientadoras e inspiradoras en el quehacer de una organización.
-        div(x="71%" y="6%" tooltip=" Ver más|")
-          .h5.mb-2 Normas 
-          p El concepto más apropiado para definir el término, podría ser el que citan Hernández y Rodríguez, S., Palafox de Anda, G. & Aguado Cortés, C. (2020): “son las reglas administrativas de observancia obligatoria para la realización de una operación, procedimiento, programa o presupuesto” (p.256).
-        div(x="26%" y="95%" tooltip=" Ver más|")
-          .h5.mb-2 Visión
-          p Se refiere al enunciado del estado del futuro deseado, a través de un texto: ¿dónde se visualiza la empresa en un horizonte de tiempo determinado? ¿Cómo producirá los resultados? ¿Cómo se enfrentará al cambio? ¿Cómo conseguirá ser competitiva?
-        div(x="81%" y="95%" tooltip=" Ver más|")
-          .h5.mb-2 Objetivos estratégicos
-          p Representan los resultados que la empresa desea alcanzar y lograr; se deben establecer para un tiempo específico y ser definidos cuantitativamente. Ayudan a materializar la estrategia, establecen metas y ayudan a su cumplimiento y, además, unifican el lenguaje y alinean la organización. Para la construcción de los objetivos estratégicos es necesario tener presente la misión, la visión y los principios de la organización, de tal manera que se garantice la alineación y la coherencia.
+      .tarjeta
+        .imgCont.m-auto
+          .row.justify-content-center.mb-4
+            ImagenInfografica.color-primario.mb-5
+              template(v-slot:imagen)
+                figure
+                  img(data-aos="fade-left" src='@/assets/curso/temas/texto_destacado/img7.svg', alt='rompecabezas')
+
+              .tarjeta.color-acento-botones.p-4(x="11%" y="7%" numero="+" style='border-radius: 10px; background-color: #FFE8C8')
+                h5.mb-3.text-center Misión
+                p.mb-0.text-center Es un escrito que sintetiza el propósito de una empresa y responde a preguntas como: ¿quién es la empresa? ¿A qué se dedica? ¿Para qué existe?
+              
+              .tarjeta.color-acento-botones.p-4(x="42%" y="6%" numero="+" style='border-radius: 10px; background-color: #FFE8C8')
+                h5.mb-3.text-center Filosofía
+                p.mb-0.text-center Compuesta por: 
+                p.mb-0.text-center <strong>Valores: </strong> : son concebidos como declaraciones que realizan las empresas como sustento a su forma de ser y de hacer las cosas. Por ejemplo, la calidad, el respeto, el compromiso. 
+                p.mb-0.text-center <strong>Principios corporativos: </strong>se refiere al conjunto de creencias y postulados que funcionan como guías orientadoras e inspiradoras en el quehacer de una organización.
+
+              
+              .tarjeta.color-acento-botones.p-4(x="71%" y="6%" numero="+" style='border-radius: 10px; background-color: #FFE8C8')
+                h5.mb-3.text-center Normas
+                p.mb-0.text-center El concepto más apropiado para definir el término, podría ser el que citan Hernández y Rodríguez, S., Palafox de Anda, G. & Aguado Cortés, C. (2020): “son las reglas administrativas de observancia obligatoria para la realización de una operación, procedimiento, programa o presupuesto” (p.256).
+              
+              .tarjeta.color-acento-botones.p-4(x="26%" y="95%" numero="+" style='border-radius: 10px; background-color: #FFE8C8')
+                h5.mb-3.text-center Visión
+                p.mb-0.text-center Se refiere al enunciado del estado del futuro deseado, a través de un texto: ¿dónde se visualiza la empresa en un horizonte de tiempo determinado? ¿Cómo producirá los resultados? ¿Cómo se enfrentará al cambio? ¿Cómo conseguirá ser competitiva?
+              
+              .tarjeta.color-acento-botones.p-4(x="81%" y="95%" numero="+" style='border-radius: 10px; background-color: #FFE8C8')
+                h5.mb-3.text-center Objetivos estratégicos
+                p.mb-0.text-center Representan los resultados que la empresa desea alcanzar y lograr; se deben establecer para un tiempo específico y ser definidos cuantitativamente. Ayudan a materializar la estrategia, establecen metas y ayudan a su cumplimiento y, además, unifican el lenguaje y alinean la organización. Para la construcción de los objetivos estratégicos es necesario tener presente la misión, la visión y los principios de la organización, de tal manera que se garantice la alineación y la coherencia.
+
+       
     .row.mb-4.justify-content-center
       .col-lg-12
         .cajon.color-acento-botones.p-4
@@ -113,24 +124,23 @@
     br
     p Una vez se cumpla el paso de la planeación con sus respectivas variables y técnicas, se adquiere una claridad de hacia dónde va la empresa, cuáles son sus propósitos y finalidades, y se llega entonces al segundo paso del ciclo denominado <strong>“organización”.</strong>
     br
-    .titulo-segundo.color-acento-contenido   
+    #t_2_2.titulo-segundo.color-acento-contenido   
       h2 2.2 Organización
     p Una de las definiciones de organización es la de los autores Hernández y Rodríguez, S., Palafox de Anda, G. & Aguado Cortés, C. (2020), quienes indican que: es la <span style="color:blue">“fase del proceso administrativo en la cual se aplican las técnicas administrativas para estructurar una empresa u organización social; se definen las funciones por áreas sustantivas, departamentos y puestos; se establece la autoridad en materia de toma decisiones y la responsabilidad de los miembros que ocupan dichas unidades, y se definen las líneas de comunicación formal que faciliten la comunicación y la cooperación de los equipos de trabajo, a fin de alcanzar los objetivos y la estrategia” (p.271).</span>
-    .tarjeta.p-4.p-md-2.mb-5
+    .tarjeta.p-4.p-md-2.mb-2
     .row.justify-content-around.align-items-center
       .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
         img(data-aos="flip-right" src="@/assets/curso/temas/texto_destacado/img8.png")
 
       .col-md.col-lg-7
-        p.mb-4 La organización permite optimizar tiempo y recursos, así como también el aumento de productividad, simplificando el trabajo y evitando los reprocesos y la duplicidad en responsabilidades o actividades. Las dos etapas fundamentales de la organización son:
-        <ul>
-          <li>
-          <i style ="color: #f85316" class="fas fa-check "></i> La división o asignación de trabajo, de tal manera que se clarifiquen responsabilidades y se delimiten actividades para acercarse, cada vez más, a la máxima eficiencia y eficacia, simplificando trabajos
-          </li>
-          <li>
-          <i style ="color: #f85316" class="fas fa-check"></i> La coordinación de las actividades, con el propósito de verificar su correcta ejecución.
-          </li>
-        </ul>
+          p.mb-4 La organización permite optimizar tiempo y recursos, así como también el aumento de productividad, simplificando el trabajo y evitando los reprocesos y la duplicidad en responsabilidades o actividades. Las dos etapas fundamentales de la organización son:
+          ol.lista-ol
+            li 
+              span.fas.fa-check(style='color: #f85316')
+              | La división o asignación de trabajo, de tal manera que se clarifiquen responsabilidades y se delimiten actividades para acercarse, cada vez más, a la máxima eficiencia y eficacia, simplificando trabajos.
+            li 
+              span.fas.fa-check(style='color: #f85316')
+              | La coordinación de las actividades, con el propósito de verificar su correcta ejecución.
       br
     
       p Por otro lado, también se estructura a partir de unos principios que son los que aportan, a la “organización”, el hilo conductor como proceso administrativo. Dentro de estos principios se exponen los siguientes:
@@ -182,25 +192,26 @@
       br
   
       p En el ejercicio de la organización como proceso administrativo, también se encuentra la definición de la estructura organizacional, siendo esta la manera de establecer una arquitectura al interior de la empresa, indicando los cargos, las líneas de comunicación y de mando, las dependencias y la relación entre las mismas; esta herramienta debe ser construida y diseñada a la luz de la razón de ser de la empresa, su propósito superior y su actividad económica; por eso es importante realizar un análisis previo a variables, como el que se explica a continuación:
-      .tarjeta.p-4.p-md-2.mb-5
+      .tarjeta.p-4.p-md-2.mb-0
       .row.justify-content-around.align-items-center
-        .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
+        .col-8.col-sm-6.col-md-5.mb-4
           img(data-aos="zoom-out-left" src="@/assets/curso/temas/texto_destacado/img9.png")
 
         .col-md.col-lg-7
-          ul
-            li
-              i.fas.fa-check(style='color: #f85316')
-              |  La estrategia organizacional: analiza la coherencia entre el mercado, sus cambios y los objetivos organizacionales.
-            li
-              i.fas.fa-check(style='color: #f85316')
-              |  El modelo de estructura organizacional: cada vez es m&aacute;s com&uacute;n ver empresas que le apuestan a un modelo de estructura organizacional m&aacute;s flexible y poco tradicional.
-            li
-              i.fas.fa-check(style='color: #f85316')
-              |  Los perfiles de puesto: validan que los perfiles de cargo correspondan con las necesidades de la estructura organizacional y que la definici&oacute;n de las funciones y las responsabilidades, se encuentren definidas de manera coherente con el cumplimiento de la estrategia organizacional
-            li
-              i.fas.fa-check(style='color: #f85316')
-              |  o&#x9;El recurso humano: se deben tener en cuenta variables como la reubicaci&oacute;n y rotaci&oacute;n de personal, ante una posible adaptaci&oacute;n, debido a una nueva estructura organizacional
+          ol.lista-ol
+            li 
+              span.fas.fa-check(style='color: #f85316')
+              | La estrategia organizacional: analiza la coherencia entre el mercado, sus cambios y los objetivos organizacionales.
+            li 
+              span.fas.fa-check(style='color: #f85316')
+              | El modelo de estructura organizacional: cada vez es más común ver empresas que le apuestan a un modelo de estructura organizacional más flexible y poco tradicional.
+            li 
+              span.fas.fa-check(style='color: #f85316')
+              | Los perfiles de puesto: validan que los perfiles de cargo correspondan con las necesidades de la estructura organizacional y que la definición de las funciones y las responsabilidades, se encuentren definidas de manera coherente con el cumplimiento de la estrategia organizacional
+            li 
+              span.fas.fa-check(style='color: #f85316')
+              | El recurso humano: se deben tener en cuenta variables como la reubicación y rotación de personal, ante una posible adaptación, debido a una nueva estructura organizacional.
+
 
     br
     p Es fundamental aclarar que no todas las estructuras organizacionales son iguales y que todo depende de la actividad económica, de su estilo de dirección y de organización; <strong>a continuación se presentan algunos modelos y tipos de estructuras:</strong>
@@ -214,7 +225,7 @@
         
           .col-md-6
             figure
-              img(data-aos="fade-up" src='@/assets/curso/temas/texto_destacado/img10.png', alt='Texto que describa la imagen')
+              img(data-aos="fade-up" src='@/assets/curso/temas/texto_destacado/img10.svg', alt='Texto que describa la imagen')
       .py-3.py-md-4(titulo="Organización lineal")
         .row
           .col-md-6.mb-4.mb-md-0
@@ -237,7 +248,7 @@
         
           .col-md-6
             figure
-              img(data-aos="fade-up" src='@/assets/curso/temas/texto_destacado/img11.png', alt='Texto que describa la imagen')
+              img(data-aos="fade-up" src='@/assets/curso/temas/texto_destacado/img11.svg', alt='Texto que describa la imagen')
       .py-3.py-md-4(titulo="Organización funcional")
         .row
           .col-md-6.mb-4.mb-md-0
@@ -263,7 +274,7 @@
             </ul>
           .col-md-6
             figure
-              img(data-aos="fade-left" src='@/assets/curso/temas/texto_destacado/img12.png', alt='Texto que describa la imagen')
+              img(data-aos="fade-left" src='@/assets/curso/temas/texto_destacado/img12.svg', alt='Texto que describa la imagen')
       .py-3.py-md-4(titulo="Staff")
         .row
           .col-md-6.mb-4.mb-md-0
@@ -285,7 +296,7 @@
             </ul>
           .col-md-6
             figure
-              img(data-aos="fade-left" src='@/assets/curso/temas/texto_destacado/img12.png', alt='Texto que describa la imagen')
+              img(data-aos="fade-left" src='@/assets/curso/temas/texto_destacado/img13.svg', alt='Texto que describa la imagen')
     separador
     br
     p Una vez definida la estructura organizacional, y teniendo en cuenta que la fase de organización no es más que la continuación de la fase de planeación en relación con los procesos administrativos, es importante reconocer esos tipos de descriptores o facilitadores en la división y asignación del trabajo. Es entonces que surge como herramienta la gestión administrativa, definida como el conjunto de acciones o tareas que buscan maximizar los resultados de la empresa con la búsqueda permanente del uso eficiente de los recursos humanos, financieros y materiales. 
@@ -311,7 +322,7 @@
       .row.justify-content-center.mb-4
         .col-lg-4
           figure
-              img(data-aos="fade-down-right" src='@/assets/curso/temas/figuras/esquemaD.svg')
+              img(data-aos="fade-down-right" src='@/assets/curso/temas/figuras/esquemaD.png')
         .col-lg-6
           AcordionA(tipo="a" clase-tarjeta="tarjeta color-secundario")
             .row(titulo="Propósito o finalidad del cargo ")
@@ -521,7 +532,8 @@
     p Para continuar con el ejemplo de la pastelería, se ilustrará el ejercicio, para conocer el mapa de procesos de la misma empresa.
     br
     .mx-auto.col-md-10
-      .titulo-sexto.color-acento-contenido.p <strong>Figura 3:</strong> Ejemplo mapa de procesos
+      .titulo-sexto.color-acento-contenido.p <strong>Figura 3:</strong> 
+        p <i>Ejemplo mapa de procesos</i>
       br
       figure
           img(data-aos="flip-right" src='@/assets/curso/temas/figuras/esquemaE.svg')
@@ -581,10 +593,28 @@
     br
     p Para la construcción de un flujograma, se debe tener en cuenta la representación simbólica que se presenta a continuación: 
     br
-    br
-    .mx-auto.col-md-8
-      figure
-          img(data-aos="zoom-out-up" src='@/assets/curso/temas/figuras/diagramaA.svg')
+    .tabla-a
+      table
+        tr
+          th.table
+            img(data-aos="zoom-in-up" src='@/assets/curso/temas/tarjetas/ElipseT1.svg', alt='')
+          td Representa el incio y el fin del proceso
+        tr
+          th 
+            img(data-aos="zoom-in-up" src='@/assets/curso/temas/tarjetas/RectánguloT1.svg', alt='')
+          td Actividad o tarea.
+        tr
+          th 
+            img(data-aos="zoom-in-up" src='@/assets/curso/temas/tarjetas/PolígonoT1.svg', alt='')
+          td Representa la toma de una decision
+        tr
+          th 
+            img(src='@/assets/curso/temas/tarjetas/LíneaT1.svg', alt='')
+          td Indica la dirección secuencial de las actividades.
+        tr
+          th 
+            img(src='@/assets/curso/temas/tarjetas/TrazadoT1.svg', alt='')
+          td Indica la entrada y salida de datos. 
 
     br
     br
@@ -593,28 +623,27 @@
     p Para el ejemplo de la pastelería, quedaría así:
     br
     .mx-auto.col-md-10
-      .titulo-sexto.color-acento-contenido.p <strong>Figura 4:</strong> Flujograma ejemplo pastelerías
+      .titulo-sexto.color-acento-contenido.p <strong>Figura 4: </strong>
+        p <i>Flujograma ejemplo pastelerías</i>
       br
       figure
           img(data-aos="zoom-out-up" src='@/assets/curso/temas/figuras/diagramaB.svg')
-    br
     br
     .row
       .col-lg-12
         .cajon.color-acento-botones.p-3
           p Se puede concluir que, en esta etapa del proceso administrativo, se realiza una identificación, clasificación, agrupación y asignación del trabajo, de los recursos y las responsabilidades, de tal forma que, cada integrante sepa qué se espera de su labor y cómo está aportando al logro del objetivo colectivo.
-          br
-          p Una vez culminada la etapa de organización, se procede con la etapa de dirección.
+          p.mb-0 Una vez culminada la etapa de organización, se procede con la etapa de dirección.
     br
     separador
-    .titulo-segundo.color-acento-contenido   
+    #t_2_3.titulo-segundo.color-acento-contenido   
       h2 2.3 Dirección
     br
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-6
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/texto_destacado/img17.png')})`}"
-      )
-      .bloque-texto-g__texto.p-4
+    .bloque-texto-g.color-primario.p-sm-4
+      .bloque-texto-g__img
+        figure
+         img(data-aos="zoom-out-up" src='@/assets/curso/temas/texto_destacado/img17.png')
+      .bloque-texto-g__texto.p-5
         p.mb-0 Cuando se habla de dirección, se hace referencia a unos elementos asociados al liderazgo, a la motivación, a los equipos de trabajo y a la comunicación en torno a la ejecución de los planes, de acuerdo con la estructura organizacional.
     br
     br
@@ -629,7 +658,7 @@
         
           .col-md-6
             figure
-              img(data-aos="zoom-out-up" src='@/assets/curso/temas/texto_destacado/img18.png', alt='Texto que describa la imagen')
+              img(data-aos="zoom-out-up" src='@/assets/curso/temas/texto_destacado/img18.svg', alt='Texto que describa la imagen')
       
       .py-3.py-md-4(titulo="Motivación")
         .row
@@ -639,7 +668,7 @@
 
           .col-md-6
             figure
-              img(data-aos="zoom-out-right" src='@/assets/curso/temas/texto_destacado/img19.png', alt='Texto que describa la imagen')
+              img(data-aos="zoom-out-right" src='@/assets/curso/temas/texto_destacado/img19.svg', alt='Texto que describa la imagen')
 
       .py-3.py-md-4(titulo="Comunicación")
         .row
@@ -649,7 +678,7 @@
             
           .col-md-6
             figure
-              img(data-aos="zoom-out-right" src='@/assets/curso/temas/texto_destacado/img20.png', alt='Texto que describa la imagen')
+              img(data-aos="zoom-out-right" src='@/assets/curso/temas/texto_destacado/img20.svg', alt='Texto que describa la imagen')
 
       .py-3.py-md-4(titulo="Ejecución y supervisión de resultados")
         .row
@@ -660,7 +689,7 @@
             
           .col-md-6
             figure
-              img(data-aos="zoom-out-left" src='@/assets/curso/temas/texto_destacado/img21.png', alt='Texto que describa la imagen')
+              img(data-aos="zoom-out-left" src='@/assets/curso/temas/texto_destacado/img21.svg', alt='Texto que describa la imagen')
 
       .py-3.py-md-4(titulo="Toma de decisiones")
         .row
@@ -670,7 +699,7 @@
             
           .col-md-6
             figure
-              img(data-aos="zoom-out-left" src='@/assets/curso/temas/texto_destacado/img22.png', alt='Texto que describa la imagen')
+              img(data-aos="zoom-out-left" src='@/assets/curso/temas/texto_destacado/img22.svg', alt='Texto que describa la imagen')
     separador
     br
     h3 
@@ -716,28 +745,28 @@
         
     br
     separador
-    .titulo-segundo.color-acento-contenido   
+    #t_2_4.titulo-segundo.color-acento-contenido   
       h2 2.4 Control
     .tarjeta.p-4.p-md-4.mb-2
       .row.justify-content-around.align-items-center
         .col-md.col-lg-7
           p.mb-4 El control consiste en evidenciar y evaluar que lo planeado, organizado y dirigido, se encuentre marchando de acuerdo con los objetivos organizacionales y señalando, a partir de este ejercicio de evaluación, las debilidades, los errores, e inclusive las potencialidades y, a partir de las acciones tomadas, el perfeccionamiento del proceso traducido en mayor eficiencia y efectividad. El proceso de control permite tomar decisiones en torno a cuáles son los objetivos por alcanzar, como sistema o como área; cómo va el desempeño de los equipos de trabajo con base en sus responsabilidades y las apuestas generales, identificación de riesgos y oportunidades, incluyendo el cambio de planteamiento del objetivo. Existen diferentes tipos de controles:
         .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
-          img( data-aos="fade-up" src="@/assets/curso/temas/texto_destacado/img23.png")
+          img( data-aos="fade-up" src="@/assets/curso/temas/texto_destacado/img23.svg")
     
         .col-sm-8.mb-8.mb-sm-0
           
           ol.lista-ol--cuadro
             li 
-              .lista-ol--cuadro__vineta.color-fondo2
+              .lista-ol--cuadro__vineta.color-acentob-fondo
                 span 1
               p <strong>Preliminar y colectivo:</strong> se enfoca en la prevención de las desviaciones en la calidad y en la cantidad de recursos utilizados en la organización.
             li 
-              .lista-ol--cuadro__vineta.color-fondo2
+              .lista-ol--cuadro__vineta.color-acentob-fondo
                 span 2
               p <strong>Concurrente o permanente:</strong> consiste en vigilar las operaciones en funcionamiento; cuando el control se aplica de manera permanente, la directiva puede corregir los problemas oportunamente, antes que se vuelvan irremediables y costosos.
             li 
-              .lista-ol--cuadro__vineta.color-fondo2
+              .lista-ol--cuadro__vineta.color-acentob-fondo
                 span 3
               p <strong>Correctivo o de retroalimentación:</strong> este control se realiza una vez que la actividad ha llegado a su fin. La desventaja de este tipo de control es que cuando se recibe la información, el daño ya está hecho. Los informes financieros son un claro ejemplo de este tipo de control.
            
@@ -745,7 +774,8 @@
     p Por otro lado, el control también abarca unas etapas, que pueden ilustrarse de la siguiente manera:
     br
     .mx-auto.col-md-10
-      .titulo-sexto.color-acento-contenido.p <strong>Figura 5:</strong> Etapas del control
+      .titulo-sexto.color-acento-contenido.p <strong>Figura 5: </strong>
+        p <i>Etapas del control</i>
       br
       figure
           img(data-aos="flip-up" src='@/assets/curso/temas/figuras/diagramaC.svg')
