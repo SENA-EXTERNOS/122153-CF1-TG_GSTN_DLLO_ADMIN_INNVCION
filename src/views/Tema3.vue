@@ -175,13 +175,13 @@
                       span 3
                     p Definición de momentos de evaluación y cumplimiento de metas.
           br
-        .row.justify-content-center 
+        .row.justify-content-center.mb-4
           .col-lg-10
             .cajon.color-primario
             .color-fondo.p-3
-              p Estos temas corresponden a la denominada cultura organizacional, la cual es como el ADN de la empresa: la forma de ser y de hacer empresa, las creencias y todas aquellas variables que hacen que los empleados se identifiquen y busquen, desde su quehacer, aportar a un mismo fin.    
-            
-    br
+              p De esta manera, se reconocen como elementos de una adecuada administración, la identificación y optimización de los recursos, la configuración de los diferentes momentos que vive el proceso administrativo y, por último, la correcta alineación organizacional en pro del alcance de los objetivos estratégicos de la empresa. Una visión integradora de lo que se ha analizado, puede observarse de manera resumida, en el video 
+                b Componentes de la organización.
+        p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo, para ello diríjase al menú principal en donde encontrará la síntesis, una actividad didáctica, material complementario, entre otros.
 </template>
 
 <script>

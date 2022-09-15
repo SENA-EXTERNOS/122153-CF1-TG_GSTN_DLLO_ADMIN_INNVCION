@@ -13,10 +13,10 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/texto_destacado/img.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 La administración es una herramienta apropiada para dar orden a los diversos obstáculos que se presentan en la cotidianidad; por ende, entenderla y comprender su intención puede convertirse en el valor agregado que empresarialmente puede utilizarse para generar ventajas y capacidad de acción. En el siguiente video conocerá, de forma general, la temática que estudiará a lo largo del componente formativo.
+        p.mb-0 Apreciado aprendiz, bienvenido a este recurso educativo, a continuación, conocerá más sobre la administración entendiéndola como una herramienta apropiada para dar orden a los diversos obstáculos que se presentan en la cotidianidad; por ende, entenderla y comprender su intención puede convertirse en el valor agregado que empresarialmente puede utilizarse para generar ventajas y capacidad de acción. En el siguiente video conocerá, de forma general, la temática que estudiará a lo largo del componente formativo.
           br
           br
-          <span style="color:blue">|¡Muchos éxitos en este proceso de aprendizaje!</span>
+          span(style='color:blue') ¡Muchos éxitos en este proceso de aprendizaje!
       
     br
     br

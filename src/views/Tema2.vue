@@ -16,13 +16,19 @@
             .col.mb-3.mb-sm-0
               h5 El proceso administrativo se compone de una serie de fases o etapas que permiten llevar a cabo una actividad,
                p con la existencia de diversos criterios acerca de la cantidad de pasos que lo integran, aunque para los autores, los elementos o funciones sean las mismas. Para el caso de este componente formativo, se tomarán como referentes las siguientes etapas:       
-    .mx-auto.col-md-8
-      .titulo-sexto.color-acento-contenido <strong>Figura 2.</strong> <i>Etapas del proceso administrativo</i> 
+    
+    .mx-auto.col-md-8.mb-4
+      .titulo-sexto.color-acento-contenido
+        p.mb-0
+          b Figura 2.
+          br
+          em Etapas del proceso administrativo
       br
       figure
           img(data-aos="flip-left" src='@/assets/curso/temas/figuras/esquemaB.svg')
       br
       br
+    
     #t_2_1.titulo-segundo.color-acento-contenido   
       h2 2.1 Planeación
     .tarjeta.p-4.p-md-2.mb-4
@@ -125,9 +131,10 @@
     br
     #t_2_2.titulo-segundo.color-acento-contenido   
       h2 2.2 Organización
+
     p Una de las definiciones de organización es la de los autores Hernández y Rodríguez, S., Palafox de Anda, G. & Aguado Cortés, C. (2020), quienes indican que: es la <span style="color:blue">“fase del proceso administrativo en la cual se aplican las técnicas administrativas para estructurar una empresa u organización social; se definen las funciones por áreas sustantivas, departamentos y puestos; se establece la autoridad en materia de toma decisiones y la responsabilidad de los miembros que ocupan dichas unidades, y se definen las líneas de comunicación formal que faciliten la comunicación y la cooperación de los equipos de trabajo, a fin de alcanzar los objetivos y la estrategia” (p.271).</span>
-    .tarjeta.p-4.p-md-2.mb-2
-    .row.justify-content-around.align-items-center
+    
+    .row.justify-content-around.align-items-center.mb-4
       .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
         img(data-aos="flip-right" src="@/assets/curso/temas/texto_destacado/img8.png")
 
@@ -140,52 +147,51 @@
             li 
               span.fas.fa-check(style='color: #f85316')
               | La coordinación de las actividades, con el propósito de verificar su correcta ejecución.
-      br
     
-      p Por otro lado, también se estructura a partir de unos principios que son los que aportan, a la “organización”, el hilo conductor como proceso administrativo. Dentro de estos principios se exponen los siguientes:
-      br
-      SlyderF(columnas="col-lg-12 col-xl-4")
-        .tarjeta.color-acento-contenido.p-4(style='height:425px')
-          .row.justify-content-center.mb-3
-            .col-7.mb-3
-              img(data-aos="flip-up" src='@/assets/componentes/avatar1.svg' alt='AvatarTop')
-          h2.text-center Objetivo
-          p.text-center Es la posibilidad de garantizar que todas las actividades que se pretendan desarrollar, se encuentren alineadas con las apuestas organizacionales.
+    p Por otro lado, también se estructura a partir de unos principios que son los que aportan, a la “organización”, el hilo conductor como proceso administrativo. Dentro de estos principios se exponen los siguientes:
 
-        .tarjeta.color-acento-contenido.p-4(style='height:425px')
-          .row.justify-content-center.mb-6
-            .col-7.mb-3
-              img(data-aos="zoom-in-up" src='@/assets/componentes/avatar2.svg' alt='AvatarTop')
-          h2.text-center Especialización
-          p.text-center El trabajo de cada persona debe estar delimitado hasta donde sea posible, asignando actividades y funciones específicas para su concentración y su destreza.
+    SlyderF.mb-4(columnas="col-lg-12 col-xl-4")
+      .tarjeta.color-acento-contenido.p-4(style='height:425px')
+        .row.justify-content-center.mb-3
+          .col-7.mb-3
+            img(data-aos="flip-up" src='@/assets/componentes/avatar1.svg' alt='AvatarTop')
+        h2.text-center Objetivo
+        p.text-center Es la posibilidad de garantizar que todas las actividades que se pretendan desarrollar, se encuentren alineadas con las apuestas organizacionales.
 
-        .tarjeta.color-acento-contenido.p-4(style='height:425px')
-          .row.justify-content-center.mb-6
-            .col-7.mb-3
-              img(data-aos="zoom-out-up" src='@/assets/componentes/avatar3.svg' alt='AvatarTop')
-          h2.text-center Jerarquía
-          p.text-center Resulta necesario, como parte fundamental de la organización, definir centros de autoridad que canalicen la información y garanticen la alineación de los equipos de trabajo hacia la institucionalidad.
+      .tarjeta.color-acento-contenido.p-4(style='height:425px')
+        .row.justify-content-center.mb-6
+          .col-7.mb-3
+            img(data-aos="zoom-in-up" src='@/assets/componentes/avatar2.svg' alt='AvatarTop')
+        h2.text-center Especialización
+        p.text-center El trabajo de cada persona debe estar delimitado hasta donde sea posible, asignando actividades y funciones específicas para su concentración y su destreza.
 
-        .tarjeta.color-acento-contenido.p-4(style='height:425px')
-          .row.justify-content-center.mb-3
-            .col-7.mb-3
-              img(data-aos="zoom-out-up" src='@/assets/componentes/avatar4.svg' alt='AvatarTop')
-          h2.text-center Unidad de mando
-          p.text-center Al definir centros de autoridad, es preciso asignar un solo jefe a cada trabajador.
+      .tarjeta.color-acento-contenido.p-4(style='height:425px')
+        .row.justify-content-center.mb-6
+          .col-7.mb-3
+            img(data-aos="zoom-out-up" src='@/assets/componentes/avatar3.svg' alt='AvatarTop')
+        h2.text-center Jerarquía
+        p.text-center Resulta necesario, como parte fundamental de la organización, definir centros de autoridad que canalicen la información y garanticen la alineación de los equipos de trabajo hacia la institucionalidad.
 
-        .tarjeta.color-acento-contenido.p-4(style='height:425px')
-          .row.justify-content-center.mb-3
-            .col-7.mb-3
-              img(data-aos="zoom-out-up" src='@/assets/componentes/avatar5.svg' alt='AvatarTop')
-          h2.text-center Difusión
-          p.text-center Se debe difundir, de manera abierta y clara, la información que surja desde los centros de autoridad
+      .tarjeta.color-acento-contenido.p-4(style='height:425px')
+        .row.justify-content-center.mb-3
+          .col-7.mb-3
+            img(data-aos="zoom-out-up" src='@/assets/componentes/avatar4.svg' alt='AvatarTop')
+        h2.text-center Unidad de mando
+        p.text-center Al definir centros de autoridad, es preciso asignar un solo jefe a cada trabajador.
 
-        .tarjeta.color-acento-contenido.p-4(style='height:425px')
-          .row.justify-content-center.mb-3
-            .col-7.mb-3
-              img(data-aos="zoom-out-down" src='@/assets/componentes/avatar6.svg' alt='AvatarTop')
-          h2.text-center Equilibrio
-          p.text-center Debe existir un equilibrio entre la aplicación de las técnicas y los principios, para asegurar la correcta marcha global de la organización. 
+      .tarjeta.color-acento-contenido.p-4(style='height:425px')
+        .row.justify-content-center.mb-3
+          .col-7.mb-3
+            img(data-aos="zoom-out-up" src='@/assets/componentes/avatar5.svg' alt='AvatarTop')
+        h2.text-center Difusión
+        p.text-center Se debe difundir, de manera abierta y clara, la información que surja desde los centros de autoridad
+
+      .tarjeta.color-acento-contenido.p-4(style='height:425px')
+        .row.justify-content-center.mb-3
+          .col-7.mb-3
+            img(data-aos="zoom-out-down" src='@/assets/componentes/avatar6.svg' alt='AvatarTop')
+        h2.text-center Equilibrio
+        p.text-center Debe existir un equilibrio entre la aplicación de las técnicas y los principios, para asegurar la correcta marcha global de la organización. 
       p
       br
       br
@@ -211,11 +217,9 @@
               span.fas.fa-check(style='color: #f85316')
               | El recurso humano: se deben tener en cuenta variables como la reubicación y rotación de personal, ante una posible adaptación, debido a una nueva estructura organizacional.
 
-
-    br
     p Es fundamental aclarar que no todas las estructuras organizacionales son iguales y que todo depende de la actividad económica, de su estilo de dirección y de organización; <strong>a continuación se presentan algunos modelos y tipos de estructuras:</strong>
-    br
-    TabsC.color-acento-contenido
+
+    TabsC.color-acento-contenido.mb-4
       .py-3.py-md-4(titulo="Organización formal")
         .row
           .col-md-6.mb-4.mb-md-0
@@ -531,7 +535,11 @@
     p Para continuar con el ejemplo de la pastelería, se ilustrará el ejercicio, para conocer el mapa de procesos de la misma empresa.
     br
     .mx-auto.col-md-10
-      .titulo-sexto.color-acento-contenido.p <strong>Figura 3. </strong> <i>Ejemplo mapa de procesos</i>
+      .titulo-sexto.color-acento-contenido
+        p.mb-0
+          b Figura 3.
+          br
+          em Ejemplo mapa de procesos
       br
       figure
           img(data-aos="flip-right" src='@/assets/curso/temas/figuras/esquemaE.svg')
@@ -591,28 +599,29 @@
     br
     p Para la construcción de un flujograma, se debe tener en cuenta la representación simbólica que se presenta a continuación: 
     br
-    .tabla-a
-      table
-        tr
-          th.table
-            img(data-aos="zoom-in-up" src='@/assets/curso/temas/tarjetas/ElipseT1.svg', alt='')
-          td Representa el incio y el fin del proceso
-        tr
-          th 
-            img(data-aos="zoom-in-up" src='@/assets/curso/temas/tarjetas/RectánguloT1.svg', alt='')
-          td Actividad o tarea.
-        tr
-          th 
-            img(data-aos="zoom-in-up" src='@/assets/curso/temas/tarjetas/PolígonoT1.svg', alt='')
-          td Representa la toma de una decision
-        tr
-          th 
-            img(src='@/assets/curso/temas/tarjetas/LíneaT1.svg', alt='')
-          td Indica la dirección secuencial de las actividades.
-        tr
-          th 
-            img(src='@/assets/curso/temas/tarjetas/TrazadoT1.svg', alt='')
-          td Indica la entrada y salida de datos. 
+    .col-md-7.mx-auto.mb-4
+      .tabla-a
+        table
+          tr
+            th.table
+              img(data-aos="zoom-in-up" src='@/assets/curso/temas/tarjetas/ElipseT1.svg', alt='')
+            td Representa el incio y el fin del proceso
+          tr
+            th 
+              img(data-aos="zoom-in-up" src='@/assets/curso/temas/tarjetas/RectánguloT1.svg', alt='')
+            td Actividad o tarea.
+          tr
+            th 
+              img(data-aos="zoom-in-up" src='@/assets/curso/temas/tarjetas/PolígonoT1.svg', alt='')
+            td Representa la toma de una decision
+          tr
+            th 
+              img(src='@/assets/curso/temas/tarjetas/LíneaT1.svg', alt='')
+            td Indica la dirección secuencial de las actividades.
+          tr
+            th 
+              img(src='@/assets/curso/temas/tarjetas/TrazadoT1.svg', alt='')
+            td Indica la entrada y salida de datos. 
 
     br
     br
@@ -621,7 +630,11 @@
     p Para el ejemplo de la pastelería, quedaría así:
     br
     .mx-auto.col-md-10
-      .titulo-sexto.color-acento-contenido.p <strong>Figura 4.</strong> <i>Flujograma ejemplo pastelerías</i>
+      .titulo-sexto.color-acento-contenido
+        p.mb-0 
+          b Figura 4.
+          br
+          em Flujograma ejemplo pastelerías
       br
       figure
           img(data-aos="zoom-out-up" src='@/assets/curso/temas/figuras/diagramaB.svg')
@@ -637,9 +650,8 @@
       h2 2.3 Dirección
     br
     .bloque-texto-g.color-primario.p-sm-4
-      .bloque-texto-g__img
-        figure
-         img(data-aos="zoom-out-up" src='@/assets/curso/temas/texto_destacado/img17.png')
+      .bloque-texto-g__img(style="position:relative;background-color:#e8e8e8 !important;padding:1.5rem;margin:-1.5rem", data-aos="zoom-out-up")
+        img.mx-auto(src='@/assets/curso/temas/WP_04.png' style="max-height:161px; width:171px;")
       .bloque-texto-g__texto.p-5
         p.mb-0 Cuando se habla de dirección, se hace referencia a unos elementos asociados al liderazgo, a la motivación, a los equipos de trabajo y a la comunicación en torno a la ejecución de los planes, de acuerdo con la estructura organizacional.
     br
@@ -771,7 +783,11 @@
     p Por otro lado, el control también abarca unas etapas, que pueden ilustrarse de la siguiente manera:
     br
     .mx-auto.col-md-10
-      .titulo-sexto.color-acento-contenido.p <strong>Figura 5. </strong><i>Etapas del control</i>
+      .titulo-sexto.color-acento-contenido
+        p.mb-0
+          b Figura 5.
+          br
+          em Etapas del control
       br
       figure
           img(data-aos="flip-up" src='@/assets/curso/temas/figuras/diagramaC.svg')
@@ -784,8 +800,8 @@
           p.mb-4 Con los resultados, la retroalimentación y las acciones correctivas, se da el cierre del proceso administrativo obteniendo, como resultado, una aplicación de teorías que indistintamente de su enfoque, muestran los resultados a nivel de logros alcanzados, con estructura científica, con análisis de variables internas y externas, y con equipos de trabajo comprometidos con el logro de sus objetivos tanto individuales, como organizacionales.
           .cajon.color-primario
           .color-fondo.p-3
-            p El escenario práctico para la aplicación de la teoría que se ha presentado en este espacio, es precisamente la empresa que, sin haber profundizado en su origen y llegada a la historia, se ha convertido en el escenario propicio para los experimentos de autores, científicos y para el ejercicio de excelentes administradores y gerentes. Por esta razón, en este apartado, se presenta el concepto de “empresa”.     
-            br
+            p.mb-0 El escenario práctico para la aplicación de la teoría que se ha presentado en este espacio, es precisamente la empresa que, sin haber profundizado en su origen y llegada a la historia, se ha convertido en el escenario propicio para los experimentos de autores, científicos y para el ejercicio de excelentes administradores y gerentes. Por esta razón, en este apartado, se presenta el concepto de “empresa”.     
+          
         .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
           img(data-aos="flip-up" src="@/assets/curso/temas/texto_destacado/img24.png")
 
