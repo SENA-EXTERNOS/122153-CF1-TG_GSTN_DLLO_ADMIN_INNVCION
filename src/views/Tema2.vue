@@ -19,15 +19,14 @@
     
     .mx-auto.col-md-8.mb-4
       .titulo-sexto.color-acento-contenido
-        p.mb-0
+        p
           b Figura 2.
           br
           em Etapas del proceso administrativo
-      br
-      figure
+
+      figure.mb-4
           img(data-aos="flip-left" src='@/assets/curso/temas/figuras/esquemaB.svg')
-      br
-      br
+
     
     #t_2_1.titulo-segundo.color-acento-contenido   
       h2 2.1 Planeación
@@ -98,7 +97,7 @@
         .cajon.color-acento-botones.p-4
           p.mb-0 Estos temas corresponden a la denominada cultura organizacional, la cual es como el ADN de la empresa: la forma de ser y de hacer empresa, las creencias y todas aquellas variables que hacen que los empleados se identifiquen y busquen, desde su quehacer, aportar a un mismo fin.    
     p En compensación y proporcionando una continuidad con la construcción de la planeación estratégica, encontramos los siguientes elementos:
-    .row.justify-content-center.mb-5
+    .row.justify-content-around.mb-4
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="fade-right")
           .crd_hover_txt--img
@@ -126,9 +125,10 @@
             h4.mb-3 Presupuestos
             p.mb-0 Son aquellas herramientas que permiten plasmar, de manera anticipada, los recursos requeridos (financieros y no financieros) para el cumplimiento de las actividades; por consiguiente, de las estrategias y de los objetivos.    
 
-    br
     p Una vez se cumpla el paso de la planeación con sus respectivas variables y técnicas, se adquiere una claridad de hacia dónde va la empresa, cuáles son sus propósitos y finalidades, y se llega entonces al segundo paso del ciclo denominado <strong>“organización”.</strong>
-    br
+
+    separador
+
     #t_2_2.titulo-segundo.color-acento-contenido   
       h2 2.2 Organización
 
@@ -304,7 +304,7 @@
     br
     h3 
       i.fas.fa-square.me-3.cuadrado
-      | Manual de funciones.
+      | Manual de funciones
     br
     br
     .tarjeta.p-3.mb-5
@@ -555,45 +555,44 @@
         .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
           img(data-aos="flip-up" src="@/assets/curso/temas/texto_destacado/img16.png")
     br
-    TabsA.color-acento-contenido
+    TabsA.color-acento-contenido.mb-4
       .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="PASO 1")
         
         .row
-          .col-xl-3.mb-4
+          .col-md-3.mb-4
             figure
               img(data-aos="flip-up" src='@/assets/curso/temas/figuras/esquemaF.svg', alt='Texto que describa la imagen')
-          .col-xl-6
+          .col-md-9
             h4 PASO 1: Ficha del proceso 
             p Es la que describe las generalidades de cada proceso. El objetivo, entradas, salidas, cómo se medirá, entre otros.
 
       .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="PASO 2")
         .row
-          .col-xl-3.mb-4
+          .col-md-3.mb-4
             figure
               img(data-aos="zoom-in-up" src='@/assets/curso/temas/figuras/esquemaG.svg', alt='Texto que describa la imagen')
-          .col-xl-6
+          .col-md-9
             h4 PASO 2: Flujograma
             p Ilustra, gráficamente, el recorrido que conlleva el proceso desde sus entradas y hasta sus salidas.
 
       .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="PASO 3")
         .row
-          .col-xl-3.mb-4
+          .col-md-3.mb-4
             figure
               img(data-aos="zoom-in-up" src='@/assets/curso/temas/figuras/esquemaH.svg', alt='Texto que describa la imagen')
-          .col-xl-6
+          .col-md-9
             h4 PASO 3: Procedimiento
             p Se refiere al conjunto de actividades que constituyen el proceso, incluyendo un paso a paso de manera descriptiva.
 
       .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="PASO 4")
         .row
-          .col-xl-3.mb-4
+          .col-md-3.mb-4
             figure
               img(data-aos="zoom-in-up" src='@/assets/curso/temas/figuras/esquemaI.svg', alt='Texto que describa la imagen')
-          .col-xl-6
+          .col-md-9
             h4 PASO 4: Actividades
             p Acciones que, en su desarrollo, aportan y generan valor a la organización.
-    br
-    br
+   
     p Para la construcción de un flujograma, se debe tener en cuenta la representación simbólica que se presenta a continuación: 
     br
     .col-md-7.mx-auto.mb-4
