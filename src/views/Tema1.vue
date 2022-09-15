@@ -33,77 +33,77 @@
             .row.justify-content-center.mb-3
               .col-8
                 img(src='@/assets/curso/temas/administradores/A1903.png', alt="alt").img100.m-auto
-            p.text-center.mb-0 1903.
+            p.text-center.mb-0 1903
             p.text-center.mb-0 Administración científica
 
           .tarjeta.tarjeta--slyder.p-4(style='height:210px')
             .row.justify-content-center.mb-3
               .col-8
                 img(src='@/assets/curso/temas/administradores/A1909.png', alt="alt").img100.m-auto
-            p.text-center.mb-0 1909.
+            p.text-center.mb-0 1909
             p.text-center.mb-0 Teoría burocrática
 
           .tarjeta.tarjeta--slyder.p-4(style='height:210px')
             .row.justify-content-center.mb-3.tp-4
               .col-8
                 img(src='@/assets/curso/temas/administradores/A1916.png', alt="alt").img100.m-auto
-            p.text-center.mb-0 1916.
+            p.text-center.mb-0 1916
             p.text-center.mb-0 Teoría clásica
 
           .tarjeta.tarjeta--slyder.p-4(style='height:210px')
             .row.justify-content-center.mb-3
               .col-8
                 img(src='@/assets/curso/temas/administradores/A1932.png', alt="alt").img100.m-auto
-            p.text-center.mb-0 1932.
+            p.text-center.mb-0 1932
             p.text-center.mb-0 Teoría de las relaciones humanas
 
           .tarjeta.tarjeta--slyder.p-4(style='height:210px')
             .row.justify-content-center.mb-3
               .col-8
                img(src='@/assets/curso/temas/administradores/A1947.png', alt="alt").img100.m-auto
-            p.text-center.mb-0 1947.
+            p.text-center.mb-0 1947
             p.text-center.mb-0 Teoría estructuralista
 
           .tarjeta.tarjeta--slyder.p-4(style='height:210px')
             .row.justify-content-center.mb-3
               .col-8
                img(src='@/assets/curso/temas/administradores/A1954.png', alt="alt").img100.m-auto
-            p.text-center.mb-0 1954.
+            p.text-center.mb-0 1954
             p.text-center.mb-0 Teoría neoclásica
 
           .tarjeta.tarjeta--slyder.p-4(style='height:210px')
             .row.justify-content-center.mb-3
               .col-8
                img(src='@/assets/curso/temas/administradores/A1957.png', alt="alt").img100.m-auto
-            p.text-center.mb-0 1957.
+            p.text-center.mb-0 1957
             p.text-center.mb-0 Teoría del comportamiento
 
           .tarjeta.tarjeta--slyder.p-4(style='height:210px')
             .row.justify-content-center.mb-3
               .col-8
                img(src='@/assets/curso/temas/administradores/A1962.png', alt="alt").img100.m-auto
-            p.text-center.mb-0 1962.
+            p.text-center.mb-0 1962
             p.text-center.mb-0 Teoría del desarrollo organizacional
 
           .tarjeta.tarjeta--slyder.p-4(style='height:210px')
             .row.justify-content-center.mb-3
               .col-8
                img(src='@/assets/curso/temas/administradores/A1972.png', alt="alt").img100.m-auto
-            p.text-center.mb-0 1972.
+            p.text-center.mb-0 1972
             p.text-center.mb-0 Teoría contingencial
 
           .tarjeta.tarjeta--slyder.p-4(style='height:210px')
             .row.justify-content-center.mb-3
               .col-8
                img(src='@/assets/curso/temas/administradores/A1990.png', alt="alt").img100.m-auto
-            p.text-center.mb-0 1990.
+            p.text-center.mb-0 1990
             p.text-center.mb-0 Nuevos enfoques 
 
           .tarjeta.tarjeta--slyder.p-4(style='height:210px')
             .row.justify-content-center.mb-3
               .col-8
                img(src='@/assets/curso/temas/administradores/A2000.png', alt="alt").img100.m-auto
-            p.text-center.mb-0 2000.
+            p.text-center.mb-0 2000
             p.text-center.mb-0 Caos y complejidad    
 
     p.mt-5 Así mismo, las teorías que fueron surgiendo paulatinamente, tenían diferentes enfoques y puntos de vista que presentaban modelos y esquemas de administración, basados en diversos criterios, como se evidencia en el gráfico que se observa a continuación:
@@ -111,8 +111,8 @@
     .mx-auto.col-md-5
       .titulo-sexto.color-acento-contenido
         p.mb-0 
-          strong Figura 1:
-          | Esquemas de administración
+          strong Figura 1.
+          |  Esquemas de administración
 
       figure.mb-4
         img(src='@/assets/curso/temas/figuras/esquemaA.svg')
@@ -122,7 +122,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              p.text-small Para efectos de dar mayor claridad, a continuación, se procede a explicar cada uno de los enfoques y las teorías asociadas, así como también sus autores y motivadores, en el documento Enfoques y teorías administrativas asociadas.
+              p Para efectos de dar mayor claridad, a continuación, se procede a explicar cada uno de los enfoques y las teorías asociadas, así como también sus autores y motivadores, en el documento Enfoques y teorías administrativas asociadas.
         br
         .row
           .col-lg-6

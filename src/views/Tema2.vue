@@ -17,8 +17,7 @@
               h5 El proceso administrativo se compone de una serie de fases o etapas que permiten llevar a cabo una actividad,
                p con la existencia de diversos criterios acerca de la cantidad de pasos que lo integran, aunque para los autores, los elementos o funciones sean las mismas. Para el caso de este componente formativo, se tomarán como referentes las siguientes etapas:       
     .mx-auto.col-md-8
-      .titulo-sexto.color-acento-contenido <strong>Figura 2:</strong>
-        p <i>Etapas del proceso administrativo</i> 
+      .titulo-sexto.color-acento-contenido <strong>Figura 2.</strong> <i>Etapas del proceso administrativo</i> 
       br
       figure
           img(data-aos="flip-left" src='@/assets/curso/temas/figuras/esquemaB.svg')
@@ -34,7 +33,7 @@
         .col-md.col-lg-7
           p.mb-4 La planeación puede tener varias perspectivas, pero, en síntesis, obedece al rumbo hacia el que se dirige algo, bien sea a nivel empresarial o incluso, en la vida personal; es el horizonte proyectado y, para ilustrar un poco mejor el concepto, podría pensarse en los siguientes cuestionamientos: ¿qué se quiere? ¿Quiénes somos? ¿Para dónde vamos? La planeación impulsa para optimizar recursos, prever situaciones, reducir costos e incrementar la productividad, a partir de la concentración y canalización de esfuerzos por un mismo fin, además de ser un escenario base para una posterior evaluación y retroalimentación del proceso y de los logros obtenidos.
     h6 Basados en la estructura organizacional, existen 3 tipos de planeación:
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-4.mt-5
       .col-lg-4
         figure
             img(data-aos="fade-down" src='@/assets/curso/temas/figuras/esquemaC.svg')
@@ -42,7 +41,7 @@
         AcordionA(tipo="a" clase-tarjeta="tarjeta color-secundario")
           .row(titulo="Estratégica")
             .col-md-12.mb-4.mb-md-0
-              p Hace referencia a la planeación general, desarrollada por los estamentos directivos de la organización. Usualmente es una planeación a mediano o largo plazo y de ahí se desprenden los diferentes planes de la empresa
+              p Hace referencia a la planeación general, desarrollada por los estamentos directivos de la organización. Usualmente es una planeación a mediano o largo plazo y de ahí se desprenden los diferentes planes de la empresa.
           .row(titulo="Táctica")
             .col-md-12.mb-4.mb-md-0
               p Se refiere a los planes desarrollados en cumplimiento de la planeación estratégica y obedecen más al hacer, con un componente bajo de operatividad.
@@ -328,11 +327,11 @@
             .row(titulo="Propósito o finalidad del cargo ")
               .col-md-12.mb-4.mb-md-0
                 p ¿Para qué existe?
-                p <strong>Ejemplo:</strong> impulsar, mantener y desarrollar la gestión de la calidad total en la empresa
+                p <strong>Ejemplo:</strong> impulsar, mantener y desarrollar la gestión de la calidad total en la empresa.
             .row(titulo="Área de impacto en resultados")
               .col-md-12.mb-4.mb-md-0
               p ¿En qué ámbito impacta el área para la organización?
-              p <strong>Ejemplo:</strong> resultados económicos y financieros o imagen de la empresa
+              p <strong>Ejemplo:</strong> resultados económicos y financieros o imagen de la empresa.
             .row(titulo="Tareas")
               .col-md-12.mb-4.mb-md-0
               p Hacen referencia al listado de actividades elementales que desarrolla un trabajador para el cumplimiento de su función.
@@ -351,10 +350,10 @@
               .col-md-12.mb-4.mb-md-0
               p Estos requerimientos hacen alusión al nivel de formación que requiere el cargo: nivel académico, grado de conocimientos técnicos y tecnológicos específicos, grado de experiencia o dominio operativo de la actividad a desarrollar, y conjunto de capacidades intelectuales, aptitudes, habilidades y características de personalidad.  
     br
-    p Para mayor ilustración, a continuación se presenta un ejemplo de un manual de funciones
+    p Para mayor ilustración, a continuación se presenta un ejemplo de un manual de funciones:
     br
     .mx-auto.col-md-10
-      .titulo-sexto.color-acento-contenido.p <strong>Tabla 1:</strong> Ejemplo manual de funciones
+      .titulo-sexto.color-acento-contenido.p <strong>Tabla 1. </strong> Ejemplo manual de funciones
       .tabla-b.color-acento-botones
         .tabla-b__header
           h4.mb-0 MANUAL DE FUNCIONES
@@ -468,7 +467,7 @@
     br
     h3 
       i.fas.fa-square.me-3.cuadrado
-      | Manual de procesos y procedimientos.
+      | Manual de procesos y procedimientos
     br
     p El manual de procesos y procedimientos de una empresa u organización, es un documento que contiene información sobre cómo se deben llevar a cabo los procesos; esto permite y facilita el flujo adecuado del trabajo, a partir de la estandarización de los mismos. Es un documento que contiene pautas y reglas sobre cómo deben ser desarrollados ciertos procedimientos y posibilita a las empresas para dirigir sus operaciones, estrategias y flujos de trabajo hacia resultados óptimos.
       .tarjeta.p-4.p-md-2.mb-5
@@ -505,7 +504,7 @@
             </li>
           </ul>
       br
-      p Antes de presentar la estructura del manual de procesos y procedimientos, es importante profundizar un poco sobre los conceptos que se encuentran involucrados en este documento
+      p Antes de presentar la estructura del manual de procesos y procedimientos, es importante profundizar un poco sobre los conceptos que se encuentran involucrados en este documento.
       br
       .row
       .col-lg-12
@@ -525,15 +524,14 @@
             </li>
             br
             <li>
-            <i style ="color: #f85316" class="fas fa-check"></i><strong> De apoyo:</strong> son los que dan soporte a la organización
+            <i style ="color: #f85316" class="fas fa-check"></i><strong> De apoyo:</strong> son los que dan soporte a la organización.
             </li>
           </ul>
     br
     p Para continuar con el ejemplo de la pastelería, se ilustrará el ejercicio, para conocer el mapa de procesos de la misma empresa.
     br
     .mx-auto.col-md-10
-      .titulo-sexto.color-acento-contenido.p <strong>Figura 3:</strong> 
-        p <i>Ejemplo mapa de procesos</i>
+      .titulo-sexto.color-acento-contenido.p <strong>Figura 3. </strong> <i>Ejemplo mapa de procesos</i>
       br
       figure
           img(data-aos="flip-right" src='@/assets/curso/temas/figuras/esquemaE.svg')
@@ -623,8 +621,7 @@
     p Para el ejemplo de la pastelería, quedaría así:
     br
     .mx-auto.col-md-10
-      .titulo-sexto.color-acento-contenido.p <strong>Figura 4: </strong>
-        p <i>Flujograma ejemplo pastelerías</i>
+      .titulo-sexto.color-acento-contenido.p <strong>Figura 4.</strong> <i>Flujograma ejemplo pastelerías</i>
       br
       figure
           img(data-aos="zoom-out-up" src='@/assets/curso/temas/figuras/diagramaB.svg')
@@ -774,8 +771,7 @@
     p Por otro lado, el control también abarca unas etapas, que pueden ilustrarse de la siguiente manera:
     br
     .mx-auto.col-md-10
-      .titulo-sexto.color-acento-contenido.p <strong>Figura 5: </strong>
-        p <i>Etapas del control</i>
+      .titulo-sexto.color-acento-contenido.p <strong>Figura 5. </strong><i>Etapas del control</i>
       br
       figure
           img(data-aos="flip-up" src='@/assets/curso/temas/figuras/diagramaC.svg')
