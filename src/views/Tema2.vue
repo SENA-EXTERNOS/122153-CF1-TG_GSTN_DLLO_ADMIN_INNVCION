@@ -192,30 +192,27 @@
             img(data-aos="zoom-out-down" src='@/assets/componentes/avatar6.svg' alt='AvatarTop')
         h2.text-center Equilibrio
         p.text-center Debe existir un equilibrio entre la aplicación de las técnicas y los principios, para asegurar la correcta marcha global de la organización. 
-      p
-      br
-      br
   
-      p En el ejercicio de la organización como proceso administrativo, también se encuentra la definición de la estructura organizacional, siendo esta la manera de establecer una arquitectura al interior de la empresa, indicando los cargos, las líneas de comunicación y de mando, las dependencias y la relación entre las mismas; esta herramienta debe ser construida y diseñada a la luz de la razón de ser de la empresa, su propósito superior y su actividad económica; por eso es importante realizar un análisis previo a variables, como el que se explica a continuación:
-      .tarjeta.p-4.p-md-2.mb-0
-      .row.justify-content-around.align-items-center
-        .col-8.col-sm-6.col-md-5.mb-4
-          img(data-aos="zoom-out-left" src="@/assets/curso/temas/texto_destacado/img9.png")
+    p En el ejercicio de la organización como proceso administrativo, también se encuentra la definición de la estructura organizacional, siendo esta la manera de establecer una arquitectura al interior de la empresa, indicando los cargos, las líneas de comunicación y de mando, las dependencias y la relación entre las mismas; esta herramienta debe ser construida y diseñada a la luz de la razón de ser de la empresa, su propósito superior y su actividad económica; por eso es importante realizar un análisis previo a variables, como el que se explica a continuación:
+    
+    .row.justify-content-around.align-items-center.mb-4
+      .col-8.col-sm-6.col-md-5.mb-4
+        img(data-aos="zoom-out-left" src="@/assets/curso/temas/texto_destacado/img9.png")
 
-        .col-md.col-lg-7
-          ol.lista-ol
-            li 
-              span.fas.fa-check(style='color: #f85316')
-              | La estrategia organizacional: analiza la coherencia entre el mercado, sus cambios y los objetivos organizacionales.
-            li 
-              span.fas.fa-check(style='color: #f85316')
-              | El modelo de estructura organizacional: cada vez es más común ver empresas que le apuestan a un modelo de estructura organizacional más flexible y poco tradicional.
-            li 
-              span.fas.fa-check(style='color: #f85316')
-              | Los perfiles de puesto: validan que los perfiles de cargo correspondan con las necesidades de la estructura organizacional y que la definición de las funciones y las responsabilidades, se encuentren definidas de manera coherente con el cumplimiento de la estrategia organizacional
-            li 
-              span.fas.fa-check(style='color: #f85316')
-              | El recurso humano: se deben tener en cuenta variables como la reubicación y rotación de personal, ante una posible adaptación, debido a una nueva estructura organizacional.
+      .col-md.col-lg-7
+        ol.lista-ol
+          li 
+            span.fas.fa-check(style='color: #f85316')
+            | La estrategia organizacional: analiza la coherencia entre el mercado, sus cambios y los objetivos organizacionales.
+          li 
+            span.fas.fa-check(style='color: #f85316')
+            | El modelo de estructura organizacional: cada vez es más común ver empresas que le apuestan a un modelo de estructura organizacional más flexible y poco tradicional.
+          li 
+            span.fas.fa-check(style='color: #f85316')
+            | Los perfiles de puesto: validan que los perfiles de cargo correspondan con las necesidades de la estructura organizacional y que la definición de las funciones y las responsabilidades, se encuentren definidas de manera coherente con el cumplimiento de la estrategia organizacional
+          li 
+            span.fas.fa-check(style='color: #f85316')
+            | El recurso humano: se deben tener en cuenta variables como la reubicación y rotación de personal, ante una posible adaptación, debido a una nueva estructura organizacional.
 
     p Es fundamental aclarar que no todas las estructuras organizacionales son iguales y que todo depende de la actividad económica, de su estilo de dirección y de organización; <strong>a continuación se presentan algunos modelos y tipos de estructuras:</strong>
 
