@@ -184,7 +184,7 @@
           .col-7.mb-3
             img(data-aos="zoom-out-up" src='@/assets/componentes/avatar5.svg' alt='AvatarTop')
         h2.text-center Difusión
-        p.text-center Se debe difundir, de manera abierta y clara, la información que surja desde los centros de autoridad
+        p.text-center Se debe difundir, de manera abierta y clara, la información que surja desde los centros de autoridad.
 
       .tarjeta.color-acento-contenido.p-4(style='height:425px')
         .row.justify-content-center.mb-3
@@ -209,7 +209,7 @@
             | El modelo de estructura organizacional: cada vez es más común ver empresas que le apuestan a un modelo de estructura organizacional más flexible y poco tradicional.
           li 
             span.fas.fa-check(style='color: #f85316')
-            | Los perfiles de puesto: validan que los perfiles de cargo correspondan con las necesidades de la estructura organizacional y que la definición de las funciones y las responsabilidades, se encuentren definidas de manera coherente con el cumplimiento de la estrategia organizacional
+            | Los perfiles de puesto: validan que los perfiles de cargo correspondan con las necesidades de la estructura organizacional y que la definición de las funciones y las responsabilidades, se encuentren definidas de manera coherente con el cumplimiento de la estrategia organizacional.
           li 
             span.fas.fa-check(style='color: #f85316')
             | El recurso humano: se deben tener en cuenta variables como la reubicación y rotación de personal, ante una posible adaptación, debido a una nueva estructura organizacional.
@@ -269,7 +269,7 @@
               </li>
               br
               <li>
-              <i style ="color: #f85316" class="fas fa-check"></i> Particular énfasis en la especialización
+              <i style ="color: #f85316" class="fas fa-check"></i> Particular énfasis en la especialización.
               </li>
             </ul>
           .col-md-6
@@ -483,7 +483,7 @@
             <i style ="color: #f85316" class="fas fa-check "></i> Ahorro de tiempo.
             </li>
             <li>
-            <i style ="color: #f85316" class="fas fa-check"></i> Posibilita la aplicación de acciones de control interno y mejora continua
+            <i style ="color: #f85316" class="fas fa-check"></i> Posibilita la aplicación de acciones de control interno y mejora continua.
             </li>
             <li>
             <i style ="color: #f85316" class="fas fa-check"></i> Optimiza los procesos.
@@ -602,7 +602,7 @@
           tr
             th.table
               img(data-aos="zoom-in-up" src='@/assets/curso/temas/tarjetas/ElipseT1.svg', alt='')
-            td Representa el incio y el fin del proceso
+            td Representa el incio y el fin del proceso.
           tr
             th 
               img(data-aos="zoom-in-up" src='@/assets/curso/temas/tarjetas/RectánguloT1.svg', alt='')
@@ -610,7 +610,7 @@
           tr
             th 
               img(data-aos="zoom-in-up" src='@/assets/curso/temas/tarjetas/PolígonoT1.svg', alt='')
-            td Representa la toma de una decision
+            td Representa la toma de una decision.
           tr
             th 
               img(src='@/assets/curso/temas/tarjetas/LíneaT1.svg', alt='')
