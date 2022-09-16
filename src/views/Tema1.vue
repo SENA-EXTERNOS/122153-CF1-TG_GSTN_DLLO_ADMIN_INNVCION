@@ -145,7 +145,7 @@
     .row.justify-content-center.mb-4
       .col-md-5
         figure.mw-sm-350px
-          img(src='@/assets/curso/temas/texto_destacado/img3.jpg')
+          img(src='@/assets/curso/temas/texto_destacado/img3.png')
       .col-md-7
         p.mb-0 Luego de realizar el recorrido por los orígenes y enfoques de la administración, resulta importante reconocer, en el concepto, algunos elementos de carácter estratégico que han ido perfilando la administración y que han trazado la estructura basada en procesos. La estrategia no es más que la capacidad de actuar bajo la presión del entorno y sus variables, ser capaces de ir más allá y de orientar las decisiones de manera adaptativa a los cambios que surgen. Esta manera de “hacer” administración, determina una ruta o un ciclo que posibilita no solo idear propuestas sino ejecutarlas y, posteriormente, evaluarlas; para lograrlo es necesario esbozar un poco de qué se trata, a partir de la siguiente línea temática.
         br
@@ -164,11 +164,11 @@
           | Para conocer qué es la estrategia de diagnóstico y análisis empresarial,
           b se recomienda ver el siguiente video.
 
-    figure.mb-4
+    figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/jASywqOHrQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)      
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xzg1pJ5QhM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
 
-    .cajon.color-acento-botones.p-4
+    .cajon.color-acento-botones.color-fondo-secundario.p-4
       p.mb-0 Una vez que se cuenta con el diagnóstico y el análisis empresarial, se procede a realizar una proyección de la empresa desde lo estratégico y, entonces, es este el momento correcto para aplicar los principios del proceso administrativo.    
 
 </template>

@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Introducción a la administración',
     descripcionCurso:
-      'La historia ha demostrado que, en la práctica, pueden aplicarse diversas teorías para resolver o apoyar la solución de problemáticas naturales del devenir empresarial u organizacional. En este componente formativo, se estudiarán las diferentes teorías y conceptos que le han dado origen a la administración como ciencia aplicable',
+      'La historia ha demostrado que, en la práctica, pueden aplicarse diversas teorías para resolver o apoyar la solución de problemáticas naturales del devenir empresarial u organizacional. En este componente formativo, se estudiarán las diferentes teorías y conceptos que le han dado origen a la administración como ciencia aplicable.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-img.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -149,7 +149,7 @@ export default {
       referencia:
         'Bancoldex. (s.f.). Clasificación de empresas en Colombia. Bancoldex.',
       tipo: 'Página web',
-      descarga:
+      link:
         'https://www.bancoldex.com/clasificacion-de-empresas-en-colombia-200',
     },
   ],
@@ -196,7 +196,7 @@ export default {
     {
       termino: 'Servicios',
       significado:
-        'actividad que se presta, a nivel empresarial, con relación a productos intangibles',
+        'actividad que se presta, a nivel empresarial, con relación a productos intangibles.',
     },
   ],
   referencias: [

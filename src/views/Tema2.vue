@@ -37,7 +37,8 @@
 
         .col-md.col-lg-7
           p.mb-4 La planeación puede tener varias perspectivas, pero, en síntesis, obedece al rumbo hacia el que se dirige algo, bien sea a nivel empresarial o incluso, en la vida personal; es el horizonte proyectado y, para ilustrar un poco mejor el concepto, podría pensarse en los siguientes cuestionamientos: ¿qué se quiere? ¿Quiénes somos? ¿Para dónde vamos? La planeación impulsa para optimizar recursos, prever situaciones, reducir costos e incrementar la productividad, a partir de la concentración y canalización de esfuerzos por un mismo fin, además de ser un escenario base para una posterior evaluación y retroalimentación del proceso y de los logros obtenidos.
-    h6 Basados en la estructura organizacional, existen 3 tipos de planeación:
+    .col-md-4
+      h6 Basados en la estructura organizacional, existen 3 tipos de planeación:
     .row.justify-content-center.mb-4.mt-5
       .col-lg-4
         figure
@@ -92,11 +93,13 @@
                 p.mb-0.text-center Representan los resultados que la empresa desea alcanzar y lograr; se deben establecer para un tiempo específico y ser definidos cuantitativamente. Ayudan a materializar la estrategia, establecen metas y ayudan a su cumplimiento y, además, unifican el lenguaje y alinean la organización. Para la construcción de los objetivos estratégicos es necesario tener presente la misión, la visión y los principios de la organización, de tal manera que se garantice la alineación y la coherencia.
 
        
-    .row.mb-4.justify-content-center
+    .row.justify-content-around.align-items-center 
       .col-lg-12
-        .cajon.color-acento-botones.p-4
-          p.mb-0 Estos temas corresponden a la denominada cultura organizacional, la cual es como el ADN de la empresa: la forma de ser y de hacer empresa, las creencias y todas aquellas variables que hacen que los empleados se identifiquen y busquen, desde su quehacer, aportar a un mismo fin.    
+       .cajon.color-acento-botones.color-fondo-secundario.p-4
+          p.mb-0 Estos temas corresponden a la denominada <strong>cultura organizacional, </strong>cultura organizacional, la cual es como el ADN de la empresa: la forma de ser y de hacer empresa, las creencias y todas aquellas variables que hacen que los empleados se identifiquen y busquen, desde su quehacer, aportar a un mismo fin.    
+    br
     p En compensación y proporcionando una continuidad con la construcción de la planeación estratégica, encontramos los siguientes elementos:
+    br
     .row.justify-content-around.mb-4
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="fade-right")
@@ -154,7 +157,7 @@
       .tarjeta.color-acento-contenido.p-4(style='height:425px')
         .row.justify-content-center.mb-3
           .col-7.mb-3
-            img(data-aos="flip-up" src='@/assets/componentes/avatar1.svg' alt='AvatarTop')
+            img(data-aos="flip-up" src='@/assets/componentes/avatar3.svg' alt='AvatarTop')
         h2.text-center Objetivo
         p.text-center Es la posibilidad de garantizar que todas las actividades que se pretendan desarrollar, se encuentren alineadas con las apuestas organizacionales.
 
@@ -168,7 +171,7 @@
       .tarjeta.color-acento-contenido.p-4(style='height:425px')
         .row.justify-content-center.mb-6
           .col-7.mb-3
-            img(data-aos="zoom-out-up" src='@/assets/componentes/avatar3.svg' alt='AvatarTop')
+            img(data-aos="zoom-out-up" src='@/assets/componentes/avatar1.svg' alt='AvatarTop')
         h2.text-center Jerarquía
         p.text-center Resulta necesario, como parte fundamental de la organización, definir centros de autoridad que canalicen la información y garanticen la alineación de los equipos de trabajo hacia la institucionalidad.
 
@@ -278,7 +281,8 @@
       .py-3.py-md-4(titulo="Staff")
         .row
           .col-md-6.mb-4.mb-md-0
-            h4 Staff
+            h4 
+              i Staff
             p Es una fusión entre la lineal y la funcional; los órganos staff prestan asesoría a servicios especializados. Sus características son:
             .col-md.col-lg-7
             <ul>
@@ -297,7 +301,6 @@
           .col-md-6
             figure
               img(data-aos="fade-left" src='@/assets/curso/temas/texto_destacado/img13.svg', alt='Texto que describa la imagen')
-    separador
     br
     p Una vez definida la estructura organizacional, y teniendo en cuenta que la fase de organización no es más que la continuación de la fase de planeación en relación con los procesos administrativos, es importante reconocer esos tipos de descriptores o facilitadores en la división y asignación del trabajo. Es entonces que surge como herramienta la gestión administrativa, definida como el conjunto de acciones o tareas que buscan maximizar los resultados de la empresa con la búsqueda permanente del uso eficiente de los recursos humanos, financieros y materiales. 
     br
@@ -361,28 +364,28 @@
         table
           caption(style="text-align:center") IDENTIFICACIÓN DEL CARGO
           
-        tr
+        tr(style="background-color: #ffff")
           th(colspan='1' style="text-align:center") Denominación del cargo.
             p Coordinador operativo de comunicaciones
           th(colspan='2' style="text-align:center;") Categoría laboral
             p Coordinador operativo
         
-        tr
+        tr(style="background-color: #ffff")
           th(style="width: 375px; text-align:center") Departamento
             p Operativo
           th(style="width: 375px; text-align:center") No. Titulares
             p 1
           th(style="width: 375px; text-align:center") Jornada laboral
             p Mañana y tarde
-        tr
+        tr(style="background-color: #E1E1E1")
           th(colspan='3' style="text-align:center;") FINALIDAD
-        tr
+        tr(style="background-color: #ffff")
           td(colspan='3') 
-            p(style="text-align:center;") incluye personas cualificadas para ejercer labores de community manager, diseño gráfico y fotografía. Tiene la responsabilidad de asegurar el plan de comunicaciones, a través de campañas, para transmitir los mensajes que la empresa requiera difundir. Debe plantear la propuesta de presupuesto de inversión y, al mismo tiempo, debe hacer seguimiento y dar cumplimiento al presupuesto de operación para su área.  
+            p(style="text-align:center;") El coordinador operativo de comunicaciones, es el encargado de velar por las correctas prácticas de comunicación interna y externa de la empresa; bajo su liderazgo cuenta con un equipo de trabajo que  incluye personas cualificadas para ejercer labores de <i>community manager</i>, diseño gráfico y fotografía. Tiene la responsabilidad de asegurar el plan de comunicaciones, a través de campañas, para transmitir los mensajes que la empresa requiera difundir. Debe plantear la propuesta de presupuesto de inversión y, al mismo tiempo, debe hacer seguimiento y dar cumplimiento al presupuesto de operación para su área.  
             br
             p(style="text-align:center;") También tiene como funciones importantes: la comunicación interna asertiva y eficiente, crear campañas comunicativas para divulgar información de interés institucional y la coordinación del área de comunicaciones, así como la gestión de relaciones externas.
 
-        tr
+        tr(style="background-color: #E1E1E1")
           th(colspan='3' style="text-align:center") ÁREAS DE RESULTADOS
         tr
           td(colspan='3') 
@@ -403,7 +406,7 @@
               <i style ="color: #f85316" class="fas fa-check"></i> Control de presupuestos de operación.
               </li>
             </ul>
-        tr
+        tr(style="background-color: #E1E1E1")
           th(colspan='3' style="text-align:center") ACCIONES
         tr
           td(colspan='3') 
@@ -424,9 +427,9 @@
               <i style ="color: #f85316" class="fas fa-check"></i> Junto con el responsable de mercadeo, planear la forma de comunicar y publicitar los servicios de la empresa.
               </li>
             </ul>
-        tr
+        tr(style="background-color: #E1E1E1")
           th(colspan='3' style="text-align:center") EQUIPOS O VALORES A SU CARGO
-        tr
+        tr(style="background-color: #ffff")
           td(colspan='3') 
             <ul style="text-align:center"> 
               <li>
@@ -437,7 +440,7 @@
               <i style ="color: #f85316" class="fas fa-check"></i> Equipo de oficina.
               </li>
             </ul>
-        tr
+        tr(style="background-color: #E1E1E1")
           th(colspan='3' style="text-align:center") PERFIL
         tr
           th(style="text-align:center") Competencias
@@ -455,14 +458,14 @@
               <i style ="color: #f85316" class="fas fa-check"></i> Especialista en comunicación corporativa.
               </li>
             </ul>
-        tr
+        tr(style="background-color: #ffff")
           td(style="text-align:center") Experiencia relacionada
           td(colspan='2' style="text-align:center") Mínimo 3 años en cargos similares.
-    separador
+    
     br
     .row
       .col-lg-12
-        .cajon.color-acento-botones.p-4
+        .cajon.color-acento-botones.color-fondo-secundario.p-4
           p.mb-0 Luego del planteamiento del manual de funciones, se hace necesario ahondar un poco más en las responsabilidades y en el paso a paso, para cumplir con las responsabilidades del cargo; es por esta razón, que se plantean aspectos relevantes de los procesos, procedimientos y sus consecuencias, como complemento para la correcta organización de la empresa.    
     br
     br
@@ -557,39 +560,38 @@
     br
     TabsA.color-acento-contenido.mb-4
       .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="PASO 1")
-        
         .row
-          .col-md-3.mb-4
+          .col-md-2.mb-4.col-sm-5
             figure
               img(data-aos="flip-up" src='@/assets/curso/temas/figuras/esquemaF.svg', alt='Texto que describa la imagen')
-          .col-md-9
+          .col-md-10.col-sm-7
             h4 PASO 1: Ficha del proceso 
             p Es la que describe las generalidades de cada proceso. El objetivo, entradas, salidas, cómo se medirá, entre otros.
 
       .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="PASO 2")
         .row
-          .col-md-3.mb-4
+          .col-md-2.mb-4.col-sm-5
             figure
               img(data-aos="zoom-in-up" src='@/assets/curso/temas/figuras/esquemaG.svg', alt='Texto que describa la imagen')
-          .col-md-9
+          .col-md-10.col-sm-7
             h4 PASO 2: Flujograma
             p Ilustra, gráficamente, el recorrido que conlleva el proceso desde sus entradas y hasta sus salidas.
 
       .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="PASO 3")
         .row
-          .col-md-3.mb-4
+          .col-md-2.mb-4.col-sm-5
             figure
               img(data-aos="zoom-in-up" src='@/assets/curso/temas/figuras/esquemaH.svg', alt='Texto que describa la imagen')
-          .col-md-9
+          .col-md-10.col-sm-7
             h4 PASO 3: Procedimiento
             p Se refiere al conjunto de actividades que constituyen el proceso, incluyendo un paso a paso de manera descriptiva.
 
       .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="PASO 4")
         .row
-          .col-md-3.mb-4
+          .col-md-2.mb-4.col-sm-5
             figure
               img(data-aos="zoom-in-up" src='@/assets/curso/temas/figuras/esquemaI.svg', alt='Texto que describa la imagen')
-          .col-md-9
+          .col-md-10.col-sm-7
             h4 PASO 4: Actividades
             p Acciones que, en su desarrollo, aportan y generan valor a la organización.
    
@@ -637,7 +639,7 @@
     br
     .row
       .col-lg-12
-        .cajon.color-acento-botones.p-3
+        .cajon.color-acento-botones.color-fondo-secundario.p-3
           p Se puede concluir que, en esta etapa del proceso administrativo, se realiza una identificación, clasificación, agrupación y asignación del trabajo, de los recursos y las responsabilidades, de tal forma que, cada integrante sepa qué se espera de su labor y cómo está aportando al logro del objetivo colectivo.
           p.mb-0 Una vez culminada la etapa de organización, se procede con la etapa de dirección.
     br
@@ -645,9 +647,10 @@
     #t_2_3.titulo-segundo.color-acento-contenido   
       h2 2.3 Dirección
     br
-    .bloque-texto-g.color-primario.p-sm-4
-      .bloque-texto-g__img(style="position:relative;background-color:#e8e8e8 !important;padding:1.5rem;margin:-1.5rem", data-aos="zoom-out-up")
-        img.mx-auto(src='@/assets/curso/temas/WP_04.png' style="max-height:161px; width:171px;")
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-4
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/texto_destacado/img17.png')})`}"
+      )
       .bloque-texto-g__texto.p-5
         p.mb-0 Cuando se habla de dirección, se hace referencia a unos elementos asociados al liderazgo, a la motivación, a los equipos de trabajo y a la comunicación en torno a la ejecución de los planes, de acuerdo con la estructura organizacional.
     br
@@ -705,11 +708,11 @@
           .col-md-6
             figure
               img(data-aos="zoom-out-left" src='@/assets/curso/temas/texto_destacado/img22.svg', alt='Texto que describa la imagen')
-    separador
+    
     br
     h3 
       i.fas.fa-square.me-3.cuadrado
-      | Tipos de direccion.
+      | Tipos de direccion
     br
     br
     p Las formas de administrar o dirigir, pueden variar de acuerdo con los tipos, formas o estilos de liderazgo; esto varía según la conformación y metodologías para realizar los procedimientos.
@@ -745,7 +748,7 @@
     br
     .row.justify-content-around.align-items-center 
       .col-lg-11
-        .cajon.color-acento-botones.p-3
+        .cajon.color-acento-botones.color-fondo-secundario.p-3
            p Una vez se tiene el equipo de trabajo comprometido, en busca de la eficiencia, desarrollando actividades claras, con liderazgos y jerarquías definidas y apostando a un mismo fin, aparece el último paso del ciclo del proceso administrativo, que busca evaluar el ejercicio y, a través de esa evaluación, definir procesos de mejora y corrección. Es así como se le da acceso a la cuarta etapa denominada “control”.    
         
     br
