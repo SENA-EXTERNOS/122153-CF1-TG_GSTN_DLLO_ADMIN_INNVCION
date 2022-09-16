@@ -164,7 +164,7 @@
           | Para conocer qué es la estrategia de diagnóstico y análisis empresarial,
           b se recomienda ver el siguiente video.
 
-    figure
+    figure.mb-4
       .video
         <iframe width="560" height="315" src="https://www.youtube.com/embed/xzg1pJ5QhM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
 

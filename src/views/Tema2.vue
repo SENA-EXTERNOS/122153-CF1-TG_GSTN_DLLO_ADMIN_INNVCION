@@ -560,40 +560,40 @@
     br
     TabsA.color-acento-contenido.mb-4
       .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="PASO 1")
-        .row
-          .col-md-2.mb-4.col-sm-5
+        .row.justify-content-center.align-items-center
+          .col-md-2.col-sm-5
             figure
               img(data-aos="flip-up" src='@/assets/curso/temas/figuras/esquemaF.svg', alt='Texto que describa la imagen')
           .col-md-10.col-sm-7
             h4 PASO 1: Ficha del proceso 
-            p Es la que describe las generalidades de cada proceso. El objetivo, entradas, salidas, cómo se medirá, entre otros.
+            p.mb-0 Es la que describe las generalidades de cada proceso. El objetivo, entradas, salidas, cómo se medirá, entre otros.
 
       .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="PASO 2")
-        .row
-          .col-md-2.mb-4.col-sm-5
+        .row.justify-content-center.align-items-center
+          .col-md-2.col-sm-5
             figure
               img(data-aos="zoom-in-up" src='@/assets/curso/temas/figuras/esquemaG.svg', alt='Texto que describa la imagen')
           .col-md-10.col-sm-7
             h4 PASO 2: Flujograma
-            p Ilustra, gráficamente, el recorrido que conlleva el proceso desde sus entradas y hasta sus salidas.
+            p.mb-0 Ilustra, gráficamente, el recorrido que conlleva el proceso desde sus entradas y hasta sus salidas.
 
       .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="PASO 3")
-        .row
-          .col-md-2.mb-4.col-sm-5
+        .row.justify-content-center.align-items-center
+          .col-md-2.col-sm-5
             figure
               img(data-aos="zoom-in-up" src='@/assets/curso/temas/figuras/esquemaH.svg', alt='Texto que describa la imagen')
           .col-md-10.col-sm-7
             h4 PASO 3: Procedimiento
-            p Se refiere al conjunto de actividades que constituyen el proceso, incluyendo un paso a paso de manera descriptiva.
+            p.mb-0 Se refiere al conjunto de actividades que constituyen el proceso, incluyendo un paso a paso de manera descriptiva.
 
       .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="PASO 4")
-        .row
-          .col-md-2.mb-4.col-sm-5
+        .row.justify-content-center.align-items-center
+          .col-md-2.col-sm-5
             figure
               img(data-aos="zoom-in-up" src='@/assets/curso/temas/figuras/esquemaI.svg', alt='Texto que describa la imagen')
           .col-md-10.col-sm-7
             h4 PASO 4: Actividades
-            p Acciones que, en su desarrollo, aportan y generan valor a la organización.
+            p.mb-0 Acciones que, en su desarrollo, aportan y generan valor a la organización.
    
     p Para la construcción de un flujograma, se debe tener en cuenta la representación simbólica que se presenta a continuación: 
     br
