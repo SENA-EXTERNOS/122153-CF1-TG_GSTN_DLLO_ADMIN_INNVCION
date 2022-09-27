@@ -30,17 +30,19 @@
     
     #t_2_1.titulo-segundo.color-acento-contenido   
       h2 2.1 Planeación
-    .tarjeta.p-4.p-md-2.mb-4
+    .tarjeta.p-4.p-md-2.mb-0
       .row.justify-content-around.align-items-center
-        .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
+        .col-8.col-sm-10.col-md-3.col-lg-5
           img(data-aos="fade-down" src="@/assets/curso/temas/texto_destacado/img6.png")
 
         .col-md.col-lg-7
           p.mb-4 La planeación puede tener varias perspectivas, pero, en síntesis, obedece al rumbo hacia el que se dirige algo, bien sea a nivel empresarial o incluso, en la vida personal; es el horizonte proyectado y, para ilustrar un poco mejor el concepto, podría pensarse en los siguientes cuestionamientos: ¿qué se quiere? ¿Quiénes somos? ¿Para dónde vamos? La planeación impulsa para optimizar recursos, prever situaciones, reducir costos e incrementar la productividad, a partir de la concentración y canalización de esfuerzos por un mismo fin, además de ser un escenario base para una posterior evaluación y retroalimentación del proceso y de los logros obtenidos.
-    .col-md-4
-      h6 Basados en la estructura organizacional, existen 3 tipos de planeación:
-    .row.justify-content-center.mb-4.mt-5
-      .col-lg-4
+   
+    .row.justify-content-center.mb-3
+      .col-md-12
+        .col-md-5.p-5
+          h6 Basados en la estructura organizacional, existen 3 tipos de planeación:
+      .col-lg-4.col-sm-10.col-md-3.col-lg-2
         figure
             img(data-aos="fade-down" src='@/assets/curso/temas/figuras/esquemaC.svg')
       .col-lg-6
@@ -135,7 +137,7 @@
     #t_2_2.titulo-segundo.color-acento-contenido   
       h2 2.2 Organización
 
-    p Una de las definiciones de organización es la de los autores Hernández y Rodríguez, S., Palafox de Anda, G. & Aguado Cortés, C. (2020), quienes indican que: es la <span style="color:blue">“fase del proceso administrativo en la cual se aplican las técnicas administrativas para estructurar una empresa u organización social; se definen las funciones por áreas sustantivas, departamentos y puestos; se establece la autoridad en materia de toma decisiones y la responsabilidad de los miembros que ocupan dichas unidades, y se definen las líneas de comunicación formal que faciliten la comunicación y la cooperación de los equipos de trabajo, a fin de alcanzar los objetivos y la estrategia” (p.271).</span>
+    p Una de las definiciones de organización es la de los autores Hernández y Rodríguez, S., Palafox de Anda, G. & Aguado Cortés, C. (2020), quienes indican que: es la <strong style="color:blue">“fase del proceso administrativo en la cual se aplican las técnicas administrativas para estructurar una empresa u organización social; se definen las funciones por áreas sustantivas, departamentos y puestos; se establece la autoridad en materia de toma decisiones y la responsabilidad de los miembros que ocupan dichas unidades, y se definen las líneas de comunicación formal que faciliten la comunicación y la cooperación de los equipos de trabajo, a fin de alcanzar los objetivos y la estrategia” (p.271).</strong >
     
     .row.justify-content-around.align-items-center.mb-4
       .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
@@ -196,7 +198,7 @@
         h2.text-center Equilibrio
         p.text-center Debe existir un equilibrio entre la aplicación de las técnicas y los principios, para asegurar la correcta marcha global de la organización. 
   
-    p En el ejercicio de la organización como proceso administrativo, también se encuentra la definición de la estructura organizacional, siendo esta la manera de establecer una arquitectura al interior de la empresa, indicando los cargos, las líneas de comunicación y de mando, las dependencias y la relación entre las mismas; esta herramienta debe ser construida y diseñada a la luz de la razón de ser de la empresa, su propósito superior y su actividad económica; por eso es importante realizar un análisis previo a variables, como el que se explica a continuación:
+    p En el ejercicio de la organización como proceso administrativo, también se encuentra la definición de la <strong>estructura organizacional, </strong>siendo esta la manera de establecer una arquitectura al interior de la empresa, indicando los cargos, las líneas de comunicación y de mando, las dependencias y la relación entre las mismas; esta herramienta debe ser construida y diseñada a la luz de la razón de ser de la empresa, su propósito superior y su actividad económica; por eso es importante realizar un análisis previo a variables, como el que se explica a continuación:
     
     .row.justify-content-around.align-items-center.mb-4
       .col-8.col-sm-6.col-md-5.mb-4
@@ -220,7 +222,7 @@
     p Es fundamental aclarar que no todas las estructuras organizacionales son iguales y que todo depende de la actividad económica, de su estilo de dirección y de organización; <strong>a continuación se presentan algunos modelos y tipos de estructuras:</strong>
 
     TabsC.color-acento-contenido.mb-4
-      .py-3.py-md-4(titulo="Organización formal")
+      .py-4.py-md-5(titulo="<strong>Organización formal</strong>")
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Organización formal
@@ -229,7 +231,7 @@
           .col-md-6
             figure
               img(data-aos="fade-up" src='@/assets/curso/temas/texto_destacado/img10.svg', alt='Texto que describa la imagen')
-      .py-3.py-md-4(titulo="Organización lineal")
+      .py-3.py-md-4(titulo="<strong>Organización lineal</strong>")
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Organización lineal
@@ -252,7 +254,7 @@
           .col-md-6
             figure
               img(data-aos="fade-up" src='@/assets/curso/temas/texto_destacado/img11.svg', alt='Texto que describa la imagen')
-      .py-3.py-md-4(titulo="Organización funcional")
+      .py-3.py-md-4(titulo="<strong>Organización funcional</strong>")
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Organización funcional
@@ -278,7 +280,7 @@
           .col-md-6
             figure
               img(data-aos="fade-left" src='@/assets/curso/temas/texto_destacado/img12.svg', alt='Texto que describa la imagen')
-      .py-3.py-md-4(titulo="Staff")
+      .py-3.py-md-4.diabled(titulo="<strong>Staff</strong>")
         .row
           .col-md-6.mb-4.mb-md-0
             h4 
@@ -360,12 +362,12 @@
       .titulo-sexto.color-acento-contenido.p <strong>Tabla 1. </strong> Ejemplo manual de funciones
       .tabla-b.color-acento-botones
         .tabla-b__header
-          h4.mb-0 MANUAL DE FUNCIONES
+          h4.mb-0(style="color:white") MANUAL DE FUNCIONES
         table
           caption(style="text-align:center") IDENTIFICACIÓN DEL CARGO
           
         tr(style="background-color: #ffff")
-          th(colspan='1' style="text-align:center") Denominación del cargo.
+          th(style="text-align:center; width: 50%;") Denominación del cargo.
             p Coordinador operativo de comunicaciones
           th(colspan='2' style="text-align:center;") Categoría laboral
             p Coordinador operativo
@@ -510,27 +512,27 @@
       br
       p Antes de presentar la estructura del manual de procesos y procedimientos, es importante profundizar un poco sobre los conceptos que se encuentran involucrados en este documento.
       br
-      .row
-      .col-lg-12
-        .cajon.color-primario
-        .color-fondo.p-3
-          p <strong>Proceso:</strong> se refiere a una serie de entradas que se combina con algunas actividades, para generar unas salidas o un producto. Un ejemplo de esto es el siguiente: para realizar un pastel, se cuenta con los ingredientes, las herramientas y el mecanismo de elaboración, para obtener como resultado el pastel; a esto se le denomina proceso.     
-          br
-          .col-md.col-lg-7
-          p Existen 3 tipos de procesos:
-          <ul>
-            <li>
-            <i style ="color: #f85316" class="fas fa-check "></i><strong> Estratégicos:</strong> son aquellos que están relacionados con la planificación estratégica de la organización. 
-            </li>
+      .row.col-md-12
+        .col-md-12.margenes
+          .cajon.color-primario
+          .color-fondo.p-3
+            p <strong>Proceso:</strong> se refiere a una serie de entradas que se combina con algunas actividades, para generar unas salidas o un producto. Un ejemplo de esto es el siguiente: para realizar un pastel, se cuenta con los ingredientes, las herramientas y el mecanismo de elaboración, para obtener como resultado el pastel; a esto se le denomina proceso.     
             br
-            <li>
-            <i style ="color: #f85316" class="fas fa-check"></i><strong> Operativos:</strong> son los que están relacionados con la operación de la empresa.
-            </li>
-            br
-            <li>
-            <i style ="color: #f85316" class="fas fa-check"></i><strong> De apoyo:</strong> son los que dan soporte a la organización.
-            </li>
-          </ul>
+            .col-md.col-lg-7
+            p Existen 3 tipos de procesos:
+            <ul>
+              <li>
+              <i style ="color: #f85316" class="fas fa-check "></i><strong> Estratégicos:</strong> son aquellos que están relacionados con la planificación estratégica de la organización. 
+              </li>
+              br
+              <li>
+              <i style ="color: #f85316" class="fas fa-check"></i><strong> Operativos:</strong> son los que están relacionados con la operación de la empresa.
+              </li>
+              br
+              <li>
+              <i style ="color: #f85316" class="fas fa-check"></i><strong> De apoyo:</strong> son los que dan soporte a la organización.
+              </li>
+            </ul>
     br
     p Para continuar con el ejemplo de la pastelería, se ilustrará el ejercicio, para conocer el mapa de procesos de la misma empresa.
     br
@@ -712,7 +714,7 @@
     br
     h3 
       i.fas.fa-square.me-3.cuadrado
-      | Tipos de direccion
+      | Tipos de dirección
     br
     br
     p Las formas de administrar o dirigir, pueden variar de acuerdo con los tipos, formas o estilos de liderazgo; esto varía según la conformación y metodologías para realizar los procedimientos.

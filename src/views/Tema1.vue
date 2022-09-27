@@ -149,7 +149,7 @@
       .col-md-7
         p.mb-0 Luego de realizar el recorrido por los orígenes y enfoques de la administración, resulta importante reconocer, en el concepto, algunos elementos de carácter estratégico que han ido perfilando la administración y que han trazado la estructura basada en procesos. La estrategia no es más que la capacidad de actuar bajo la presión del entorno y sus variables, ser capaces de ir más allá y de orientar las decisiones de manera adaptativa a los cambios que surgen. Esta manera de “hacer” administración, determina una ruta o un ciclo que posibilita no solo idear propuestas sino ejecutarlas y, posteriormente, evaluarlas; para lograrlo es necesario esbozar un poco de qué se trata, a partir de la siguiente línea temática.
         br
-    
+      separador
     #t_1_2.titulo-segundo.color-acento-contenido.mb-4  
       h2 1.2 Administración estratégica
 
@@ -161,7 +161,7 @@
         p.mb-0 La administración estratégica se entiende como aquella que apunta a dar lineamiento y orientación desde los estamentos directivos en una empresa u organización, teniendo en cuenta el estado interno y externo de la misma, es decir, diagnosticando lo que sucede, para alinear y asegurar que la toma de decisiones impacte directamente la necesidad o la intención.
           br
           br
-          | Para conocer qué es la estrategia de diagnóstico y análisis empresarial,
+          | Para conocer qué es la estrategia de diagnóstico y análisis empresarial, 
           b se recomienda ver el siguiente video.
 
     figure.mb-4

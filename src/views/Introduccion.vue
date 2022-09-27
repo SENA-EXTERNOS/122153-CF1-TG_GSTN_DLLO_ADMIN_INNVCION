@@ -8,7 +8,7 @@
         span
           i.fas.fa-info
       h1 Introducción
-    .bloque-texto-g.color-principal-fondo.p-3.p-sm-4.p-md-4
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-4
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/texto_destacado/img.jpg')})`}"
       )
