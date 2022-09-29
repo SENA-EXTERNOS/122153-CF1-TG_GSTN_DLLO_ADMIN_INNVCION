@@ -21,7 +21,7 @@
     .col-md-12.mb-4
        p La administración como la conocemos en la actualidad, es el resultado de los hechos históricos de pioneros que aportaron, desde su enfoque, al desarrollo y madurez del concepto, como por ejemplo, filósofos, físicos, economistas, estadistas, entre otros, que fueron grandes empresarios. La historia ha demostrado que las prácticas o iniciativas que tomaron estructuras militares, sociales, políticas y religiosas, siempre tuvieron configuración piramidal y, aunque no fue una forma muy regular, siempre actuaba como estructura jerárquica que focalizaba las decisiones y el poder en su vértice piramidal. Así podría citarse el aporte que, entre muchos otros, hicieron los egipcios, los hebreos, Platón, Maquiavelo y Adam Smith, con sus diferentes maneras de crear y organizar sus operaciones. 
 
-    .row.justify-content-center
+    .row.justify-content-center.mb-5
       .col-lg-4
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/administradores/PortadaA.svg', alt="alt").img400.m-auto
@@ -118,7 +118,7 @@
               b 2000
             p.text-center.mb-0 Caos y complejidad    
 
-    p.mt-5 Así mismo, las teorías que fueron surgiendo paulatinamente, tenían diferentes enfoques y puntos de vista que presentaban modelos y esquemas de administración, basados en diversos criterios, como se evidencia en el gráfico que se observa a continuación:
+    p Así mismo, las teorías que fueron surgiendo paulatinamente, tenían diferentes enfoques y puntos de vista que presentaban modelos y esquemas de administración, basados en diversos criterios, como se evidencia en el gráfico que se observa a continuación:
 
     .mx-auto.col-md-5.mb-5
       .titulo-sexto.color-acento-contenido
@@ -148,12 +148,13 @@
           img(src='@/assets/curso/temas/texto_destacado/img3.png')
       .col-md-7
         p.mb-0 Luego de realizar el recorrido por los orígenes y enfoques de la administración, resulta importante reconocer, en el concepto, algunos elementos de carácter estratégico que han ido perfilando la administración y que han trazado la estructura basada en procesos. La estrategia no es más que la capacidad de actuar bajo la presión del entorno y sus variables, ser capaces de ir más allá y de orientar las decisiones de manera adaptativa a los cambios que surgen. Esta manera de “hacer” administración, determina una ruta o un ciclo que posibilita no solo idear propuestas sino ejecutarlas y, posteriormente, evaluarlas; para lograrlo es necesario esbozar un poco de qué se trata, a partir de la siguiente línea temática.
-        br
-      separador
-    #t_1_2.titulo-segundo.color-acento-contenido.mb-4  
+        
+    Separador
+    
+    #t_1_2.titulo-segundo.color-acento-contenido.mb-5  
       h2 1.2 Administración estratégica
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/texto_destacado/img4.png')})`}"
       )
@@ -164,7 +165,7 @@
           | Para conocer qué es la estrategia de diagnóstico y análisis empresarial, 
           b se recomienda ver el siguiente video.
 
-    figure.mb-4
+    figure.mb-5
       .video
         <iframe width="560" height="315" src="https://www.youtube.com/embed/xzg1pJ5QhM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
 

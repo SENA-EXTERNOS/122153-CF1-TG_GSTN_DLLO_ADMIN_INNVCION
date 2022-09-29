@@ -27,9 +27,11 @@
       figure.mb-4
           img(data-aos="flip-left" src='@/assets/curso/temas/figuras/esquemaB.svg')
 
-    
+    Separador
+
     #t_2_1.titulo-segundo.color-acento-contenido   
       h2 2.1 Planeación
+    
     .tarjeta.p-4.p-md-2.mb-0
       .row.justify-content-around.align-items-center
         .col-8.col-sm-10.col-md-3.col-lg-5
@@ -38,7 +40,7 @@
         .col-md.col-lg-7
           p.mb-4 La planeación puede tener varias perspectivas, pero, en síntesis, obedece al rumbo hacia el que se dirige algo, bien sea a nivel empresarial o incluso, en la vida personal; es el horizonte proyectado y, para ilustrar un poco mejor el concepto, podría pensarse en los siguientes cuestionamientos: ¿qué se quiere? ¿Quiénes somos? ¿Para dónde vamos? La planeación impulsa para optimizar recursos, prever situaciones, reducir costos e incrementar la productividad, a partir de la concentración y canalización de esfuerzos por un mismo fin, además de ser un escenario base para una posterior evaluación y retroalimentación del proceso y de los logros obtenidos.
    
-    .row.justify-content-center.mb-3
+    .row.justify-content-center.mb-5
       .col-md-12
         .col-md-5.p-5
           h6 Basados en la estructura organizacional, existen 3 tipos de planeación:
@@ -56,13 +58,13 @@
           .row(titulo="Operativa")
             .col-md-12.mb-4.mb-md-0
               p Se diseña con base en los planes tácticos y desarrollada por los estamentos operativos de la organización
-    br
+    
     p La planeación organizacional se enmarca, regularmente, en un documento denominado “plan estratégico”, donde confluye la información de base y la que se plantea en un horizonte de tiempo determinado, los propósitos y alcances pretendidos.
-    br
-    p <strong>El plan estratégico es como un rompecabezas,</strong> compuesto por diferentes piezas las cuales se presentan a continuación:  
-    br
-    br
-    .mx-auto.col-md-10.mb-4
+    p.mb-5 
+      strong El plan estratégico es como un rompecabezas, 
+      | compuesto por diferentes piezas las cuales se presentan a continuación:  
+
+    .mx-auto.col-md-10.mb-5
       .tarjeta
         .imgCont.m-auto
           .row.justify-content-center.mb-4
@@ -95,13 +97,13 @@
                 p.mb-0.text-center Representan los resultados que la empresa desea alcanzar y lograr; se deben establecer para un tiempo específico y ser definidos cuantitativamente. Ayudan a materializar la estrategia, establecen metas y ayudan a su cumplimiento y, además, unifican el lenguaje y alinean la organización. Para la construcción de los objetivos estratégicos es necesario tener presente la misión, la visión y los principios de la organización, de tal manera que se garantice la alineación y la coherencia.
 
        
-    .row.justify-content-around.align-items-center 
-      .col-lg-12
-       .cajon.color-acento-botones.color-fondo-secundario.p-4
-          p.mb-0 Estos temas corresponden a la denominada <strong>cultura organizacional, </strong>cultura organizacional, la cual es como el ADN de la empresa: la forma de ser y de hacer empresa, las creencias y todas aquellas variables que hacen que los empleados se identifiquen y busquen, desde su quehacer, aportar a un mismo fin.    
-    br
+    .cajon.color-acento-botones.color-fondo-secundario.p-4.mb-5
+      p.mb-0 Estos temas corresponden a la denominada 
+        b cultura organizacional, 
+        | cultura organizacional, la cual es como el ADN de la empresa: la forma de ser y de hacer empresa, las creencias y todas aquellas variables que hacen que los empleados se identifiquen y busquen, desde su quehacer, aportar a un mismo fin.    
+
     p En compensación y proporcionando una continuidad con la construcción de la planeación estratégica, encontramos los siguientes elementos:
-    br
+
     .row.justify-content-around.mb-4
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="fade-right")
@@ -139,9 +141,9 @@
 
     p Una de las definiciones de organización es la de los autores Hernández y Rodríguez, S., Palafox de Anda, G. & Aguado Cortés, C. (2020), quienes indican que: es la <strong style="color:blue">“fase del proceso administrativo en la cual se aplican las técnicas administrativas para estructurar una empresa u organización social; se definen las funciones por áreas sustantivas, departamentos y puestos; se establece la autoridad en materia de toma decisiones y la responsabilidad de los miembros que ocupan dichas unidades, y se definen las líneas de comunicación formal que faciliten la comunicación y la cooperación de los equipos de trabajo, a fin de alcanzar los objetivos y la estrategia” (p.271).</strong >
     
-    .row.justify-content-around.align-items-center.mb-4
+    .row.justify-content-around.align-items-center.mb-5
       .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
-        img(data-aos="flip-right" src="@/assets/curso/temas/texto_destacado/img8.png")
+        img(data-aos="flip-right" src="@/assets/curso/temas/texto_destacado/img8.png" alt="imagen relacionada")
 
       .col-md.col-lg-7
           p.mb-4 La organización permite optimizar tiempo y recursos, así como también el aumento de productividad, simplificando el trabajo y evitando los reprocesos y la duplicidad en responsabilidades o actividades. Las dos etapas fundamentales de la organización son:
@@ -155,7 +157,7 @@
     
     p Por otro lado, también se estructura a partir de unos principios que son los que aportan, a la “organización”, el hilo conductor como proceso administrativo. Dentro de estos principios se exponen los siguientes:
 
-    SlyderF.mb-4(columnas="col-lg-12 col-xl-4")
+    SlyderF.mb-5(columnas="col-lg-12 col-xl-4")
       .tarjeta.color-acento-contenido.p-4(style='height:425px')
         .row.justify-content-center.mb-3
           .col-7.mb-3
@@ -509,16 +511,16 @@
             <i style ="color: #f85316" class="fas fa-check"></i> Puede ser una herramienta para capacitación. 
             </li>
           </ul>
-      br
+
       p Antes de presentar la estructura del manual de procesos y procedimientos, es importante profundizar un poco sobre los conceptos que se encuentran involucrados en este documento.
-      br
-      .row.col-md-12
+
+      .row.col-md-12.mb-5
         .col-md-12.margenes
           .cajon.color-primario
           .color-fondo.p-3
             p <strong>Proceso:</strong> se refiere a una serie de entradas que se combina con algunas actividades, para generar unas salidas o un producto. Un ejemplo de esto es el siguiente: para realizar un pastel, se cuenta con los ingredientes, las herramientas y el mecanismo de elaboración, para obtener como resultado el pastel; a esto se le denomina proceso.     
-            br
-            .col-md.col-lg-7
+            
+            .col-md-7
             p Existen 3 tipos de procesos:
             <ul>
               <li>
@@ -533,20 +535,18 @@
               <i style ="color: #f85316" class="fas fa-check"></i><strong> De apoyo:</strong> son los que dan soporte a la organización.
               </li>
             </ul>
-    br
+
     p Para continuar con el ejemplo de la pastelería, se ilustrará el ejercicio, para conocer el mapa de procesos de la misma empresa.
-    br
-    .mx-auto.col-md-10
-      .titulo-sexto.color-acento-contenido
+    
+    .mx-auto.col-md-10.mb-5
+      .titulo-sexto.color-acento-contenido.mb-4
         p.mb-0
           b Figura 3.
           br
           em Ejemplo mapa de procesos
-      br
       figure
-          img(data-aos="flip-right" src='@/assets/curso/temas/figuras/esquemaE.svg')
-    br
-    br
+          img(data-aos="flip-right" src='@/assets/curso/temas/figuras/esquemaE.svg' alt='Ejemplo mapa de procesos')
+    
     .tarjeta.p-4.p-md-2.mb-5
       .row.justify-content-around.align-items-center          
         .col-md.col-lg-7
@@ -559,7 +559,7 @@
           p Una vez que se cuenta con el mapa de procesos, es importante asignar a un responsable o a un líder del desarrollo, quien será el encargado de velar por el cumplimiento, conjuntamente con el equipo que entrenará y guiará para el logro del objetivo.
         .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
           img(data-aos="flip-up" src="@/assets/curso/temas/texto_destacado/img16.png")
-    br
+
     TabsA.color-acento-contenido.mb-4
       .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="PASO 1")
         .row.justify-content-center.align-items-center
@@ -598,8 +598,8 @@
             p.mb-0 Acciones que, en su desarrollo, aportan y generan valor a la organización.
    
     p Para la construcción de un flujograma, se debe tener en cuenta la representación simbólica que se presenta a continuación: 
-    br
-    .col-md-7.mx-auto.mb-4
+
+    .col-md-7.mx-auto.mb-5
       .tabla-a
         table
           tr
@@ -623,12 +623,9 @@
               img(src='@/assets/curso/temas/tarjetas/TrazadoT1.svg', alt='')
             td Indica la entrada y salida de datos. 
 
-    br
-    br
     p El flujograma comprende el paso a paso de los procesos, estimando momentos de decisión, de desarrollo de actividades, e indicando el principio y el fin de los procesos.
-    br
     p Para el ejemplo de la pastelería, quedaría así:
-    br
+
     .mx-auto.col-md-10
       .titulo-sexto.color-acento-contenido
         p.mb-0 
