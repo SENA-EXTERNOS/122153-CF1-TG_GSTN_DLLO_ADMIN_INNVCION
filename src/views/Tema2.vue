@@ -10,7 +10,7 @@
     .tarjeta.p-3.mb-5
       .row.justify-content-around.align-items-center
         .col-sm-10.col-md-3.col-lg-2
-          img(data-aos="fade-up" src="@/assets/curso/temas/texto_destacado/img5.svg")
+          img(data-aos="fade-up" src="@/assets/curso/temas/texto_destacado/img5.svg", alt='imagen relacionada')
         .col-sm-12.col-md-8.col-lg-10
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
@@ -25,7 +25,7 @@
           em Etapas del proceso administrativo
 
       figure.mb-4
-          img(data-aos="flip-left" src='@/assets/curso/temas/figuras/esquemaB.svg')
+          img(data-aos="flip-left" src='@/assets/curso/temas/figuras/esquemaB.svg', alt='diagrama')
 
     Separador
 
@@ -35,7 +35,7 @@
     .tarjeta.p-4.p-md-2.mb-0
       .row.justify-content-around.align-items-center
         .col-8.col-sm-10.col-md-3.col-lg-5
-          img(data-aos="fade-down" src="@/assets/curso/temas/texto_destacado/img6.png")
+          img(data-aos="fade-down" src="@/assets/curso/temas/texto_destacado/img6.png", alt='imagen relacionada')
 
         .col-md.col-lg-7
           p.mb-4 La planeación puede tener varias perspectivas, pero, en síntesis, obedece al rumbo hacia el que se dirige algo, bien sea a nivel empresarial o incluso, en la vida personal; es el horizonte proyectado y, para ilustrar un poco mejor el concepto, podría pensarse en los siguientes cuestionamientos: ¿qué se quiere? ¿Quiénes somos? ¿Para dónde vamos? La planeación impulsa para optimizar recursos, prever situaciones, reducir costos e incrementar la productividad, a partir de la concentración y canalización de esfuerzos por un mismo fin, además de ser un escenario base para una posterior evaluación y retroalimentación del proceso y de los logros obtenidos.
@@ -46,7 +46,7 @@
           h6 Basados en la estructura organizacional, existen 3 tipos de planeación:
       .col-lg-4.col-sm-10.col-md-3.col-lg-2
         figure
-            img(data-aos="fade-down" src='@/assets/curso/temas/figuras/esquemaC.svg')
+            img(data-aos="fade-down" src='@/assets/curso/temas/figuras/esquemaC.svg', alt='imagen relacionada')
       .col-lg-6
         AcordionA(tipo="a" clase-tarjeta="tarjeta color-secundario")
           .row(titulo="Estratégica")
@@ -71,7 +71,7 @@
             ImagenInfografica.color-primario.mb-5
               template(v-slot:imagen)
                 figure
-                  img(data-aos="fade-left" src='@/assets/curso/temas/texto_destacado/img7.svg', alt='rompecabezas')
+                  img(data-aos="fade-left" src='@/assets/curso/temas/texto_destacado/img7.svg', alt='diagrama tipo rompecabezas')
 
               .tarjeta.color-acento-botones.p-4(x="11%" y="7%" numero="+" style='border-radius: 10px; background-color: #FFE8C8')
                 h5.mb-3.text-center Misión
@@ -109,7 +109,7 @@
         .crd_hover_txt(data-aos="fade-right")
           .crd_hover_txt--img
             figure
-              img(data-aos="fade-up-right" src="@/assets/curso/temas/tarjetas/tarjeta1.svg", alt="alt")
+              img(data-aos="fade-up-right" src="@/assets/curso/temas/tarjetas/tarjeta1.svg", alt="imagen relacionada")
           .crd_hover_txt--body
             h4.mb-3 Estrategias organizacionales 
             p.mb-0 Se relaciona con los planteamientos del cómo se pueden llegar a cumplir los objetivos. Pueden darse tantas estrategias como objetivos se planteen y son los vehículos para llevar las acciones al cumplimiento de los objetivos.
@@ -118,7 +118,7 @@
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tarjetas/tarjeta2.svg", alt="alt")
+              img(src="@/assets/curso/temas/tarjetas/tarjeta2.svg", alt="imagen relacionada")
           .crd_hover_txt--body
             h4.mb-3 Programas o proyectos
             p.mb-0 Se refiere a la secuencia de actividades desplegadas para el desarrollo y materialización de la estrategia; aquí se plasman los tiempos requeridos y los responsables de estos proyectos.
@@ -127,7 +127,7 @@
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tarjetas/tarjeta3.svg", alt="alt")
+              img(src="@/assets/curso/temas/tarjetas/tarjeta3.svg", alt="imagen relacionada")
           .crd_hover_txt--body
             h4.mb-3 Presupuestos
             p.mb-0 Son aquellas herramientas que permiten plasmar, de manera anticipada, los recursos requeridos (financieros y no financieros) para el cumplimiento de las actividades; por consiguiente, de las estrategias y de los objetivos.    
@@ -161,42 +161,42 @@
       .tarjeta.color-acento-contenido.p-4(style='height:425px')
         .row.justify-content-center.mb-3
           .col-7.mb-3
-            img(data-aos="flip-up" src='@/assets/componentes/avatar3.svg' alt='AvatarTop')
+            img(data-aos="flip-up" src='@/assets/componentes/avatar3.svg' alt='dibujo relacionado')
         h2.text-center Objetivo
         p.text-center Es la posibilidad de garantizar que todas las actividades que se pretendan desarrollar, se encuentren alineadas con las apuestas organizacionales.
 
       .tarjeta.color-acento-contenido.p-4(style='height:425px')
         .row.justify-content-center.mb-6
           .col-7.mb-3
-            img(data-aos="zoom-in-up" src='@/assets/componentes/avatar2.svg' alt='AvatarTop')
+            img(data-aos="zoom-in-up" src='@/assets/componentes/avatar2.svg' alt='dibujo relacionado')
         h2.text-center Especialización
         p.text-center El trabajo de cada persona debe estar delimitado hasta donde sea posible, asignando actividades y funciones específicas para su concentración y su destreza.
 
       .tarjeta.color-acento-contenido.p-4(style='height:425px')
         .row.justify-content-center.mb-6
           .col-7.mb-3
-            img(data-aos="zoom-out-up" src='@/assets/componentes/avatar1.svg' alt='AvatarTop')
+            img(data-aos="zoom-out-up" src='@/assets/componentes/avatar1.svg' alt='dibujo relacionado')
         h2.text-center Jerarquía
         p.text-center Resulta necesario, como parte fundamental de la organización, definir centros de autoridad que canalicen la información y garanticen la alineación de los equipos de trabajo hacia la institucionalidad.
 
       .tarjeta.color-acento-contenido.p-4(style='height:425px')
         .row.justify-content-center.mb-3
           .col-7.mb-3
-            img(data-aos="zoom-out-up" src='@/assets/componentes/avatar4.svg' alt='AvatarTop')
+            img(data-aos="zoom-out-up" src='@/assets/componentes/avatar4.svg' alt='dibujo relacionado')
         h2.text-center Unidad de mando
         p.text-center Al definir centros de autoridad, es preciso asignar un solo jefe a cada trabajador.
 
       .tarjeta.color-acento-contenido.p-4(style='height:425px')
         .row.justify-content-center.mb-3
           .col-7.mb-3
-            img(data-aos="zoom-out-up" src='@/assets/componentes/avatar5.svg' alt='AvatarTop')
+            img(data-aos="zoom-out-up" src='@/assets/componentes/avatar5.svg' alt='dibujo relacionado')
         h2.text-center Difusión
         p.text-center Se debe difundir, de manera abierta y clara, la información que surja desde los centros de autoridad.
 
       .tarjeta.color-acento-contenido.p-4(style='height:425px')
         .row.justify-content-center.mb-3
           .col-7.mb-3
-            img(data-aos="zoom-out-down" src='@/assets/componentes/avatar6.svg' alt='AvatarTop')
+            img(data-aos="zoom-out-down" src='@/assets/componentes/avatar6.svg' alt='dibujo relacionado')
         h2.text-center Equilibrio
         p.text-center Debe existir un equilibrio entre la aplicación de las técnicas y los principios, para asegurar la correcta marcha global de la organización. 
   
@@ -204,7 +204,7 @@
     
     .row.justify-content-around.align-items-center.mb-4
       .col-8.col-sm-6.col-md-5.mb-4
-        img(data-aos="zoom-out-left" src="@/assets/curso/temas/texto_destacado/img9.png")
+        img(data-aos="zoom-out-left" src="@/assets/curso/temas/texto_destacado/img9.png", alt='imagen relacionada')
 
       .col-md.col-lg-7
         ol.lista-ol
@@ -224,112 +224,103 @@
     p Es fundamental aclarar que no todas las estructuras organizacionales son iguales y que todo depende de la actividad económica, de su estilo de dirección y de organización; <strong>a continuación se presentan algunos modelos y tipos de estructuras:</strong>
 
     TabsC.color-acento-contenido.mb-4
-      .py-4.py-md-5(titulo="<strong>Organización formal</strong>")
+      .py-4.py-md-5(titulo="Organización formal")
         .row
           .col-md-6.mb-4.mb-md-0
-            h4 Organización formal
             p Funciona con un sistema de tareas concretas, con delegaciones específicas de autoridad y responsabilidad, en función de la rendición de cuentas. La modalidad formal es benéfica en términos de facilidad para determinar las políticas y los objetivos organizacionales; es una representación de organización fija y predecible, lo que posibilita anticipar logros a futuro.
         
           .col-md-6
             figure
-              img(data-aos="fade-up" src='@/assets/curso/temas/texto_destacado/img10.svg', alt='Texto que describa la imagen')
-      .py-3.py-md-4(titulo="<strong>Organización lineal</strong>")
+              img(data-aos="fade-up" src='@/assets/curso/temas/texto_destacado/img10.svg', alt='imagen relacionada')
+      .py-3.py-md-4(titulo="Organización lineal")
         .row
           .col-md-6.mb-4.mb-md-0
-            h4 Organización lineal
             p Es una organización simple y de estructura piramidal, donde cada líder recibe y comunica lo que sucede en cada estamento. Algunas de sus características son:
             .col-md.col-lg-7
-            <ul>
-              <li>
-              <i style ="color: #f85316" class="fas fa-check "></i> Autoridad única.
-              </li>
-              br
-              <li>
-              <i style ="color: #f85316" class="fas fa-check"></i> Formas de comunicación lineales.
-              </li>
-              br
-              <li>
-              <i style ="color: #f85316" class="fas fa-check"></i> Decisiones centralizadas.
-              </li>
-            </ul>
-        
+            ol.lista-ol
+              li 
+                span.fas.fa-check(style='color: #f85316')
+                | Autoridad única.
+              li 
+                span.fas.fa-check(style='color: #f85316')
+                | Formas de comunicación lineales.
+              li 
+                span.fas.fa-check(style='color: #f85316')
+                |  Decisiones centralizadas.
+
           .col-md-6
             figure
-              img(data-aos="fade-up" src='@/assets/curso/temas/texto_destacado/img11.svg', alt='Texto que describa la imagen')
-      .py-3.py-md-4(titulo="<strong>Organización funcional</strong>")
+              img(data-aos="fade-up" src='@/assets/curso/temas/texto_destacado/img11.svg',, alt='diagrama')
+      .py-3.py-md-4(titulo="Organización funcional")
         .row
           .col-md-6.mb-4.mb-md-0
-            h4 Organización funcional
             p Sustituye a la organización lineal; cada colaborador ya no solo rinde cuentas a su jefe inmediato, sino a varios actores o compañeros de la empresa; algunas de sus características son:
             .col-md.col-lg-7
-            <ul>
-              <li>
-              <i style ="color: #f85316" class="fas fa-check "></i> Autoridad dividida (funcional).
-              </li>
-              br
-              <li>
-              <i style ="color: #f85316" class="fas fa-check"></i> Línea directa de comunicación.
-              </li>
-              br
-              <li>
-              <i style ="color: #f85316" class="fas fa-check"></i> Decisiones descentralizadas.
-              </li>
-              br
-              <li>
-              <i style ="color: #f85316" class="fas fa-check"></i> Particular énfasis en la especialización.
-              </li>
-            </ul>
+            ol.lista-ol
+              li 
+                span.fas.fa-check(style='color: #f85316')
+                | Autoridad dividida (funcional).
+              
+              li 
+                span.fas.fa-check(style='color: #f85316')
+                | Línea directa de comunicación.
+              
+              li 
+                span.fas.fa-check(style='color: #f85316')
+                | Decisiones descentralizadas.
+              li 
+                span.fas.fa-check(style='color: #f85316')
+                | Decisiones descentralizadas.
+              
+
           .col-md-6
             figure
-              img(data-aos="fade-left" src='@/assets/curso/temas/texto_destacado/img12.svg', alt='Texto que describa la imagen')
-      .py-3.py-md-4.diabled(titulo="<strong>Staff</strong>")
+              img(data-aos="fade-left" src='@/assets/curso/temas/texto_destacado/img12.svg', , alt='diagrama')
+      .py-3.py-md-4.diabled(titulo="<i>Staff</i>")
         .row
           .col-md-6.mb-4.mb-md-0
-            h4 
-              i Staff
             p Es una fusión entre la lineal y la funcional; los órganos staff prestan asesoría a servicios especializados. Sus características son:
             .col-md.col-lg-7
-            <ul>
-              <li>
-              <i style ="color: #f85316" class="fas fa-check "></i> Cada órgano reporta a un solo y único jefe, aplicando el principio de autoridad, pero cada órgano recibe asesoría y servicio especializado de los diferentes órganos de staff.
-              </li>
-              br
-              <li>
-              <i style ="color: #f85316" class="fas fa-check"></i> Líneas de comunicación más abiertas.
-              </li>
-              br
-              <li>
-              <i style ="color: #f85316" class="fas fa-check"></i> Se separan los órganos ejecutivos de los asesores.
-              </li>
-            </ul>
+             ol.lista-ol
+              li 
+                span.fas.fa-check(style='color: #f85316')
+                | Cada órgano reporta a un solo y único jefe, aplicando el principio de autoridad, pero cada órgano recibe asesoría y servicio especializado de los diferentes órganos de staff.
+              
+              li 
+                span.fas.fa-check(style='color: #f85316')
+                | Líneas de comunicación más abiertas.
+            
+              li 
+                span.fas.fa-check(style='color: #f85316')
+                | Se separan los órganos ejecutivos de los asesores.
+            
+
           .col-md-6
             figure
-              img(data-aos="fade-left" src='@/assets/curso/temas/texto_destacado/img13.svg', alt='Texto que describa la imagen')
-    br
-    p Una vez definida la estructura organizacional, y teniendo en cuenta que la fase de organización no es más que la continuación de la fase de planeación en relación con los procesos administrativos, es importante reconocer esos tipos de descriptores o facilitadores en la división y asignación del trabajo. Es entonces que surge como herramienta la gestión administrativa, definida como el conjunto de acciones o tareas que buscan maximizar los resultados de la empresa con la búsqueda permanente del uso eficiente de los recursos humanos, financieros y materiales. 
-    br
-    br
+              img(data-aos="fade-left" src='@/assets/curso/temas/texto_destacado/img13.svg', , alt='diagrama')
+    
+    p.mb-4 Una vez definida la estructura organizacional, y teniendo en cuenta que la fase de organización no es más que la continuación de la fase de planeación en relación con los procesos administrativos, es importante reconocer esos tipos de descriptores o facilitadores en la división y asignación del trabajo. Es entonces que surge como herramienta la gestión administrativa, definida como el conjunto de acciones o tareas que buscan maximizar los resultados de la empresa con la búsqueda permanente del uso eficiente de los recursos humanos, financieros y materiales. 
+  
     h3 
       i.fas.fa-square.me-3.cuadrado
       | Manual de funciones
-    br
-    br
+    
     .tarjeta.p-3.mb-5
       .row.justify-content-around.align-items-center
         .col-sm-10.col-md-3.col-lg-2
-          img(data-aos="fade-up" src="@/assets/curso/temas/texto_destacado/img14.svg")
+          img(data-aos="fade-up" src="@/assets/curso/temas/texto_destacado/img14.svg", alt='imagen relacionada')
         .col-sm-12.col-md-8.col-lg-10
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
                p El manual de funciones representa la organización y la delimitación de funciones y responsabilidades de los cargos creados en la estructura organizacional; su propósito fundamental es el de definir, de manera clara y concisa, los alcances de los cargos para evitar reprocesos, además de documentar los diferentes puestos de trabajo; controlar y mejorar los sistemas de gestión, posibilitar la valoración de los cargos, integrar las competencias profesionales para la ubicación del correcto perfil profesional o técnico en cada nivel, elaborar planes de formación para los cargos y prevenir los riesgos asociados a los mismos.       
-    br
+    
     .col-md-5
       h6 En términos de contenidos, el documento (ficha) de manual de funciones, debe estar conformado de manera básica por:
     .col-md-12
       .row.justify-content-center.mb-4
         .col-lg-4
           figure
-              img(data-aos="fade-down-right" src='@/assets/curso/temas/figuras/esquemaD.png')
+              img(data-aos="fade-down-right" src='@/assets/curso/temas/figuras/esquemaD.png', alt='imagen relacionada')
         .col-lg-6
           AcordionA(tipo="a" clase-tarjeta="tarjeta color-secundario")
             .row(titulo="Propósito o finalidad del cargo ")
@@ -357,9 +348,9 @@
             row(titulo="Requerimientos del puesto")
               .col-md-12.mb-4.mb-md-0
               p Estos requerimientos hacen alusión al nivel de formación que requiere el cargo: nivel académico, grado de conocimientos técnicos y tecnológicos específicos, grado de experiencia o dominio operativo de la actividad a desarrollar, y conjunto de capacidades intelectuales, aptitudes, habilidades y características de personalidad.  
-    br
-    p Para mayor ilustración, a continuación se presenta un ejemplo de un manual de funciones:
-    br
+  
+    p.mb-4 Para mayor ilustración, a continuación se presenta un ejemplo de un manual de funciones:
+    
     .mx-auto.col-md-10
       .titulo-sexto.color-acento-contenido.p <strong>Tabla 1. </strong> Ejemplo manual de funciones
       .tabla-b.color-acento-botones
@@ -393,57 +384,56 @@
           th(colspan='3' style="text-align:center") ÁREAS DE RESULTADOS
         tr
           td(colspan='3') 
-            <ul style="text-align:center"> 
-              <li>
-              <i style ="color: #f85316" class="fas fa-check "></i> Campañas de comunicación internas. 
-              </li>
-              br
-              <li>
-              <i style ="color: #f85316" class="fas fa-check"></i> Presupuestos para inversión en las campañas.
-              </li>
-              br
-              <li>
-              <i style ="color: #f85316" class="fas fa-check"></i> Gestión y administración de las relaciones externas de la empresa.
-              </li>
-              br
-              <li>
-              <i style ="color: #f85316" class="fas fa-check"></i> Control de presupuestos de operación.
-              </li>
-            </ul>
+            ol.lista-centrar
+              li 
+                span.fas.fa-check(style='color: #f85316;')
+                | Campañas de comunicación internas.
+              p
+              li 
+                span.fas.fa-check(style='color: #f85316')
+                |  Presupuestos para inversión en las campañas. 
+              p
+              li 
+                span.fas.fa-check(style='color: #f85316')
+                |  Gestión y administración de las relaciones externas de la empresa.
+              p
+              li 
+                span.fas.fa-check(style='color: #f85316')
+                |  Control de presupuestos de operación.
+            
         tr(style="background-color: #E1E1E1")
           th(colspan='3' style="text-align:center") ACCIONES
         tr
-          td(colspan='3') 
-            <ul style="text-align:center"> 
-              <li>
-              <i style ="color: #f85316" class="fas fa-check "></i> Planificar y proponer la política de comunicaciones para la empresa.
-              </li>
-              br
-              <li>
-              <i style ="color: #f85316" class="fas fa-check"></i> Asegurar el correcto desarrollo de campañas de comunicación interna y externa.
-              </li>
-              br
-              <li>
-              <i style ="color: #f85316" class="fas fa-check"></i> Planificar y proponer las inversiones financieras en materia de comunicaciones.
-              </li>
-              br
-              <li>
-              <i style ="color: #f85316" class="fas fa-check"></i> Junto con el responsable de mercadeo, planear la forma de comunicar y publicitar los servicios de la empresa.
-              </li>
-            </ul>
+          td(colspan='3'  style="text-align:center") 
+             ol.lista-centrar
+              li
+                span.fas.fa-check(style='color: #f85316')
+                | Planificar y proponer la política de comunicaciones para la empresa.
+              p
+              li 
+                span.fas.fa-check(style='color: #f85316')
+                | Asegurar el correcto desarrollo de campañas de comunicación interna y externa. 
+              p
+              li 
+                span.fas.fa-check(style='color: #f85316')
+                | Planificar y proponer las inversiones financieras en materia de comunicaciones.
+              p
+              li
+                span.fas.fa-check(style='color: #f85316')
+                | Junto con el responsable de mercadeo, planear la forma de comunicar y publicitar los servicios de la empresa.
+
         tr(style="background-color: #E1E1E1")
           th(colspan='3' style="text-align:center") EQUIPOS O VALORES A SU CARGO
         tr(style="background-color: #ffff")
           td(colspan='3') 
-            <ul style="text-align:center"> 
-              <li>
-              <i style ="color: #f85316" class="fas fa-check "></i> Información confidencial de la empresa.
-              </li>
-              br
-              <li>
-              <i style ="color: #f85316" class="fas fa-check"></i> Equipo de oficina.
-              </li>
-            </ul>
+            ol.lista-centrar
+              li
+                span.fas.fa-check(style='color: #f85316')
+                | Información confidencial de la empresa.
+              p
+              li
+                span.fas.fa-check(style='color: #f85316')
+                | Equipo de oficina.
         tr(style="background-color: #E1E1E1")
           th(colspan='3' style="text-align:center") PERFIL
         tr
@@ -453,64 +443,65 @@
         tr
           td(style="text-align:center") Educación
           td(colspan='2' style="text-align:center")
-            <ul style="text-align:center"> 
-              <li>
-              <i style ="color: #f85316" class="fas fa-check "></i> Profesional en Comunicación Social - Periodismo
-              </li>
-              br
-              <li>
-              <i style ="color: #f85316" class="fas fa-check"></i> Especialista en comunicación corporativa.
-              </li>
-            </ul>
+             ol.lista-ol
+              li 
+                span.fas.fa-check(style='color: #f85316')
+                | Profesional en Comunicación Social - Periodismo
+              
+              li 
+                span.fas.fa-check(style='color: #f85316')
+                | Especialista en comunicación corporativa.
+              
+           
         tr(style="background-color: #ffff")
           td(style="text-align:center") Experiencia relacionada
           td(colspan='2' style="text-align:center") Mínimo 3 años en cargos similares.
     
-    br
-    .row
+    
+    .row.mb-4
       .col-lg-12
         .cajon.color-acento-botones.color-fondo-secundario.p-4
           p.mb-0 Luego del planteamiento del manual de funciones, se hace necesario ahondar un poco más en las responsabilidades y en el paso a paso, para cumplir con las responsabilidades del cargo; es por esta razón, que se plantean aspectos relevantes de los procesos, procedimientos y sus consecuencias, como complemento para la correcta organización de la empresa.    
-    br
-    br
+    
+   
     h3 
       i.fas.fa-square.me-3.cuadrado
       | Manual de procesos y procedimientos
-    br
+    
     p El manual de procesos y procedimientos de una empresa u organización, es un documento que contiene información sobre cómo se deben llevar a cabo los procesos; esto permite y facilita el flujo adecuado del trabajo, a partir de la estandarización de los mismos. Es un documento que contiene pautas y reglas sobre cómo deben ser desarrollados ciertos procedimientos y posibilita a las empresas para dirigir sus operaciones, estrategias y flujos de trabajo hacia resultados óptimos.
       .tarjeta.p-4.p-md-2.mb-5
       .row.justify-content-around.align-items-center
         .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
-          img(data-aos="flip-right" src="@/assets/curso/temas/texto_destacado/img15.png")
+          img(data-aos="flip-right" src="@/assets/curso/temas/texto_destacado/img15.png", alt='imagen de ejemplo')
         
         .col-md.col-lg-7
           p Algunas de las ventajas de contar con un manual de procesos y procedimientos son:
-          <ul>
-            <li>
-            <i style ="color: #f85316" class="fas fa-check "></i> Ahorro de tiempo.
-            </li>
-            <li>
-            <i style ="color: #f85316" class="fas fa-check"></i> Posibilita la aplicación de acciones de control interno y mejora continua.
-            </li>
-            <li>
-            <i style ="color: #f85316" class="fas fa-check"></i> Optimiza los procesos.
-            </li>
-            <li>
-            <i style ="color: #f85316" class="fas fa-check"></i> Mejora la comunicación. 
-            </li>
-            <li>
-            <i style ="color: #f85316" class="fas fa-check"></i> Delimita las responsabilidades de los cargos. 
-            </li>
-            <li>
-            <i style ="color: #f85316" class="fas fa-check"></i> Mejora la imagen. 
-            </li>
-            <li>
-            <i style ="color: #f85316" class="fas fa-check"></i> Permite establecer expectativas. 
-            </li>
-            <li>
-            <i style ="color: #f85316" class="fas fa-check"></i> Puede ser una herramienta para capacitación. 
-            </li>
-          </ul>
+          ol.lista-ol
+            li 
+              span.fas.fa-check(style='color: #f85316')
+              | Ahorro de tiempo.
+            li 
+              span.fas.fa-check(style='color: #f85316')
+              | Posibilita la aplicación de acciones de control interno y mejora continua.
+            li 
+              span.fas.fa-check(style='color: #f85316')
+              | Optimiza los procesos.
+            li 
+              span.fas.fa-check(style='color: #f85316')
+              | Mejora la comunicación.
+            li 
+              span.fas.fa-check(style='color: #f85316')
+              | Delimita las responsabilidades de los cargos.
+            li 
+              span.fas.fa-check(style='color: #f85316')
+              | Mejora la imagen.
+            li 
+              span.fas.fa-check(style='color: #f85316')
+              | Permite establecer expectativas.
+            li 
+              span.fas.fa-check(style='color: #f85316')
+              | Puede ser una herramienta para capacitación. 
+          
 
       p Antes de presentar la estructura del manual de procesos y procedimientos, es importante profundizar un poco sobre los conceptos que se encuentran involucrados en este documento.
 
@@ -518,54 +509,55 @@
         .col-md-12.margenes
           .cajon.color-primario
           .color-fondo.p-3
-            p <strong>Proceso:</strong> se refiere a una serie de entradas que se combina con algunas actividades, para generar unas salidas o un producto. Un ejemplo de esto es el siguiente: para realizar un pastel, se cuenta con los ingredientes, las herramientas y el mecanismo de elaboración, para obtener como resultado el pastel; a esto se le denomina proceso.     
-            
+            b Proceso: 
+            | se refiere a una serie de entradas que se combina con algunas actividades, para generar unas salidas o un producto. Un ejemplo de esto es el siguiente: para realizar un pastel, se cuenta con los ingredientes, las herramientas y el mecanismo de elaboración, para obtener como resultado el pastel; a esto se le denomina proceso.     
             .col-md-7
             p Existen 3 tipos de procesos:
-            <ul>
-              <li>
-              <i style ="color: #f85316" class="fas fa-check "></i><strong> Estratégicos:</strong> son aquellos que están relacionados con la planificación estratégica de la organización. 
-              </li>
-              br
-              <li>
-              <i style ="color: #f85316" class="fas fa-check"></i><strong> Operativos:</strong> son los que están relacionados con la operación de la empresa.
-              </li>
-              br
-              <li>
-              <i style ="color: #f85316" class="fas fa-check"></i><strong> De apoyo:</strong> son los que dan soporte a la organización.
-              </li>
-            </ul>
+            ol.lista-ol
+              li 
+                span.fas.fa-check(style='color: #f85316')
+                b Estratégicos: 
+                | son aquellos que están relacionados con la planificación estratégica de la organización.
+              li 
+                span.fas.fa-check(style='color: #f85316')
+                b Operativos: 
+                | son los que están relacionados con la operación de la empresa.
+              li 
+                span.fas.fa-check(style='color: #f85316')
+                b De apoyo: 
+                | son los que dan soporte a la organización.
+            
 
     p Para continuar con el ejemplo de la pastelería, se ilustrará el ejercicio, para conocer el mapa de procesos de la misma empresa.
     
     .mx-auto.col-md-10.mb-5
       .titulo-sexto.color-acento-contenido.mb-4
-        p.mb-0
+        p.mb-2
           b Figura 3.
           br
           em Ejemplo mapa de procesos
       figure
-          img(data-aos="flip-right" src='@/assets/curso/temas/figuras/esquemaE.svg' alt='Ejemplo mapa de procesos')
+          img(data-aos="flip-right" src='@/assets/curso/temas/figuras/esquemaE.svg', alt='Ejemplo mapa de procesos')
     
     .tarjeta.p-4.p-md-2.mb-5
       .row.justify-content-around.align-items-center          
         .col-md.col-lg-7
           p En los procesos estratégicos se incluyen la planeación y las finanzas, porque a partir de estas se despliegan los proveedores, productos, y el presupuesto que se requiere para desarrollar el plan. 
-          br
+        
           p En los operativos se definen compras, por la adquisición de materia prima, máquinas y productos asociados con la elaboración de los pasteles; producción para la fabricación misma de los pasteles, y ventas para la comercialización de los productos.
-          br
+
           p En los procesos de apoyo se definen administración, mercadeo y contabilidad porque, si bien son muy importantes en el desarrollo del producto en su generalidad, para este caso se presentan como apoyo en el proceso.
-          br
+        
           p Una vez que se cuenta con el mapa de procesos, es importante asignar a un responsable o a un líder del desarrollo, quien será el encargado de velar por el cumplimiento, conjuntamente con el equipo que entrenará y guiará para el logro del objetivo.
         .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
-          img(data-aos="flip-up" src="@/assets/curso/temas/texto_destacado/img16.png")
+          img(data-aos="flip-up" src="@/assets/curso/temas/texto_destacado/img16.png", alt='imagen relacionada')
 
     TabsA.color-acento-contenido.mb-4
       .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="PASO 1")
         .row.justify-content-center.align-items-center
           .col-md-2.col-sm-5
             figure
-              img(data-aos="flip-up" src='@/assets/curso/temas/figuras/esquemaF.svg', alt='Texto que describa la imagen')
+              img(data-aos="flip-up" src='@/assets/curso/temas/figuras/esquemaF.svg', alt='imagen relacionada')
           .col-md-10.col-sm-7
             h4 PASO 1: Ficha del proceso 
             p.mb-0 Es la que describe las generalidades de cada proceso. El objetivo, entradas, salidas, cómo se medirá, entre otros.
@@ -574,7 +566,7 @@
         .row.justify-content-center.align-items-center
           .col-md-2.col-sm-5
             figure
-              img(data-aos="zoom-in-up" src='@/assets/curso/temas/figuras/esquemaG.svg', alt='Texto que describa la imagen')
+              img(data-aos="zoom-in-up" src='@/assets/curso/temas/figuras/esquemaG.svg', alt='imagen relacionada')
           .col-md-10.col-sm-7
             h4 PASO 2: Flujograma
             p.mb-0 Ilustra, gráficamente, el recorrido que conlleva el proceso desde sus entradas y hasta sus salidas.
@@ -583,7 +575,7 @@
         .row.justify-content-center.align-items-center
           .col-md-2.col-sm-5
             figure
-              img(data-aos="zoom-in-up" src='@/assets/curso/temas/figuras/esquemaH.svg', alt='Texto que describa la imagen')
+              img(data-aos="zoom-in-up" src='@/assets/curso/temas/figuras/esquemaH.svg', alt='imagen relacionada')
           .col-md-10.col-sm-7
             h4 PASO 3: Procedimiento
             p.mb-0 Se refiere al conjunto de actividades que constituyen el proceso, incluyendo un paso a paso de manera descriptiva.
@@ -592,7 +584,7 @@
         .row.justify-content-center.align-items-center
           .col-md-2.col-sm-5
             figure
-              img(data-aos="zoom-in-up" src='@/assets/curso/temas/figuras/esquemaI.svg', alt='Texto que describa la imagen')
+              img(data-aos="zoom-in-up" src='@/assets/curso/temas/figuras/esquemaI.svg', alt='imagen relacionada')
           .col-md-10.col-sm-7
             h4 PASO 4: Actividades
             p.mb-0 Acciones que, en su desarrollo, aportan y generan valor a la organización.
@@ -604,59 +596,58 @@
         table
           tr
             th.table
-              img(data-aos="zoom-in-up" src='@/assets/curso/temas/tarjetas/ElipseT1.svg', alt='')
+              img(data-aos="zoom-in-up" src='@/assets/curso/temas/tarjetas/ElipseT1.svg', alt='elemento grafico eliptica')
             td Representa el incio y el fin del proceso.
           tr
             th 
-              img(data-aos="zoom-in-up" src='@/assets/curso/temas/tarjetas/RectánguloT1.svg', alt='')
+              img(data-aos="zoom-in-up" src='@/assets/curso/temas/tarjetas/RectánguloT1.svg', alt='elemento grafico rectangulo')
             td Actividad o tarea.
           tr
             th 
-              img(data-aos="zoom-in-up" src='@/assets/curso/temas/tarjetas/PolígonoT1.svg', alt='')
+              img(data-aos="zoom-in-up" src='@/assets/curso/temas/tarjetas/PolígonoT1.svg', alt='elemento grafico rombo')
             td Representa la toma de una decision.
           tr
             th 
-              img(src='@/assets/curso/temas/tarjetas/LíneaT1.svg', alt='')
+              img(src='@/assets/curso/temas/tarjetas/LíneaT1.svg', alt='elemento grafico flecha')
             td Indica la dirección secuencial de las actividades.
           tr
             th 
-              img(src='@/assets/curso/temas/tarjetas/TrazadoT1.svg', alt='')
+              img(src='@/assets/curso/temas/tarjetas/TrazadoT1.svg', alt='elemento grafico trapezio')
             td Indica la entrada y salida de datos. 
 
     p El flujograma comprende el paso a paso de los procesos, estimando momentos de decisión, de desarrollo de actividades, e indicando el principio y el fin de los procesos.
     p Para el ejemplo de la pastelería, quedaría así:
 
     .mx-auto.col-md-10
-      .titulo-sexto.color-acento-contenido
+      .titulo-sexto.color-acento-contenido.mb-4
         p.mb-0 
           b Figura 4.
           br
           em Flujograma ejemplo pastelerías
-      br
-      figure
-          img(data-aos="zoom-out-up" src='@/assets/curso/temas/figuras/diagramaB.svg')
-    br
-    .row
+      
+      figure.mb-4
+          img(data-aos="zoom-out-up" src='@/assets/curso/temas/figuras/diagramaB.svg', alt='Flujograma ejemplo pastelerías')
+    
+    .row.mb-4
       .col-lg-12
         .cajon.color-acento-botones.color-fondo-secundario.p-3
           p Se puede concluir que, en esta etapa del proceso administrativo, se realiza una identificación, clasificación, agrupación y asignación del trabajo, de los recursos y las responsabilidades, de tal forma que, cada integrante sepa qué se espera de su labor y cómo está aportando al logro del objetivo colectivo.
           p.mb-0 Una vez culminada la etapa de organización, se procede con la etapa de dirección.
-    br
+    
     separador
     #t_2_3.titulo-segundo.color-acento-contenido   
       h2 2.3 Dirección
-    br
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-4
+  
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-4.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/texto_destacado/img17.png')})`}"
       )
       .bloque-texto-g__texto.p-5
         p.mb-0 Cuando se habla de dirección, se hace referencia a unos elementos asociados al liderazgo, a la motivación, a los equipos de trabajo y a la comunicación en torno a la ejecución de los planes, de acuerdo con la estructura organizacional.
-    br
-    br
-    p Ahondar en el significado de cada uno de los elementos:
-    br
-    TabsC.color-acento-contenido
+  
+    p.mb-4 Ahondar en el significado de cada uno de los elementos:
+    
+    TabsC.color-acento-contenido.mb-4
       .py-3.py-md-4(titulo="Liderazgo")
         .row
           .col-md-6.mb-4.mb-md-0
@@ -665,7 +656,7 @@
         
           .col-md-6
             figure
-              img(data-aos="zoom-out-up" src='@/assets/curso/temas/texto_destacado/img18.svg', alt='Texto que describa la imagen')
+              img(data-aos="zoom-out-up" src='@/assets/curso/temas/texto_destacado/img18.svg', alt='imagen representativa')
       
       .py-3.py-md-4(titulo="Motivación")
         .row
@@ -675,7 +666,7 @@
 
           .col-md-6
             figure
-              img(data-aos="zoom-out-right" src='@/assets/curso/temas/texto_destacado/img19.svg', alt='Texto que describa la imagen')
+              img(data-aos="zoom-out-right" src='@/assets/curso/temas/texto_destacado/img19.svg', alt='imagen representativa')
 
       .py-3.py-md-4(titulo="Comunicación")
         .row
@@ -685,7 +676,7 @@
             
           .col-md-6
             figure
-              img(data-aos="zoom-out-right" src='@/assets/curso/temas/texto_destacado/img20.svg', alt='Texto que describa la imagen')
+              img(data-aos="zoom-out-right" src='@/assets/curso/temas/texto_destacado/img20.svg', alt='imagen representativa')
 
       .py-3.py-md-4(titulo="Ejecución y supervisión de resultados")
         .row
@@ -696,7 +687,7 @@
             
           .col-md-6
             figure
-              img(data-aos="zoom-out-left" src='@/assets/curso/temas/texto_destacado/img21.svg', alt='Texto que describa la imagen')
+              img(data-aos="zoom-out-left" src='@/assets/curso/temas/texto_destacado/img21.svg', alt='imagen representativa')
 
       .py-3.py-md-4(titulo="Toma de decisiones")
         .row
@@ -706,19 +697,18 @@
             
           .col-md-6
             figure
-              img(data-aos="zoom-out-left" src='@/assets/curso/temas/texto_destacado/img22.svg', alt='Texto que describa la imagen')
+              img(data-aos="zoom-out-left" src='@/assets/curso/temas/texto_destacado/img22.svg', alt='imagen representativa')
     
-    br
+  
     h3 
       i.fas.fa-square.me-3.cuadrado
       | Tipos de dirección
-    br
-    br
+    
     p Las formas de administrar o dirigir, pueden variar de acuerdo con los tipos, formas o estilos de liderazgo; esto varía según la conformación y metodologías para realizar los procedimientos.
-    br
+    
     p Los tipos de dirección más conocidos son:
-    br
-    TabsA.color-acento-contenido
+    
+    TabsA.color-acento-contenido.mb-4
         .tarjeta.color-acento-contenido-borde.p-4(titulo="Coercitivo")
           .row
             .col-xl-7.p-4.color-fondo
@@ -726,7 +716,7 @@
               p El estilo de liderazgo coercitivo no tiene en cuenta la flexibilidad, la disciplina prevalece como su valor regente, debido a que impone ritmos de trabajo acelerados sin tener en cuenta elementos humanos de fatiga y bienestar; no hay negociación, no tiene en cuenta las iniciativas de los demás. Normalmente, un líder coercitivo es muy efectivo en momentos de crisis para implementar cambios en situaciones de emergencia, como por ejemplo un temblor o un incendio.
             .col-xl-5.mb-6
               figure
-                img(data-aos="fade-up" src='@/assets/curso/temas/figuras/esquemaJ.svg', alt='Texto que describa la imagen')
+                img(data-aos="fade-up" src='@/assets/curso/temas/figuras/esquemaJ.svg', alt='imagen relacionada')
         .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="Autocrático")
           .row
             .col-xl-12
@@ -744,22 +734,22 @@
             .col-xl-12
               h4 Consultivo
               p Es un tipo de liderazgo que se encuentra entre el estilo autocrático y el democrático; el jefe intenta persuadir a su equipo de la decisión que se ha tomado y eso hace que el grupo sienta esta decisión como suya; otro escenario puede ser aquel donde el jefe presenta el problema o la necesidad, recoge sugerencias y toma la decisión adecuada. Este modelo se caracteriza por ser el más participativo y democrático.
-    br
+    
     .row.justify-content-around.align-items-center 
       .col-lg-11
         .cajon.color-acento-botones.color-fondo-secundario.p-3
            p Una vez se tiene el equipo de trabajo comprometido, en busca de la eficiencia, desarrollando actividades claras, con liderazgos y jerarquías definidas y apostando a un mismo fin, aparece el último paso del ciclo del proceso administrativo, que busca evaluar el ejercicio y, a través de esa evaluación, definir procesos de mejora y corrección. Es así como se le da acceso a la cuarta etapa denominada “control”.    
         
-    br
+    
     separador
     #t_2_4.titulo-segundo.color-acento-contenido   
       h2 2.4 Control
     .tarjeta.p-4.p-md-4.mb-2
       .row.justify-content-around.align-items-center
         .col-md.col-lg-7
-          p.mb-4 El control consiste en evidenciar y evaluar que lo planeado, organizado y dirigido, se encuentre marchando de acuerdo con los objetivos organizacionales y señalando, a partir de este ejercicio de evaluación, las debilidades, los errores, e inclusive las potencialidades y, a partir de las acciones tomadas, el perfeccionamiento del proceso traducido en mayor eficiencia y efectividad. El proceso de control permite tomar decisiones en torno a cuáles son los objetivos por alcanzar, como sistema o como área; cómo va el desempeño de los equipos de trabajo con base en sus responsabilidades y las apuestas generales, identificación de riesgos y oportunidades, incluyendo el cambio de planteamiento del objetivo. Existen diferentes tipos de controles:
+          p.mb-2 El control consiste en evidenciar y evaluar que lo planeado, organizado y dirigido, se encuentre marchando de acuerdo con los objetivos organizacionales y señalando, a partir de este ejercicio de evaluación, las debilidades, los errores, e inclusive las potencialidades y, a partir de las acciones tomadas, el perfeccionamiento del proceso traducido en mayor eficiencia y efectividad. El proceso de control permite tomar decisiones en torno a cuáles son los objetivos por alcanzar, como sistema o como área; cómo va el desempeño de los equipos de trabajo con base en sus responsabilidades y las apuestas generales, identificación de riesgos y oportunidades, incluyendo el cambio de planteamiento del objetivo. Existen diferentes tipos de controles:
         .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
-          img( data-aos="fade-up" src="@/assets/curso/temas/texto_destacado/img23.svg")
+          img( data-aos="fade-up" src="@/assets/curso/temas/texto_destacado/img23.svg", alt='imagen relacionada')
     
         .col-sm-8.mb-8.mb-sm-0
           
@@ -777,20 +767,19 @@
                 span 3
               p <strong>Correctivo o de retroalimentación:</strong> este control se realiza una vez que la actividad ha llegado a su fin. La desventaja de este tipo de control es que cuando se recibe la información, el daño ya está hecho. Los informes financieros son un claro ejemplo de este tipo de control.
            
-    br
     p Por otro lado, el control también abarca unas etapas, que pueden ilustrarse de la siguiente manera:
-    br
-    .mx-auto.col-md-10
+    
+    .mx-auto.col-md-10.mb-4
       .titulo-sexto.color-acento-contenido
         p.mb-0
           b Figura 5.
           br
           em Etapas del control
-      br
+      
       figure
-          img(data-aos="flip-up" src='@/assets/curso/temas/figuras/diagramaC.svg')
+          img(data-aos="flip-up" src='@/assets/curso/temas/figuras/diagramaC.svg', alt='Diagrama Etapas del control')
     
-    br
+    
       
     .tarjeta.p-4.p-md-2.mb-5
       .row.justify-content-around.align-items-center
@@ -801,7 +790,7 @@
             p.mb-0 El escenario práctico para la aplicación de la teoría que se ha presentado en este espacio, es precisamente la empresa que, sin haber profundizado en su origen y llegada a la historia, se ha convertido en el escenario propicio para los experimentos de autores, científicos y para el ejercicio de excelentes administradores y gerentes. Por esta razón, en este apartado, se presenta el concepto de “empresa”.     
           
         .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
-          img(data-aos="flip-up" src="@/assets/curso/temas/texto_destacado/img24.png")
+          img(data-aos="flip-up" src="@/assets/curso/temas/texto_destacado/img24.png", alt='imagen relacionada')
 
 
 

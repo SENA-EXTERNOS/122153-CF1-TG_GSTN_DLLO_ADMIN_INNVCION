@@ -11,7 +11,7 @@
     .row.justify-content-center.mb-4
       .col-md-5
         figure.mw-sm-350px
-          img(src='@/assets/curso/temas/texto_destacado/img2.jpg')
+          img(src='@/assets/curso/temas/texto_destacado/img2.jpg', alt='imagen relacionada')
       .col-md-7      
         p Comencemos definiendo qué es la administración. Como palabra, viene del latín ad, que indica dirección, tendencia, proximidad, contacto, y minister, subordinación u obediencia, y en su sentido más amplio y completo, significa cumplimiento de una tarea o función bajo la directriz o mando de otro. Sin embargo, en la historia, este concepto sufrió una transformación significativa que trascendió el hacer, por el interpretar los objetivos trazados por una organización y transformarlos en acción, a través de la planeación, la organización, la dirección y el control, todo con el fin de alcanzar los propósitos de manera adecuada y asertiva. Es entonces cuando surgen los diferentes caminos que han tomado algunos autores para definir el concepto de administración y su impacto en los escenarios de las organizaciones. 
 
@@ -24,7 +24,7 @@
     .row.justify-content-center.mb-5
       .col-lg-4
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/administradores/PortadaA.svg', alt="alt").img400.m-auto
+          img(src='@/assets/curso/temas/administradores/PortadaA.svg', alt="imagen representativa").img400.m-auto
       .col-lg-8
         p
           b Posteriormente, empezaron a surgir las diferentes teorías que dan paso a la realidad de la administración contemporánea, donde algunas de las más relevantes son:
@@ -33,7 +33,7 @@
           .tarjeta.tarjeta--slyder.fcab15.p-4(style='height:315px')
             .row.justify-content-center.mb-3
               .col
-                img(src='@/assets/curso/temas/administradores/A1903.png', alt="alt").img100.m-auto
+                img(src='@/assets/curso/temas/administradores/A1903.png', alt="Foto de Frederick Winslow Taylor").img100.m-auto
             p.text-center
               b 1903
             p.text-center.mb-0 Administración científica
@@ -41,7 +41,7 @@
           .tarjeta.tarjeta--slyder.fcab15.p-4(style='height:315px')
             .row.justify-content-center.mb-3
               .col
-                img(src='@/assets/curso/temas/administradores/A1909.png', alt="alt").img100.m-auto
+                img(src='@/assets/curso/temas/administradores/A1909.png', alt="Foto de Max Weber").img100.m-auto
             p.text-center
               b 1909
             p.text-center.mb-0 Teoría burocrática
@@ -49,7 +49,7 @@
           .tarjeta.tarjeta--slyder.fcab15.p-4(style='height:315px')
             .row.justify-content-center.mb-3.tp-4
               .col
-                img(src='@/assets/curso/temas/administradores/A1916.png', alt="alt").img100.m-auto
+                img(src='@/assets/curso/temas/administradores/A1916.png', alt="Foto de Fonds Henri Fayol").img100.m-auto
             p.text-center
               b 1916
             p.text-center.mb-0 Teoría clásica
@@ -57,7 +57,7 @@
           .tarjeta.tarjeta--slyder.fcab15.p-4(style='height:315px')
             .row.justify-content-center.mb-3
               .col
-                img(src='@/assets/curso/temas/administradores/A1932.png', alt="alt").img100.m-auto
+                img(src='@/assets/curso/temas/administradores/A1932.png', alt="Foto de Elton Mayo").img100.m-auto
             p.text-center
               b 1932
             p.text-center.mb-0 Teoría de las relaciones humanas
@@ -65,7 +65,7 @@
           .tarjeta.tarjeta--slyder.fcab15.p-4(style='height:315px')
             .row.justify-content-center.mb-3
               .col
-               img(src='@/assets/curso/temas/administradores/A1947.png', alt="alt").img100.m-auto
+               img(src='@/assets/curso/temas/administradores/A1947.png', alt="Imagen representativa").img100.m-auto
             p.text-center
               b 1947
             p.text-center.mb-0 Teoría estructuralista
@@ -73,7 +73,7 @@
           .tarjeta.tarjeta--slyder.fcab15.p-4(style='height:315px')
             .row.justify-content-center.mb-3
               .col
-               img(src='@/assets/curso/temas/administradores/A1954.png', alt="alt").img100.m-auto
+               img(src='@/assets/curso/temas/administradores/A1954.png', alt="Foto de Drucker").img100.m-auto
             p.text-center
               b 1954
             p.text-center.mb-0 Teoría neoclásica
@@ -81,7 +81,7 @@
           .tarjeta.tarjeta--slyder.fcab15.p-4(style='height:315px')
             .row.justify-content-center.mb-3
               .col
-               img(src='@/assets/curso/temas/administradores/A1957.png', alt="alt").img100.m-auto
+               img(src='@/assets/curso/temas/administradores/A1957.png', alt="Imagen representativa").img100.m-auto
             p.text-center
               b 1957
             p.text-center.mb-0 Teoría del comportamiento
@@ -89,7 +89,7 @@
           .tarjeta.tarjeta--slyder.fcab15.p-4(style='height:315px')
             .row.justify-content-center.mb-3
               .col
-               img(src='@/assets/curso/temas/administradores/A1962.png', alt="alt").img100.m-auto
+               img(src='@/assets/curso/temas/administradores/A1962.png', alt="Imagen representativa").img100.m-auto
             p.text-center
               b 1962
             p.text-center.mb-0 Teoría del desarrollo organizacional
@@ -97,7 +97,7 @@
           .tarjeta.tarjeta--slyder.fcab15.p-4(style='height:315px')
             .row.justify-content-center.mb-3
               .col
-               img(src='@/assets/curso/temas/administradores/A1972.png', alt="alt").img100.m-auto
+               img(src='@/assets/curso/temas/administradores/A1972.png', alt="Imagen representativa").img100.m-auto
             p.text-center
               b 1972
             p.text-center.mb-0 Teoría contingencial
@@ -105,7 +105,7 @@
           .tarjeta.tarjeta--slyder.fcab15.p-4(style='height:315px')
             .row.justify-content-center.mb-3
               .col
-               img(src='@/assets/curso/temas/administradores/A1990.png', alt="alt").img100.m-auto
+               img(src='@/assets/curso/temas/administradores/A1990.png', alt="Imagen representativa").img100.m-auto
             p.text-center
               b 1990
             p.text-center.mb-0 Nuevos enfoques 
@@ -113,7 +113,7 @@
           .tarjeta.tarjeta--slyder.fcab15.p-4(style='height:315px')
             .row.justify-content-center.mb-3
               .col
-               img(src='@/assets/curso/temas/administradores/A2000.png', alt="alt").img100.m-auto
+               img(src='@/assets/curso/temas/administradores/A2000.png', alt="Imagen representativa").img100.m-auto
             p.text-center
               b 2000
             p.text-center.mb-0 Caos y complejidad    
@@ -128,7 +128,7 @@
           em Esquemas de administración
 
       figure.mb-4
-        img(src='@/assets/curso/temas/figuras/esquemaA.svg')
+        img(src='@/assets/curso/temas/figuras/esquemaA.svg', alt="Diagrama Esquemas de administración")
 
     .cajon.color-secundario.fcs15.p-4.mb-4
       p Para efectos de dar mayor claridad, a continuación, se procede a explicar cada uno de los enfoques y las teorías asociadas, así como también sus autores y motivadores, en el documento Enfoques y teorías administrativas asociadas.
@@ -137,7 +137,7 @@
         .col-lg-6
           a.anexo.mb-4(:href="obtenerLink('/downloads/Enfoques y teorías administrativas asociadas_anexo_1.pdf')" target="_blank")
             .anexo__icono
-              img(src="@/assets/template/icono-pdf.svg")
+              img(src="@/assets/template/icono-pdf.svg", alt="Imagen relacionada")
             .anexo__texto
               h5 Anexo 
               p.mb-0 Enfoques y teorías administrativas asociadas
@@ -145,7 +145,7 @@
     .row.justify-content-center.mb-4
       .col-md-5
         figure.mw-sm-350px
-          img(src='@/assets/curso/temas/texto_destacado/img3.png')
+          img(src='@/assets/curso/temas/texto_destacado/img3.png', alt="Imagen relacionada")
       .col-md-7
         p.mb-0 Luego de realizar el recorrido por los orígenes y enfoques de la administración, resulta importante reconocer, en el concepto, algunos elementos de carácter estratégico que han ido perfilando la administración y que han trazado la estructura basada en procesos. La estrategia no es más que la capacidad de actuar bajo la presión del entorno y sus variables, ser capaces de ir más allá y de orientar las decisiones de manera adaptativa a los cambios que surgen. Esta manera de “hacer” administración, determina una ruta o un ciclo que posibilita no solo idear propuestas sino ejecutarlas y, posteriormente, evaluarlas; para lograrlo es necesario esbozar un poco de qué se trata, a partir de la siguiente línea temática.
         
@@ -167,7 +167,7 @@
 
     figure.mb-5
       .video
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/xzg1pJ5QhM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xzg1pJ5QhM8" title="Estrategia de diagnóstico y análisis empresarial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
 
     .cajon.color-acento-botones.color-fondo-secundario.p-4
       p.mb-0 Una vez que se cuenta con el diagnóstico y el análisis empresarial, se procede a realizar una proyección de la empresa desde lo estratégico y, entonces, es este el momento correcto para aplicar los principios del proceso administrativo.    

@@ -2,15 +2,15 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido.mb-4
       .titulo-principal__numero
         span 3
       h1 La empresa como escenario activo de administración
-    br
+    
     <strong style="color:blue">Las teorías y corrientes administrativas han surgido de la práctica y la experiencia de los autores y sus grupos de trabajo; todo esto se ha dado a través de la creación de escenarios para atender necesidades del ser humano, del mercado y del mundo. Es, en este espacio, donde se consolidan los aprendizajes y donde se va dando también estructura al concepto de empresa.</strong>
-    br
-    br
-    .tarjeta.p-4.p-md-0.mb-2
+    p
+    
+    .tarjeta.p-4.p-md-0.mb-4
         .row.justify-content-around 
           .col-md.col-lg-7
             p La existencia de las empresas ha permitido generar escenarios transaccionales que le dan al ser humano posibilidad de percibir ingresos para su sustento; he aquí la importancia de trabajar por la consolidación de empresas sostenibles y con valor agregado para la economía de los países y del mundo. Para conocer un poco el origen del concepto, lo invitamos a ver el video <a href="https://www.youtube.com/watch?v=dzyn4eofi6c">La empresa y la gestión de la información.</a>  
@@ -19,10 +19,10 @@
            
             p Münch Galindo (2018), define la empresa como: <strong style="color:blue"> “la unidad económico-social en la cual, a través del capital, el trabajo y la coordinación de recursos se producen bienes y servicios para satisfacer las necesidades de la sociedad” </strong>(p.64). Ahora bien, no todas las empresas son iguales, existen características y disposiciones que las hacen diferentes, y hay tantas formas de clasificar empresas como variables para hacerlo. Sin embargo, el interés está en conocer cómo se pueden distinguir los tipos de empresas y, por supuesto, las características que se definan deben ser de utilidad para los análisis económicos en diferentes ámbitos.
           .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
-            img(data-aos="zoom-in" src="@/assets/curso/temas/texto_destacado/img25.png")
-    br
-    p Es importante distinguir algunas de las diferentes clasificaciones y modelos de empresas, como se observa a continuación:
-    br
+            img(data-aos="zoom-in" src="@/assets/curso/temas/texto_destacado/img25.png" , alt='imagen relacionada')
+    
+    p.mb-4 Es importante distinguir algunas de las diferentes clasificaciones y modelos de empresas, como se observa a continuación:
+    
     .mx-auto.col-md-10
         ImagenInfograficaB.color-primario
           template(v-slot:imagen)
@@ -139,60 +139,57 @@
                         i.lista-ul__vineta
                         | <strong>Multinacional:</strong> <span></span> trasciende su operación las fronteras nacionales, es decir, tiene presencia en varios países.
     br
-    .row
+    .row.mb-4
        .col-lg-12
          .cajon.color-acento-botones.color-fondo-secundario.p-3
            p Estas clasificaciones permiten orientaciones en aras de su funcionamiento, debido a que algunas de esas características son netamente explícitas; sin embargo, existen unas particularidades implícitas, que están asociadas con la cultura organizacional y con las reglas de juego para cada una. Por esto, las características superficiales de una organización no lo son todo y se tiene que reconocer la composición de ellas a partir de la participación de un grupo de personas que ejercen diferentes funciones para dirigir el desarrollo de la empresa hacia un futuro prometedor.
-    br
-    br
-    h3 
+    
+    h3.mb-4
       i.fas.fa-square.me-3.cuadrado
       | Sentido de pertenencia, trabajo en equipo y toma de decisiones.
-    br
-    .row.justify-content-around.align-items-center  
+    
+    .row.justify-content-around.align-items-center.mb-4  
       .bloque-texto-g.color-primario.col-sm-12.mb-8.p-md-4
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/texto_destacado/img27.png')})`}"
         )
         .bloque-texto-g__texto.p-4
           p.mb-0 El sentido de pertenencia puede expresarse como la satisfacción que experimenta una persona por sentirse parte de un grupo o de una comunidad, a partir de la identificación con sus ideales; el fútbol es un claro ejemplo de sentido de pertenencia, donde se defiende la afición por un equipo, inclusive hasta escenarios extremos, que sobrepasan los límites imaginados.<strong>Ahora bien, este concepto toma relevancia a nivel empresarial, porque cuanto más comprometidos se encuentren los empleados y colaboradores, más facilidad para impulsar objetivos organizacionales. </strong>      
-    br
-    br
-    .tarjeta.p-4.p-md-0.mb-2
+    
+    .tarjeta.p-4.p-md-0.mb-4
         .row.justify-content-around.align-items-center          
           .col-md.col-lg-7
             p Otro de los conceptos empresariales que aportan a ese dinamismo es el trabajo en equipo, concebido como la capacidad que tiene un grupo de personas con diferentes cargos, lugares, culturas, para unir sus ideas y articular su ejercicio laboral, en busca del logro de un propósito organizacional.   
 
             p Claramente, un líder al tener la competencia para articular su equipo a la luz de una buena comunicación, del impulso de aptitudes individuales para convertirlas en capacidad empresarial, al incitar a la participación empoderada de los colaboradores, estará generando ambientes propicios y herramientas de información adecuadas para llegar al paso definitivo que da un administrador, y es la toma de decisiones donde se debe elegir, entre varias alternativas y bajo las situaciones del contexto, la más apropiada para el bien organizacional. Existen diferentes tipos de decisiones: de dirección, estratégicas, individuales, operativas, rutinarias, programadas o de riesgo. 
           .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
-            img(data-aos="zoom-in-right" src="@/assets/curso/temas/texto_destacado/img28.png")
-        br
+            img(data-aos="zoom-in-right" src="@/assets/curso/temas/texto_destacado/img28.png", alt='imagen relacionada')
+        
         .tarjeta.p-4.p-md-0.mb-2
           .row.justify-content-center          
             .col-md.col-lg-3.col-sm-2.col-md-3.mb-4.mb-md-8
-                img(data-aos="zoom-in-right" src="@/assets/curso/temas/texto_destacado/img29.png")
+                img(data-aos="zoom-in-right" src="@/assets/curso/temas/texto_destacado/img29.png", alt='imagen descriptiva')
             .col-md.col-lg-6
-              <strong> La toma de decisiones se desarrolla en 4 etapas</strong>
-                br
-                br
-                ol.lista-ol--cuadro
-                  li 
-                    .lista-ol--cuadro__vineta.color-acentob-fondo
-                      span 1
-                    p Realización de diagnósticos precisos.
-                  li 
-                    .lista-ol--cuadro__vineta.color-acentob-fondo
-                      span 2
-                    p Identificación del problema, la dificultad o la necesidad.
-                  li 
-                    .lista-ol--cuadro__vineta.color-acentob-fondo
-                      span 3
-                    p Establecimiento de los criterios o alternativas de decisión.
-                  li 
-                    .lista-ol--cuadro__vineta.color-acentob-fondo
-                      span 3
-                    p Definición de momentos de evaluación y cumplimiento de metas.
-          br
+              b La toma de decisiones se desarrolla en 4 etapas
+              p
+              ol.lista-ol--cuadro
+                li 
+                  .lista-ol--cuadro__vineta.color-acentob-fondo
+                    span 1
+                  p Realización de diagnósticos precisos.
+                li 
+                  .lista-ol--cuadro__vineta.color-acentob-fondo
+                    span 2
+                  p Identificación del problema, la dificultad o la necesidad.
+                li 
+                  .lista-ol--cuadro__vineta.color-acentob-fondo
+                    span 3
+                  p Establecimiento de los criterios o alternativas de decisión.
+                li 
+                  .lista-ol--cuadro__vineta.color-acentob-fondo
+                    span 3
+                  p Definición de momentos de evaluación y cumplimiento de metas.
+          
         .row.justify-content-center.mb-4
           .col-lg-10
             .cajon.color-primario
