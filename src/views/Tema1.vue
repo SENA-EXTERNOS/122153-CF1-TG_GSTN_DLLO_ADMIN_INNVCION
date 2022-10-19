@@ -130,18 +130,20 @@
       figure.mb-4
         img(src='@/assets/curso/temas/figuras/esquemaA.svg', alt="Diagrama Esquemas de administración")
 
-    .cajon.color-secundario.fcs15.p-4.mb-4
-      p Para efectos de dar mayor claridad, a continuación, se procede a explicar cada uno de los enfoques y las teorías asociadas, así como también sus autores y motivadores, en el documento Enfoques y teorías administrativas asociadas.
-        
-      .row
-        .col-lg-6
-          a.anexo.mb-4(:href="obtenerLink('/downloads/Enfoques y teorías administrativas asociadas_anexo_1.pdf')" target="_blank")
-            .anexo__icono
-              img(src="@/assets/template/icono-pdf.svg", alt="Imagen relacionada")
-            .anexo__texto
-              h5 Anexo 
-              p.mb-0 Enfoques y teorías administrativas asociadas
-
+    .tarjeta.color-fondo.p-3.mb-5
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/componentes/icono1.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h3.mb-1 Enfoques y teorías administrativas asociadas
+              p.text-small Para efectos de dar mayor claridad, a continuación se procede a explicar cada uno de los enfoques y las teorías asociadas, así como también sus autores y motivadores, en el documento Enfoques y teorías administrativas asociadas.
+            .col-sm-auto
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Enfoques y teorías administrativas asociadas_anexo_1.pdf')" target="_blank")
+                span(style="color: white") Descargar
+                i(style="color: white").fas.fa-file-download
+                
     .row.justify-content-center.mb-4
       .col-md-5
         figure.mw-sm-350px

@@ -13,7 +13,13 @@
     .tarjeta.p-4.p-md-0.mb-4
         .row.justify-content-around 
           .col-md.col-lg-7
-            p La existencia de las empresas ha permitido generar escenarios transaccionales que le dan al ser humano posibilidad de percibir ingresos para su sustento; he aquí la importancia de trabajar por la consolidación de empresas sostenibles y con valor agregado para la economía de los países y del mundo. Para conocer un poco el origen del concepto, lo invitamos a ver el video <a href="https://www.youtube.com/watch?v=dzyn4eofi6c">La empresa y la gestión de la información.</a>  
+            p La existencia de las empresas ha permitido generar escenarios transaccionales que le dan al ser humano posibilidad de percibir ingresos para su sustento; he aquí la importancia de trabajar por la consolidación de empresas sostenibles y con valor agregado para la economía de los países y del mundo. Para conocer un poco el origen del concepto, lo invitamos a ver el video <strong>La empresa y la gestión de la información.</strong>  
+            a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=dzyn4eofi6c" target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-link.svg")
+              .anexo__texto
+                span(style="color: blue") Enlace web. 
+                | La empresa y la gestión de la información.
           
             p Todas las empresas tienen diferentes características y estructuras, y por eso se va a profundizar un poco acerca de esas clasificaciones.
            
@@ -31,113 +37,128 @@
               
           div(x="12%" y="18%" tooltip=" Ver más|")
             .tarjeta.white-card.p-5
-                .row.align-items-center
-                  .col-lg-12
-                    h5.mb-2 Por su tamaño
-                    p Cada país determina la clasificación de las empresas y la disposición actual para Colombia está determinada por:
+              .row.justify-content-around.align-items-center
+                .col-md-6.col-sm-8.col-md-6.col-lg-3
+                  img(data-aos="fade-up" src="@/assets/curso/temas/texto_destacado/img35.svg", alt='imagen relacionada')
+                .col-md-6.col-sm-12.col-md-6.col-lg-9  
+                  h5.mb-4 Por su tamaño
+                    p.mt-4 Cada país determina la clasificación de las empresas y la disposición actual para Colombia está determinada por:
                     ul.lista-ul
                       li 
-                        i.lista-ul__vineta
+                        i.lista-ul__vineta(style='color: #f85316')
                         | Número de empleados.
                       li
-                        i.lista-ul__vineta
+                        i.lista-ul__vineta(style='color: #f85316')
                         | Cantidad de activos.
                       li 
-                        i.lista-ul__vineta
+                        i.lista-ul__vineta(style='color: #f85316')
                         | Facturación (ingresos).
 
           div(x="6%" y="55%" tooltip=" Ver más|")
            .tarjeta.white-card.p-5
-                .row.align-items-center
-                  .col-lg-12
-                    h5.mb-2 Por la titularidad de la empresa
-                    ul.lista-ul
+              .row.justify-content-around.align-items-center
+                .col-md-6.col-sm-8.col-lg-3
+                  img(data-aos="fade-up" src="@/assets/curso/temas/texto_destacado/img34.svg", alt='imagen relacionada')
+                .col-md-6.col-sm-12.col-lg-9  
+                  h5.mb-4 Por la titularidad de la empresa
+                    ul.lista-ul.mt-4
                       li 
-                        i.lista-ul__vineta
-                        | <strong>Pública:</strong> <span></span>su capital está conformado por dinero del Estado.
+                        i.lista-ul__vineta(style='color: #f85316')
+                        | <strong style='color: #f85316'>Pública:</strong> <span></span>su capital está conformado por dinero del Estado.
                       li
-                        i.lista-ul__vineta
-                        |<strong>Privada:</strong> <span></span>su capital es de origen particular, no tiene nada que ver con el Estado
+                        i.lista-ul__vineta(style='color: #f85316')
+                        |<strong style='color: #f85316'>Privada:</strong> <span></span>su capital es de origen particular, no tiene nada que ver con el Estado
                       li 
-                        i.lista-ul__vineta
-                        |<strong>Mixta:</strong> <span></span>parte de su capital es público y parte es privado.
-
+                        i.lista-ul__vineta(style='color: #f85316')
+                        |<strong style='color: #f85316'>Mixta:</strong> <span></span> <b>parte de su capital es público y parte es privado.</b> 
+                         
+          
           div(x="83%" y="18%" tooltip=" Ver más|")
             .tarjeta.white-card.p-5
-                .row.align-items-center
-                  .col-lg-12
-                    .h5.mb-2 Por su estructura jurídica
-                    p Depende de cada país y las normativas para su constitución. En Colombia se clasifican de esta manera:
+              .row.justify-content-around.align-items-center
+                .col-md-6.col-sm-8.col-lg-2
+                  img(data-aos="fade-up" src="@/assets/curso/temas/texto_destacado/img30.svg", alt='imagen relacionada')
+                .col-md-6.col-sm-12.col-lg-10  
+                    h5.mb-4 Por su estructura jurídica
+                    p.mt-4 Depende de cada país y las normativas para su constitución. En Colombia se clasifican de esta manera:
                     ul.lista-ul
                       li 
-                        i.lista-ul__vineta
-                        | Empresa unipersonal: se describe como la persona física que realiza, en nombre propio y por medio de una empresa, una actividad comercial, industrial o profesional.
+                        i.lista-ul__vineta(style='color: #f85316')
+                        | <strong style='color: #f85316'>Empresa unipersonal:</strong> <span></span>su capital está conformado por dinero del Estado.
                       li
-                        i.lista-ul__vineta
-                        | Sociedad de personas o colectivas: varios individuos se asocian y, en nombre de una empresa u organización jurídica, se representan para actuar y participar en el mercado con un mismo fin.
+                        i.lista-ul__vineta(style='color: #f85316')
+                        |<strong style='color: #f85316'>Sociedad de personas o colectivas:</strong> <span></span>su capital es de origen particular, no tiene nada que ver con el Estado
                       li 
-                        i.lista-ul__vineta
-                        | Sociedad anónima: el capital aportado por dos o más personas se divide en acciones y los accionistas son anónimos.
+                        i.lista-ul__vineta(style='color: #f85316')
+                        |<strong style='color: #f85316'>Sociedad anónima:</strong> <span></span>parte de su capital es público y parte es privado.
 
           div(x="90%" y="55%" tooltip=" Ver más|")
             .tarjeta.white-card.p-5
-                .row.align-items-center
-                  .col-lg-12
-                    .h5.mb-2 Por la actividad que realiza
+              .row.justify-content-around.align-items-center
+                .col-md-6.col-sm-8.col-lg-2
+                  img(data-aos="fade-up" src="@/assets/curso/temas/texto_destacado/img31.svg", alt='imagen relacionada')
+                .col-md-6.col-sm-12.col-lg-10  
+                    h5.mb-4 Por la actividad que realiza
                     p Cada país determina la clasificación de las empresas y la disposición actual para Colombia está determinada por:
                     ul.lista-ul
                       li 
-                        i.lista-ul__vineta
-                        | <strong>Industrial:</strong> <span></span>: indica empresas que manufacturan o transforman productos o materias primas
+                        i.lista-ul__vineta(style='color: #f85316')
+                        | <strong style='color: #f85316'>Industrial:</strong> <span></span>: indica empresas que manufacturan o transforman productos o materias primas
                       li
-                        i.lista-ul__vineta
-                        | <strong>Comercial:</strong> <span></span>describe empresas que se dedican a la compra y venta de productos, un servicio de transaccionalidad.
+                        i.lista-ul__vineta(style='color: #f85316')
+                        | <strong style='color: #f85316'>Comercial:</strong> <span></span>describe empresas que se dedican a la compra y venta de productos, un servicio de transaccionalidad.
                       li 
-                        i.lista-ul__vineta
-                        | <strong>De_servicio:</strong> <span></span>se refiere a empresas que son creadas con el propósito de proveer al cliente un servicio (producto intangible, es decir, que no tiene forma definida).
+                        i.lista-ul__vineta(style='color: #f85316')
+                        | <strong style='color: #f85316'>De_servicio:</strong> <span></span>se refiere a empresas que son creadas con el propósito de proveer al cliente un servicio (producto intangible, es decir, que no tiene forma definida).
 
+          
           div(x="12%" y="91%" tooltip=" Ver más|")
             .tarjeta.white-card.p-5
-                .row.align-items-center
-                  .col-lg-12
-                    h5.mb-2 Por el sector económico al que pertenece
-                    p Cada país determina la clasificación de las empresas y la disposición actual para Colombia está determinada por:
-                    ul.lista-ul
-                      li 
-                        i.lista-ul__vineta
-                        | Sector primario: hace referencia a las actividades relacionadas con la explotación de recursos naturales como agricultura, caza, pesca y silvicultura.
-                      li
-                        i.lista-ul__vineta
-                        | Sector secundario: industrial que incluye actividades que transforman productos, generalmente del sector primario o del mismo sector.
-                      li 
-                        i.lista-ul__vineta
-                        | Sector terciario: servicios que producen bienes intangibles y, por lo general, estas actividades sirven como soporte a los sectores primario y secundario (comercio, el transporte, la salud, la educación, el sector financiero, entre otros).
-                      li 
-                        i.lista-ul__vineta
-                        | Sector cuaternario: relacionado con la creación de conocimiento, es decir, investigación y desarrollo.
-                      li 
-                        i.lista-ul__vineta
-                        | Sector quinario: es el que agrupa empresas con actividades sin ánimo de lucro.
+              .row.justify-content-around.align-items-center
+                .col-md-6.col-sm-8.col-lg-2
+                  img(data-aos="fade-up" src="@/assets/curso/temas/texto_destacado/img33.svg", alt='imagen relacionada')
+                .col-md-6.col-sm-12.col-lg-10  
+                  h5.mb-2 Por el sector económico al que pertenece
+                  p Cada país determina la clasificación de las empresas y la disposición actual para Colombia está determinada por:
+                  ul.lista-ul
+                    li 
+                      i.lista-ul__vineta(style='color: #f85316')
+                      | <strong style='color: #f85316'>Sector primario:</strong> hace referencia a las actividades relacionadas con la explotación de recursos naturales como agricultura, caza, pesca y silvicultura.
+                    li
+                      i.lista-ul__vineta(style='color: #f85316')
+                      | <strong style='color: #f85316'>Sector secundario:</strong> industrial que incluye actividades que transforman productos, generalmente del sector primario o del mismo sector.
+                    li 
+                      i.lista-ul__vineta(style='color: #f85316')
+                      | <strong style='color: #f85316'>Sector terciario:</strong> servicios que producen bienes intangibles y, por lo general, estas actividades sirven como soporte a los sectores primario y secundario (comercio, el transporte, la salud, la educación, el sector financiero, entre otros).
+                    li 
+                      i.lista-ul__vineta(style='color: #f85316')
+                      | <strong style='color: #f85316'>Sector cuaternario:</strong> relacionado con la creación de conocimiento, es decir, investigación y desarrollo.
+                    li 
+                      i.lista-ul__vineta(style='color: #f85316')
+                      | <strong style='color: #f85316'>Sector quinario:</strong> es el que agrupa empresas con actividades sin ánimo de lucro.
+        
 
           div(x="83%" y="91%" tooltip=" Ver más|")
             .tarjeta.white-card.p-5
-                .row.align-items-center
-                  .col-lg-12
-                    h5.mb-2 Por su ubicación
+              .row.justify-content-around.align-items-center
+                .col-md-6.col-sm-8.col-lg-3
+                  img(data-aos="fade-up" src="@/assets/curso/temas/texto_destacado/img32.svg", alt='imagen relacionada')
+                .col-md-6.col-sm-12.col-lg-9  
+                    h5.mb-4 Por su ubicación
                     p Cada país determina la clasificación de las empresas y la disposición actual para Colombia está determinada por:
                     ul.lista-ul
-                      li 
-                        i.lista-ul__vineta
-                        | <strong>Local:</strong> <span></span> su alcance está determinado al municipio o ciudad donde se encuentra ubicada.
                       li
-                        i.lista-ul__vineta
-                        | <strong>Regional:</strong> <span></span> su área de influencia trasciende lo municipal y le es posible llegar a departamentos vecinos. 
+                        i.lista-ul__vineta(style='color: #f85316')
+                        | <strong style='color: #f85316'>Local:</strong> <span></span> su alcance está determinado al municipio o ciudad donde se encuentra ubicada.
+                      li
+                        i.lista-ul__vineta(style='color: #f85316')
+                        | <strong style='color: #f85316'>Regional:</strong> <span></span> su área de influencia trasciende lo municipal y le es posible llegar a departamentos vecinos. 
                       li 
-                        i.lista-ul__vineta
-                        | <strong>Nacional:</strong> <span></span> desarrolla sus actividades en el contexto del país, esto es a nivel nacional.
+                        i.lista-ul__vineta(style='color: #f85316')
+                        | <strong style='color: #f85316'>Nacional:</strong> <span></span> desarrolla sus actividades en el contexto del país, esto es a nivel nacional.
                       li 
-                        i.lista-ul__vineta
-                        | <strong>Multinacional:</strong> <span></span> trasciende su operación las fronteras nacionales, es decir, tiene presencia en varios países.
+                        i.lista-ul__vineta(style='color: #f85316')
+                        | <strong style='color: #f85316'>Multinacional:</strong> <span></span> trasciende su operación las fronteras nacionales, es decir, tiene presencia en varios países.
     br
     .row.mb-4
        .col-lg-12

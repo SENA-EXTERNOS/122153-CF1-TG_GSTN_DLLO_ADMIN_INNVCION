@@ -48,6 +48,8 @@
   background-color: rgba(117,182,47,0.13)!important
 .color-fondo-secundario
   background-color: rgba(248,83,22,0.15)!important
+.color-fondo-terciario
+   background-color: #dce73625 !important
 .color-fondo2
   background-color: $color-secundario
 .color-acentoc-fondo
@@ -136,4 +138,75 @@
 
 .lista-centrar
   text-align: center !important;
-  
+
+/// modal 
+.img-infografica-b
+  &--open
+    .img-infografica-b__img
+      position: absolute
+      width: 100%
+  &__modal
+    background: rgba(248, 250, 214, 9)
+    animation: entrada-modal 0.2s ease-in-out forwards
+    &__contenido
+      div > *
+        color: $black !important
+    &__btn-cerrar
+      position: absolute
+      right: 10px
+      top: 10px
+      padding: 5px
+      cursor: pointer
+      background-color: $color-acento-botones
+      i
+        display: block
+        line-height: 0.8em
+        font-size: 1.5rem
+        color: $white
+      @media (max-width: $bp-max-lg)
+        right: 0px
+        top: 0px
+        i
+          font-size: 1rem
+
+  &.color-primario
+    .img-infografica-b__item__numero
+      color: textColor($color-primario)
+      i
+        color: textColor($color-primario)
+
+  &.color-secundario
+    .img-infografica-b__item__numero
+      color: textColor($color-secundario)
+      i
+        color: textColor($color-secundario)
+
+  &.color-acento-contenido
+    .img-infografica-b__item__numero
+      color: textColor($color-acento-contenido)
+      i
+        color: textColor($color-acento-contenido)
+
+  &.color-acento-botones
+    .img-infografica-b__item__numero
+      color: textColor($color-acento-botones)
+      i
+        color: textColor($color-acento-botones)
+
+@keyframes pulse
+  0%
+    transform: scale(1)
+    opacity: 0
+  10%
+    opacity: .7
+  100%
+    transform: scale(2)
+    opacity: 0
+
+@keyframes entrada-modal
+  0%
+    transform: scale(0.9)
+    opacity: 1
+  100%
+    transform: scale(1)
+    opacity: 1

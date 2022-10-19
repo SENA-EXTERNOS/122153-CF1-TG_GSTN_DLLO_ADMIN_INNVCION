@@ -68,36 +68,36 @@
       .tarjeta
         .imgCont.m-auto
           .row.justify-content-center.mb-4
-            ImagenInfografica.color-primario.mb-5
+            ImagenInfografica.color-acento-botones.mb-5
               template(v-slot:imagen)
                 figure
                   img(data-aos="fade-left" src='@/assets/curso/temas/texto_destacado/img7.svg', alt='diagrama tipo rompecabezas')
 
-              .tarjeta.color-acento-botones.p-4(x="11%" y="7%" numero="+" style='border-radius: 10px; background-color: #FFE8C8')
+              .tarjeta.color-acento-botones.p-4(x="22%" y="14%" numero="+" style='border-radius: 10px; background-color: #FFE8C8')
                 h5.mb-3.text-center Misión
                 p.mb-0.text-center Es un escrito que sintetiza el propósito de una empresa y responde a preguntas como: ¿quién es la empresa? ¿A qué se dedica? ¿Para qué existe?
               
-              .tarjeta.color-acento-botones.p-4(x="42%" y="6%" numero="+" style='border-radius: 10px; background-color: #FFE8C8')
+              .tarjeta.color-acento-botones.p-4(x="50%" y="14%" numero="+" style='border-radius: 10px; background-color: #FFE8C8')
                 h5.mb-3.text-center Filosofía
                 p.mb-0.text-center Compuesta por: 
                 p.mb-0.text-center <strong>Valores: </strong> : son concebidos como declaraciones que realizan las empresas como sustento a su forma de ser y de hacer las cosas. Por ejemplo, la calidad, el respeto, el compromiso. 
                 p.mb-0.text-center <strong>Principios corporativos: </strong>se refiere al conjunto de creencias y postulados que funcionan como guías orientadoras e inspiradoras en el quehacer de una organización.
 
               
-              .tarjeta.color-acento-botones.p-4(x="71%" y="6%" numero="+" style='border-radius: 10px; background-color: #FFE8C8')
+              .tarjeta.color-acento-botones.p-4(x="78%" y="14%" numero="+" style='border-radius: 10px; background-color: #FFE8C8')
                 h5.mb-3.text-center Normas
                 p.mb-0.text-center El concepto más apropiado para definir el término, podría ser el que citan Hernández y Rodríguez, S., Palafox de Anda, G. & Aguado Cortés, C. (2020): “son las reglas administrativas de observancia obligatoria para la realización de una operación, procedimiento, programa o presupuesto” (p.256).
               
-              .tarjeta.color-acento-botones.p-4(x="26%" y="95%" numero="+" style='border-radius: 10px; background-color: #FFE8C8')
+              .tarjeta.color-acento-botones.p-4(x="36%" y="88%" numero="+" style='border-radius: 10px; background-color: #FFE8C8')
                 h5.mb-3.text-center Visión
                 p.mb-0.text-center Se refiere al enunciado del estado del futuro deseado, a través de un texto: ¿dónde se visualiza la empresa en un horizonte de tiempo determinado? ¿Cómo producirá los resultados? ¿Cómo se enfrentará al cambio? ¿Cómo conseguirá ser competitiva?
               
-              .tarjeta.color-acento-botones.p-4(x="81%" y="95%" numero="+" style='border-radius: 10px; background-color: #FFE8C8')
+              .tarjeta.color-acento-botones.p-4(x="64%" y="88%" numero="+" style='border-radius: 10px; background-color: #FFE8C8')
                 h5.mb-3.text-center Objetivos estratégicos
                 p.mb-0.text-center Representan los resultados que la empresa desea alcanzar y lograr; se deben establecer para un tiempo específico y ser definidos cuantitativamente. Ayudan a materializar la estrategia, establecen metas y ayudan a su cumplimiento y, además, unifican el lenguaje y alinean la organización. Para la construcción de los objetivos estratégicos es necesario tener presente la misión, la visión y los principios de la organización, de tal manera que se garantice la alineación y la coherencia.
 
        
-    .cajon.color-acento-botones.color-fondo-secundario.p-4.mb-5
+    .cajon.color-acento-botones.color-fondo-terciario.p-4.mb-5
       p.mb-0 Estos temas corresponden a la denominada 
         b cultura organizacional, 
         | cultura organizacional, la cual es como el ADN de la empresa: la forma de ser y de hacer empresa, las creencias y todas aquellas variables que hacen que los empleados se identifiquen y busquen, desde su quehacer, aportar a un mismo fin.    
@@ -139,7 +139,7 @@
     #t_2_2.titulo-segundo.color-acento-contenido   
       h2 2.2 Organización
 
-    p Una de las definiciones de organización es la de los autores Hernández y Rodríguez, S., Palafox de Anda, G. & Aguado Cortés, C. (2020), quienes indican que: es la <strong style="color:blue">“fase del proceso administrativo en la cual se aplican las técnicas administrativas para estructurar una empresa u organización social; se definen las funciones por áreas sustantivas, departamentos y puestos; se establece la autoridad en materia de toma decisiones y la responsabilidad de los miembros que ocupan dichas unidades, y se definen las líneas de comunicación formal que faciliten la comunicación y la cooperación de los equipos de trabajo, a fin de alcanzar los objetivos y la estrategia” (p.271).</strong >
+    p Una de las definiciones de organización es la de los autores Hernández y Rodríguez, S., Palafox de Anda, G. & Aguado Cortés, C. (2020), quienes indican que: es la <strong style="color:#f85316">“fase del proceso administrativo en la cual se aplican las técnicas administrativas para estructurar una empresa u organización social; se definen las funciones por áreas sustantivas, departamentos y puestos; se establece la autoridad en materia de toma decisiones y la responsabilidad de los miembros que ocupan dichas unidades, y se definen las líneas de comunicación formal que faciliten la comunicación y la cooperación de los equipos de trabajo, a fin de alcanzar los objetivos y la estrategia” (p.271).</strong >
     
     .row.justify-content-around.align-items-center.mb-5
       .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
@@ -345,7 +345,7 @@
             .row(titulo="Condiciones de trabajo")
               .col-md-12.mb-4.mb-md-0
               p Algunos puestos de trabajo tienen, asociados a ellos, condiciones de trabajo con algunos riesgos de exposición como: humedad, calor extremo, peligrosidad, esfuerzo físico, entre otros; esto amerita que las capacidades físicas del trabajador que ocupe el cargo, sean especiales. Los riesgos plasmados en el manual, también permiten gestión adecuada y seguimiento para condiciones de seguridad y salud en el trabajo.
-            row(titulo="Requerimientos del puesto")
+            .row(titulo="Requerimientos del puesto")
               .col-md-12.mb-4.mb-md-0
               p Estos requerimientos hacen alusión al nivel de formación que requiere el cargo: nivel académico, grado de conocimientos técnicos y tecnológicos específicos, grado de experiencia o dominio operativo de la actividad a desarrollar, y conjunto de capacidades intelectuales, aptitudes, habilidades y características de personalidad.  
   
@@ -469,7 +469,7 @@
       | Manual de procesos y procedimientos
     
     p El manual de procesos y procedimientos de una empresa u organización, es un documento que contiene información sobre cómo se deben llevar a cabo los procesos; esto permite y facilita el flujo adecuado del trabajo, a partir de la estandarización de los mismos. Es un documento que contiene pautas y reglas sobre cómo deben ser desarrollados ciertos procedimientos y posibilita a las empresas para dirigir sus operaciones, estrategias y flujos de trabajo hacia resultados óptimos.
-      .tarjeta.p-4.p-md-2.mb-5
+    .tarjeta.p-4.p-md-2.mb-5
       .row.justify-content-around.align-items-center
         .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
           img(data-aos="flip-right" src="@/assets/curso/temas/texto_destacado/img15.png", alt='imagen de ejemplo')
@@ -479,7 +479,7 @@
           ol.lista-ol
             li 
               span.fas.fa-check(style='color: #f85316')
-              | Ahorro de tiempo.
+              | Ahorro de tiempo. 
             li 
               span.fas.fa-check(style='color: #f85316')
               | Posibilita la aplicación de acciones de control interno y mejora continua.
@@ -511,22 +511,28 @@
           .color-fondo.p-3
             b Proceso: 
             | se refiere a una serie de entradas que se combina con algunas actividades, para generar unas salidas o un producto. Un ejemplo de esto es el siguiente: para realizar un pastel, se cuenta con los ingredientes, las herramientas y el mecanismo de elaboración, para obtener como resultado el pastel; a esto se le denomina proceso.     
-            .col-md-7
-            p Existen 3 tipos de procesos:
-            ol.lista-ol
-              li 
-                span.fas.fa-check(style='color: #f85316')
-                b Estratégicos: 
-                | son aquellos que están relacionados con la planificación estratégica de la organización.
-              li 
-                span.fas.fa-check(style='color: #f85316')
-                b Operativos: 
-                | son los que están relacionados con la operación de la empresa.
-              li 
-                span.fas.fa-check(style='color: #f85316')
-                b De apoyo: 
-                | son los que dan soporte a la organización.
             
+    .tarjeta.p-3.mb-5
+      .row.justify-content-around.align-items-center
+        .col-sm-10.col-md-3.col-lg-2
+          img(data-aos="fade-up" src="@/assets/curso/temas/texto_destacado/img14,5.svg", alt='imagen relacionada')
+        .col-sm-12.col-md-8.col-lg-10
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+               p.mb-4 Existen 3 tipos de procesos:
+               ol.lista-ol
+                li 
+                  span.fas.fa-check(style='color: #f85316')
+                  b Estratégicos: 
+                  | son aquellos que están relacionados con la planificación estratégica de la organización.
+                li 
+                  span.fas.fa-check(style='color: #f85316')
+                  b Operativos: 
+                  | son los que están relacionados con la operación de la empresa.
+                li 
+                  span.fas.fa-check(style='color: #f85316')
+                  b De apoyo: 
+                  | son los que dan soporte a la organización.
 
     p Para continuar con el ejemplo de la pastelería, se ilustrará el ejercicio, para conocer el mapa de procesos de la misma empresa.
     
