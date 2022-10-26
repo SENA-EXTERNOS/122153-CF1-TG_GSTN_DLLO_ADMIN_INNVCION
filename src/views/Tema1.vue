@@ -169,7 +169,7 @@
 
     figure.mb-5
       .video
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/xzg1pJ5QhM8" title="Estrategia de diagnóstico y análisis empresarial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/CDspVWIYvRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
 
     .cajon.color-acento-botones.color-fondo-secundario.p-4
       p.mb-0 Una vez que se cuenta con el diagnóstico y el análisis empresarial, se procede a realizar una proyección de la empresa desde lo estratégico y, entonces, es este el momento correcto para aplicar los principios del proceso administrativo.    

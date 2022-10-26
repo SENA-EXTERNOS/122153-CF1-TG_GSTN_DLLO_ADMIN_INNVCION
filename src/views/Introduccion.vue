@@ -16,13 +16,13 @@
         p.mb-0 Apreciado aprendiz, bienvenido a este recurso educativo, a continuación, conocerá más sobre la administración entendiéndola como una herramienta apropiada para dar orden a los diversos obstáculos que se presentan en la cotidianidad; por ende, entenderla y comprender su intención puede convertirse en el valor agregado que empresarialmente puede utilizarse para generar ventajas y capacidad de acción. En el siguiente video conocerá, de forma general, la temática que estudiará a lo largo del componente formativo.
           br
           br
-          span(style='color:blue') ¡Muchos éxitos en este proceso de aprendizaje!
+          span(style='color:#F85316') ¡Muchos éxitos en este proceso de aprendizaje!
       
     br
     br
     figure
       .video
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/E1AZUFvJdVs" title="Introducción a la administración" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/M_1OINwWdMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 </template>
