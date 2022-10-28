@@ -41,7 +41,6 @@
                 .col-md-6.col-sm-8.col-md-6.col-lg-3
                   img(data-aos="fade-up" src="@/assets/curso/temas/texto_destacado/img35.svg", alt='imagen relacionada')
                 .col-md-6.col-sm-12.col-md-6.col-lg-9  
-                  h5.mb-4 Por su tamaño
                     p.mt-4 Cada país determina la clasificación de las empresas y la disposición actual para Colombia está determinada por:
                     ul.lista-ul
                       li 
@@ -60,17 +59,16 @@
                 .col-md-6.col-sm-8.col-lg-3
                   img(data-aos="fade-up" src="@/assets/curso/temas/texto_destacado/img34.svg", alt='imagen relacionada')
                 .col-md-6.col-sm-12.col-lg-9  
-                  h5.mb-4 Por la titularidad de la empresa
                     ul.lista-ul.mt-4
                       li 
                         i.lista-ul__vineta(style='color: #f85316')
-                        | <strong style='color: #f85316'>Pública:</strong> <span></span>su capital está conformado por dinero del Estado.
+                        | <strong style='color: #f85316'>Pública:</strong> &nbsp su capital está conformado por dinero del Estado.
                       li
                         i.lista-ul__vineta(style='color: #f85316')
-                        |<strong style='color: #f85316'>Privada:</strong> <span></span>su capital es de origen particular, no tiene nada que ver con el Estado
+                        |<strong style='color: #f85316'>Privada:</strong> &nbsp su capital es de origen particular, no tiene nada que ver con el Estado
                       li 
                         i.lista-ul__vineta(style='color: #f85316')
-                        |<strong style='color: #f85316'>Mixta:</strong> <span></span> <b>parte de su capital es público y parte es privado.</b> 
+                        |<strong style='color: #f85316'>Mixta:</strong> &nbsp parte de su capital es público y parte es privado.
                          
           
           div(x="83%" y="18%" tooltip=" Ver más|")
@@ -79,18 +77,17 @@
                 .col-md-6.col-sm-8.col-lg-2
                   img(data-aos="fade-up" src="@/assets/curso/temas/texto_destacado/img30.svg", alt='imagen relacionada')
                 .col-md-6.col-sm-12.col-lg-10  
-                    h5.mb-4 Por su estructura jurídica
                     p.mt-4 Depende de cada país y las normativas para su constitución. En Colombia se clasifican de esta manera:
                     ul.lista-ul
                       li 
-                        i.lista-ul__vineta(style='color: #f85316')
-                        | <strong style='color: #f85316'>Empresa unipersonal:</strong> <span></span>su capital está conformado por dinero del Estado.
+                      i.lista-ul__vineta(style='color: #f85316')
+                      | <strong style='color: #f85316'>Empresa unipersonal:</strong> &nbsp su capital está conformado por dinero del Estado.
                       li
-                        i.lista-ul__vineta(style='color: #f85316')
-                        |<strong style='color: #f85316'>Sociedad de personas o colectivas:</strong> <span></span>su capital es de origen particular, no tiene nada que ver con el Estado
+                      i.lista-ul__vineta(style='color: #f85316')
+                      |<strong style='color: #f85316'>Sociedad de personas o colectivas:</strong> &nbsp su capital es de origen particular, no tiene nada que ver con el Estado
                       li 
-                        i.lista-ul__vineta(style='color: #f85316')
-                        |<strong style='color: #f85316'>Sociedad anónima:</strong> <span></span>parte de su capital es público y parte es privado.
+                      i.lista-ul__vineta(style='color: #f85316')
+                      |<strong style='color: #f85316'>Sociedad anónima:</strong> &nbsp parte de su capital es público y parte es privado.
 
           div(x="90%" y="55%" tooltip=" Ver más|")
             .tarjeta.white-card.p-5
@@ -98,18 +95,17 @@
                 .col-md-6.col-sm-8.col-lg-2
                   img(data-aos="fade-up" src="@/assets/curso/temas/texto_destacado/img31.svg", alt='imagen relacionada')
                 .col-md-6.col-sm-12.col-lg-10  
-                    h5.mb-4 Por la actividad que realiza
                     p Cada país determina la clasificación de las empresas y la disposición actual para Colombia está determinada por:
                     ul.lista-ul
                       li 
-                        i.lista-ul__vineta(style='color: #f85316')
-                        | <strong style='color: #f85316'>Industrial:</strong> <span></span>: indica empresas que manufacturan o transforman productos o materias primas
+                      i.lista-ul__vineta(style='color: #f85316')
+                      | <strong style='color: #f85316'>Industrial:</strong> <span></span>: indica empresas que manufacturan o transforman productos o materias primas
                       li
-                        i.lista-ul__vineta(style='color: #f85316')
-                        | <strong style='color: #f85316'>Comercial:</strong> <span></span>describe empresas que se dedican a la compra y venta de productos, un servicio de transaccionalidad.
+                      i.lista-ul__vineta(style='color: #f85316')
+                      | <strong style='color: #f85316'>Comercial:</strong> <span></span>describe empresas que se dedican a la compra y venta de productos, un servicio de transaccionalidad.
                       li 
-                        i.lista-ul__vineta(style='color: #f85316')
-                        | <strong style='color: #f85316'>De_servicio:</strong> <span></span>se refiere a empresas que son creadas con el propósito de proveer al cliente un servicio (producto intangible, es decir, que no tiene forma definida).
+                      i.lista-ul__vineta(style='color: #f85316')
+                      | <strong style='color: #f85316'>De servicio:</strong> <span></span>se refiere a empresas que son creadas con el propósito de proveer al cliente un servicio (producto intangible, es decir, que no tiene forma definida).
 
           
           div(x="12%" y="91%" tooltip=" Ver más|")
@@ -118,24 +114,24 @@
                 .col-md-6.col-sm-8.col-lg-2
                   img(data-aos="fade-up" src="@/assets/curso/temas/texto_destacado/img33.svg", alt='imagen relacionada')
                 .col-md-6.col-sm-12.col-lg-10  
-                  h5.mb-2 Por el sector económico al que pertenece
                   p Cada país determina la clasificación de las empresas y la disposición actual para Colombia está determinada por:
                   ul.lista-ul
                     li 
-                      i.lista-ul__vineta(style='color: #f85316')
-                      | <strong style='color: #f85316'>Sector primario:</strong> hace referencia a las actividades relacionadas con la explotación de recursos naturales como agricultura, caza, pesca y silvicultura.
-                    li
-                      i.lista-ul__vineta(style='color: #f85316')
-                      | <strong style='color: #f85316'>Sector secundario:</strong> industrial que incluye actividades que transforman productos, generalmente del sector primario o del mismo sector.
+                    i.lista-ul__vineta(style='color: #f85316')
+                    | <strong style='color: #f85316'>Sector primario:&nbsp </strong> hace referencia a las actividades relacionadas con la explotación de recursos naturales como agricultura, caza, pesca y silvicultura.
                     li 
-                      i.lista-ul__vineta(style='color: #f85316')
-                      | <strong style='color: #f85316'>Sector terciario:</strong> servicios que producen bienes intangibles y, por lo general, estas actividades sirven como soporte a los sectores primario y secundario (comercio, el transporte, la salud, la educación, el sector financiero, entre otros).
+                    i.lista-ul__vineta
+                    | <strong style='color: #f85316'>Sector secundario:&nbsp</strong> industrial que incluye actividades que transforman productos, generalmente del sector primario o del mismo sector.
                     li 
-                      i.lista-ul__vineta(style='color: #f85316')
-                      | <strong style='color: #f85316'>Sector cuaternario:</strong> relacionado con la creación de conocimiento, es decir, investigación y desarrollo.
+                    i.lista-ul__vineta
+                    | <strong style='color: #f85316'>Sector terciario:&nbsp</strong>  servicios que producen bienes intangibles y, por lo general,  estas actividades sirven como soporte a los sectores primario y 
+                    |secundario  (comercio, el transporte, la salud, la educación, el sector financiero, entre otros). 
+                    li  
+                    i.lista-ul__vineta(style='color: #f85316')
+                    |  <strong style='color: #f85316'>Sector cuaternario:&nbsp </strong>relacionado con la creación de conocimiento, es decir, investigación y desarrollo.
                     li 
-                      i.lista-ul__vineta(style='color: #f85316')
-                      | <strong style='color: #f85316'>Sector quinario:</strong> es el que agrupa empresas con actividades sin ánimo de lucro.
+                    i.lista-ul__vineta(style='color: #f85316')
+                    | <strong style='color: #f85316'>Sector quinario:</strong> es el que agrupa empresas con actividades sin ánimo de lucro.
         
 
           div(x="83%" y="91%" tooltip=" Ver más|")
@@ -144,21 +140,20 @@
                 .col-md-6.col-sm-8.col-lg-3
                   img(data-aos="fade-up" src="@/assets/curso/temas/texto_destacado/img32.svg", alt='imagen relacionada')
                 .col-md-6.col-sm-12.col-lg-9  
-                    h5.mb-4 Por su ubicación
                     p Cada país determina la clasificación de las empresas y la disposición actual para Colombia está determinada por:
                     ul.lista-ul
                       li
-                        i.lista-ul__vineta(style='color: #f85316')
-                        | <strong style='color: #f85316'>Local:</strong> <span></span> su alcance está determinado al municipio o ciudad donde se encuentra ubicada.
+                      i.lista-ul__vineta(style='color: #f85316')
+                      | <strong style='color: #f85316'>Local:</strong> <span></span> su alcance está determinado al municipio o ciudad donde se encuentra ubicada.
                       li
-                        i.lista-ul__vineta(style='color: #f85316')
-                        | <strong style='color: #f85316'>Regional:</strong> <span></span> su área de influencia trasciende lo municipal y le es posible llegar a departamentos vecinos. 
+                      i.lista-ul__vineta(style='color: #f85316')
+                      | <strong style='color: #f85316'>Regional:</strong> <span></span> su área de influencia trasciende lo municipal y le es posible llegar a departamentos vecinos. 
                       li 
-                        i.lista-ul__vineta(style='color: #f85316')
-                        | <strong style='color: #f85316'>Nacional:</strong> <span></span> desarrolla sus actividades en el contexto del país, esto es a nivel nacional.
+                      i.lista-ul__vineta(style='color: #f85316')
+                      | <strong style='color: #f85316'>Nacional:</strong> <span></span> desarrolla sus actividades en el contexto del país, esto es a nivel nacional.
                       li 
-                        i.lista-ul__vineta(style='color: #f85316')
-                        | <strong style='color: #f85316'>Multinacional:</strong> <span></span> trasciende su operación las fronteras nacionales, es decir, tiene presencia en varios países.
+                      i.lista-ul__vineta(style='color: #f85316')
+                      | <strong style='color: #f85316'>Multinacional:</strong> <span></span> trasciende su operación las fronteras nacionales, es decir, tiene presencia en varios países.
     br
     .row.mb-4
        .col-lg-12
@@ -170,7 +165,7 @@
       | Sentido de pertenencia, trabajo en equipo y toma de decisiones.
     
     .row.justify-content-around.align-items-center.mb-4  
-      .bloque-texto-g.color-primario.col-sm-12.mb-8.p-md-4
+      .bloque-texto-g.color-primario.col-lg-10.col-sm-12.mb-8.p-md-4
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/texto_destacado/img27.png')})`}"
         )

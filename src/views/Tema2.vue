@@ -14,8 +14,7 @@
         .col-sm-12.col-md-8.col-lg-10
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h5 El proceso administrativo se compone de una serie de fases o etapas que permiten llevar a cabo una actividad,
-               p con la existencia de diversos criterios acerca de la cantidad de pasos que lo integran, aunque para los autores, los elementos o funciones sean las mismas. Para el caso de este componente formativo, se tomarán como referentes las siguientes etapas:       
+              p El proceso administrativo se compone de una serie de fases o etapas que permiten llevar a cabo una actividad, con la existencia de diversos criterios acerca de la cantidad de pasos que lo integran, aunque para los autores, los elementos o funciones sean las mismas. Para el caso de este componente formativo, se tomarán como referentes las siguientes etapas:       
     
     .mx-auto.col-md-8.mb-4
       .titulo-sexto.color-acento-contenido
@@ -42,8 +41,8 @@
    
     .row.justify-content-center.mb-5
       .col-md-12
-        .col-md-5.p-5
-          h6 Basados en la estructura organizacional, existen 3 tipos de planeación:
+        .col-md-8.p-5
+          p Basados en la estructura organizacional, existen 3 tipos de planeación:
       .col-lg-4.col-sm-10.col-md-3.col-lg-2
         figure
             img(data-aos="fade-down" src='@/assets/curso/temas/figuras/esquemaC.svg', alt='imagen relacionada')
@@ -61,7 +60,7 @@
     
     p La planeación organizacional se enmarca, regularmente, en un documento denominado “plan estratégico”, donde confluye la información de base y la que se plantea en un horizonte de tiempo determinado, los propósitos y alcances pretendidos.
     p.mb-5 
-      strong El plan estratégico es como un rompecabezas, 
+      | El plan estratégico es como un rompecabezas, 
       | compuesto por diferentes piezas las cuales se presentan a continuación:  
 
     .mx-auto.col-md-10.mb-5
@@ -74,32 +73,27 @@
                   img(data-aos="fade-left" src='@/assets/curso/temas/texto_destacado/img7.svg', alt='diagrama tipo rompecabezas')
 
               .tarjeta.color-acento-botones.p-4(x="22%" y="14%" numero="+" style='border-radius: 10px; background-color: #FFE8C8')
-                h5.mb-3.text-center Misión
                 p.mb-0.text-center Es un escrito que sintetiza el propósito de una empresa y responde a preguntas como: ¿quién es la empresa? ¿A qué se dedica? ¿Para qué existe?
               
               .tarjeta.color-acento-botones.p-4(x="50%" y="14%" numero="+" style='border-radius: 10px; background-color: #FFE8C8')
-                h5.mb-3.text-center Filosofía
                 p.mb-0.text-center Compuesta por: 
                 p.mb-0.text-center <strong>Valores: </strong> : son concebidos como declaraciones que realizan las empresas como sustento a su forma de ser y de hacer las cosas. Por ejemplo, la calidad, el respeto, el compromiso. 
                 p.mb-0.text-center <strong>Principios corporativos: </strong>se refiere al conjunto de creencias y postulados que funcionan como guías orientadoras e inspiradoras en el quehacer de una organización.
 
               
               .tarjeta.color-acento-botones.p-4(x="78%" y="14%" numero="+" style='border-radius: 10px; background-color: #FFE8C8')
-                h5.mb-3.text-center Normas
                 p.mb-0.text-center El concepto más apropiado para definir el término, podría ser el que citan Hernández y Rodríguez, S., Palafox de Anda, G. & Aguado Cortés, C. (2020): “son las reglas administrativas de observancia obligatoria para la realización de una operación, procedimiento, programa o presupuesto” (p.256).
               
               .tarjeta.color-acento-botones.p-4(x="36%" y="88%" numero="+" style='border-radius: 10px; background-color: #FFE8C8')
-                h5.mb-3.text-center Visión
                 p.mb-0.text-center Se refiere al enunciado del estado del futuro deseado, a través de un texto: ¿dónde se visualiza la empresa en un horizonte de tiempo determinado? ¿Cómo producirá los resultados? ¿Cómo se enfrentará al cambio? ¿Cómo conseguirá ser competitiva?
               
               .tarjeta.color-acento-botones.p-4(x="64%" y="88%" numero="+" style='border-radius: 10px; background-color: #FFE8C8')
-                h5.mb-3.text-center Objetivos estratégicos
                 p.mb-0.text-center Representan los resultados que la empresa desea alcanzar y lograr; se deben establecer para un tiempo específico y ser definidos cuantitativamente. Ayudan a materializar la estrategia, establecen metas y ayudan a su cumplimiento y, además, unifican el lenguaje y alinean la organización. Para la construcción de los objetivos estratégicos es necesario tener presente la misión, la visión y los principios de la organización, de tal manera que se garantice la alineación y la coherencia.
 
        
     .cajon.color-acento-botones.color-fondo-terciario.p-4.mb-5
       p.mb-0 Estos temas corresponden a la denominada 
-        b cultura organizacional, 
+        | cultura organizacional, 
         | cultura organizacional, la cual es como el ADN de la empresa: la forma de ser y de hacer empresa, las creencias y todas aquellas variables que hacen que los empleados se identifiquen y busquen, desde su quehacer, aportar a un mismo fin.    
 
     p En compensación y proporcionando una continuidad con la construcción de la planeación estratégica, encontramos los siguientes elementos:
@@ -111,7 +105,7 @@
             figure
               img(data-aos="fade-up-right" src="@/assets/curso/temas/tarjetas/tarjeta1.svg", alt="imagen relacionada")
           .crd_hover_txt--body
-            h4.mb-3 Estrategias organizacionales 
+            h4.mb-3.text-center Estrategias organizacionales 
             p.mb-0 Se relaciona con los planteamientos del cómo se pueden llegar a cumplir los objetivos. Pueden darse tantas estrategias como objetivos se planteen y son los vehículos para llevar las acciones al cumplimiento de los objetivos.
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -120,7 +114,7 @@
             figure
               img(src="@/assets/curso/temas/tarjetas/tarjeta2.svg", alt="imagen relacionada")
           .crd_hover_txt--body
-            h4.mb-3 Programas o proyectos
+            h4.mb-3.text-center Programas o proyectos
             p.mb-0 Se refiere a la secuencia de actividades desplegadas para el desarrollo y materialización de la estrategia; aquí se plasman los tiempos requeridos y los responsables de estos proyectos.
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -129,10 +123,10 @@
             figure
               img(src="@/assets/curso/temas/tarjetas/tarjeta3.svg", alt="imagen relacionada")
           .crd_hover_txt--body
-            h4.mb-3 Presupuestos
+            h4.mb-3.text-center Presupuestos
             p.mb-0 Son aquellas herramientas que permiten plasmar, de manera anticipada, los recursos requeridos (financieros y no financieros) para el cumplimiento de las actividades; por consiguiente, de las estrategias y de los objetivos.    
 
-    p Una vez se cumpla el paso de la planeación con sus respectivas variables y técnicas, se adquiere una claridad de hacia dónde va la empresa, cuáles son sus propósitos y finalidades, y se llega entonces al segundo paso del ciclo denominado <strong>“organización”.</strong>
+    p Una vez se cumpla el paso de la planeación con sus respectivas variables y técnicas, se adquiere una claridad de hacia dónde va la empresa, cuáles son sus propósitos y finalidades, y se llega entonces al segundo paso del ciclo denominado “organización”.
 
     separador
 
@@ -200,7 +194,7 @@
         h2.text-center Equilibrio
         p.text-center Debe existir un equilibrio entre la aplicación de las técnicas y los principios, para asegurar la correcta marcha global de la organización. 
   
-    p En el ejercicio de la organización como proceso administrativo, también se encuentra la definición de la <strong>estructura organizacional, </strong>siendo esta la manera de establecer una arquitectura al interior de la empresa, indicando los cargos, las líneas de comunicación y de mando, las dependencias y la relación entre las mismas; esta herramienta debe ser construida y diseñada a la luz de la razón de ser de la empresa, su propósito superior y su actividad económica; por eso es importante realizar un análisis previo a variables, como el que se explica a continuación:
+    p En el ejercicio de la organización como proceso administrativo, también se encuentra la definición de la estructura organizacional, siendo esta la manera de establecer una arquitectura al interior de la empresa, indicando los cargos, las líneas de comunicación y de mando, las dependencias y la relación entre las mismas; esta herramienta debe ser construida y diseñada a la luz de la razón de ser de la empresa, su propósito superior y su actividad económica; por eso es importante realizar un análisis previo a variables, como el que se explica a continuación:
     
     .row.justify-content-around.align-items-center.mb-4
       .col-8.col-sm-6.col-md-5.mb-4
@@ -221,7 +215,7 @@
             span.fas.fa-check(style='color: #f85316')
             | El recurso humano: se deben tener en cuenta variables como la reubicación y rotación de personal, ante una posible adaptación, debido a una nueva estructura organizacional.
 
-    p Es fundamental aclarar que no todas las estructuras organizacionales son iguales y que todo depende de la actividad económica, de su estilo de dirección y de organización; <strong>a continuación se presentan algunos modelos y tipos de estructuras:</strong>
+    p Es fundamental aclarar que no todas las estructuras organizacionales son iguales y que todo depende de la actividad económica, de su estilo de dirección y de organización; a continuación se presentan algunos modelos y tipos de estructuras:
 
     TabsC.color-acento-contenido.mb-4
       .py-4.py-md-5(titulo="Organización formal")
@@ -270,7 +264,7 @@
                 | Decisiones descentralizadas.
               li 
                 span.fas.fa-check(style='color: #f85316')
-                | Decisiones descentralizadas.
+                | Particular énfasis en la especialización.
               
 
           .col-md-6
@@ -279,12 +273,12 @@
       .py-3.py-md-4.diabled(titulo="<i>Staff</i>")
         .row
           .col-md-6.mb-4.mb-md-0
-            p Es una fusión entre la lineal y la funcional; los órganos staff prestan asesoría a servicios especializados. Sus características son:
-            .col-md.col-lg-7
+            p Es una fusión entre la lineal y la funcional; los órganos <i>Staff</i> prestan asesoría a servicios especializados. Sus características son:
+            .col-md.col-lg-8
              ol.lista-ol
               li 
                 span.fas.fa-check(style='color: #f85316')
-                | Cada órgano reporta a un solo y único jefe, aplicando el principio de autoridad, pero cada órgano recibe asesoría y servicio especializado de los diferentes órganos de staff.
+                | <p>Cada órgano reporta a un solo y único jefe, aplicando el principio de autoridad, pero cada órgano recibe asesoría y servicio especializado de los diferentes órganos de <i>staff</i>.</p>
               
               li 
                 span.fas.fa-check(style='color: #f85316')
@@ -314,8 +308,8 @@
             .col.mb-3.mb-sm-0
                p El manual de funciones representa la organización y la delimitación de funciones y responsabilidades de los cargos creados en la estructura organizacional; su propósito fundamental es el de definir, de manera clara y concisa, los alcances de los cargos para evitar reprocesos, además de documentar los diferentes puestos de trabajo; controlar y mejorar los sistemas de gestión, posibilitar la valoración de los cargos, integrar las competencias profesionales para la ubicación del correcto perfil profesional o técnico en cada nivel, elaborar planes de formación para los cargos y prevenir los riesgos asociados a los mismos.       
     
-    .col-md-5
-      h6 En términos de contenidos, el documento (ficha) de manual de funciones, debe estar conformado de manera básica por:
+    .col-md-10
+      p En términos de contenidos, el documento (ficha) de manual de funciones, debe estar conformado de manera básica por:
     .col-md-12
       .row.justify-content-center.mb-4
         .col-lg-4
@@ -355,9 +349,9 @@
       .titulo-sexto.color-acento-contenido.p <strong>Tabla 1. </strong> Ejemplo manual de funciones
       .tabla-b.color-acento-botones
         .tabla-b__header
-          h4.mb-0(style="color:white") MANUAL DE FUNCIONES
+          h4.mb-0(style="color:white") Manual de funciones
         table
-          caption(style="text-align:center") IDENTIFICACIÓN DEL CARGO
+          caption(style="text-align:center") Identificación del cargo
           
         tr(style="background-color: #ffff")
           th(style="text-align:center; width: 50%;") Denominación del cargo.
@@ -373,7 +367,7 @@
           th(style="width: 375px; text-align:center") Jornada laboral
             p Mañana y tarde
         tr(style="background-color: #E1E1E1")
-          th(colspan='3' style="text-align:center;") FINALIDAD
+          th(colspan='3' style="text-align:center;") Finalidad
         tr(style="background-color: #ffff")
           td(colspan='3') 
             p(style="text-align:center;") El coordinador operativo de comunicaciones, es el encargado de velar por las correctas prácticas de comunicación interna y externa de la empresa; bajo su liderazgo cuenta con un equipo de trabajo que  incluye personas cualificadas para ejercer labores de <i>community manager</i>, diseño gráfico y fotografía. Tiene la responsabilidad de asegurar el plan de comunicaciones, a través de campañas, para transmitir los mensajes que la empresa requiera difundir. Debe plantear la propuesta de presupuesto de inversión y, al mismo tiempo, debe hacer seguimiento y dar cumplimiento al presupuesto de operación para su área.  
@@ -381,7 +375,7 @@
             p(style="text-align:center;") También tiene como funciones importantes: la comunicación interna asertiva y eficiente, crear campañas comunicativas para divulgar información de interés institucional y la coordinación del área de comunicaciones, así como la gestión de relaciones externas.
 
         tr(style="background-color: #E1E1E1")
-          th(colspan='3' style="text-align:center") ÁREAS DE RESULTADOS
+          th(colspan='3' style="text-align:center") Áreas de resultados
         tr
           td(colspan='3') 
             ol.lista-centrar
@@ -402,7 +396,7 @@
                 |  Control de presupuestos de operación.
             
         tr(style="background-color: #E1E1E1")
-          th(colspan='3' style="text-align:center") ACCIONES
+          th(colspan='3' style="text-align:center") Acciones
         tr
           td(colspan='3'  style="text-align:center") 
              ol.lista-centrar
@@ -423,7 +417,7 @@
                 | Junto con el responsable de mercadeo, planear la forma de comunicar y publicitar los servicios de la empresa.
 
         tr(style="background-color: #E1E1E1")
-          th(colspan='3' style="text-align:center") EQUIPOS O VALORES A SU CARGO
+          th(colspan='3' style="text-align:center") Equipos o valores a su cargo 
         tr(style="background-color: #ffff")
           td(colspan='3') 
             ol.lista-centrar
@@ -435,7 +429,7 @@
                 span.fas.fa-check(style='color: #f85316')
                 | Equipo de oficina.
         tr(style="background-color: #E1E1E1")
-          th(colspan='3' style="text-align:center") PERFIL
+          th(colspan='3' style="text-align:center") Perfil
         tr
           th(style="text-align:center") Competencias
           th(colspan='2' style="text-align:center") Requisitos específicos
@@ -524,15 +518,15 @@
                 li 
                   span.fas.fa-check(style='color: #f85316')
                   b Estratégicos: 
-                  | son aquellos que están relacionados con la planificación estratégica de la organización.
+                  |&nbsp son aquellos que están relacionados con la planificación estratégica de la organización.
                 li 
                   span.fas.fa-check(style='color: #f85316')
-                  b Operativos: 
-                  | son los que están relacionados con la operación de la empresa.
+                  b Operativos:  
+                  |&nbsp son los que están relacionados con la operación de la empresa.
                 li 
                   span.fas.fa-check(style='color: #f85316')
                   b De apoyo: 
-                  | son los que dan soporte a la organización.
+                  |&nbsp son los que dan soporte a la organización.
 
     p Para continuar con el ejemplo de la pastelería, se ilustrará el ejercicio, para conocer el mapa de procesos de la misma empresa.
     
@@ -559,40 +553,40 @@
           img(data-aos="flip-up" src="@/assets/curso/temas/texto_destacado/img16.png", alt='imagen relacionada')
 
     TabsA.color-acento-contenido.mb-4
-      .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="PASO 1")
+      .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="Paso 1")
         .row.justify-content-center.align-items-center
           .col-md-2.col-sm-5
             figure
               img(data-aos="flip-up" src='@/assets/curso/temas/figuras/esquemaF.svg', alt='imagen relacionada')
           .col-md-10.col-sm-7
-            h4 PASO 1: Ficha del proceso 
+            h4 Paso 1: ficha del proceso 
             p.mb-0 Es la que describe las generalidades de cada proceso. El objetivo, entradas, salidas, cómo se medirá, entre otros.
 
-      .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="PASO 2")
+      .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="Paso 2")
         .row.justify-content-center.align-items-center
           .col-md-2.col-sm-5
             figure
               img(data-aos="zoom-in-up" src='@/assets/curso/temas/figuras/esquemaG.svg', alt='imagen relacionada')
           .col-md-10.col-sm-7
-            h4 PASO 2: Flujograma
+            h4 Paso 2: flujograma
             p.mb-0 Ilustra, gráficamente, el recorrido que conlleva el proceso desde sus entradas y hasta sus salidas.
 
-      .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="PASO 3")
+      .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="Paso 3")
         .row.justify-content-center.align-items-center
           .col-md-2.col-sm-5
             figure
               img(data-aos="zoom-in-up" src='@/assets/curso/temas/figuras/esquemaH.svg', alt='imagen relacionada')
           .col-md-10.col-sm-7
-            h4 PASO 3: Procedimiento
+            h4 Paso 3: procedimiento
             p.mb-0 Se refiere al conjunto de actividades que constituyen el proceso, incluyendo un paso a paso de manera descriptiva.
 
-      .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="PASO 4")
+      .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="Paso 4")
         .row.justify-content-center.align-items-center
           .col-md-2.col-sm-5
             figure
               img(data-aos="zoom-in-up" src='@/assets/curso/temas/figuras/esquemaI.svg', alt='imagen relacionada')
           .col-md-10.col-sm-7
-            h4 PASO 4: Actividades
+            h4 Paso 4: actividades
             p.mb-0 Acciones que, en su desarrollo, aportan y generan valor a la organización.
    
     p Para la construcción de un flujograma, se debe tener en cuenta la representación simbólica que se presenta a continuación: 
@@ -611,7 +605,7 @@
           tr
             th 
               img(data-aos="zoom-in-up" src='@/assets/curso/temas/tarjetas/PolígonoT1.svg', alt='elemento grafico rombo')
-            td Representa la toma de una decision.
+            td Representa la toma de una decisión.
           tr
             th 
               img(src='@/assets/curso/temas/tarjetas/LíneaT1.svg', alt='elemento grafico flecha')
@@ -657,7 +651,6 @@
       .py-3.py-md-4(titulo="Liderazgo")
         .row
           .col-md-6.mb-4.mb-md-0
-            h4 Liderazgo
             p Implica ayudar, desde el rol directivo o líder, a los equipos de trabajo que componen la organización para trabajar con entusiasmo y, conjuntamente, alcanzar el éxito. El líder debe propiciar ambientes de trabajo favorables para que sus equipos aporten lo mejor de sí mismos y se sientan parte fundamental de la empresa.
         
           .col-md-6
@@ -667,7 +660,6 @@
       .py-3.py-md-4(titulo="Motivación")
         .row
           .col-md-6.mb-4.mb-md-0
-            h4 Motivación
             p La buena actitud de los trabajadores o empleados es fundamental para que realicen su trabajo con entusiasmo; por eso es importante que el líder genere ese estímulo permanente de confianza, desde lo individual, para impactar también colectivamente.
 
           .col-md-6
@@ -677,7 +669,6 @@
       .py-3.py-md-4(titulo="Comunicación")
         .row
           .col-md-6.mb-4.mb-md-0
-            h4 Comunicación
             p La comunicación es el canal que permite, a la organización, definir un entendimiento y unos mensajes claros; por eso es significativo que exista una comunicación efectiva que invite a los trabajadores a contribuir con el cumplimiento de los objetivos. Claves para esa comunicación asertiva: la empatía, el respeto y la confianza.
             
           .col-md-6
@@ -687,7 +678,6 @@
       .py-3.py-md-4(titulo="Ejecución y supervisión de resultados")
         .row
           .col-md-6.mb-4.mb-md-0
-            h4 Ejecución y supervisión de resultados
             p El seguimiento y la supervisión, permiten orientar acciones preventivas (antes de que suceda) y correctivas (una vez ya sucedido) a la hora del desarrollo de una actividad, para retomar el rumbo y la orientación hacia el cumplimiento de los objetivos propuestos.
             
             
@@ -698,7 +688,6 @@
       .py-3.py-md-4(titulo="Toma de decisiones")
         .row
           .col-md-6.mb-4.mb-md-0
-            h4 Toma de decisiones
             p Elegir el mejor recorrido para la organización, resulta ser una de las funciones más importantes que realiza el administrador, al analizar varias alternativas, con la finalidad de lograr los propósitos establecidos.
             
           .col-md-6
@@ -718,7 +707,6 @@
         .tarjeta.color-acento-contenido-borde.p-4(titulo="Coercitivo")
           .row
             .col-xl-7.p-4.color-fondo
-              h4 Coercitivo 
               p El estilo de liderazgo coercitivo no tiene en cuenta la flexibilidad, la disciplina prevalece como su valor regente, debido a que impone ritmos de trabajo acelerados sin tener en cuenta elementos humanos de fatiga y bienestar; no hay negociación, no tiene en cuenta las iniciativas de los demás. Normalmente, un líder coercitivo es muy efectivo en momentos de crisis para implementar cambios en situaciones de emergencia, como por ejemplo un temblor o un incendio.
             .col-xl-5.mb-6
               figure
@@ -726,19 +714,16 @@
         .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="Autocrático")
           .row
             .col-xl-12
-              h4 Autocrático
               p Es aquel tipo de dirección donde la autoridad impone sus normas, criterios y decisiones, sin realizar consultas a sus colaboradores; motivo por el cual este estilo de liderazgo provoca ambientes de trabajo bajo tensión, en los que la disciplina y la inseguridad pueden ir de la mano. Se concentra el poder de decisión en una sola persona; dos ejemplos claros de este estilo de liderazgo son Adolfo Hitler y Fidel Castro.
 
         .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="Democrático")
           .row
             .col-xl-12
-              h4 Democrático
               p En este modelo, la autoridad se encuentra en el grupo, es decir, se toman decisiones por unanimidad, permitiendo la participación del equipo de colaboradores que conforman la organización. Su conducta va orientada hacia las personas, se preocupa por las relaciones interpersonales dentro del equipo y necesidades ya sean de grupo o individuales. Los empleados sienten que son tenidos en cuenta, sin embargo, este modo de operar puede retrasar bastante la toma de decisiones, mientras se llega a un consenso.
 
         .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="Consultivo")
           .row
             .col-xl-12
-              h4 Consultivo
               p Es un tipo de liderazgo que se encuentra entre el estilo autocrático y el democrático; el jefe intenta persuadir a su equipo de la decisión que se ha tomado y eso hace que el grupo sienta esta decisión como suya; otro escenario puede ser aquel donde el jefe presenta el problema o la necesidad, recoge sugerencias y toma la decisión adecuada. Este modelo se caracteriza por ser el más participativo y democrático.
     
     .row.justify-content-around.align-items-center 
@@ -753,7 +738,7 @@
     .tarjeta.p-4.p-md-4.mb-2
       .row.justify-content-around.align-items-center
         .col-md.col-lg-7
-          p.mb-2 El control consiste en evidenciar y evaluar que lo planeado, organizado y dirigido, se encuentre marchando de acuerdo con los objetivos organizacionales y señalando, a partir de este ejercicio de evaluación, las debilidades, los errores, e inclusive las potencialidades y, a partir de las acciones tomadas, el perfeccionamiento del proceso traducido en mayor eficiencia y efectividad. El proceso de control permite tomar decisiones en torno a cuáles son los objetivos por alcanzar, como sistema o como área; cómo va el desempeño de los equipos de trabajo con base en sus responsabilidades y las apuestas generales, identificación de riesgos y oportunidades, incluyendo el cambio de planteamiento del objetivo. Existen diferentes tipos de controles:
+          p.mb-5 El control consiste en evidenciar y evaluar que lo planeado, organizado y dirigido, se encuentre marchando de acuerdo con los objetivos organizacionales y señalando, a partir de este ejercicio de evaluación, las debilidades, los errores, e inclusive las potencialidades y, a partir de las acciones tomadas, el perfeccionamiento del proceso traducido en mayor eficiencia y efectividad. El proceso de control permite tomar decisiones en torno a cuáles son los objetivos por alcanzar, como sistema o como área; cómo va el desempeño de los equipos de trabajo con base en sus responsabilidades y las apuestas generales, identificación de riesgos y oportunidades, incluyendo el cambio de planteamiento del objetivo. Existen diferentes tipos de controles:
         .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
           img( data-aos="fade-up" src="@/assets/curso/temas/texto_destacado/img23.svg", alt='imagen relacionada')
     

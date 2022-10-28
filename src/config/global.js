@@ -140,14 +140,14 @@ export default {
     {
       tema: 'Control',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2022). Proceso Administrativo: fase de control (video). ',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2022). <em>Proceso Administrativo: fase de control</em> (video). ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=aB34nClq0o0',
     },
     {
       tema: 'La empresa como escenario activo de administración',
       referencia:
-        'Bancoldex. (s.f.). Clasificación de empresas en Colombia. Bancoldex.',
+        'Bancoldex. (s.f.). <em>Clasificación de empresas en Colombia.</em> Bancoldex.',
       tipo: 'Página web',
       link:
         'https://www.bancoldex.com/clasificacion-de-empresas-en-colombia-200',

@@ -26,8 +26,7 @@
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/administradores/PortadaA.svg', alt="imagen representativa").img400.m-auto
       .col-lg-8
-        p
-          b Posteriormente, empezaron a surgir las diferentes teorías que dan paso a la realidad de la administración contemporánea, donde algunas de las más relevantes son:
+        p Posteriormente, empezaron a surgir las diferentes teorías que dan paso a la realidad de la administración contemporánea, donde algunas de las más relevantes son:
 
         SlyderF.custom.mb-5(columnas="col-lg-6 col-xl-4")
           .tarjeta.tarjeta--slyder.fcab15.p-4(style='height:315px')
@@ -161,11 +160,11 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/texto_destacado/img4.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 La administración estratégica se entiende como aquella que apunta a dar lineamiento y orientación desde los estamentos directivos en una empresa u organización, teniendo en cuenta el estado interno y externo de la misma, es decir, diagnosticando lo que sucede, para alinear y asegurar que la toma de decisiones impacte directamente la necesidad o la intención.
+        p.mb-4 La administración estratégica se entiende como aquella que apunta a dar lineamiento y orientación desde los estamentos directivos en una empresa u organización, teniendo en cuenta el estado interno y externo de la misma, es decir, diagnosticando lo que sucede, para alinear y asegurar que la toma de decisiones impacte directamente la necesidad o la intención.
           br
           br
           | Para conocer qué es la estrategia de diagnóstico y análisis empresarial, 
-          b se recomienda ver el siguiente video.
+          p se recomienda ver el siguiente video.
 
     figure.mb-5
       .video
