@@ -77,7 +77,7 @@
               
               .tarjeta.color-acento-botones.p-4(x="50%" y="14%" numero="+" style='border-radius: 10px; background-color: #FFE8C8')
                 p.mb-0.text-center Compuesta por: 
-                p.mb-0.text-center <strong>Valores: </strong> : son concebidos como declaraciones que realizan las empresas como sustento a su forma de ser y de hacer las cosas. Por ejemplo, la calidad, el respeto, el compromiso. 
+                p.mb-0.text-center <strong>Valores: </strong> son concebidos como declaraciones que realizan las empresas como sustento a su forma de ser y de hacer las cosas. Por ejemplo, la calidad, el respeto, el compromiso. 
                 p.mb-0.text-center <strong>Principios corporativos: </strong>se refiere al conjunto de creencias y postulados que funcionan como guías orientadoras e inspiradoras en el quehacer de una organización.
 
               
@@ -105,7 +105,7 @@
             figure
               img(data-aos="fade-up-right" src="@/assets/curso/temas/tarjetas/tarjeta1.svg", alt="imagen relacionada")
           .crd_hover_txt--body
-            h4.mb-3.text-center Estrategias organizacionales 
+            h4.mb-4.text-center Estrategias organizacionales 
             p.mb-0 Se relaciona con los planteamientos del cómo se pueden llegar a cumplir los objetivos. Pueden darse tantas estrategias como objetivos se planteen y son los vehículos para llevar las acciones al cumplimiento de los objetivos.
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -114,7 +114,7 @@
             figure
               img(src="@/assets/curso/temas/tarjetas/tarjeta2.svg", alt="imagen relacionada")
           .crd_hover_txt--body
-            h4.mb-3.text-center Programas o proyectos
+            h4.mb-4.text-center Programas o proyectos
             p.mb-0 Se refiere a la secuencia de actividades desplegadas para el desarrollo y materialización de la estrategia; aquí se plasman los tiempos requeridos y los responsables de estos proyectos.
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -123,7 +123,7 @@
             figure
               img(src="@/assets/curso/temas/tarjetas/tarjeta3.svg", alt="imagen relacionada")
           .crd_hover_txt--body
-            h4.mb-3.text-center Presupuestos
+            h4.mb-4.text-center Presupuestos
             p.mb-0 Son aquellas herramientas que permiten plasmar, de manera anticipada, los recursos requeridos (financieros y no financieros) para el cumplimiento de las actividades; por consiguiente, de las estrategias y de los objetivos.    
 
     p Una vez se cumpla el paso de la planeación con sus respectivas variables y técnicas, se adquiere una claridad de hacia dónde va la empresa, cuáles son sus propósitos y finalidades, y se llega entonces al segundo paso del ciclo denominado “organización”.
@@ -638,12 +638,13 @@
     #t_2_3.titulo-segundo.color-acento-contenido   
       h2 2.3 Dirección
   
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-4.mb-5
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/texto_destacado/img17.png')})`}"
-      )
-      .bloque-texto-g__texto.p-5
-        p.mb-0 Cuando se habla de dirección, se hace referencia a unos elementos asociados al liderazgo, a la motivación, a los equipos de trabajo y a la comunicación en torno a la ejecución de los planes, de acuerdo con la estructura organizacional.
+    .row.justify-content-around.align-items-center.mb-4  
+      .bloque-texto-g.color-primario.col-lg-10.col-sm-12.mb-8.p-md-4
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require('@/assets/curso/temas/texto_destacado/img17.png')})`}"
+        )
+        .bloque-texto-g__texto.p-5
+          p.mb-0 Cuando se habla de dirección, se hace referencia a unos elementos asociados al liderazgo, a la motivación, a los equipos de trabajo y a la comunicación en torno a la ejecución de los planes, de acuerdo con la estructura organizacional.
   
     p.mb-4 Ahondar en el significado de cada uno de los elementos:
     

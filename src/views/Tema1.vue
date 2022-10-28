@@ -155,16 +155,17 @@
     #t_1_2.titulo-segundo.color-acento-contenido.mb-5  
       h2 1.2 Administración estratégica
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/texto_destacado/img4.png')})`}"
-      )
-      .bloque-texto-g__texto.p-4
-        p.mb-4 La administración estratégica se entiende como aquella que apunta a dar lineamiento y orientación desde los estamentos directivos en una empresa u organización, teniendo en cuenta el estado interno y externo de la misma, es decir, diagnosticando lo que sucede, para alinear y asegurar que la toma de decisiones impacte directamente la necesidad o la intención.
-          br
-          br
-          | Para conocer qué es la estrategia de diagnóstico y análisis empresarial, 
-          p se recomienda ver el siguiente video.
+    .row.justify-content-around.align-items-center.mb-4  
+      .bloque-texto-g.color-primario.col-lg-10.col-sm-12.mb-8.p-md-4
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require('@/assets/curso/temas/texto_destacado/img4.png')})`}"
+        )
+        .bloque-texto-g__texto.p-4
+          p.mb-4 La administración estratégica se entiende como aquella que apunta a dar lineamiento y orientación desde los estamentos directivos en una empresa u organización, teniendo en cuenta el estado interno y externo de la misma, es decir, diagnosticando lo que sucede, para alinear y asegurar que la toma de decisiones impacte directamente la necesidad o la intención.
+            br
+            br
+            | Para conocer qué es la estrategia de diagnóstico y análisis empresarial, 
+            p se recomienda ver el siguiente video.
 
     figure.mb-5
       .video
