@@ -18,9 +18,8 @@
     
     .mx-auto.col-md-8.mb-4
       .titulo-sexto.color-acento-contenido
-        p
-          b Figura 2.
-          br
+        h5 Figura 2
+        p.mb-0 
           em Etapas del proceso administrativo
 
       figure.mb-4
@@ -56,45 +55,43 @@
               p Se refiere a los planes desarrollados en cumplimiento de la planeación estratégica y obedecen más al hacer, con un componente bajo de operatividad.
           .row(titulo="Operativa")
             .col-md-12.mb-4.mb-md-0
-              p Se diseña con base en los planes tácticos y desarrollada por los estamentos operativos de la organización
+              p Se diseña con base en los planes tácticos y es desarrollada por los estamentos operativos de la organización.
     
     p La planeación organizacional se enmarca, regularmente, en un documento denominado “plan estratégico”, donde confluye la información de base y la que se plantea en un horizonte de tiempo determinado, los propósitos y alcances pretendidos.
     p.mb-5 
       | El plan estratégico es como un rompecabezas, 
       | compuesto por diferentes piezas las cuales se presentan a continuación:  
 
-    .mx-auto.col-md-10.mb-5
-      .tarjeta
-        .imgCont.m-auto
-          .row.justify-content-center.mb-4
-            ImagenInfografica.color-acento-botones.mb-5
-              template(v-slot:imagen)
-                figure
-                  img(data-aos="fade-left" src='@/assets/curso/temas/texto_destacado/img7.svg', alt='diagrama tipo rompecabezas')
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        ImagenInfografica.color-acento-botones.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/texto_destacado/img7.svg')
 
-              .tarjeta.color-acento-botones.p-4(x="22%" y="14%" numero="+" style='border-radius: 10px; background-color: #FFE8C8')
-                p.mb-0.text-center Es un escrito que sintetiza el propósito de una empresa y responde a preguntas como: ¿quién es la empresa? ¿A qué se dedica? ¿Para qué existe?
-              
-              .tarjeta.color-acento-botones.p-4(x="50%" y="14%" numero="+" style='border-radius: 10px; background-color: #FFE8C8')
-                p.mb-0.text-center Compuesta por: 
-                p.mb-0.text-center <strong>Valores: </strong> son concebidos como declaraciones que realizan las empresas como sustento a su forma de ser y de hacer las cosas. Por ejemplo, la calidad, el respeto, el compromiso. 
-                p.mb-0.text-center <strong>Principios corporativos: </strong>se refiere al conjunto de creencias y postulados que funcionan como guías orientadoras e inspiradoras en el quehacer de una organización.
+          .tarjeta.color-acento-botones.fnd-1.p-3(x="21.56%" y="14.4%" numero="+")
+            p.mb-0.text-center Es un escrito que sintetiza el propósito de una empresa y responde a preguntas como: ¿quién es la empresa? ¿A qué se dedica? ¿Para qué existe?
+          
+          .tarjeta.color-acento-botones.fnd-1.p-3(x="50.1%" y="14.4%" numero="+")
+            p.mb-0.text-center Compuesta por: 
+            p.mb-0.text-center <strong>Valores: </strong> son concebidos como declaraciones que realizan las empresas como sustento a su forma de ser y de hacer las cosas. Por ejemplo, la calidad, el respeto, el compromiso. 
+            p.mb-0.text-center <strong>Principios corporativos: </strong>se refiere al conjunto de creencias y postulados que funcionan como guías orientadoras e inspiradoras en el quehacer de una organización.
 
-              
-              .tarjeta.color-acento-botones.p-4(x="78%" y="14%" numero="+" style='border-radius: 10px; background-color: #FFE8C8')
-                p.mb-0.text-center El concepto más apropiado para definir el término, podría ser el que citan Hernández y Rodríguez, S., Palafox de Anda, G. & Aguado Cortés, C. (2020): “son las reglas administrativas de observancia obligatoria para la realización de una operación, procedimiento, programa o presupuesto” (p.256).
-              
-              .tarjeta.color-acento-botones.p-4(x="36%" y="88%" numero="+" style='border-radius: 10px; background-color: #FFE8C8')
-                p.mb-0.text-center Se refiere al enunciado del estado del futuro deseado, a través de un texto: ¿dónde se visualiza la empresa en un horizonte de tiempo determinado? ¿Cómo producirá los resultados? ¿Cómo se enfrentará al cambio? ¿Cómo conseguirá ser competitiva?
-              
-              .tarjeta.color-acento-botones.p-4(x="64%" y="88%" numero="+" style='border-radius: 10px; background-color: #FFE8C8')
-                p.mb-0.text-center Representan los resultados que la empresa desea alcanzar y lograr; se deben establecer para un tiempo específico y ser definidos cuantitativamente. Ayudan a materializar la estrategia, establecen metas y ayudan a su cumplimiento y, además, unifican el lenguaje y alinean la organización. Para la construcción de los objetivos estratégicos es necesario tener presente la misión, la visión y los principios de la organización, de tal manera que se garantice la alineación y la coherencia.
+          
+          .tarjeta.color-acento-botones.fnd-1.p-3(x="78.3%" y="14.4%" numero="+")
+            p.mb-0.text-center El concepto más apropiado para definir el término, podría ser el que citan Hernández y Rodríguez, S., Palafox de Anda, G. & Aguado Cortés, C. (2020): “son las reglas administrativas de observancia obligatoria para la realización de una operación, procedimiento, programa o presupuesto” (p.256).
+          
+          .tarjeta.color-acento-botones.fnd-1.p-3(x="35.6%" y="88.5%" numero="+")
+            p.mb-0.text-center Se refiere al enunciado del estado del futuro deseado, a través de un texto: ¿dónde se visualiza la empresa en un horizonte de tiempo determinado? ¿Cómo producirá los resultados? ¿Cómo se enfrentará al cambio? ¿Cómo conseguirá ser competitiva?
+          
+          .tarjeta.color-acento-botones.fnd-1.p-3(x="64.1%" y="88.5%" numero="+")
+            p.mb-0.text-center Representan los resultados que la empresa desea alcanzar y lograr; se deben establecer para un tiempo específico y ser definidos cuantitativamente. Ayudan a materializar la estrategia, establecen metas y ayudan a su cumplimiento y, además, unifican el lenguaje y alinean la organización. Para la construcción de los objetivos estratégicos es necesario tener presente la misión, la visión y los principios de la organización, de tal manera que se garantice la alineación y la coherencia.
 
-       
+
+
+
     .cajon.color-acento-botones.color-fondo-terciario.p-4.mb-5
-      p.mb-0 Estos temas corresponden a la denominada 
-        | cultura organizacional, 
-        | cultura organizacional, la cual es como el ADN de la empresa: la forma de ser y de hacer empresa, las creencias y todas aquellas variables que hacen que los empleados se identifiquen y busquen, desde su quehacer, aportar a un mismo fin.    
+      p.mb-0 Estos temas corresponden a la denominada <b>cultura organizacional</b>, la cual es como el ADN de la empresa: la forma de ser y de hacer empresa, las creencias y todas aquellas variables que hacen que los empleados se identifiquen y busquen, desde su quehacer, aportar a un mismo fin.    
 
     p En compensación y proporcionando una continuidad con la construcción de la planeación estratégica, encontramos los siguientes elementos:
 
@@ -151,43 +148,44 @@
     
     p Por otro lado, también se estructura a partir de unos principios que son los que aportan, a la “organización”, el hilo conductor como proceso administrativo. Dentro de estos principios se exponen los siguientes:
 
+
     SlyderF.mb-5(columnas="col-lg-12 col-xl-4")
-      .tarjeta.color-acento-contenido.p-4(style='height:425px')
+      .tarjeta.color-acento-contenido.p-4.t-img
         .row.justify-content-center.mb-3
           .col-7.mb-3
             img(data-aos="flip-up" src='@/assets/componentes/avatar3.svg' alt='dibujo relacionado')
         h2.text-center Objetivo
         p.text-center Es la posibilidad de garantizar que todas las actividades que se pretendan desarrollar, se encuentren alineadas con las apuestas organizacionales.
 
-      .tarjeta.color-acento-contenido.p-4(style='height:425px')
-        .row.justify-content-center.mb-6
+      .tarjeta.color-acento-contenido.p-4.t-img
+        .row.justify-content-center.mb-3
           .col-7.mb-3
             img(data-aos="zoom-in-up" src='@/assets/componentes/avatar2.svg' alt='dibujo relacionado')
         h2.text-center Especialización
         p.text-center El trabajo de cada persona debe estar delimitado hasta donde sea posible, asignando actividades y funciones específicas para su concentración y su destreza.
 
-      .tarjeta.color-acento-contenido.p-4(style='height:425px')
-        .row.justify-content-center.mb-6
+      .tarjeta.color-acento-contenido.p-4.t-img
+        .row.justify-content-center.mb-3
           .col-7.mb-3
             img(data-aos="zoom-out-up" src='@/assets/componentes/avatar1.svg' alt='dibujo relacionado')
         h2.text-center Jerarquía
         p.text-center Resulta necesario, como parte fundamental de la organización, definir centros de autoridad que canalicen la información y garanticen la alineación de los equipos de trabajo hacia la institucionalidad.
 
-      .tarjeta.color-acento-contenido.p-4(style='height:425px')
+      .tarjeta.color-acento-contenido.p-4.t-img
         .row.justify-content-center.mb-3
           .col-7.mb-3
             img(data-aos="zoom-out-up" src='@/assets/componentes/avatar4.svg' alt='dibujo relacionado')
         h2.text-center Unidad de mando
         p.text-center Al definir centros de autoridad, es preciso asignar un solo jefe a cada trabajador.
 
-      .tarjeta.color-acento-contenido.p-4(style='height:425px')
+      .tarjeta.color-acento-contenido.p-4.t-img
         .row.justify-content-center.mb-3
           .col-7.mb-3
             img(data-aos="zoom-out-up" src='@/assets/componentes/avatar5.svg' alt='dibujo relacionado')
         h2.text-center Difusión
         p.text-center Se debe difundir, de manera abierta y clara, la información que surja desde los centros de autoridad.
 
-      .tarjeta.color-acento-contenido.p-4(style='height:425px')
+      .tarjeta.color-acento-contenido.p-4.t-img
         .row.justify-content-center.mb-3
           .col-7.mb-3
             img(data-aos="zoom-out-down" src='@/assets/componentes/avatar6.svg' alt='dibujo relacionado')
@@ -273,7 +271,7 @@
       .py-3.py-md-4.diabled(titulo="<i>Staff</i>")
         .row
           .col-md-6.mb-4.mb-md-0
-            p Es una fusión entre la lineal y la funcional; los órganos <i>Staff</i> prestan asesoría a servicios especializados. Sus características son:
+            p Es una fusión entre la lineal y la funcional; los órganos <i>staff</i> prestan asesoría a servicios especializados. Sus características son:
             .col-md.col-lg-8
              ol.lista-ol
               li 
@@ -343,10 +341,13 @@
               .col-md-12.mb-4.mb-md-0
               p Estos requerimientos hacen alusión al nivel de formación que requiere el cargo: nivel académico, grado de conocimientos técnicos y tecnológicos específicos, grado de experiencia o dominio operativo de la actividad a desarrollar, y conjunto de capacidades intelectuales, aptitudes, habilidades y características de personalidad.  
   
-    p.mb-4 Para mayor ilustración, a continuación se presenta un ejemplo de un manual de funciones:
+    p.mb-4 Para mayor ilustración, a continuación, se presenta un ejemplo de un manual de funciones:
     
     .mx-auto.col-md-10
-      .titulo-sexto.color-acento-contenido.p <strong>Tabla 1. </strong> Ejemplo manual de funciones
+      .titulo-sexto.color-acento-contenido
+        h5 Tabla 1
+        p.mb-0 
+          em Ejemplo manual de funciones
       .tabla-b.color-acento-botones
         .tabla-b__header
           h4.mb-0(style="color:white") Manual de funciones
@@ -532,9 +533,8 @@
     
     .mx-auto.col-md-10.mb-5
       .titulo-sexto.color-acento-contenido.mb-4
-        p.mb-2
-          b Figura 3.
-          br
+        h5 Figura 3
+        p.mb-0 
           em Ejemplo mapa de procesos
       figure
           img(data-aos="flip-right" src='@/assets/curso/temas/figuras/esquemaE.svg', alt='Ejemplo mapa de procesos')
@@ -597,7 +597,7 @@
           tr
             th.table
               img(data-aos="zoom-in-up" src='@/assets/curso/temas/tarjetas/ElipseT1.svg', alt='elemento grafico eliptica')
-            td Representa el incio y el fin del proceso.
+            td Representa el inicio y el fin del proceso.
           tr
             th 
               img(data-aos="zoom-in-up" src='@/assets/curso/temas/tarjetas/RectánguloT1.svg', alt='elemento grafico rectangulo')
@@ -620,9 +620,8 @@
 
     .mx-auto.col-md-10
       .titulo-sexto.color-acento-contenido.mb-4
+        h5 Figura 4
         p.mb-0 
-          b Figura 4.
-          br
           em Flujograma ejemplo pastelerías
       
       figure.mb-4
@@ -763,9 +762,8 @@
     
     .mx-auto.col-md-10.mb-4
       .titulo-sexto.color-acento-contenido
+        h5 Figura 5
         p.mb-0
-          b Figura 5.
-          br
           em Etapas del control
       
       figure

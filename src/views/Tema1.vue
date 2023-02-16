@@ -13,7 +13,7 @@
         figure.mw-sm-350px
           img(src='@/assets/curso/temas/texto_destacado/img2.jpg', alt='imagen relacionada')
       .col-md-7      
-        p Comencemos definiendo qué es la administración. Como palabra, viene del latín ad, que indica dirección, tendencia, proximidad, contacto, y minister, subordinación u obediencia, y en su sentido más amplio y completo, significa cumplimiento de una tarea o función bajo la directriz o mando de otro. Sin embargo, en la historia, este concepto sufrió una transformación significativa que trascendió el hacer, por el interpretar los objetivos trazados por una organización y transformarlos en acción, a través de la planeación, la organización, la dirección y el control, todo con el fin de alcanzar los propósitos de manera adecuada y asertiva. Es entonces cuando surgen los diferentes caminos que han tomado algunos autores para definir el concepto de administración y su impacto en los escenarios de las organizaciones. 
+        p Comencemos definiendo qué es la administración. Como palabra, viene del latín<i> ad</i>, que indica dirección, tendencia, proximidad, contacto, y <i>minister</i>, subordinación u obediencia, y en su sentido más amplio y completo, significa cumplimiento de una tarea o función bajo la directriz o mando de otro. Sin embargo, en la historia, este concepto sufrió una transformación significativa que trascendió el hacer, por el interpretar los objetivos trazados por una organización y transformarlos en acción, a través de la planeación, la organización, la dirección y el control, todo con el fin de alcanzar los propósitos de manera adecuada y asertiva. Es entonces cuando surgen los diferentes caminos que han tomado algunos autores para definir el concepto de administración y su impacto en los escenarios de las organizaciones. 
 
     #t_1_1.titulo-segundo.color-acento-contenido   
       h2 1.1 Orígenes y enfoques
@@ -117,13 +117,12 @@
               b 2000
             p.text-center.mb-0 Caos y complejidad    
 
-    p Así mismo, las teorías que fueron surgiendo paulatinamente, tenían diferentes enfoques y puntos de vista que presentaban modelos y esquemas de administración, basados en diversos criterios, como se evidencia en el gráfico que se observa a continuación:
+    p.mb-5 Así mismo, las teorías que fueron surgiendo paulatinamente, tenían diferentes enfoques y puntos de vista que presentaban modelos y esquemas de administración, basados en diversos criterios, como se evidencia en el gráfico que se observa a continuación:
 
     .mx-auto.col-md-5.mb-5
       .titulo-sexto.color-acento-contenido
+        h5 Figura 1
         p.mb-0
-          strong Figura 1.
-          br
           em Esquemas de administración
 
       figure.mb-4

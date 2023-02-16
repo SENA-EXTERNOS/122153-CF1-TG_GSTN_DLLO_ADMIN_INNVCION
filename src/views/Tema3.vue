@@ -62,13 +62,13 @@
                     ul.lista-ul.mt-4
                       li 
                         i.lista-ul__vineta(style='color: #f85316')
-                        | <strong style='color: #f85316'>Pública:</strong> &nbsp su capital está conformado por dinero del Estado.
+                        | <strong style='color: #f85316'>Pública:</strong>&nbspsu capital está conformado por dinero del Estado.
                       li
                         i.lista-ul__vineta(style='color: #f85316')
-                        |<strong style='color: #f85316'>Privada:</strong> &nbsp su capital es de origen particular, no tiene nada que ver con el Estado
+                        |<strong style='color: #f85316'>Privada:</strong>&nbspsu capital es de origen particular, no tiene nada que ver con el Estado
                       li 
                         i.lista-ul__vineta(style='color: #f85316')
-                        |<strong style='color: #f85316'>Mixta:</strong> &nbsp parte de su capital es público y parte es privado.
+                        |<strong style='color: #f85316'>Mixta:</strong>&nbspparte de su capital es público y parte es privado.
                          
           
           div(x="83%" y="18%" tooltip=" Ver más|")
@@ -81,13 +81,13 @@
                     ul.lista-ul
                       li 
                       i.lista-ul__vineta(style='color: #f85316')
-                      | <strong style='color: #f85316'>Empresa unipersonal:</strong> &nbsp su capital está conformado por dinero del Estado.
+                      | <strong style='color: #f85316'>Empresa unipersonal:</strong>&nbspsu capital está conformado por dinero del Estado.
                       li
                       i.lista-ul__vineta(style='color: #f85316')
-                      |<strong style='color: #f85316'>Sociedad de personas o colectivas:</strong> &nbsp su capital es de origen particular, no tiene nada que ver con el Estado
+                      |<strong style='color: #f85316'>Sociedad de personas o colectivas:</strong>&nbspsu capital es de origen particular, no tiene nada que ver con el Estado
                       li 
                       i.lista-ul__vineta(style='color: #f85316')
-                      |<strong style='color: #f85316'>Sociedad anónima:</strong> &nbsp parte de su capital es público y parte es privado.
+                      |<strong style='color: #f85316'>Sociedad anónima:</strong>&nbspparte de su capital es público y parte es privado.
 
           div(x="90%" y="55%" tooltip=" Ver más|")
             .tarjeta.white-card.p-5
@@ -99,10 +99,10 @@
                     ul.lista-ul
                       li 
                       i.lista-ul__vineta(style='color: #f85316')
-                      | <strong style='color: #f85316'>Industrial:</strong> <span></span>: indica empresas que manufacturan o transforman productos o materias primas
+                      | <strong style='color: #f85316'>Industrial:</strong> indica empresas que manufacturan o transforman productos o materias primas
                       li
                       i.lista-ul__vineta(style='color: #f85316')
-                      | <strong style='color: #f85316'>Comercial:</strong> <span></span>describe empresas que se dedican a la compra y venta de productos, un servicio de transaccionalidad.
+                      | <strong style='color: #f85316'>Comercial:</strong> describe empresas que se dedican a la compra y venta de productos, un servicio de transaccionalidad.
                       li 
                       i.lista-ul__vineta(style='color: #f85316')
                       | <strong style='color: #f85316'>De servicio:</strong> <span></span>se refiere a empresas que son creadas con el propósito de proveer al cliente un servicio (producto intangible, es decir, que no tiene forma definida).
@@ -118,17 +118,17 @@
                   ul.lista-ul
                     li 
                     i.lista-ul__vineta(style='color: #f85316')
-                    | <strong style='color: #f85316'>Sector primario:&nbsp </strong> hace referencia a las actividades relacionadas con la explotación de recursos naturales como agricultura, caza, pesca y silvicultura.
+                    | <strong style='color: #f85316'>Sector primario:&nbsp</strong>hace referencia a las actividades relacionadas con la explotación de recursos naturales como agricultura, caza, pesca y silvicultura.
                     li 
                     i.lista-ul__vineta
-                    | <strong style='color: #f85316'>Sector secundario:&nbsp</strong> industrial que incluye actividades que transforman productos, generalmente del sector primario o del mismo sector.
+                    | <strong style='color: #f85316'>Sector secundario:&nbsp</strong>industrial que incluye actividades que transforman productos, generalmente del sector primario o del mismo sector.
                     li 
                     i.lista-ul__vineta
-                    | <strong style='color: #f85316'>Sector terciario:&nbsp</strong>  servicios que producen bienes intangibles y, por lo general,  estas actividades sirven como soporte a los sectores primario y 
+                    | <strong style='color: #f85316'>Sector terciario:&nbsp</strong>servicios que producen bienes intangibles y, por lo general,  estas actividades sirven como soporte a los sectores primario y 
                     |secundario  (comercio, el transporte, la salud, la educación, el sector financiero, entre otros). 
                     li  
                     i.lista-ul__vineta(style='color: #f85316')
-                    |  <strong style='color: #f85316'>Sector cuaternario:&nbsp </strong>relacionado con la creación de conocimiento, es decir, investigación y desarrollo.
+                    |  <strong style='color: #f85316'>Sector cuaternario:&nbsp</strong>relacionado con la creación de conocimiento, es decir, investigación y desarrollo.
                     li 
                     i.lista-ul__vineta(style='color: #f85316')
                     | <strong style='color: #f85316'>Sector quinario:</strong> es el que agrupa empresas con actividades sin ánimo de lucro.
@@ -162,7 +162,7 @@
     
     h3.mb-4
       i.fas.fa-square.me-3.cuadrado
-      | Sentido de pertenencia, trabajo en equipo y toma de decisiones.
+      | Sentido de pertenencia, trabajo en equipo y toma de decisiones
     
     .row.justify-content-around.align-items-center.mb-4  
       .bloque-texto-g.color-primario.col-lg-10.col-sm-12.mb-8.p-md-4
@@ -212,7 +212,8 @@
             .color-fondo.p-3
               p De esta manera, se reconocen como elementos de una adecuada administración, la identificación y optimización de los recursos, la configuración de los diferentes momentos que vive el proceso administrativo y, por último, la correcta alineación organizacional en pro del alcance de los objetivos estratégicos de la empresa. Una visión integradora de lo que se ha analizado, puede observarse de manera resumida, en el video 
                 b Componentes de la organización.
-        p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo, para ello diríjase al menú principal en donde encontrará la síntesis, una actividad didáctica, material complementario, entre otros.
+        p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
+
 </template>
 
 <script>

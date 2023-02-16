@@ -138,19 +138,35 @@ export default {
   },
   complementario: [
     {
-      tema: 'Control',
+      tema: 'Principios del proceso administrativo',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2022). <em>Proceso Administrativo: fase de control</em> (video). ',
+        'Ecosistema de Recursos Educativos Digitales SENA (2022).<i> Proceso Administrativo: fase de control</i> [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=aB34nClq0o0',
     },
     {
-      tema: 'La empresa como escenario activo de administración',
+      tema: 'Fundamentos e introducción a la administración',
       referencia:
-        'Bancoldex. (s.f.). <em>Clasificación de empresas en Colombia.</em> Bancoldex.',
+        'Bancoldex (s.f.).<i> Clasificación de empresas en Colombia.</i> Bancoldex.',
       tipo: 'Página web',
       link:
         'https://www.bancoldex.com/clasificacion-de-empresas-en-colombia-200',
+    },
+    {
+      tema: 'Fundamentos e introducción a la administración',
+      referencia:
+        'Alama, E. & Martín, G. (2019).<i> Fundamentos de administración: teoría y práctica en el Perú y Latinoamérica. Pearson.</i>',
+      tipo: 'Página web',
+      link:
+        'https://www.pearsoneducacion.net/mexico/tienda-online/fundamentos-de-administracionteoria-y-practica-en-el-peru-y-latinoamerica-alama-1ed-ebook',
+    },
+    {
+      tema: 'La empresa como escenario activo de administración',
+      referencia:
+        'Münch, L. (2018). <i>Administración: gestión organizacional, enfoques y procesos administrativos.</i> ',
+      tipo: 'PDF',
+      link:
+        'https://profesorailleanasilva.files.wordpress.com/2015/10/administracic3b3n-lourdes-munch-2a-edicic3b3n.pdf',
     },
   ],
   glosario: [
@@ -202,7 +218,9 @@ export default {
   referencias: [
     {
       referencia:
-        'Alama Salazar, E. & Martín de Castro, G. (2019). <em>Fundamentos de administración: teoría y práctica en el Perú y Latinoamérica.</em> Pearson',
+        'Alama, E. & Martín, G. (2019). <i>Fundamentos de administración: teoría y práctica en el Perú y Latinoamérica.</i> Pearson.',
+      link:
+        'https://www.pearsoneducacion.net/mexico/tienda-online/fundamentos-de-administracionteoria-y-practica-en-el-peru-y-latinoamerica-alama-1ed-ebook',
     },
     {
       referencia:
@@ -210,11 +228,13 @@ export default {
     },
     {
       referencia:
-        'Hernández y Rodríguez, S., Palafox de Anda, G. & Aguado Cortés, C. (2020). <em>Administración: pensamiento, procesos estratégicos y administrativos para la era de la inteligencia artificial.</em> McGraw-Hill.',
+        'Hernández, S., Palafox,G. & Aguado, C. (2020). <i>Administración: pensamiento, procesos estratégicos y administrativos para la era de la inteligencia artificial.</i> McGraw-Hill.',
     },
     {
       referencia:
-        'Münch Galindo, L. (2018). <em>Administración: gestión organizacional, enfoques y procesos administrativos.</em> Pearson Educación.',
+        'Münch, L. (2018). <i>Administración: gestión organizacional, enfoques y procesos administrativos.</i>',
+      link:
+        'https://profesorailleanasilva.files.wordpress.com/2015/10/administracic3b3n-lourdes-munch-2a-edicic3b3n.pdf',
     },
   ],
   creditos: {
