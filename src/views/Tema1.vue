@@ -8,7 +8,7 @@
         span 1
       h1 Fundamentos e introducción a la administración
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-5
       .col-md-5
         figure.mw-sm-350px
           img(src='@/assets/curso/temas/texto_destacado/img2.jpg', alt='imagen relacionada')
@@ -136,7 +136,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h3.mb-1 Enfoques y teorías administrativas asociadas
-              p.text-small Para efectos de dar mayor claridad, a continuación se procede a explicar cada uno de los enfoques y las teorías asociadas, así como también sus autores y motivadores, en el documento Enfoques y teorías administrativas asociadas.
+              p Para efectos de dar mayor claridad, a continuación se procede a explicar cada uno de los enfoques y las teorías asociadas, así como también sus autores y motivadores, en el documento Enfoques y teorías administrativas asociadas.
             .col-sm-auto
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/Enfoques y teorías administrativas asociadas_anexo_1.pdf')" target="_blank")
                 span(style="color: white") Descargar
