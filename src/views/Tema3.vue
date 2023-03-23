@@ -35,7 +35,7 @@
             figure
                 img(data-aos="zoom-in" src='@/assets/curso/temas/texto_destacado/img26.svg', alt='diagrama')
               
-          div(x="12%" y="18%" tooltip=" Ver más|")
+          div(x="12%" y="18%" tooltip=" Ver más")
             .tarjeta.white-card.p-5
               .row.justify-content-around.align-items-center
                 .col-md-6.col-sm-8.col-md-6.col-lg-3
@@ -53,7 +53,7 @@
                         i.lista-ul__vineta(style='color: #f85316')
                         | Facturación (ingresos).
 
-          div(x="6%" y="55%" tooltip=" Ver más|")
+          div(x="6%" y="55%" tooltip=" Ver más")
            .tarjeta.white-card.p-5
               .row.justify-content-around.align-items-center
                 .col-md-6.col-sm-8.col-lg-3
@@ -71,7 +71,7 @@
                         |<strong style='color: #f85316'>Mixta:</strong>&nbspparte de su capital es público y parte es privado.
                          
           
-          div(x="83%" y="18%" tooltip=" Ver más|")
+          div(x="83%" y="18%" tooltip=" Ver más")
             .tarjeta.white-card.p-5
               .row.justify-content-around.align-items-center
                 .col-md-6.col-sm-8.col-lg-2
@@ -89,7 +89,7 @@
                       i.lista-ul__vineta(style='color: #f85316')
                       |<strong style='color: #f85316'>Sociedad anónima:</strong>&nbspparte de su capital es público y parte es privado.
 
-          div(x="90%" y="55%" tooltip=" Ver más|")
+          div(x="90%" y="55%" tooltip=" Ver más")
             .tarjeta.white-card.p-5
               .row.justify-content-around.align-items-center
                 .col-md-6.col-sm-8.col-lg-2
@@ -108,7 +108,7 @@
                       | <strong style='color: #f85316'>De servicio:</strong> <span></span>se refiere a empresas que son creadas con el propósito de proveer al cliente un servicio (producto intangible, es decir, que no tiene forma definida).
 
           
-          div(x="12%" y="91%" tooltip=" Ver más|")
+          div(x="12%" y="91%" tooltip=" Ver más")
             .tarjeta.white-card.p-5
               .row.justify-content-around.align-items-center
                 .col-md-6.col-sm-8.col-lg-2
@@ -134,7 +134,7 @@
                     | <strong style='color: #f85316'>Sector quinario:</strong> es el que agrupa empresas con actividades sin ánimo de lucro.
         
 
-          div(x="83%" y="91%" tooltip=" Ver más|")
+          div(x="83%" y="91%" tooltip=" Ver más")
             .tarjeta.white-card.p-5
               .row.justify-content-around.align-items-center
                 .col-md-6.col-sm-8.col-lg-3
