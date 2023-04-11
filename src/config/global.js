@@ -153,14 +153,6 @@ export default {
         'https://www.bancoldex.com/clasificacion-de-empresas-en-colombia-200',
     },
     {
-      tema: 'Fundamentos e introducción a la administración',
-      referencia:
-        'Alama, E. & Martín, G. (2019).<i> Fundamentos de administración: teoría y práctica en el Perú y Latinoamérica. Pearson.</i>',
-      tipo: 'Página web',
-      link:
-        'https://www.pearsoneducacion.net/mexico/tienda-online/fundamentos-de-administracionteoria-y-practica-en-el-peru-y-latinoamerica-alama-1ed-ebook',
-    },
-    {
       tema: 'La empresa como escenario activo de administración',
       referencia:
         'Münch, L. (2018). <i>Administración: gestión organizacional, enfoques y procesos administrativos.</i> ',
@@ -216,12 +208,6 @@ export default {
     },
   ],
   referencias: [
-    {
-      referencia:
-        'Alama, E. & Martín, G. (2019). <i>Fundamentos de administración: teoría y práctica en el Perú y Latinoamérica.</i> Pearson.',
-      link:
-        'https://www.pearsoneducacion.net/mexico/tienda-online/fundamentos-de-administracionteoria-y-practica-en-el-peru-y-latinoamerica-alama-1ed-ebook',
-    },
     {
       referencia:
         'Chiavenato, I. (2019). <em>Introducción a la teoría general de la administración.</em> McGraw-Hill.',
