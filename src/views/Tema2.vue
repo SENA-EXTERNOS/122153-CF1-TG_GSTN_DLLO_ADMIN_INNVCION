@@ -702,30 +702,31 @@
     p Las formas de administrar o dirigir, pueden variar de acuerdo con los tipos, formas o estilos de liderazgo; esto varía según la conformación y metodologías para realizar los procedimientos.
     
     p Los tipos de dirección más conocidos son:
-    
-    TabsA.color-acento-contenido.mb-4
-        .tarjeta.color-acento-contenido-borde.p-4(titulo="Coercitivo")
-          .row
-            .col-xl-7.p-4.color-fondo
-              p El estilo de liderazgo coercitivo no tiene en cuenta la flexibilidad, la disciplina prevalece como su valor regente, debido a que impone ritmos de trabajo acelerados sin tener en cuenta elementos humanos de fatiga y bienestar; no hay negociación, no tiene en cuenta las iniciativas de los demás. Normalmente, un líder coercitivo es muy efectivo en momentos de crisis para implementar cambios en situaciones de emergencia, como por ejemplo un temblor o un incendio.
-            .col-xl-5.mb-6
-              figure
-                img(data-aos="fade-up" src='@/assets/curso/temas/figuras/esquemaJ.svg', alt='imagen relacionada')
-        .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="Autocrático")
-          .row
-            .col-xl-12
-              p Es aquel tipo de dirección donde la autoridad impone sus normas, criterios y decisiones, sin realizar consultas a sus colaboradores; motivo por el cual este estilo de liderazgo provoca ambientes de trabajo bajo tensión, en los que la disciplina y la inseguridad pueden ir de la mano. Se concentra el poder de decisión en una sola persona; dos ejemplos claros de este estilo de liderazgo son Adolfo Hitler y Fidel Castro.
+    .row.justify-content-center.align-items-center.mb-5           
+      .col-lg-7    
+        TabsC.color-acento-contenido.mb-4
+            .tarjeta.color-acento-contenido-borde.p-4.color-fondo.mb-4(titulo="Coercitivo")
+              .row
+                .col-xl-12
+                  p El estilo de liderazgo coercitivo no tiene en cuenta la flexibilidad, la disciplina prevalece como su valor regente, debido a que impone ritmos de trabajo acelerados sin tener en cuenta elementos humanos de fatiga y bienestar; no hay negociación, no tiene en cuenta las iniciativas de los demás. Normalmente, un líder coercitivo es muy efectivo en momentos de crisis para implementar cambios en situaciones de emergencia, como por ejemplo un temblor o un incendio.
+                
+            .tarjeta.color-acento-contenido-borde.p-4.color-fondo.mb-4(titulo="Autocrático")
+              .row
+                .col-xl-12
+                  p Es aquel tipo de dirección donde la autoridad impone sus normas, criterios y decisiones, sin realizar consultas a sus colaboradores; motivo por el cual este estilo de liderazgo provoca ambientes de trabajo bajo tensión, en los que la disciplina y la inseguridad pueden ir de la mano. Se concentra el poder de decisión en una sola persona; dos ejemplos claros de este estilo de liderazgo son Adolfo Hitler y Fidel Castro.
 
-        .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="Democrático")
-          .row
-            .col-xl-12
-              p En este modelo, la autoridad se encuentra en el grupo, es decir, se toman decisiones por unanimidad, permitiendo la participación del equipo de colaboradores que conforman la organización. Su conducta va orientada hacia las personas, se preocupa por las relaciones interpersonales dentro del equipo y necesidades ya sean de grupo o individuales. Los empleados sienten que son tenidos en cuenta, sin embargo, este modo de operar puede retrasar bastante la toma de decisiones, mientras se llega a un consenso.
+            .tarjeta.color-acento-contenido-borde.p-4.color-fondo.mb-4(titulo="Democrático")
+              .row
+                .col-xl-12
+                  p En este modelo, la autoridad se encuentra en el grupo, es decir, se toman decisiones por unanimidad, permitiendo la participación del equipo de colaboradores que conforman la organización. Su conducta va orientada hacia las personas, se preocupa por las relaciones interpersonales dentro del equipo y necesidades ya sean de grupo o individuales. Los empleados sienten que son tenidos en cuenta, sin embargo, este modo de operar puede retrasar bastante la toma de decisiones, mientras se llega a un consenso.
 
-        .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="Consultivo")
-          .row
-            .col-xl-12
-              p Es un tipo de liderazgo que se encuentra entre el estilo autocrático y el democrático; el jefe intenta persuadir a su equipo de la decisión que se ha tomado y eso hace que el grupo sienta esta decisión como suya; otro escenario puede ser aquel donde el jefe presenta el problema o la necesidad, recoge sugerencias y toma la decisión adecuada. Este modelo se caracteriza por ser el más participativo y democrático.
-    
+            .tarjeta.color-acento-contenido-borde.p-4.color-fondo.mb-4(titulo="Consultivo")
+              .row
+                .col-xl-12
+                  p Es un tipo de liderazgo que se encuentra entre el estilo autocrático y el democrático; el jefe intenta persuadir a su equipo de la decisión que se ha tomado y eso hace que el grupo sienta esta decisión como suya; otro escenario puede ser aquel donde el jefe presenta el problema o la necesidad, recoge sugerencias y toma la decisión adecuada. Este modelo se caracteriza por ser el más participativo y democrático.
+      .col-lg-5
+        figure
+          img(data-aos="fade-up" src='@/assets/curso/temas/figuras/esquemaJ.svg', alt='imagen relacionada')    
     .row.justify-content-around.align-items-center 
       .col-lg-11
         .cajon.color-acento-botones.color-fondo-secundario.p-3
