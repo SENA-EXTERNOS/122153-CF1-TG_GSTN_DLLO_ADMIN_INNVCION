@@ -344,7 +344,7 @@
     p.mb-4 Para mayor ilustración, a continuación, se presenta un ejemplo de un manual de funciones:
     
     .mx-auto.col-md-10
-      .titulo-sexto.color-acento-contenido
+      .titulo-sexto.color-acento-contenido(data-aos="fade-right")
         h5 Tabla 1
         p.mb-0 
           em Ejemplo manual de funciones
@@ -355,7 +355,7 @@
           caption(style="text-align:center") Identificación del cargo
           
         tr(style="background-color: #ffff")
-          th(style="text-align:center; width: 50%;") Denominación del cargo.
+          th(style="text-align:center; width: 50%;") Denominación del cargo
             p Coordinador operativo de comunicaciones
           th(colspan='2' style="text-align:center;") Categoría laboral
             p Coordinador operativo
@@ -546,7 +546,7 @@
         
           p En los operativos se definen compras, por la adquisición de materia prima, máquinas y productos asociados con la elaboración de los pasteles; producción para la fabricación misma de los pasteles, y ventas para la comercialización de los productos.
 
-          p En los procesos de apoyo se definen administración, mercadeo y contabilidad porque, si bien son muy importantes en el desarrollo del producto en su generalidad, para este caso se presentan como apoyo en el proceso.
+          p En los procesos de apoyo se definen administración, mercadeo y contabilidad, porque, si bien son muy importantes en el desarrollo del producto en su generalidad, para este caso se presentan como apoyo en el proceso.
         
           p Una vez que se cuenta con el mapa de procesos, es importante asignar a un responsable o a un líder del desarrollo, quien será el encargado de velar por el cumplimiento, conjuntamente con el equipo que entrenará y guiará para el logro del objetivo.
         .col-8.col-sm-6.col-md-5.mb-4.mb-md-0
@@ -569,7 +569,7 @@
               img(data-aos="zoom-in-up" src='@/assets/curso/temas/figuras/esquemaG.svg', alt='imagen relacionada')
           .col-md-10.col-sm-7
             h4 Paso 2: flujograma
-            p.mb-0 Ilustra, gráficamente, el recorrido que conlleva el proceso desde sus entradas y hasta sus salidas.
+            p.mb-0 Ilustra, gráficamente, el recorrido que conlleva el proceso desde sus entradas hasta sus salidas.
 
       .tarjeta.color-acento-contenido-borde.p-4.color-fondo(titulo="Paso 3")
         .row.justify-content-center.align-items-center
@@ -592,6 +592,10 @@
     p Para la construcción de un flujograma, se debe tener en cuenta la representación simbólica que se presenta a continuación: 
 
     .col-md-7.mx-auto.mb-5
+      .titulo-sexto.color-acento-contenido(data-aos="fade-right") 
+        h5 Tabla 2
+        p.mb-0 
+          em Representación flujograma
       .tabla-a
         table
           tr

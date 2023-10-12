@@ -14,7 +14,7 @@
         .row.justify-content-around 
           .col-md.col-lg-7
             p La existencia de las empresas ha permitido generar escenarios transaccionales que le dan al ser humano posibilidad de percibir ingresos para su sustento; he aquí la importancia de trabajar por la consolidación de empresas sostenibles y con valor agregado para la economía de los países y del mundo. Para conocer un poco el origen del concepto, lo invitamos a ver el video <strong>La empresa y la gestión de la información.</strong>  
-            a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=dzyn4eofi6c" target="_blank")
+            a.anexo.mb-4(href="https://www.youtube.com/watch?v=dzyn4eofi6c" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
@@ -65,7 +65,7 @@
                         | <strong style='color: #f85316'>Pública:</strong>&nbspsu capital está conformado por dinero del Estado.
                       li
                         i.lista-ul__vineta(style='color: #f85316')
-                        |<strong style='color: #f85316'>Privada:</strong>&nbspsu capital es de origen particular, no tiene nada que ver con el Estado
+                        |<strong style='color: #f85316'>Privada:</strong>&nbspsu capital es de origen particular, no tiene nada que ver con el Estado.
                       li 
                         i.lista-ul__vineta(style='color: #f85316')
                         |<strong style='color: #f85316'>Mixta:</strong>&nbspparte de su capital es público y parte es privado.
@@ -84,7 +84,7 @@
                       | <strong style='color: #f85316'>Empresa unipersonal:</strong>&nbspsu capital está conformado por dinero del Estado.
                       li
                       i.lista-ul__vineta(style='color: #f85316')
-                      |<strong style='color: #f85316'>Sociedad de personas o colectivas:</strong>&nbspsu capital es de origen particular, no tiene nada que ver con el Estado
+                      |<strong style='color: #f85316'>Sociedad de personas o colectivas:</strong>&nbspsu capital es de origen particular, no tiene nada que ver con el Estado.
                       li 
                       i.lista-ul__vineta(style='color: #f85316')
                       |<strong style='color: #f85316'>Sociedad anónima:</strong>&nbspparte de su capital es público y parte es privado.
@@ -99,7 +99,7 @@
                     ul.lista-ul
                       li 
                       i.lista-ul__vineta(style='color: #f85316')
-                      | <strong style='color: #f85316'>Industrial:</strong> indica empresas que manufacturan o transforman productos o materias primas
+                      | <strong style='color: #f85316'>Industrial:</strong> indica empresas que manufacturan o transforman productos o materias primas.
                       li
                       i.lista-ul__vineta(style='color: #f85316')
                       | <strong style='color: #f85316'>Comercial:</strong> describe empresas que se dedican a la compra y venta de productos, un servicio de transaccionalidad.
@@ -121,7 +121,7 @@
                     | <strong style='color: #f85316'>Sector primario:&nbsp</strong>hace referencia a las actividades relacionadas con la explotación de recursos naturales como agricultura, caza, pesca y silvicultura.
                     li 
                     i.lista-ul__vineta
-                    | <strong style='color: #f85316'>Sector secundario:&nbsp</strong>industrial que incluye actividades que transforman productos, generalmente del sector primario o del mismo sector.
+                    | <strong style='color: #f85316'>Sector secundario:&nbsp</strong>industria que incluye actividades que transforman productos, generalmente del sector primario o del mismo sector.
                     li 
                     i.lista-ul__vineta
                     | <strong style='color: #f85316'>Sector terciario:&nbsp</strong>servicios que producen bienes intangibles y, por lo general,  estas actividades sirven como soporte a los sectores primario y 
@@ -153,7 +153,7 @@
                       | <strong style='color: #f85316'>Nacional:</strong> <span></span> desarrolla sus actividades en el contexto del país, esto es a nivel nacional.
                       li 
                       i.lista-ul__vineta(style='color: #f85316')
-                      | <strong style='color: #f85316'>Multinacional:</strong> <span></span> trasciende su operación las fronteras nacionales, es decir, tiene presencia en varios países.
+                      | <strong style='color: #f85316'>Multinacional:</strong> <span></span> su operación trasciende las fronteras nacionales, es decir, tiene presencia en varios países.
     br
     .row.mb-4
        .col-lg-12
@@ -170,7 +170,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/temas/texto_destacado/img27.png')})`}"
         )
         .bloque-texto-g__texto.p-4
-          p.mb-0 El sentido de pertenencia puede expresarse como la satisfacción que experimenta una persona por sentirse parte de un grupo o de una comunidad, a partir de la identificación con sus ideales; el fútbol es un claro ejemplo de sentido de pertenencia, donde se defiende la afición por un equipo, inclusive hasta escenarios extremos, que sobrepasan los límites imaginados.<strong>Ahora bien, este concepto toma relevancia a nivel empresarial, porque cuanto más comprometidos se encuentren los empleados y colaboradores, más facilidad para impulsar objetivos organizacionales. </strong>      
+          p.mb-0 El sentido de pertenencia puede expresarse como la satisfacción que experimenta una persona por sentirse parte de un grupo o de una comunidad, a partir de la identificación con sus ideales; el fútbol es un claro ejemplo de sentido de pertenencia, donde se defiende la afición por un equipo, inclusive hasta escenarios extremos, que sobrepasan los límites imaginados. <strong>Ahora bien, este concepto toma relevancia a nivel empresarial, porque cuanto más comprometidos se encuentren los empleados y colaboradores, más facilidad para impulsar objetivos organizacionales. </strong>      
     
     .tarjeta.p-4.p-md-0.mb-4
         .row.justify-content-around.align-items-center          
@@ -203,7 +203,7 @@
                   p Establecimiento de los criterios o alternativas de decisión.
                 li 
                   .lista-ol--cuadro__vineta.color-acentob-fondo
-                    span 3
+                    span 4
                   p Definición de momentos de evaluación y cumplimiento de metas.
           
         .row.justify-content-center.mb-4

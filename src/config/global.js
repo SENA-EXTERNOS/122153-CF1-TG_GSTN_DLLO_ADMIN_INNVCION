@@ -214,11 +214,11 @@ export default {
     },
     {
       referencia:
-        'Hernández, S., Palafox,G. & Aguado, C. (2020). <i>Administración: pensamiento, procesos estratégicos y administrativos para la era de la inteligencia artificial.</i> McGraw-Hill.',
+        'Hernández, S., Palafox, G. & Aguado, C. (2020). <i>Administración: pensamiento, procesos estratégicos y administrativos para la era de la inteligencia artificial.</i> McGraw-Hill.',
     },
     {
       referencia:
-        'Münch, L. (2018). <i>Administración: gestión organizacional, enfoques y procesos administrativos.</i>',
+        'Münch, L. (2018). <i>Administración: gestión organizacional, enfoques y procesos administrativos.</i><br>',
       link:
         'https://profesorailleanasilva.files.wordpress.com/2015/10/administracic3b3n-lourdes-munch-2a-edicic3b3n.pdf',
     },
